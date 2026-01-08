@@ -1,13 +1,13 @@
 {
   "success": true,
   "stats": {
-    "total_meetings": 22,
-    "total_votes": 436,
+    "total_meetings": 70,
+    "total_votes": 1244,
     "total_council_members": 7,
-    "pass_rate": 99.5,
-    "unanimous_rate": 94.3,
+    "pass_rate": 98.3,
+    "unanimous_rate": 93,
     "date_range": {
-      "start": "2024-01-16",
+      "start": "2022-01-04",
       "end": "2024-12-17"
     }
   }
