@@ -17,7 +17,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-sa-blue">
         <div class="container">
-            <a class="navbar-brand" href="home.html">
+            <a class="navbar-brand" href="index.html">
                 <i class="fas fa-vote-yea me-2"></i>CityVotes
             </a>
 
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="home.html">
+                        <a class="nav-link" href="index.html">
                             <i class="fas fa-home me-1"></i>Home
                         </a>
                     </li>
@@ -158,9 +158,11 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Static Data API -->
+    <script src="js/api.js"></script>
 
     <script>
-    const API_BASE = 'http://localhost:8000/api/db';
+    let allVotes = [];
     const pageSize = 20;
     let currentOffset = 0;
     let currentYear = null;
@@ -183,22 +185,13 @@
         });
     });
 
-    async function loadVotes(offset = 0) {
-        currentOffset = offset;
-        const search = document.getElementById('searchInput').value;
-        const outcome = document.getElementById('outcomeFilter').value;
-        const year = document.getElementById('yearFilter').value;
-
-        let url = `${API_BASE}/votes?limit=${pageSize}&offset=${offset}`;
-        if (search) url += `&search=${encodeURIComponent(search)}`;
-        if (outcome) url += `&outcome=${outcome}`;
-        if (year) url += `&year=${year}`;
-
+    async function loadVotes() {
         try {
-            const response = await fetch(url);
-            const data = await response.json();
+            const data = await CityVotesAPI.getVotes();
 
             if (data.success) {
+                allVotes = data.votes;
+
                 // Populate year filter dropdown
                 const yearSelect = document.getElementById('yearFilter');
                 if (data.available_years && yearSelect.options.length <= 1) {
@@ -211,39 +204,7 @@
                     });
                 }
 
-                const table = document.getElementById('votesTable');
-                table.innerHTML = data.votes.map(vote => `
-                    <tr>
-                        <td>
-                            <small>${formatDate(vote.meeting_date)}</small>
-                            <div class="text-muted" style="font-size: 0.75rem;">${vote.meeting_type}</div>
-                        </td>
-                        <td>
-                            <span class="badge bg-light text-dark">${vote.item_number}</span>
-                        </td>
-                        <td>
-                            <a href="vote-detail.html?id=${vote.id}" class="text-decoration-none">
-                                ${truncate(vote.title, 60)}
-                            </a>
-                        </td>
-                        <td>
-                            <span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}">${vote.outcome}</span>
-                        </td>
-                        <td>
-                            <span class="text-success">${vote.ayes}</span>-<span class="text-danger">${vote.noes}</span>-<span class="text-secondary">${vote.abstain}</span>
-                        </td>
-                        <td>
-                            <a href="vote-detail.html?id=${vote.id}" class="btn btn-sm btn-outline-primary">
-                                <i class="fas fa-eye"></i>
-                            </a>
-                        </td>
-                    </tr>
-                `).join('');
-
-                document.getElementById('resultsCount').textContent =
-                    `Showing ${data.votes.length} of ${data.total.toLocaleString()} votes`;
-
-                updatePagination(data.total, offset);
+                renderVotes(0);
             }
         } catch (error) {
             console.error('Error loading votes:', error);
@@ -252,7 +213,7 @@
                     <td colspan="6">
                         <div class="alert alert-danger mb-0">
                             <i class="fas fa-exclamation-triangle me-2"></i>
-                            Failed to load votes. Make sure the backend is running.
+                            Failed to load votes.
                         </div>
                     </td>
                 </tr>
@@ -261,7 +222,7 @@
     }
 
     function searchVotes() {
-        loadVotes(0);
+        renderVotes(0);
     }
 
     function clearFilters() {
@@ -271,7 +232,87 @@
         currentYear = null;
         // Update URL
         window.history.pushState({}, '', window.location.pathname);
-        loadVotes(0);
+        renderVotes(0);
+    }
+
+    function renderVotes(offset = 0) {
+        currentOffset = offset;
+        const search = document.getElementById('searchInput').value.toLowerCase();
+        const outcome = document.getElementById('outcomeFilter').value;
+        const year = document.getElementById('yearFilter').value;
+
+        // Filter votes
+        let filteredVotes = allVotes.filter(vote => {
+            let matches = true;
+
+            // Search filter
+            if (search) {
+                const titleMatch = vote.title && vote.title.toLowerCase().includes(search);
+                const descMatch = vote.description && vote.description.toLowerCase().includes(search);
+                matches = matches && (titleMatch || descMatch);
+            }
+
+            // Outcome filter
+            if (outcome) {
+                matches = matches && vote.outcome === outcome;
+            }
+
+            // Year filter
+            if (year) {
+                const voteYear = new Date(vote.meeting_date).getFullYear();
+                matches = matches && voteYear === parseInt(year);
+            }
+
+            return matches;
+        });
+
+        // Paginate
+        const paginatedVotes = filteredVotes.slice(offset, offset + pageSize);
+
+        const table = document.getElementById('votesTable');
+        if (paginatedVotes.length === 0) {
+            table.innerHTML = `
+                <tr>
+                    <td colspan="6" class="text-center py-4 text-muted">
+                        <i class="fas fa-search fa-2x mb-2"></i>
+                        <p class="mb-0">No votes found matching your criteria</p>
+                    </td>
+                </tr>
+            `;
+        } else {
+            table.innerHTML = paginatedVotes.map(vote => `
+                <tr>
+                    <td>
+                        <small>${formatDate(vote.meeting_date)}</small>
+                        <div class="text-muted" style="font-size: 0.75rem;">${vote.meeting_type}</div>
+                    </td>
+                    <td>
+                        <span class="badge bg-light text-dark">${vote.item_number}</span>
+                    </td>
+                    <td>
+                        <a href="vote-detail.html?id=${vote.id}" class="text-decoration-none">
+                            ${truncate(vote.title, 60)}
+                        </a>
+                    </td>
+                    <td>
+                        <span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}">${vote.outcome}</span>
+                    </td>
+                    <td>
+                        <span class="text-success">${vote.ayes}</span>-<span class="text-danger">${vote.noes}</span>-<span class="text-secondary">${vote.abstain}</span>
+                    </td>
+                    <td>
+                        <a href="vote-detail.html?id=${vote.id}" class="btn btn-sm btn-outline-primary">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        document.getElementById('resultsCount').textContent =
+            `Showing ${paginatedVotes.length} of ${filteredVotes.length.toLocaleString()} votes`;
+
+        updatePagination(filteredVotes.length, offset);
     }
 
     function updatePagination(total, currentOffset) {
@@ -290,14 +331,14 @@
 
         // Previous button
         html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="loadVotes(${(currentPage - 1) * pageSize}); return false;">Previous</a>
+            <a class="page-link" href="#" onclick="renderVotes(${(currentPage - 1) * pageSize}); return false;">Previous</a>
         </li>`;
 
         // Page numbers
         for (let i = 0; i < totalPages; i++) {
             if (i === 0 || i === totalPages - 1 || Math.abs(i - currentPage) <= 2) {
                 html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
-                    <a class="page-link" href="#" onclick="loadVotes(${i * pageSize}); return false;">${i + 1}</a>
+                    <a class="page-link" href="#" onclick="renderVotes(${i * pageSize}); return false;">${i + 1}</a>
                 </li>`;
             } else if (Math.abs(i - currentPage) === 3) {
                 html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
@@ -306,7 +347,7 @@
 
         // Next button
         html += `<li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="loadVotes(${(currentPage + 1) * pageSize}); return false;">Next</a>
+            <a class="page-link" href="#" onclick="renderVotes(${(currentPage + 1) * pageSize}); return false;">Next</a>
         </li>`;
 
         pagination.innerHTML = html;
