@@ -1,228 +1,145 @@
 /**
- * CityVotes API Client
- * Handles all communication with the FastAPI backend
+ * CityVotes Static Data Client
+ * Loads data from static JSON files in the data/ folder
+ * Santa Ana City Council voting data (2022-2024)
  */
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const DATA_BASE_PATH = 'data';
 
 const CityVotesAPI = {
-    // Store session info
-    sessionId: localStorage.getItem('sessionId') || null,
-    currentCity: localStorage.getItem('currentCity') || null,
-
     /**
-     * Save session info to localStorage
+     * Generic fetch handler for static JSON files
      */
-    saveSession: function(sessionId, city) {
-        this.sessionId = sessionId;
-        this.currentCity = city;
-        localStorage.setItem('sessionId', sessionId);
-        localStorage.setItem('currentCity', city);
-    },
-
-    /**
-     * Clear session info
-     */
-    clearSession: function() {
-        this.sessionId = null;
-        this.currentCity = null;
-        localStorage.removeItem('sessionId');
-        localStorage.removeItem('currentCity');
-    },
-
-    /**
-     * Generic API request handler
-     */
-    async request(endpoint, options = {}) {
-        const url = `${API_BASE_URL}${endpoint}`;
-
+    async fetchJSON(path) {
         try {
-            const response = await fetch(url, {
-                ...options,
-                headers: {
-                    'Content-Type': 'application/json',
-                    ...options.headers
-                }
-            });
-
+            const response = await fetch(`${DATA_BASE_PATH}/${path}`);
             if (!response.ok) {
-                const error = await response.json().catch(() => ({ detail: 'Unknown error' }));
-                throw new Error(error.detail || `HTTP ${response.status}`);
+                throw new Error(`HTTP ${response.status}`);
             }
-
             return await response.json();
         } catch (error) {
-            console.error(`API Error (${endpoint}):`, error);
+            console.error(`Error loading ${path}:`, error);
             throw error;
         }
     },
 
-    // ==================== Cities ====================
+    // ==================== Stats ====================
 
     /**
-     * Get all configured cities
+     * Get overall statistics
      */
-    async getCities() {
-        return this.request('/cities');
+    async getStats() {
+        return this.fetchJSON('stats.json');
+    },
+
+    // ==================== Council ====================
+
+    /**
+     * Get all council members with stats
+     */
+    async getCouncil() {
+        return this.fetchJSON('council.json');
     },
 
     /**
-     * Get specific city configuration
+     * Get individual council member details
      */
-    async getCity(cityKey) {
-        return this.request(`/cities/${cityKey}`);
+    async getCouncilMember(memberId) {
+        return this.fetchJSON(`council/${memberId}.json`);
     },
 
-    // ==================== Upload ====================
+    // ==================== Meetings ====================
 
     /**
-     * Upload a voting data JSON file
+     * Get all meetings
      */
-    async uploadFile(file, cityKey) {
-        const formData = new FormData();
-        formData.append('file', file);
-        formData.append('city_key', cityKey);
+    async getMeetings() {
+        return this.fetchJSON('meetings.json');
+    },
 
-        const url = `${API_BASE_URL}/upload`;
+    // ==================== Votes ====================
 
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                body: formData
-            });
+    /**
+     * Get all votes (summary list)
+     */
+    async getVotes() {
+        return this.fetchJSON('votes.json');
+    },
 
-            if (!response.ok) {
-                const error = await response.json().catch(() => ({ detail: 'Upload failed' }));
-                throw new Error(error.detail || `HTTP ${response.status}`);
+    /**
+     * Get individual vote details
+     */
+    async getVote(voteId) {
+        return this.fetchJSON(`votes/${voteId}.json`);
+    },
+
+    // ==================== Alignment ====================
+
+    /**
+     * Get voting alignment data between council members
+     */
+    async getAlignment() {
+        return this.fetchJSON('alignment.json');
+    },
+
+    // ==================== Dashboard Helpers ====================
+
+    /**
+     * Get vote summary statistics (computed from data)
+     */
+    async getVoteSummary() {
+        const [stats, votes] = await Promise.all([
+            this.getStats(),
+            this.getVotes()
+        ]);
+
+        const votesData = votes.votes;
+        const outcomes = { PASS: 0, FAIL: 0, FLAG: 0 };
+
+        votesData.forEach(v => {
+            if (outcomes.hasOwnProperty(v.outcome)) {
+                outcomes[v.outcome]++;
             }
+        });
 
-            const data = await response.json();
-
-            // Save session info
-            this.saveSession(data.session_id, cityKey);
-
-            return data;
-        } catch (error) {
-            console.error('Upload Error:', error);
-            throw error;
-        }
-    },
-
-    // ==================== Sessions ====================
-
-    /**
-     * Get session info
-     */
-    async getSession(sessionId = null) {
-        const id = sessionId || this.sessionId;
-        if (!id) throw new Error('No session ID');
-        return this.request(`/sessions/${id}`);
+        return {
+            success: true,
+            summary: {
+                total_votes: stats.stats.total_votes,
+                total_meetings: stats.stats.total_meetings,
+                date_range: stats.stats.date_range,
+                outcomes: outcomes,
+                pass_rate: ((outcomes.PASS / stats.stats.total_votes) * 100).toFixed(1)
+            }
+        };
     },
 
     /**
-     * Get cities in session
+     * Get member analysis data
      */
-    async getSessionCities(sessionId = null) {
-        const id = sessionId || this.sessionId;
-        if (!id) throw new Error('No session ID');
-        return this.request(`/sessions/${id}/cities`);
-    },
-
-    // ==================== Dashboard ====================
-
-    /**
-     * Get vote summary for a city
-     */
-    async getVoteSummary(cityKey = null, sessionId = null) {
-        const id = sessionId || this.sessionId;
-        const city = cityKey || this.currentCity;
-        if (!id) throw new Error('No session ID');
-        if (!city) throw new Error('No city selected');
-        return this.request(`/dashboard/${id}/${city}/summary`);
+    async getMemberAnalysis() {
+        return this.getCouncil();
     },
 
     /**
-     * Get member analysis for a city
+     * Get member profile by ID
      */
-    async getMemberAnalysis(cityKey = null, sessionId = null) {
-        const id = sessionId || this.sessionId;
-        const city = cityKey || this.currentCity;
-        if (!id) throw new Error('No session ID');
-        if (!city) throw new Error('No city selected');
-        return this.request(`/dashboard/${id}/${city}/members`);
+    async getMemberProfile(memberId) {
+        return this.getCouncilMember(memberId);
     },
 
     /**
-     * Get member profile
+     * Get agenda items (votes list)
      */
-    async getMemberProfile(memberName, cityKey = null, sessionId = null) {
-        const id = sessionId || this.sessionId;
-        const city = cityKey || this.currentCity;
-        if (!id) throw new Error('No session ID');
-        if (!city) throw new Error('No city selected');
-        return this.request(`/dashboard/${id}/${city}/members/${encodeURIComponent(memberName)}`);
+    async getAgendaItems() {
+        return this.getVotes();
     },
 
     /**
-     * Get agenda items list
+     * Get agenda item detail (vote detail)
      */
-    async getAgendaItems(cityKey = null, sessionId = null) {
-        const id = sessionId || this.sessionId;
-        const city = cityKey || this.currentCity;
-        if (!id) throw new Error('No session ID');
-        if (!city) throw new Error('No city selected');
-        return this.request(`/dashboard/${id}/${city}/agenda-items`);
-    },
-
-    /**
-     * Get agenda item detail
-     */
-    async getAgendaItemDetail(itemId, cityKey = null, sessionId = null) {
-        const id = sessionId || this.sessionId;
-        const city = cityKey || this.currentCity;
-        if (!id) throw new Error('No session ID');
-        if (!city) throw new Error('No city selected');
-        return this.request(`/dashboard/${id}/${city}/agenda-items/${encodeURIComponent(itemId)}`);
-    },
-
-    /**
-     * Get city comparison data
-     */
-    async getCityComparison(sessionId = null) {
-        const id = sessionId || this.sessionId;
-        if (!id) throw new Error('No session ID');
-        return this.request(`/dashboard/${id}/comparison`);
-    },
-
-    // ==================== Utilities ====================
-
-    /**
-     * Check if user has an active session
-     */
-    hasSession() {
-        return !!this.sessionId;
-    },
-
-    /**
-     * Switch to a different city
-     */
-    switchCity(cityKey) {
-        this.currentCity = cityKey;
-        localStorage.setItem('currentCity', cityKey);
-    },
-
-    /**
-     * Get current city
-     */
-    getCurrentCity() {
-        return this.currentCity;
-    },
-
-    /**
-     * Get session ID
-     */
-    getSessionId() {
-        return this.sessionId;
+    async getAgendaItemDetail(itemId) {
+        return this.getVote(itemId);
     }
 };
 
