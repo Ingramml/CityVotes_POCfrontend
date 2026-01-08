@@ -4,12 +4,12 @@
     "id": 951,
     "item_number": "6",
     "title": "6. Approval of Minutes from Previous Meeting",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Council is asked to review the matter and provide policy guidance for future administrative actions.",
     "outcome": "PASS",
-    "ayes": 6,
+    "ayes": 5,
     "noes": 0,
     "abstain": 1,
-    "absent": 0,
+    "absent": 2,
     "meeting_id": 126,
     "meeting_date": "2023-02-07",
     "meeting_type": "regular",
@@ -17,7 +17,7 @@
       {
         "member_id": 1,
         "full_name": "Valerie Amezcua",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       },
       {
         "member_id": 2,
@@ -42,7 +42,7 @@
       {
         "member_id": 6,
         "full_name": "Thai Viet Phan",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       },
       {
         "member_id": 7,

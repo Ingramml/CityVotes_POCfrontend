@@ -4,10 +4,10 @@
     "id": 1113,
     "item_number": "6",
     "title": "6. Lease Agreement Renewal",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Ratify the emergency contract executed under City Manager authority and approve related budget appropriation.",
     "outcome": "PASS",
-    "ayes": 7,
-    "noes": 0,
+    "ayes": 5,
+    "noes": 2,
     "abstain": 0,
     "absent": 0,
     "meeting_id": 136,
@@ -22,7 +22,7 @@
       {
         "member_id": 2,
         "full_name": "Johnathan Ryan Hernandez",
-        "vote_choice": "AYE"
+        "vote_choice": "NAY"
       },
       {
         "member_id": 3,
@@ -37,7 +37,7 @@
       {
         "member_id": 5,
         "full_name": "Benjamin Vazquez",
-        "vote_choice": "AYE"
+        "vote_choice": "NAY"
       },
       {
         "member_id": 6,

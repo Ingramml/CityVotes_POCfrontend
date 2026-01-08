@@ -11,12 +11,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1228,
-        "nay_count": 6,
-        "abstain_count": 2,
-        "absent_count": 8,
-        "aye_percentage": 99.4,
-        "participation_rate": 99.4
+        "aye_count": 1161,
+        "nay_count": 43,
+        "abstain_count": 8,
+        "absent_count": 27,
+        "recusal_count": 5,
+        "aye_percentage": 95.8,
+        "participation_rate": 97.4
       }
     },
     {
@@ -29,12 +30,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1224,
-        "nay_count": 7,
-        "abstain_count": 0,
-        "absent_count": 13,
-        "aye_percentage": 99.4,
-        "participation_rate": 99
+        "aye_count": 1154,
+        "nay_count": 49,
+        "abstain_count": 5,
+        "absent_count": 27,
+        "recusal_count": 9,
+        "aye_percentage": 95.5,
+        "participation_rate": 97.1
       }
     },
     {
@@ -47,12 +49,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1219,
-        "nay_count": 15,
-        "abstain_count": 0,
-        "absent_count": 10,
-        "aye_percentage": 98.8,
-        "participation_rate": 99.2
+        "aye_count": 1149,
+        "nay_count": 57,
+        "abstain_count": 7,
+        "absent_count": 23,
+        "recusal_count": 8,
+        "aye_percentage": 94.7,
+        "participation_rate": 97.5
       }
     },
     {
@@ -65,12 +68,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1227,
-        "nay_count": 8,
-        "abstain_count": 2,
-        "absent_count": 7,
-        "aye_percentage": 99.2,
-        "participation_rate": 99.4
+        "aye_count": 1157,
+        "nay_count": 53,
+        "abstain_count": 4,
+        "absent_count": 22,
+        "recusal_count": 8,
+        "aye_percentage": 95.3,
+        "participation_rate": 97.6
       }
     },
     {
@@ -83,12 +87,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1228,
-        "nay_count": 8,
-        "abstain_count": 0,
-        "absent_count": 8,
-        "aye_percentage": 99.4,
-        "participation_rate": 99.4
+        "aye_count": 1171,
+        "nay_count": 32,
+        "abstain_count": 14,
+        "absent_count": 21,
+        "recusal_count": 6,
+        "aye_percentage": 96.2,
+        "participation_rate": 97.8
       }
     },
     {
@@ -101,12 +106,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1212,
-        "nay_count": 6,
-        "abstain_count": 4,
-        "absent_count": 10,
-        "aye_percentage": 98.2,
-        "participation_rate": 99.2
+        "aye_count": 1149,
+        "nay_count": 49,
+        "abstain_count": 6,
+        "absent_count": 22,
+        "recusal_count": 18,
+        "aye_percentage": 95.4,
+        "participation_rate": 96.8
       }
     },
     {
@@ -119,12 +125,13 @@
       "is_current": true,
       "stats": {
         "total_votes": 1244,
-        "aye_count": 1230,
-        "nay_count": 5,
-        "abstain_count": 1,
-        "absent_count": 8,
-        "aye_percentage": 99.5,
-        "participation_rate": 99.4
+        "aye_count": 1148,
+        "nay_count": 54,
+        "abstain_count": 8,
+        "absent_count": 26,
+        "recusal_count": 8,
+        "aye_percentage": 94.9,
+        "participation_rate": 97.3
       }
     }
   ]

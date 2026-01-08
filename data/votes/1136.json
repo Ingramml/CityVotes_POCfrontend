@@ -4,7 +4,7 @@
     "id": 1136,
     "item_number": "3",
     "title": "3. Housing Development Plan Review",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Adopt Resolution No. XXXX approving the conditional use permit subject to conditions outlined in Attachment A.",
     "outcome": "PASS",
     "ayes": 6,
     "noes": 1,
@@ -47,7 +47,7 @@
       {
         "member_id": 7,
         "full_name": "Phil Bacerra",
-        "vote_choice": "AYE"
+        "vote_choice": "NAY"
       }
     ]
   }

@@ -4,10 +4,10 @@
     "id": 538,
     "item_number": "14",
     "title": "14. Property Acquisition Authorization",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Approve the item as recommended by staff and authorize any necessary implementing actions.",
     "outcome": "PASS",
-    "ayes": 7,
-    "noes": 0,
+    "ayes": 6,
+    "noes": 1,
     "abstain": 0,
     "absent": 0,
     "meeting_id": 102,
@@ -27,7 +27,7 @@
       {
         "member_id": 3,
         "full_name": "Jessie Lopez",
-        "vote_choice": "AYE"
+        "vote_choice": "NAY"
       },
       {
         "member_id": 4,

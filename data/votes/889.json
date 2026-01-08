@@ -4,11 +4,11 @@
     "id": 889,
     "item_number": "9",
     "title": "9. Transportation Study Authorization",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Approve the item as recommended by staff and authorize any necessary implementing actions.",
     "outcome": "PASS",
-    "ayes": 7,
+    "ayes": 5,
     "noes": 0,
-    "abstain": 0,
+    "abstain": 2,
     "absent": 0,
     "meeting_id": 122,
     "meeting_date": "2022-12-06",
@@ -22,7 +22,7 @@
       {
         "member_id": 2,
         "full_name": "Johnathan Ryan Hernandez",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       },
       {
         "member_id": 3,
@@ -32,7 +32,7 @@
       {
         "member_id": 4,
         "full_name": "David Penaloza",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       },
       {
         "member_id": 5,

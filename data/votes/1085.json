@@ -4,12 +4,12 @@
     "id": 1085,
     "item_number": "4",
     "title": "4. Environmental Impact Assessment Approval",
-    "description": "Recommended Action: Approve the item as presented by staff.",
-    "outcome": "PASS",
-    "ayes": 7,
-    "noes": 0,
+    "description": "Recommended Action: Adopt Resolution No. XXXX approving the conditional use permit subject to conditions outlined in Attachment A.",
+    "outcome": "FAIL",
+    "ayes": 4,
+    "noes": 1,
     "abstain": 0,
-    "absent": 0,
+    "absent": 2,
     "meeting_id": 134,
     "meeting_date": "2023-06-06",
     "meeting_type": "regular",
@@ -17,7 +17,7 @@
       {
         "member_id": 1,
         "full_name": "Valerie Amezcua",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       },
       {
         "member_id": 2,
@@ -42,12 +42,12 @@
       {
         "member_id": 6,
         "full_name": "Thai Viet Phan",
-        "vote_choice": "AYE"
+        "vote_choice": "NAY"
       },
       {
         "member_id": 7,
         "full_name": "Phil Bacerra",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       }
     ]
   }

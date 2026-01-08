@@ -4,11 +4,11 @@
     "id": 1291,
     "item_number": "5",
     "title": "5. Community Safety Initiative Funding",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Staff recommends Council approve the budget modification to accommodate unforeseen expenditures while maintaining fiscal responsibility.",
     "outcome": "PASS",
-    "ayes": 7,
+    "ayes": 5,
     "noes": 0,
-    "abstain": 0,
+    "abstain": 2,
     "absent": 0,
     "meeting_id": 147,
     "meeting_date": "2023-12-19",
@@ -17,7 +17,7 @@
       {
         "member_id": 1,
         "full_name": "Valerie Amezcua",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       },
       {
         "member_id": 2,
@@ -42,7 +42,7 @@
       {
         "member_id": 6,
         "full_name": "Thai Viet Phan",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       },
       {
         "member_id": 7,

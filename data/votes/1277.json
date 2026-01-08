@@ -4,12 +4,12 @@
     "id": 1277,
     "item_number": "9",
     "title": "9. Agreement with Vendor for City Services",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Approve the professional services agreement and authorize the City Manager to execute all necessary documents.",
     "outcome": "PASS",
-    "ayes": 7,
+    "ayes": 6,
     "noes": 0,
     "abstain": 0,
-    "absent": 0,
+    "absent": 1,
     "meeting_id": 146,
     "meeting_date": "2023-12-05",
     "meeting_type": "regular",
@@ -47,7 +47,7 @@
       {
         "member_id": 7,
         "full_name": "Phil Bacerra",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       }
     ]
   }

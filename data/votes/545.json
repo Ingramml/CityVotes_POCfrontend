@@ -4,11 +4,11 @@
     "id": 545,
     "item_number": "21",
     "title": "21. Water Infrastructure Upgrade Proposal",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Award the construction contract and approve a contingency amount for the capital improvement project.",
     "outcome": "PASS",
-    "ayes": 7,
+    "ayes": 5,
     "noes": 0,
-    "abstain": 0,
+    "abstain": 2,
     "absent": 0,
     "meeting_id": 102,
     "meeting_date": "2022-02-01",
@@ -17,7 +17,7 @@
       {
         "member_id": 1,
         "full_name": "Valerie Amezcua",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       },
       {
         "member_id": 2,
@@ -47,7 +47,7 @@
       {
         "member_id": 7,
         "full_name": "Phil Bacerra",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       }
     ]
   }

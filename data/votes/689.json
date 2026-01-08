@@ -4,9 +4,9 @@
     "id": 689,
     "item_number": "4",
     "title": "4. Public Hearing on Development Project",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "This item requests Council approval of the development agreement providing public benefits and infrastructure improvements.",
     "outcome": "PASS",
-    "ayes": 5,
+    "ayes": 6,
     "noes": 1,
     "abstain": 0,
     "absent": 1,
@@ -27,7 +27,7 @@
       {
         "member_id": 3,
         "full_name": "Jessie Lopez",
-        "vote_choice": "ABSENT"
+        "vote_choice": "NAY"
       },
       {
         "member_id": 4,

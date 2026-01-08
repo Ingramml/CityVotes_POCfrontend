@@ -4,11 +4,11 @@
     "id": 928,
     "item_number": "5",
     "title": "5. Water Infrastructure Upgrade Proposal",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Staff recommends acceptance of the completed infrastructure project and authorization of final payment to the contractor.",
     "outcome": "PASS",
-    "ayes": 7,
+    "ayes": 5,
     "noes": 0,
-    "abstain": 0,
+    "abstain": 2,
     "absent": 0,
     "meeting_id": 125,
     "meeting_date": "2023-01-17",
@@ -17,7 +17,7 @@
       {
         "member_id": 1,
         "full_name": "Valerie Amezcua",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       },
       {
         "member_id": 2,
@@ -47,7 +47,7 @@
       {
         "member_id": 7,
         "full_name": "Phil Bacerra",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSTAIN"
       }
     ]
   }

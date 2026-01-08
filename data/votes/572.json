@@ -4,12 +4,12 @@
     "id": 572,
     "item_number": "5",
     "title": "5. Emergency Services Funding Allocation",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "This item requests approval of supplemental appropriations to address critical infrastructure maintenance needs.",
     "outcome": "PASS",
-    "ayes": 6,
+    "ayes": 5,
     "noes": 1,
     "abstain": 0,
-    "absent": 0,
+    "absent": 2,
     "meeting_id": 104,
     "meeting_date": "2022-03-01",
     "meeting_type": "regular",
@@ -22,7 +22,7 @@
       {
         "member_id": 2,
         "full_name": "Johnathan Ryan Hernandez",
-        "vote_choice": "NAY"
+        "vote_choice": "ABSENT"
       },
       {
         "member_id": 3,
@@ -47,7 +47,7 @@
       {
         "member_id": 7,
         "full_name": "Phil Bacerra",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       }
     ]
   }

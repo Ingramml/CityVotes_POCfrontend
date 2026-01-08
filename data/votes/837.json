@@ -4,12 +4,12 @@
     "id": 837,
     "item_number": "17",
     "title": "17. Agreement with Vendor for City Services",
-    "description": "Recommended Action: Approve the item as presented by staff.",
+    "description": "Recommended Action: Approve the professional services agreement and authorize the City Manager to execute all necessary documents.",
     "outcome": "PASS",
-    "ayes": 7,
+    "ayes": 6,
     "noes": 0,
     "abstain": 0,
-    "absent": 0,
+    "absent": 1,
     "meeting_id": 119,
     "meeting_date": "2022-10-18",
     "meeting_type": "regular",
@@ -22,7 +22,7 @@
       {
         "member_id": 2,
         "full_name": "Johnathan Ryan Hernandez",
-        "vote_choice": "AYE"
+        "vote_choice": "ABSENT"
       },
       {
         "member_id": 3,
