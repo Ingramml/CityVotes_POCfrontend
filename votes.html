@@ -192,10 +192,17 @@
             if (data.success) {
                 allVotes = data.votes;
 
-                // Populate year filter dropdown
+                // Extract unique years from votes and populate dropdown
                 const yearSelect = document.getElementById('yearFilter');
-                if (data.available_years && yearSelect.options.length <= 1) {
-                    data.available_years.forEach(year => {
+                if (yearSelect.options.length <= 1) {
+                    const years = new Set();
+                    allVotes.forEach(vote => {
+                        if (vote.meeting_date) {
+                            years.add(new Date(vote.meeting_date).getFullYear());
+                        }
+                    });
+                    const sortedYears = Array.from(years).sort((a, b) => b - a);
+                    sortedYears.forEach(year => {
                         const option = document.createElement('option');
                         option.value = year;
                         option.textContent = year;
