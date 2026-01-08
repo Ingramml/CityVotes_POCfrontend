@@ -57,6 +57,48 @@ const CityVotesAPI = {
         return this.fetchJSON('meetings.json');
     },
 
+    /**
+     * Get individual meeting with agenda items and votes
+     */
+    async getMeeting(meetingId) {
+        const [meetingsData, votesData] = await Promise.all([
+            this.getMeetings(),
+            this.getVotes()
+        ]);
+
+        const meeting = meetingsData.meetings.find(m => m.id === parseInt(meetingId));
+        if (!meeting) {
+            return { success: false, error: 'Meeting not found' };
+        }
+
+        // Get votes for this meeting
+        const meetingVotes = votesData.votes.filter(v => v.meeting_date === meeting.meeting_date);
+
+        // Build agenda items from votes
+        const agenda_items = meetingVotes.map(vote => ({
+            item_number: vote.item_number,
+            title: vote.title,
+            section: vote.section,
+            description: null,
+            vote: {
+                id: vote.id,
+                outcome: vote.outcome,
+                ayes: vote.ayes,
+                noes: vote.noes,
+                abstain: vote.abstain,
+                absent: vote.absent
+            }
+        }));
+
+        return {
+            success: true,
+            meeting: {
+                ...meeting,
+                agenda_items: agenda_items
+            }
+        };
+    },
+
     // ==================== Votes ====================
 
     /**
