@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 11,
+    "item_number": "13",
+    "title": "Approve an Agreement with RPW Services, Inc. for Integrated Pest Management \n(IPM) and Pest Control Services at City Parks and Facilities in an Amount Not to \nExceed $3,966,300 (RFP No. 23-153) (General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with RPW \nServices, Inc. for integrated pest management and pest control services in an annual \namount not -to -exceed $661,050, plus an annual contingency of $132,210, for a total \namount not -to -exceed $3,966,300 for a three-year term beginning on February 1, 2024 \nand expiring January 31, 2027 with provisions for two, one-year extensions (Agreement \nNo. A-2024-004). \nMOTION: Mayor Amezcua moved to approve the recommended action for \nAgenda Item No. 13, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 -- 0 _ Pass \nCITY COUNCIL 16 JANUARY 16, 2024 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

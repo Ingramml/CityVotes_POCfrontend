@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 265,
+    "item_number": "13",
+    "title": "13.Aggregate Purchase Order Contracts with Promotethis!, Impact \nPromoSource, LLC (previously Graphic Printsource, Inc.), and Superior \nPromos for Promotional Items (Specification No. 23-024) (General Fund and \nNon -General Fund) ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an amendment to \nincrease the annual aggregate not -to -exceed amount of the citywide purchase order \ncontracts with vendors listed below by $355,000 for promotional items, for a new \nannual aggregate amount not to exceed amount of $550,000. \nVendor Location \nImpact PromoSource, LLC Corona, CA \nPromotethis! Huntington Beach, CA \nSuperior Promos Brooklyn, NY",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

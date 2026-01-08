@@ -1,0 +1,375 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 24,
+    "vote_count": 24,
+    "agenda_items": [
+      {
+        "id": 286,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Aggregate Agreements for Court Reporting and Transcription Services with \nKennedy Court Reporters, Inc. and Regal Court Reporting, Inc. in an \nAggregate Amount Not to Exceed $250,000 (Specification No. 24-034) \n(General Fund) ",
+        "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute aggregate \nagreements with Kennedy Court Reporters, Inc. and Regal Court Reporting, Inc. to \nprovide court reporting and transcription services for a three-year term beginning \nJuly 16, 2024 and ending July 15, 2027, with provisions for two, one-year \nextensions, in an amount not to exceed $250,000 (Core Agreement No. A-2024- \n094). ",
+        "vote": {
+          "id": 220,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 287,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Agreement with MDG Associates, Inc. for the Preparation of the Fiscal Year \n2025-29 Regional Assessment of Fair Housing and Memorandum of \nUnderstanding with Surrounding Jurisdictions ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an Agreement with MDG Associates, Inc. \nto prepare the Fiscal Year 2025-29 Regional Assessment of Fair Housing (AFH), \nwhereby the City will act as the lead for the Regional AFH, in an amount not to \nexceed $159,882 for a one-year term beginning August 1, 2024 and expiring \nJuly 30, 2025 (Agreement No. A-2024-095). \n2. Authorize the City Manager to execute a Memorandum of Understanding and \nPayment Agreement with all of the surrounding jurisdictions in Orange County \nto jointly engage MDG Associates, Inc. to provide a Regional AFH, and \nauthorize the City Attorney to reasonably revise or amend the Memorandum of \nUnderstanding as needed in order to collect payment, substantially in the form \nattached hereto, with all of the surrounding jurisdictions participating in the \nRegional AFH (Agreement No. A-2024-096). ",
+        "vote": {
+          "id": 222,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 288,
+        "item_number": "12",
+        "section": "GENERAL",
+        "title": "12.Conditional Grant Agreement for $2,200,000 and a Density Bonus Agreement \nwith Habitat for Humanity of Orange County for the Development of Six \nAffordable Ownership Units Located at 1921 W Washington Avenue, Santa \nAna, CA 92706 (Non -General Fund) ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute a Conditional Grant Agreement with \nHabitat for Humanity of Orange County for $2,200,000 in Inclusionary Housing \nFunds for the development of six affordable ownership units located at 1921 W \nWashington Avenue, Santa Ana, CA 92706 (APN 405-101-37) (Agreement No. \nA-2024-097). \n2. Approve an appropriation adjustment recognizing $2,200,000 in prior -year fund \nbalance in the Inclusionary Housing Fund and appropriate the same into the \nLoans and Grants expenditure account (no. 41718820-69152). (Requires five \naffirmative votes) \n3. Authorize the City Manager to execute a Density Bonus Agreement with Habitat \nfor Humanity of Orange County for a 45-year term for the development of six \naffordable ownership units located at 1921 W Washington Avenue, Santa Ana, \nCA 92706 (APN 405-101-37) (Agreement No. A-2024-098). \nCITY COUNCIL 7 JULY 16, 2024 \n\n\n4. Adopt a resolution approving Density Bonus Agreement No. 2024-01 as \nconditioned. \nRESOLUTION NO. 2024-036 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING DENSITY BONUS \nAGREEMENT APPLICATION NO. 2024-01 AS CONDITIONED FOR A NEW \nFOR -SALE RESIDENTIAL DEVELOPMENT WITH SIX UNITS FOR THE \nPROPERTY LOCATED AT 1921 W WASHINGTON AVENUE (APN: 405-101- \n37) [includes determination that the recommended action is exempt from further \nreview in accordance with the California Environmental Quality Act under \nSection 15195 (Residential Infill Exemption), as this project meets all the \nthreshold criteria set forth in Section 15192 (Threshold Requirements for \nExemption)] \nMINUTES: Councilmember Hernandez spoke in support of the item. ",
+        "vote": {
+          "id": 223,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 289,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13. Receive and File the Notification by the City Engineer of the Final Tract Map \nNo. 2017-04, County Tract Map No. 17976 at 3025 West Edinger Avenue \n(Applicant: Haphan Group, Inc., a California Corporation) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Receive and file the notification. ",
+        "vote": {
+          "id": 224,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 290,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14.Construction Contract to Loengreen, Inc. for the Council Chambers ADA \nRestroom and Translation Booth Remodel Project (Project No. 22-0504) (Non - \nGeneral Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $554,472 of prior -year fund \nbalance in the CATV Fund, Prior Year Carry Forward revenue account and \nappropriate the same amount to the CATV Fund, Buildings & Building \nImprovements expenditure account. (Requires five affirmative votes) \n2. Approve an appropriation adjustment recognizing $554,472 of prior -year fund \nbalance in the Liability and Property Insurance Fund, Prior Year Carry Forward \nrevenue account and appropriate the same amount to the Risk Management \nProjects, Buildings & Building Improvements expenditure account. (Requires \nfive affirmative votes) \n3. Award construction contract to Loengreen, Inc., the lowest responsible bidder, \nin accordance with the base bid in the amount of $821,440 for construction of \nthe Council Chambers ADA Restroom and Translation Booth Remodel Project, \nfor the term beginning July 16, 2024 and ending upon project completion, and \nauthorize the City Manager to execute the contract. \nCITY COUNCIL 8 JULY 16, 2024 \n\n\n4. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $1,108,994 which includes $821,440 for the construction contract, $123,216 \nfor contract administration, inspection, and testing, and a $164,288 project \ncontingency for unanticipated or unforeseen work. \n5. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $1,108,944 in construction funding from the CATV Fund and \nLiability Property Insurance Fund. ",
+        "vote": {
+          "id": 225,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 291,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15.Agreements with Willdan Engineering Inc., TKE Engineering, Inc., Charles \nAbbott Associates, Inc., Harris & Associates, Inc., and Cannon Corporation \nfor On -Call Engineering Plan Check Services ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute agreements with \nthe firms listed below to provide on -call engineering plan check services for a three- \nyear period beginning July 16, 2024, and expiring June 30, 2027, with a provision \nfor one, two-year renewal option for a total aggregate amount not to exceed \n$1,500,000 for the term of the agreement and for the total annual compensation not \nto exceed $300,000, including renewal options, exercisable by the City Manager \n(Core Agreement No. A-2024-099). \nFirms \nLocation \nWilldan Engineering, Inc. \nAnaheim, CA \nTKE Engineering, Inc. \nRiverside, CA \nCharles Abbott Associates, Inc. \nMission Viejo, CA \nHarris & Associates, Inc. \nIrvine, CA \nCannon Corporation \nIIrvine, CA ",
+        "vote": {
+          "id": 226,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 292,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16. Appropriation Adjustment and Amendment to the Agreement with Aqua - \nMetric Sales Company to Add Funds to the Automated Metering Infrastructure \nProject (Project No, 16-6460) (Non -General Fund) ",
+        "description": "Project (Project No, 16-6460) (Non -General Fund) \nDepartment(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment to recognize $15,000,000 of prior -year \nfund balance in the Public Works Water Revenue, Prior Year Carryforward and \nWater Utility Capital, Transferfrom Fund 060 revenue accounts, and appropriate \nto the Water \u00d1 Interfund Transfer, Transfer to Fund 066 and Water Utility Capital \nProjects, Water Capital Project expenditure accounts (Requires five affirmative \nvotes). \n2. Authorize the City Manager to execute a first amendment with Thirkettle \nCorporation, dba Aqua -Metric Sales Company, to increase the not -to -exceed \nCITY COUNCIL 9 JULY 16, 2024 \n\n\namount by $6,000,000, including a contingency of $1,500,000, for a new not -to - \nexceed amount of $35,683,230 (Agreement No. A-2024-100). \n3. Approve an amendment to the Fiscal Year 2024-2025 Capital Improvement \nProgram to include $15,000,000 in construction funds for the Automated \nMetering Infrastructure Project (Project No. 16-6460).",
+        "vote": {
+          "id": 227,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 293,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Additional Contingency Funds in the Amount of $625,000 for an Existing \nConstruction Contractwith EverLevel Holdings, LLC for the First Street Slope \nStabilization Project (Project No. 22-1341) (Revive Santa Ana Program) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the Project Cost Analysis in the amount of $625,000 \nin additional contingency funds for a new total estimated construction delivery \ncost of $6,725,000. \n2. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $625,000 of American Rescue Plan Act (ARPA) funds for \nthe First Street Slope Stabilization Project (22-1341). ",
+        "vote": {
+          "id": 228,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 294,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18. Purchase Order to Mike Prllch and Sons, Inc. for Concrete Collar Replacement \nfor Water and Sewer Appurtenances (Bid No. 24-021) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award a blanket order contract to Mike Prlich and Sons, \nInc. for concrete collar replacement for water and sewer appurtenances for an \nannual amount not to exceed $600,000, for a three-year term beginning July 1, 2024 \nand expiring June 30, 2027, with provisions for two 1-year renewal options. ",
+        "vote": {
+          "id": 229,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 295,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19.Approve a Lease Agreement with PGH Wong Engineering, Inc. for Office \nSpace at the Santa Ana Regional Transportation Center ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a lease agreement \nwith PGH Wong Engineering, Inc. to compensate the City $8,621 per month, with \nany partial month prorated at $287 per day, for the lease of approximately 3,284 \nsquare feet of office space located at the Santa Ana Regional Transportation Center \nfor a twelve-month term beginning on July 17, 2024, and ending July 16, 2025, with \nthe option of 12 one -month extensions, for a total of $207,456 in lease revenue for \nthe entire term of the agreement, including optional extensions (Agreement No. A- \n2024-101). ",
+        "vote": {
+          "id": 230,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 296,
+        "item_number": "20",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 20 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n20.Approve a Lease Agreement with Walsh Construction Company II, LLC for \nOffice Space at the Santa Ana Regional Transportation Center ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a lease agreement \nwith Walsh Construction Company II, LLC to compensate the City $11,627 per \nmonth, with any partial month prorated at $388 per day, for the lease of \napproximately 4,429 square feet of office space located at the Santa Ana Regional \nTransportation Center for a 12-month term beginning on July 16, 2024 and ending \nJuly 15, 2025, with the option of 12 one -month extensions, for a total of $279,850 \nin lease revenue for the entire term of the agreement, including optional extensions \n(Agreement No. A-2024-102). \nMINUTES: Councilmember Bacerra asked for clarification regarding the intended \ntenant uses for the office space. \nPublic Works Director Nabil Saba indicated staff is exploring options to optimize \nthe use of space. \nActing City Manager Alvaro Nunez clarified that-- Economic Development will \ncollaborate with Public Works to recruit businesses for the train station. \nMayor Amezcua expressed concern regarding safety and stated this area should \nbe a priority area. \nCouncilmember Lopez echoed support for space optimization to benefit micro \nbusinesses owned by city residents. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 20, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStratus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 231,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 297,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21.Construction Contract to AJ Fistes Corporation in the Amount of $719,100 for \nthe Painting and Wrought Iron Restoration (Project No. 24-6060 & 24-6061) \n(Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Award a construction contract to AJ Fistes Corporation, the lowest responsible \nbidder, in accordance with the base bid in the amount of $719,100, subject to \nchange orders for Painting and Wrought Iron Restoration for the term beginning \nupon execution of the contract and ending upon project completion, and \nauthorize the City Manager to execute the contract. \n2. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $1,197,000, which includes $719,100 for the construction contract, $107,865 \nfor contract administration, inspection, and testing, and a $370,035 project \ncontingency for unanticipated or unforeseen work. \n3. Approve an amendment to the FY 2024-25 Capital Improvement Program to \ninclude $1,197,000 in construction funding approved in FY 2023-24 from the \nClean California Local Grants Program through the California Department of \nTransportation. \n4. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-43 was filed for projects 24-6060 and 24- \n6061. ",
+        "vote": {
+          "id": 232,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 298,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22.Agreement with Blue Technologies Smart Solutions for Access and Support \nServices for iManage Data Management Systems ",
+        "description": "Department(s): City Attorney's Office \nRecommended Action: Authorize the City Manager to execute a three-year \nagreement with Blue Technologies Smart Solutions (\u00a1BlueTech\") for continued \naccess and support services for the iManage Data Management Systems \n(\"iManage\") for the period of August 1, 2024 through July 31, 2027 in the amount of \n$128,529, which includes the annual billing amount of $36,843 for the iManage \nSystem and a contingency amount of $18,000 to pay for additional \nsupport/maintenance and training services as directed by the City (Agreement No. \nA-2024-103).",
+        "vote": {
+          "id": 233,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 299,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "23.Agreement for Tax Revenue Auditing, Analysis, Forecasting, and Reporting \nServices RFP (24-010) ",
+        "description": "Department(s): Finance and Management Services \nCITY COUNCIL 12 JULY 16, 2024 \n\n\nRecommended Action: \n1. Authorize the City Manager to execute agreements with Hinderliter, de Llamas \nand Associates (\"HdL\") and HdL Coren & Cone (\"HdLCC\") for various tax \nrevenue services for an initial three-year term beginning July 1, 2024, with a \nprovision for two one-year extensions exercisable by the City Manager and the \nCity Attorney, in a total amount not to exceed $1,346,714, which includes a 20% \ngeneral contingency (Agreement Nos. A-2024-104 and A-2024-105). \n2. Adopt a resolution authorizing the release of information to HdL from the \nCalifornia Department of Tax & Fee Administration in connection with the \nauditing of Sales and Use Tax making certain determinations relating thereto \nand authorizing certain actions in connection therewith. \nRESOLUTION NO. 2024-037 entitled A RESOLUTION OF THE CITY OF \nSANTA ANA AUTHORIZING EXAMINATION OF SALES AND USE TAX \nRECORDS AND TRANSACTIONS AND USE TAX RECORDS ",
+        "vote": {
+          "id": 235,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 300,
+        "item_number": "24",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 24 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n24. Resolution to Effect Certain Changes to the City's Basic Classification and \nCompensation Plan ",
+        "description": "Department(s): Human Resources \nRecommended Action: Adopt a resolution to effect certain changes to the City's \nbasic classification and compensation plan. \nRESOLUTION NO. 2024-038 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE CITY'S \nCLASSIFICATION AND COMPENSATION PLAN \nMINUTES: Councilmember Bacerra requested to move the item for all units except \nSEIU, and to bring back the SE1U unit for separate discussion. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 24, as amended, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 236,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 301,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25.Adopt Resolution to Summarily Vacate a Portion of Bristol Street - \nAbandonment 23-02 and Adopt Resolution Declaring Property as Exempt \nSurplus",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Adopt a resolution to summarily vacate excess Bristol Street right-of-way \nformerly portions of 1601 and 1607 North Bristol Street; Abandonment 23-02. \nRESOLUTION NO. 2024-039 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA SUMMARILY VACATING A \nPORTION OF A PUBLIC RIGHT-OF-WAY ADJACENT TO 1601 AND 1607 \nNORTH BRISTOL STREET (ABANDONMENT NO. 2023-02) [includes \ndetermination that the vacation of the Vacation Area is exempt from \nenvironmental review under the California Environmental Quality Act (CEQA) \npursuant to section 15378 of the State CEQA Guidelines because it can be \nseen with certainty that there is no possibility that it will have a significant impact \nof the environment.] \n2. Adopt a resolution declaring City -owned property as exempt surplus land and \ndirecting the City Manager or designee to comply with the requirements of \nGovernment Code \u00a454220 et seq. for the sale and transfer of ownership \naccordingly. \nRESOLUTION NO. 2024-040 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA DECLARING PROPERTY NEAR \n1601 AND 1607 NORTH BRISTOL AS EXEMPT SURPLUS LAND AND \nDIRECTING THE CITY MANAGER TO FOLLOW THE PROCEDURES SET \nFORTH IN THE SURPLUS LAND ACT, CALIFORNIA GOVERNMENT CODE \nSECTION 54220, ET SEQ., AS AMENDED, FOR THEIR DISPOSITION \n[includes determination that the sale of the property as surplus is exempt from \nenvironmental review under the California Environmental Quality Act (CEQA) \npursuant to CEQA Guidelines section 15312 (Surplus Government Property \nSales)]. ",
+        "vote": {
+          "id": 237,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 302,
+        "item_number": "26",
+        "section": "BUSINESS",
+        "title": "26. Consider Whether to Adopt Resolutions Authorizing Arguments, Rebuttal \nArguments, and Impartial Analysis of Four Ballot Measures on the Ballot for \nthe November 5, 2024 General Municipal Election ",
+        "description": "26. Consider Whether to Adopt Resolutions Authorizing Arguments, Rebuttal \nArguments, and Impartial Analysis of Four Ballot Measures on the Ballot for \nthe November 5, 2024 General Municipal Election ",
+        "vote": {
+          "id": 238,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 303,
+        "item_number": "27",
+        "section": "BUSINESS",
+        "title": "PUBLIC COMMENTS-- Members of the public may address the City Council on each of \nthe Public Hearing items. \nMINUTES: At 7.40 P.M., the Public Hearing was considered. \n27. Public Hearing \u00d1 Approve an Amended and Restated Regulatory Agreement \nfor the Rehabilitation of Garden Court Apartments Located at 300 East Santa \nAna Boulevard, Santa Ana, CA 92701, Adopt a Resolution Approving the \nIssuance of Revenue Bonds, and Conduct a Tax Equity Fiscal Responsibility \nAct (TEFRA) Hearing \nLegal notice pu",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an amended and restated agreement \ncontaining Affordable Housing Covenants with Orange Housing Development \nCorporation for the rehabilitation of Garden Court Apartments located at 300 \nEast Santa Ana Boulevard, Santa Ana, CA 92701 (APN 398-323-08) \n(Contingent upon approval of Housing Authority Item # 3) (Agreement No. A- \n2024-9 06). \n2. Approve the Relocation Plan and authorize the City Manager to approve \nCITY COUNCIL 17 JULY 16, 2024 \n\n\namendments to the Relocation Plan prior to commencement of the rehabilitation \nof Garden Court Apartments, substantially in the draft form attached hereto, \nsubject to changes consistent with the project approved by the City Manager \nand City Attorney. \n3. Conduct a Tax Equity and Financial Responsibility Act Hearing in consideration \nof the issuance of tax-exempt bond financing by the California Municipal Finance \nAuthority for C&C Development Co., LLC, to finance the acquisition, \nrehabilitation, improvement, and equipping of Garden Court Apartments located \nat 300 East Santa Ana Boulevard, Santa Ana, CA 92701 (APN 398-323-08). \n4. Adopt a resolution approving the issuance of revenue bonds by the California \nMunicipal Finance Authority in an amount not to exceed $55,000,000 for \nfinancing the rehabilitation of Garden Court Apartments. \nRESOLUTION NO. 2024-045 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING THE ISSUANCE BY \nTHE CALIFORNIA MUNICIPAL FINANCE AUTHORITY OF EXEMPT \nFACILITY BONDS FOR THE GARDEN COURT APARTMENTS \n5. Determine that the approvals and authorizations provided for herein do not \nconstitute a \"project\" within the meaning of California Public Resources Code \u00a4 \n21065 and authorize filing a notice of exemption based on the \"common sense\" \nexemption of 14 C.C.R. \u00a4 15061(b)(3) to the extent any activity would be \nconsidered a \"project\" because it can be seen with certainty tha",
+        "vote": {
+          "id": 239,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 304,
+        "item_number": "28",
+        "section": "PUBLIC_HEARING",
+        "title": "PUBLIC HEARING AGENDA ITEM NO. 28 -- CONTINUED TO THE AUGUST 6, 2024 \nCITY COUNCIL MEETING \n28. Public Hearing \u00d1 Recovery of Uncollected Costs Incurred by the City Related \nto the Abatement of Dangerous and Abandoned Buildings \nLegal notice published in the OC Reporter on July 3, 2024 and property owner \nnotification letters mailed on same date. ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution affirming the Fiscal Year 2023-2024 Dangerous and \nAbandoned Building Program Report and authorize the transmittal of \nuncollected charges incurred by the City related to the abatement of \ndangerous and abandoned buildings to the office of Auditor -Controller, County \nof Orange. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA CONFIRMING THE COSTS OF \nSECURING AND/OR DEMOLITION OF VARIOUS STRUCTURES \nDECLARED TO BE PUBLIC NUISANCES; MAKING, CONFIRMING AND \nLEVYING ASSESSMENTS FOR SUCH COSTS; AND ORDERING SUCH \nCOSTS TO BE RECORDED WITH THE ORANGE COUNTY RECORDER'S \nOFFICE \n2. Determine that the proposed action does not constitute a \"project\" under the \nCalifornia Environmental Quality Act (CEQA) in accordance with section \n15378(a) and (b)(5) as the adoption of this resolution authorizes an \nadministrative action and will not result in a direct or reasonable foreseeable \nindirect physical change in the environment and there is no possibility it will \nhave a significant effect on the environment. Accordingly, it is exempt from \nfurther CEQA review pursuant to section 15061(b)(3) and (b)(5) of the CEQA \nguidelines as amended. ",
+        "vote": {
+          "id": 240,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 305,
+        "item_number": "5",
+        "section": "CONSENT",
+        "title": "AGENDA ITEM NO. 5 \u00d1 CONTINUED TO THE AUGUST 6, 2024 CITY COUNCIL \nMEETING \n5. Appoint Joshua Jogwe Nominated by Mayor Pro Tom Phan as the Ward 1 \nRepresentative to the Parks and Recreation Commission for a Partial Term \nExpiring December 10, 2024",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Joshua Jogwe to the Parks and Recreation \nCommission as the Ward 1 representative and administer the Oath of \nOffice. (Pursuant to SAMC Sec. 2-326(a), requires five affirmative votes) ",
+        "vote": {
+          "id": 215,
+          "outcome": "CONTINUED",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 306,
+        "item_number": "6",
+        "section": "CONSENT",
+        "title": "6. Appoint Cat Pham Nominated by Mayor Pro Tom Phan as the Ward 1 \nRepresentative to the Youth Commission for a Partial Term Expiring ",
+        "description": "December 10, 2024 \nDepartment(s): City Clerk's Office \nRecommended Action: Appoint Cat Pham to the Youth Commission as the Ward \n1 representative and administer Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Youth \nCommissioner Cat Pham and Neylen Adoni Munoz. ",
+        "vote": {
+          "id": 216,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 307,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "7. Approve Destruction of Obsolete City Records ",
+        "description": "Department(s): Police Department and Library \nCITY COUNCIL 5 JULY 16, 2024 \n\n\nRecommended Action: Approve the request for the destruction of obsolete \nrecords from the Police Department, Jail Bureau and the Library in accordance with \nthe retention schedule outlined in City Council Resolution 2013-014. ",
+        "vote": {
+          "id": 217,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 308,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Amendment to Agreement with Inland Moving & Storage Co., Inc. dba \nBurgess Moving & Storage for the Main Library and Newhope Library Projects \n(General Fund) ",
+        "description": "Department(s): Library \nRecommended Action: Authorize the City Manager to execute an amendment to \nan agreement with Inland Moving & Storage, Co., Inc. dba Burgess Moving & \nStorage for additional moving and storage services for Main and Newhope \nLibraries, increasing compensation by $121,389, for a total amount not to exceed \n$345,313, and extending the term to December 31, 2026, with a provision for a one- \nyear extension (Agreement No. A-2024-091). ",
+        "vote": {
+          "id": 218,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 309,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Amendments to an Agreement with Java Connections, LLC dba \nLaptopsAnytime for the Purchase and Installation of a New Laptop Dispenser \nKiosk at the Future Delhi Library Branch, along with Hardware Support and \nSoftware Licensing for the Delhi Kiosk and Existing Newhope Library Kiosk \n(General Fund) ",
+        "description": "Department(s): Library \nRecommended Action: Authorize the City Manager to execute two amendments \nto an agreement with Java Connections, LLC, dba LaptopsAnytime for the purchase \nand installation of a laptop dispenser kiosk at the future Delhi Branch Library, \nhardware support, and software licensing through September 30, 2026 for the Delhi \nand Newhope kiosks, increasing compensation by $48,924.39, for a total not -to - \nexceed amount of $76,548.25 (Agreement No. A-2024-092 and A-2024-093). ",
+        "vote": {
+          "id": 219,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

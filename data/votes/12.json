@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 12,
+    "item_number": "14",
+    "title": "14. Approve a Takeover Agreement with Great American Insurance Group to Take Over \nthe Santa Ana Zoo Giant River Otter and Primate Trails Project and Approve an \nAmendment to the Agreement with CLR Design to Increase the Construction \nAdministration Services Amount by $75,000 for a New Estimated Total Services \nCost of $193,000 (Project No. 16-2658) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize the City Manager to execute a takeover agreement with Great American \nInsurance Group subject to change orders (not to exceed 25% of the base bid amount) \nin accordance with the Greenbook: Standard Specifications for Public Works \nconstruction, to take over the Santa Ana Zoo Giant River Otter and Primate Trails \nProject and be responsible for the completion of all work in accordance with the \ncontract (Agreement No. A-2024-005). \n2. Authorize the City Manager to execute a first amendment to the agreement with CLR \nDesign Inc. for construction support services for the Santa Ana Zoo Giant River Otter \nand Primate Trails Project, to increase the amount by $75,000, for a total agreement \namount of $193,000 (Agreement No. A-2024-006). \nMOTION: Mayor Amezcua moved to approve the recommended action for \nAgenda Item No. 14, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 --- 0 -- Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

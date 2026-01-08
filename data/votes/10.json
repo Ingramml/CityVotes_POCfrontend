@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 10,
+    "item_number": "12",
+    "title": "12. Approve an Agreement with Professional Sports Field Maintenance, Inc. for Infield \nMaintenance Services at City Parks and Facilities in an Amount Not -to -Exceed \n$2,759,035 (RFP No.23-152) (General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nProfessional Sports Fields Maintenance, Inc., for infield maintenance services in an \nannual amount not -to -exceed $459,839, plus an annual contingency of $91,968, for a total \namount not -to -exceed $2,759,035, for a three-year term beginning on February 1, 2024 \nand expiring January 31, 2027 with provisions for two, one-year extensions (Agreement \nNo. A-2024-003). \nMINUTES: Mayor Amezcua spoke regarding saving monies and questioned whether \nemployees can complete these jobs for Agenda Item Nos. 12, 13, 14, and 19. \nCouncilmember Hernandez spoke regarding not approving contracts that take jobs away \nfrom current employees and questioned the capacity for in-house services. \nInterim City Manager Tom Hatch spoke regarding the extension of current contracts \nand contract services provided. He stated the contracts supplement current workload \nprovided by employees. \nMayor Amezcua spoke regarding employee vacancies in the City and questioned why \ncontract services are not completed by unfilled positions. \nCITY COUNCIL 15 JANUARY 16, 2024 \n\n\nInterim City Manager Hatch Spoke regarding the current vacancies and clarified the \ncontract services being provided. \nMOTION: Mayor Amezcua moved to approve the recommended action for Agenda \nItem No. 12, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

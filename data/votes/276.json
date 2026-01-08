@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 276,
+    "item_number": "27",
+    "title": "27.Award a Construction Contract to CJ Concrete Construction for the Legacy \nSquare Transportation Improvements Project (Project No. 22-9001(20-AHSC- \n14700)) (Non -General Fund)",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Award a construction contract to CJ Concrete Construction, the lowest \nresponsible bidder, in accordance with the base bid in the amount of $1,433,200, \nsubject to change orders in accordance with the Greenbook: Standard \nSpecifications for Public Works Construction, for construction of the Legacy \nSquare Transportation Improvements Project, for a term beginning August 20, \n2024, and ending upon project completion, and authorize the City Manager to \nexecute the contract. \n2. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $1,798,079, which includes $1,433,200 for the construction contract., \n$221,559 for contract administration, inspection, and testing, and a $143,320 \nproject contingency for unanticipated or unforeseen work. \n3. Determine that, pursuant to the California Environmental Quality Act (CEQA), \nthe recommended actions are exempt from further review pursuant to Section \n15301(c) of the CEQA guidelines for projects consisting of highways and streets, \nsidewalks, gutters, bicycle and pedestrian trails, and similar facilities. The \nproposed project continues to meet these parameters of the CEQA guidelines, \nand Categorical Exemption Environmental Review No. ER-2023-92 was filed for \nProject 22-9001. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

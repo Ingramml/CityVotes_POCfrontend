@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 163,
+    "item_number": "23",
+    "title": "AGENDA ITEM NO. 23 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n23. Agreements with Project Partners, Interwest Consulting Group Inc., EC & AM \nAssociates Inc. dba GK & Associates Inc., Richard Fisher Associates, and \nLadayu Consulting Group for On -Call Engineering, Technical, and \nAdministrative Staff Support Services ",
+    "description": "Administrative Staff Support Services \nDepartment(s): Public Works Agency \nCITY COUNCIL 14 MAY 21, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute five agreements \nwith the firms listed below to provide engineering, technical, and administrative staff \nsupport services, for a three-year period commencing July 15, 2024 and expiring \nJuly 14, 2027, with a provision for one, two-year renewal option exercisable by the \nCity Manager and City Attorney, for a total aggregate amount not to exceed \n$2,500,000 for the term of the contract, including the optional renewal (Core \nAgreement No. A-2024-XXX). \nFirms \nProject Partners \nInterwest Consulting Group, Inc. \nG K & Associates \nRichard Fisher Associates \nLadayu Consulting Group \nMINUTES: Councilmember Penaloza spoke in opposition to the item. \nPublic Works Director Nabil Saba spoke regarding the proposed contracts and \nvarious accounts listed. \nCouncilmember Bacerra spoke in opposition to the item. \nMOTION: Councilmember Penaloza moved to continue Item No. 23 to the July \n16, 2024 City Council meeting, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass; Item Continued to July 16, 2024 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 14,
+    "meeting_date": "2024-05-21",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

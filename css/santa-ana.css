@@ -1,0 +1,243 @@
+/* Santa Ana City Colors */
+:root {
+    --sa-blue: #1f4e79;
+    --sa-blue-light: #2d6da3;
+    --sa-blue-dark: #163a5c;
+    --sa-gold: #f4b942;
+    --sa-gold-light: #f7ca6e;
+}
+
+/* Background classes */
+.bg-sa-blue {
+    background-color: var(--sa-blue) !important;
+}
+
+.bg-sa-gold {
+    background-color: var(--sa-gold) !important;
+}
+
+/* Text classes */
+.text-sa-blue {
+    color: var(--sa-blue) !important;
+}
+
+.text-sa-gold {
+    color: var(--sa-gold) !important;
+}
+
+/* Navbar customization */
+.navbar-dark.bg-sa-blue {
+    background-color: var(--sa-blue) !important;
+}
+
+.navbar-dark.bg-sa-blue .navbar-brand:hover {
+    color: var(--sa-gold) !important;
+}
+
+.navbar-dark.bg-sa-blue .nav-link:hover {
+    color: var(--sa-gold) !important;
+}
+
+.navbar-dark.bg-sa-blue .nav-link.active {
+    color: var(--sa-gold) !important;
+    border-bottom: 2px solid var(--sa-gold);
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(135deg, var(--sa-blue) 0%, var(--sa-blue-dark) 100%);
+    color: white;
+}
+
+.hero-section h1 {
+    color: white;
+}
+
+.hero-section .lead {
+    color: var(--sa-gold) !important;
+}
+
+/* Stat cards */
+.stat-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.stat-card .stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--sa-blue);
+}
+
+.stat-card .stat-label {
+    color: #6c757d;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Mini stats */
+.stat-mini .value {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.stat-mini .label {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+/* Council cards */
+.council-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.council-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.council-avatar {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Links */
+a {
+    color: var(--sa-blue);
+}
+
+a:hover {
+    color: var(--sa-blue-dark);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--sa-blue);
+    border-color: var(--sa-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--sa-blue-dark);
+    border-color: var(--sa-blue-dark);
+}
+
+.btn-outline-primary {
+    color: var(--sa-blue);
+    border-color: var(--sa-blue);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--sa-blue);
+    border-color: var(--sa-blue);
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* List group items */
+.list-group-item-action:hover {
+    background-color: #f8f9fa;
+}
+
+/* Progress bars */
+.progress {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+}
+
+/* Tables */
+.table th {
+    font-weight: 600;
+    color: #495057;
+    border-top: none;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(31, 78, 121, 0.05);
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid var(--sa-gold);
+}
+
+/* Pagination */
+.page-link {
+    color: var(--sa-blue);
+}
+
+.page-item.active .page-link {
+    background-color: var(--sa-blue);
+    border-color: var(--sa-blue);
+}
+
+/* Breadcrumb */
+.breadcrumb-item a {
+    color: var(--sa-blue);
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--sa-blue-dark);
+    text-decoration: underline;
+}
+
+/* Loading spinner */
+.spinner-border {
+    color: var(--sa-blue) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .stat-card .stat-value {
+        font-size: 1.75rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .council-avatar {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar, footer, .btn {
+        display: none !important;
+    }
+
+    .card {
+        box-shadow: none;
+        border: 1px solid #dee2e6;
+    }
+}

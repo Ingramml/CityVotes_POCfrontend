@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 342,
+    "item_number": "18",
+    "title": "18. Conditional Grant Agreement and Affordable Housing Regulatory Agreement \nwith Declaration of Covenants and Restrictions with Illumination Foundation \n(Non -General Fund) ",
+    "description": "(Non -General Fund) \nDepartment(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute a conditional grant \nagreement and regulatory agreement with Illumination Foundation for $2,021,319 \nin Homeless Housing, Assistance and Prevention Program Round 1, 2, and 3 funds \nfor the development of the Richard Lehn Intergenerational Housing Project located \nat 918 Bewley Street (APN 198-231-10) (Agreement Nos. A-2024-169 and A- \n2024-170). \nMINUTES: Mayor Pro Tem Phan recused herself from Agenda Item No. 18 as the \nlisted entity, Illumination Foundation, is a client of her employer, Rutan and Tucker. \nCouncilmember Vazquez spoke in support of the item. \nMayor Amezcua spoke regarding visiting the site and in support of the item. \nCITY COUNCIL 13 OCTOBER 15, 2024 \n\n\nCouncilmember Hernandez spoke in support of the item and thanked staff for their \nhard work and efforts. \nCouncilmember Penaloza thanked staff for their efforts on the project. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 18, as part of the Consent Calendar, seconded by \nCouncilmember Penaloza. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 \u00d1 0 -1 -- Pass ",
+    "outcome": "PASS",
+    "ayes": 6,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 12,
+    "meeting_date": "2024-10-15",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "RECUSAL"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

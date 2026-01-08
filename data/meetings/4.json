@@ -1,0 +1,300 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 4,
+    "meeting_date": "2024-04-16",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/39833",
+    "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/40945",
+    "video_url": "https://youtube.com/watch?v=kCYrJx-9-AY",
+    "agenda_item_count": 19,
+    "vote_count": 19,
+    "agenda_items": [
+      {
+        "id": 58,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Appoint Esperanza Martinez Nominated by Councilmember Lopez as a \nMobilehome Tenant Representative to the Rental Housing Board for a Full \nTerm Expiring in 2027",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Esperanza Martinez to the Rental Housing Board \nas a Mobilehome Tenant Representative and administer the Oath of \nOffice. (Pursuant to SAMC Sec. 2-326(a), requires five affirmative votes) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Esperanza \nMartinez, ",
+        "vote": {
+          "id": 106,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 59,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Appoint Ignacio Rincon Nominated by Mayor Pro Tern Phan as the Ward \n1 Representative to the Historic Resources Commission for a Partial -Term \nExpiring in December 10, 2024 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Ignacio Rincon to the Historic Resources \nCommission as the Ward 1 representative and administer the Oath of \nOffice. (Pursuant to SAMC Sec. 2-326(a), requires five affirmative votes) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Ignacio \nRincon. \nAGENDA ITEM NO. 12 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION ",
+        "vote": {
+          "id": 107,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 60,
+        "item_number": "12",
+        "section": "GENERAL",
+        "title": "12.Appropriation Adjustment and Capital Improvement Project Amendment for \nMemory Lane and Flower Street Bikeway and Traffic Calming (Project No. 23- \n6029) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: 1. Approve an appropriation adjustment to recognize \nTraffic System Management Grant funds in the amount of $450,000 in the State \nGrant -Direct revenue account, and appropriate the same amount to the Active \nCITY COUNCIL 8 APRIL 16, 2024 \n\n\nTransportation Program, Improvements Other than Buildings expenditure \naccount. (Requires five affirmative votes) \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement Project \nto include $450,000 of funding to the Memory Lane and Flower Street Bikeway and \nTraffic Calming (Project No. 23-6029) ATPL-5063(217). \nMINUTES: Councilmember Lopez thanked City staff and residents for their hard \nwork, input, and patience and expressed excitement for the project. \nMayor Amezcua thanked City staff for their hard work and expressed excitement for \nthe project. \nMOTION: Councilmember Lopez moved to approve the recommended action \nfor Item No. 12, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 108,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 61,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13.Appropriation Adjustment and Capital Improvement Project Amendment for the \nBus Stop Improvement Project (Project No. 24-6985) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: 1. Approve an appropriation adjustment recognizing \n$398,000 in Clean California Local Grant Program grant funds in the Select Street \nConstruction, State Grant -Direct revenue account, and appropriate the same \namount into the Select Street Construction, Improvements Other than Buildings \nexpenditure account. (Requires five affirmative votes) \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement Project \nto include $398,000 of funding to the Bus Stop Improvement Project (Project No. 24- \n6985). ",
+        "vote": {
+          "id": 109,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 62,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14.Appropriation Adjustments and Capital Improvement Project Amendments for \nthe Santa Ana Zoo Stormwater Capture and Diversion Project (Project No. 24- \n6604) and the New Washington Well Project (Project No. 19-6423) (Non - \nGeneral Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: 1. Approve an appropriation adjustment to recognize \n$2,603,525 in Proposition 1 Integrated Regional Water Management (IRWM) grant \nfunds from the California Department of Water Resources into the Miscellaneous \nRevenue, State Grants -Indirect Revenue Account and appropriate the same \namount into the Proposition 1 Integrated Regional Water Management Program, \nImprovements Other than Buildings expenditure account. (Requires five affirmative \nvotes) \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $2,603,525 of funding from the Department of Water Resources \nProposition 1 Integrated Regional Water Management Grant Program for the Santa \nAna Zoo Stormwater Capture and Diversion Project. \n3. Approve an appropriation adjustment to recognize $3,394,743 in Prop 1 IRWM \nGrant Funds from the California Department of Water Resources into the \nMiscellaneous Revenue, State Grants -Indirect Revenue Account and appropriate \nthe same amount into the Proposition 1 Integrated Regional Water Management \nProgram, Improvements Other than Buildings expenditure account. (Requires five \naffirmative votes) \n4. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $3,394,743 of funding from the Department of Water Resources \nProposition 1 Integrated Regional Water Management Grant Program for the New \nWashington Well Project. ",
+        "vote": {
+          "id": 110,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 63,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15. Blanket Order Contract to US Gain, a Division of US Venture Inc., for \nCompressed Natural Gas Fueling Services (Spec No. 24-049) (Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award Blanket Order Contract to US Gain, a Division of \nUS Venture Inc., for compressed natural gas fueling services, in amount not to \nexceed $240,000, on an as -needed basis, for an initial one-year term beginning \nApril 16, 2024 and expiring April 15, 2025, with provisions for one, one-year renewal \noption. ",
+        "vote": {
+          "id": 111,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 64,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Aggregate Blanket Order Contracts to Famcon Pipe & Supply, Inc. and Core \n& Main for Manhole Covers, Water Valves, and Covers in an Aggregate \nAmount Not to Exceed $1,235,000 (Specification No. 24-019) (Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award aggregate blanket order contracts to Famcon Pipe \n& Supply, Inc. and Core & Main for the purchase of manhole covers, water valves, \nand covers on an as -needed basis in an aggregate amount not to exceed \n$1,235,000, for a two-year term beginning April 16, 2024 and expiring April 15, \n2026, with provisions for three, one-year renewal options. ",
+        "vote": {
+          "id": 112,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 65,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17. Purchase Order to Southern Bleacher Company, Inc. for the Purchase and \nInstallation of Bleacher Seating in an Amount Not to Exceed $549,214 \n(Specification No. 24-045) (General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize a one-time purchase and payment of a purchase \norder to Southern Bleacher Company, Inc. for bleacher seating and corresponding \ninstallation services for the Santa Ana Stadium in the amount of $499,285, plus a \ncontingency amount of $49,929, for a total amount not to exceed $549,214. ",
+        "vote": {
+          "id": 113,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 66,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18.Amendment to Agreement with Mark Thomas & Company for Grant Writing \nServices (Project No. 22-6899 & 24-6899) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute the first \namendment to the agreement with Mark Thomas & Company, Inc. for grant writing \nservices for the Santa Ana Boulevard Grade Separation in the amount of $69,654, \nwith a contingency amount of $10,346, for a new total agreement amount of \n$330,000 (Agreement No. A-2024-044). ",
+        "vote": {
+          "id": 114,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 67,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19. Site License Agreement with Pacific Coast Shuttles, LLC, dba Futura Bus Net, \nInc., to allow for Sublicense Agreement with Ohana Shuttles, LLC for Bus \nPassenger Services at the Santa Ana Regional Transportation Center ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to amend the site license \nagreement with Pacific Coast Shuttles, LLC, dba Futura Bus Net, Inc., to allow for \na sub -license agreement with Ohana Shuttles, LLC to compensate the City $1,500 \nper month for the rental of one bus bay for bus passenger services at the Santa \nAna Regional Transportation Center, for a one-year term beginning May 1, 2024 \nand ending April 30, 2025, with the option for three, one-year renewal periods \n(Agreement No. 2024-045). ",
+        "vote": {
+          "id": 116,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 68,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20.Amend Agreement with LOC Architects to Increase the Design Services for \nthe Santa Ana Zoo Educational Hub Building Project (Project No. 23-2601) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a first amendment \nto the consultant agreement with LOC Architects for design services for the Santa \nAna Zoo Educational Hub Project (Project No. 23-2601) to increase the amount by \n$123,400, for a total amount not to exceed $508,520 (Agreement No. A-2024-046). \nMINUTES: Councilmember Hernandez highlighted the tremendous work for the Santa Ana \nZoo and thanked City staff and colleagues. \nAGENDA ITEM NO. 21 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION ",
+        "vote": {
+          "id": 117,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 69,
+        "item_number": "21",
+        "section": "GENERAL",
+        "title": "21. Memorandum of Understanding for the Master Plan of Arterial Highways with \nthe Orange County Transportation Authority and the City of Irvine ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a Memorandum of \nUnderstanding for the Master Plan of Arterial Highways Amendment with the \nOrange County Transportation Authority and the City of Irvine (Agreement No. A- \n2024-XXX). \nMINUTES: Mayor Pro Tem Phan recused herself from Agenda Item No. 21 as the \nlisted entity, City of Irvine, is a client of her employer, Rutan and Tucker and left the \ndais at 8:45 P.M. \nMayor Amezcua asked for clarification regarding the amount the City of Irvine will \nbe paying. \nPublic Works Director Nabil Saba stated the City of Irvine would pay an estimate of \n$37,000 for the intersection of Flower and Segerstrom and $45,000 for the \nintersection of Flower and MacArthur and spoke regarding the total cost. \nCouncilmember Bacerra spoke regarding the mitigation of the intersections and \nexpressed concern regarding the impacts to the community. \nMOTION: Councilmember Bacerra moved to table Agenda Item No. 21 and \ndirect staff to work with OCTA and the City of Irvine related to amending the \nmitigation measures, seconded by Councilmember Penaloza. \nThe motion carried, 6-0-1, by the following roll call vote: \nCITY COUNCIL 12 APRIL 16, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 -- 0 ---1 -- Pass ",
+        "vote": {
+          "id": 118,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 70,
+        "item_number": "22",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 22 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n22.Award a Construction Contract to Fleming Environmental, Inc. for the Fire \nStation 75 Fuel System Replacement (Project No. 22-6020) (General Fund) ",
+        "description": "Station 75 Fuel System Replacement (Project No. 22-6020) (General Fund) \nDepartment(s): Public Works Agency \nRecommended Action: 1. Award a construction contract to Fleming \nEnvironmental, Inc. in accordance with the base bid in the amount of $684,667, \nsubject to change orders (not to exceed 25% of the base bid amount) in accordance \nwith the Greenbook: Standard Specifications for Public Works Construction, for fuel \nsystem replacement at Fire Station 75 for the term beginning upon execution of the \ncontract and ending upon project completion, and authorize the City Manager to \nexecute the contract. \n2. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $818,534, which includes $584,667 for the construction contract, $87,700 for \ncontract administration, inspection, and testing, and a $146,167 project contingency \nfor unanticipated or unforeseen work. \n3. Approve an amendment to the FY 2023-24 Capital Improvement Program to \ninclude $818,534 in construction funding approved in FY 2021-22 and 2022-23 \nproposed budget for the Fire Station. \n4. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-14 was filed for project 22-6020. \nMINUTES: Mayor Pro Tem Phan returned to the dais at 8:50 P.M. \nMayor Amezcua asked for clarification regarding the reduction of diesel and the \nbenefits to the community. \nPublic Works Director Nabil Saba spoke regarding the scope of work and the \nrequest by Orange County Fire Authority. \nOrange County Fire Authority Division Chief James Henery spoke regarding the \nscope of work. \nCITY COUNCIL 13 APRIL 16, 2024 \n\n\nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 22, seconded by Councilmember Hernandez. \nThe motion carried, 6-0-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOU",
+        "vote": {
+          "id": 119,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 71,
+        "item_number": "23",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 23 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n23. Amendment to the Agreement with Protection America Inc. to Provide Security \nServices at Transportation Drop -Off and Pick -Up Locations Used for Santa \nAna Navigation Center Guests ",
+        "description": "Services at Transportation Drop -Off and Pick -Up Locations Used for Santa \nAna Navigation Center Guests \nDepartment(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute a first amendment \nto the agreement with Protection America Inc. to provide security services at the \ndrop-off and pick-up locations used by the Santa Ana Navigation Center to extend \nthe term until June 30, 2025 and to add an additional $117,308, for a total amount \nnot to exceed $167,308 (Agreement No. A-2024-047). \nMINUTES: Councilmember Bacerra asked for clarification regarding the shuttle \nservicing locations and spoke regarding the security at the train station. \nCommunity Development Director Michael Garcia spoke regarding the locations \nthe shuttle would service and stated the amendment does not cover the security. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 23, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nNOES: \nABSTAIN: \nABSENT: \nStatus: 7 \u00d1 0 \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNONE \nNONE \nNONE \n\u00d1 Pass ",
+        "vote": {
+          "id": 120,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 72,
+        "item_number": "24",
+        "section": "CONSENT",
+        "title": "24. First Amendment with Patrol Solutions, LLC for Event Security Services at \nCity Events to Update the Rates and Amend Compensation Terms from \nAnnual Amounts to Total Not to Exceed Amount of $450,000 for the Entirety \nof the Agreement ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute a first amendment \nto the agreement with Patrol Solutions, LLC for event security services at City \nEvents to update the rates and amend the compensation terms from annual \namounts to total not to exceed amount of $450,000 for the entirety of the agreement \n(Agreement No. A-2024-048). \nMINUTES: Councilmember Hernandez spoke in support of the item. \nMayor Amezcua spoke in support of the item and regarding the need for police \npresence. \nCouncilmember Bacerra stated he does not want to handcuff the Police \nDepartment. \nCouncilmember Lopez stated she would like the company to be more involved. ",
+        "vote": {
+          "id": 123,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 73,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25.Ordinahce Amending the Santa Ana Municipal Code (SAMC) to add Article \nXXI to Chapter 8 of the SAMC prohibiting Short -Term Rentals (Second \nReading) \nLegal notice was published in the OC Reporter on April 10, 2024. ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: Conduct a second reading of and adopt an ordinance \namending the Santa Ana Municipal Code (SAMC) to add Article XXI to Chapter 8 \nof the SAMC prohibiting Short -Term Rentals. \nORDINANCE NO. NS-3061 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA, CALIFORNIA, ADDING ARTICLE XXI TO CHAPTER \n8 OF THE SANTA ANA MUNICIPAL CODE PROHIBITING SHORT-TERM \nRENTALS \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 25 as part of the Consent Calendar, seconded by \nCouncilmember Hernandez. \nThe motion carried, 6-1, by the following roll call vote: \nCITY COUNCIL 15 APRIL 16, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN \nNOES: MAYOR AMEZCUA \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+        "vote": {
+          "id": 124,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 74,
+        "item_number": "26",
+        "section": "CONSENT",
+        "title": "26.Adopt an Ordinance of the City Council of The City of Santa Ana Amending \nChapter 2 of The City of Santa Ana Municipal Code (Administration), Article \nIV (Officers, Departments, Boards and Commissions), Division 15 Relating to \nEmergency Services Section 2-643 \u00d1 Definitions (Second Reading) \nLegal notice was published in the OC Reporter on April 10, 2024. ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Conduct a second reading and adopt an Ordinance to \nexpand the definition of an emergency in the Santa Ana Municipal Code. \nORDINANCE NO. NS-3062 AN ORDINANCE OF THE CITY COUNCIL OF THE \nCITY OF SANTA ANA AMENDING CHAPTER 2 OF THE SANTA ANA MUNICIPAL \nCODE (ADMINISTRATION), ARTICLE IV (OFFICERS, DEPARTMENTS, \nBOARDS AND COMMISSIONS), DIVISION 15 RELATING TO EMERGENCY \nSERVICES, SECTION 2-643 - DEFINITIONS ",
+        "vote": {
+          "id": 125,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 75,
+        "item_number": "27",
+        "section": "BUSINESS",
+        "title": "27. Resolution of the City Council of the City of Santa Ana Announcing Its \nStrenuous Opposition to the Establishment of a Needle Exchange Program in \nthe City ",
+        "description": "Department(s): City Manager's Office \nRecommended Action: Adopt a Resolution opposing the establishment of a \nneedle exchange program in the City of Santa Ana as proposed by the Harm \nReduction Institute's application to the California Department of Public Health. \nRESOLUTION NO. 2024-010 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA ANNOUNCING ITS STRENUOUS OPPOSITION \nTO THE ESTABLISHMENT OF A NEEDLE EXCHANGE PROGRAM IN THE CITY \nCITY COUNCIL 16 APRIL 16, 2024 \n\n\nMINUTES: Homeless Liaison Kenneth Gominsky provided a presentation regarding \nthe resolution opposing the establishment of a Needle Exchange Program in the City. \nMayor Amezcua stated there were Neighborhood Association meetings discussing \nthe opposition of the Needle Exchange Program and various letters in opposition of \nthe program. She thanked City staff for their presentation and spoke in support of the \nitem. \nCouncilmember Vazquez spoke in support of the item. \nCouncilmember Bacerra spoke regarding the proposed Needle Exchange Program \nand spoke in support of the item. \nCouncilmember Hernandez spoke in support of item. \nCouncilmember Lopez expressed concern regarding the Needle Exchange Program \nand spoke in support of the item. \nCouncilmember Penaloza thanked all those who spoke in support of the item, \nexpressed concern regarding the Needle Exchange Program, and spoke in support \nof the item. \nMayor Pro Tern Phan expressed concern regarding the Needle Exchange Program \nand spoke in support of the item. \nDiscussion ensued regarding meaningful consultation, template letters, and resident \ninvolvement. \nMOTION: Mayor Amezcua moved to approve the recommended action for Item \nNo. 27, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStat",
+        "vote": {
+          "id": 126,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 76,
+        "item_number": "28",
+        "section": "BUSINESS",
+        "title": "8. Urgency Interim Ordinance Pursuant to Section 65858(a) of the California \nGovernment Code Adopting a 45-day Moratorium on the Approval, \nCommencement, Establishment, Relocation or Expansion of Industrial Uses \nwithin Specific Development No. 84 \n(A copy of the full text of the proposed urgency ordinance is available for review in \nthe City Clerk's Office) ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: 1. Adopt an urgency ordinance by four -fifths (415) vote, \npursuant to California Government Code Section 65858(a), adopting a 45-day \nmoratorium on the approval, commencement, establishment, relocation or \nexpansion of industrial uses within Specific Development No. 84 zoning district. \nORDINANCE NO. NS-3063 entitled AN URGENCY INTERIM ORDINANCE OF \nTHE CITY OF SANTA ANA PURSUANT TO GOVERNMENT CODE SECTION \n65858 ADOPTING A 45-DAY MORATORIUM ON THE APPROVAL, \nCOMMENCEMENT, ESTABLISHMENT, RELOCATION OR EXPANSION OF \nINDUSTRIAL USES WITHIN SPECIFIC DEVELOPMENT NO. 84 ZONING \nDISTRICT \n2. Find that, in accordance with the California Environmental Quality Act (CEQA), \nthe proposed action is not subject to the requirements of the California \nEnvironmental Quality Act, pursuant to (Guidelines) Section 15060(c)(2) because \nthe activity will not result in a direct or reasonably foreseeable indirect physical \nchange in the environment and 15060(c)(3) because the activity is not a project as \ndefined in Section 15378 of the CEQA Guidelines, California Code of Regulations, \nTitle 14, Chapter 3, because it has no potential for resulting in physical change to \nthe environment, directly or indirectly and so is not a project. \nMINUTES: Planning Manager Ali P Pezeshkpour provided a presentation regarding the \nTransit Zoning Code 45-Day Moratorium. \nCouncilmember Bacerra spoke in support of the item. \nCouncilmember Penaloza spoke in support of the item. \nCouncilmember Hernandez spoke in support of the item. \nCouncilmember Lopez thanked staff for the presentation and spoke in support of the item. \nMayor Amezcua spoke in support of the item. \nMOTION: Councilmember Bacerra moved to approve the recommended action \nfor Item No. 28, seconded by Councilmember Penaloza. \nCITY COUNCIL 18 APRIL 16, 2024 \n\n\nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILME",
+        "vote": {
+          "id": 127,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

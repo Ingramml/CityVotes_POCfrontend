@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 259,
+    "item_number": "26",
+    "title": "26. Resolution Authorizing the City Manager or Designee to Execute Subgrant \nAgreements to Receive Workforce Innovation and Opportunity Act Funds for \na Four -Year Period Expiring June 30, 2028 (Non -General Fund) ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: Adopt a resolution authorizing the City Manager or \ndesignee to execute subgrant agreements (AA511027) and all necessary \ndocuments for Workforce Innovation and Opportunity Act funds from the State of \nCalifornia for a four-year period from July 1, 2024 to June 30, 2028 (Agreement \nNo. A-2024-139). \nRESOLUTION NO. 2024-046 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA AUTHORIZING THE CITY MANAGER OR \nDESIGNEE TO EXECUTE A SUBGRANT AGREEMENT AND ALL NECESSARY \nDOCUMENTS TO RECEIVE FUNDS FOR THE WORKFORCE INNOVATION AND \nOPPORTUNITY ACT WITH THE STATE OF CALIFORNIA, WORKFORCE \nSERVICES DIVISION, FOR A PERIOD FROM JULY 30, 2024 TO JUNE 30, 2028 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 9,
+    "meeting_date": "2024-08-06",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

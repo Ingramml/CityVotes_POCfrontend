@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 16,
+    "item_number": "18",
+    "title": "18. Approve an Agreement with occupational Health Centers of California, a Medical \nCorporation dba Concentra Medical Centers (\"Concentra\") to Provide Pre - \nEmployment Medical Services ",
+    "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute an agreement with \nConcentra to provide a comprehensive medical services review program in an amount \nnot to exceed $450,000 for a three-year term from January 31, 2024 through January 30, \n2027, with the option for the City to grant up to two 1-year renewals of $150,000 each \nadditional year, in an amount not to exceed $750,000 over a five-year term (Agreement \nNo. A-2024-01 1). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

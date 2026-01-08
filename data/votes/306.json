@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 306,
+    "item_number": "21",
+    "title": "21. Resolution of the City Council of the City of Santa Ana Demonstrating Its \nSupport of Proposition 36 ",
+    "description": "Support of Proposition 36 \nDepartment(s): City Manager's Office \nRecommended Action: Adopt a Resolution supporting Proposition 36, which \nappears on the November 5, 2024, ballot and proposes changes to current laws to \nallow increased penalties for certain theft and drug crimes, as well as measures for \nrehabilitation and treatment for drug -related offenses. \nRESOLUTION NO. 2024-050 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA IN SUPPORT OF PROPOSITION 36: THE \nHOMELESSNESS, DRUG ADDICTION, AND THEFT REDUCTION ACT \nINITIATIVE \nMINUTES: City Clerk Jennifer L. Hall reported out the summary of email \ncomments received. 49. \nThe following speakers addressed City Council in person: \n1. Tanya Navarro spoke in opposition to the item. \nCITY COUNCIL 11 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\n2. Sandra spoke in opposition to the item. \n3. Bulmaro Vicente, Chispa, spoke in opposition to the item. \n4. John Ramirez spoke in support of the item. \n5. Victor Mendez spoke in support of the item. \n6. Ana Laura Padilla spoke in support of the item. \n7. Danny Vega spoke in support of the item. \nThe following speakers addressed City Council via teleconference: \n8. Ed Little spoke in opposition to the item. \nMayorAmezcua spoke regarding Propositions 47, 57, and 8109, detox programs, \nand spoke in support of the item. \nCouncilmember Hernandez spoke regarding gang violence and intervention and \nin opposition to the item. \nCouncilmember Vazquez spoke in opposition to the item. \nCouncilmember Bacerra spoke regarding treatment and in support of the item. \nCouncilmember Penaloza spoke regarding ongoing drug issues in the community \nand in support of the item. \nCouncilmember Lopez spoke regarding Prop. 36 and asked for clarification \nregarding punishment for crimes related to the proposition. \nCommander Andrade spoke regarding prosecutorial discretion. \nCouncilmember Bacerra addressed community concerns and statistics. \nMayor Pro Tern Phan spoke regarding the different",
+    "outcome": "PASS",
+    "ayes": 4,
+    "noes": 3,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 8,
+    "meeting_date": "2024-09-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "ABSENT"
+      }
+    ]
+  }
+}

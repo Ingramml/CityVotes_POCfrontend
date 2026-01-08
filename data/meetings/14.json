@@ -1,0 +1,315 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 14,
+    "meeting_date": "2024-05-21",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 20,
+    "vote_count": 20,
+    "agenda_items": [
+      {
+        "id": 266,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "0. Approve Additional Funds in the Amount of $270,000 for the SA-5 Vault \nModifications Project with an Estimated Project Delivery Cost of $2,257,050 \nfor the SA-5 Vault Modifications Project (Project No. 11-6413) (Non -general \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the Project Cost Analysis in the amount of $270,000 \nfor $240,000 in additional contingency funds and $30,000 in additional contract \nadministration, inspection, and testing for a new estimated total construction \ndelivery cost of $2,257,050. \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $270,000 of Acquisition &Construction funds for the First \nSA-5 Vault Modifications Project (11-6413). ",
+        "vote": {
+          "id": 151,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 267,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Approve Additional Funds in the Amount of $1,700,000 for an Existing \nConstruction Contract with Lonerock, Inc. for the Warner Avenue Street \nImprovements Project with an Estimated Project Delivery Cost of $14,755,867 \n(Project Nos. 14-6802, 18-64249 20-6618) (General Fund and Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the Project Cost Analysis in the amount of \n$1,700,000 in additional contingency funds for a new estimated total \nconstruction delivery cost of $14,755,867, which includes $9,486,525 for the \nconstruction contract; $1,614,197 for contract administration, inspection, and \ntesting; and a $3,655,145 project contingency for unanticipated or unforeseen \nwork. \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $1,700,000 in construction funds for Warner Avenue street \nImprovements Project (Project Nos. 14-6802, 18-64243 20-6618). \n3. Authorize budget reallocation of $500,000 in over -allocated, unspent Water \nFund from the Saint Gertrude and Grand Water Main Project (No. 15-6446) to \nconstruction funds for the Warner Avenue Water Main Project (No. 18-6424). \n4. Authorize budget reallocation of $1,200,000 in over -allocated, unspent General \nFund from the Westminster Avenue Rehabilitation Project (No. 22-6989) to \nconstruction funds for the Warner Avenue Phase 1 from Main Street to Oak \nStreet Improvements Project (No. 14-6802). ",
+        "vote": {
+          "id": 152,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 268,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Approve an Appropriation Adjustment and Award a Purchase Order to \nSelman Chevrolet for Eight Chevrolet Equinox LT Electric Vehicles (Bid No. \n24-048) (General and Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $208,508, in prior -year fund \nbalance in the Equipment Replacement Fund, Prior Year Carry Forward revenue \naccount and appropriate the same amount into the Equipment Replacement \nFund, Machinery and Equipment expenditure account this item. (Requires five \naffirmative votes) \n2. Authorize a one-time purchase and payment of a Purchase Order to Selman \nChevrolet for a total of eight 2024 new or unused Chevrolet Equinox LT Electric \nvehicles in an amount of $377,016 plus a contingency amount of $40,000, for a \ntotal amount not to exceed $417,016. ",
+        "vote": {
+          "id": 153,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 269,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13.Approve an Appropriation Adjustment and Award a Purchase Order to \nNational Auto Fleet Group for 14 Ford Interceptor Utility Vehicles in an \nAmount Not to Exceed $919,506 (Spec No. 24-056) (Non -General Fund) ",
+        "description": "Amount Not to Exceed $919,506 (Spec No. 24-056) (Non -General Fund) \nDepartment(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $919,506 in prior -year fund \nbalance in the Equipment Replacement Fund, Prior Year Carry Forward revenue \naccount and appropriate the same amount into the Equipment Replacement \nFund, Machinery and Equipment expenditure account for this item. (Requires \nfive affirmative votes) \n2. Authorize a one-time purchase and payment of a purchase order to National \nAuto Fleet Group for 14 new 2025 Ford Interceptor Utility vehicles in an amount \nof $849,506, plus a contingency amount of $70,000, for a total amount not to \nexceed $919,506. ",
+        "vote": {
+          "id": 146,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 270,
+        "item_number": "14",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 14 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n14.Award an Agreement with Outdoor Dimensions, LLC for Digital Marquees (Non - \nGeneral Fund) (Revive Santa Ana) ",
+        "description": "Department(s): City Manager's Office \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Outdoor Dimensions, \nLLC to build and install digital marquees at six properties across the city for a \none-year term in a total aggregate amount not to exceed $1,859,909 subject to \nchange orders (not to exceed 25% of the base bid amount) in accordance with \nthe Greenbook: Standard Specifications for Public Works Construction. \n(Agreement No. A-2024-XXX) \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $1,859,909 of funding from the American Rescue Plan Act \nfor Digital Marquees Project (No. 22-1306). \nMINUTES: Councilmember Bacerra expressed concern regarding the location of \nthe digital marquee in his district, requested input for design from residents, and \nspoke in support of the agreement. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 14, as amended to include meeting for community input, \nseconded by Mayor Amezcua. \nCITY COUNCIL 9 MAY 213 2024 \n\n\nMINUTES: Mayor Amezcua spoke in support of the agreement and requested \ncommunityengagement regarding the digital marquees. \n9 \nCouncilmember Penaloza asked for clarification regarding the proposed locations \nand the deadline to use the Revive funds and requested community outreach. \n'I y \nPublic Affairs Information Officer Paul Eakins spoke regarding the process for \nselecting the proposed locations. \nFinance Management and Services Executive Director Kathryn Downs spoke \nregarding the Revive funds deadline. \nActing City Manager Alvaro Nunez confirmed the deadline. \nDiscussion ensued regarding the proposed location, design, community outreach,, \nand Revive funds. \nActing City Manager Nunez pulled the item from consideration to be brought back \n%-W \nin 30-45 days.",
+        "vote": {
+          "id": 154,
+          "outcome": "CONTINUED",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 271,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15. Memorandum of Understanding (MOU) between the County of Orange, Acting \nas the Eligible Applicant for the County of Orange and the Orange County \nContinuum of Care (CoC,) the City of Anaheim, the City of Irvine, and the City \nof Santa Ana for the Homeless Housing, Assistance and Prevention (HHAP) \nProgram Regional Coordination ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute the Memorandum \nof Understanding with the County of Orange, the City of Anaheim, and the City of \nIrvine to support regional coordination to address homelessness challenges, for a \nterm beginning June 1, 2024 through June 30, 2028 (Agreement No. A-2024-063). \nMINUTES: Mayor Pro Tem Phan recused herself from Agenda Item No. 15 as the \nlisted entities, City of Anaheim and City of Irvine, are clients of her employer, Rutan \nand Tucker. \nMOTION: Councilmember Hernandez \naction for Item No. 15 as part of \nCouncilmember Lopez. \nmoved to approve the recommended \nthe Consent Calendar, seconded by \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nCITY COUNCIL 10 MAY 211 2024 \n\n\nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 \u00d1 0 -1 \u00d1Pass ",
+        "vote": {
+          "id": 155,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 272,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Agreements with Working Wardrobes For a New Start and Orange County \nConservation Corps to Provide Workforce Readiness Workshops, \nEmployment, and Educational Programs to Santa Ana Youth ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Working Wardrobes \nin an amount not to exceed $120,000, for a period from May 21, 2024 to \nSeptember 30, 2024 (Agreement No. A-2024-064). \n2. Authorize the City Manager to execute an agreement with Orange County \nConservation Corps in an amount not to exceed $250,000, for a period from May \n21, 2024 to September 30, 2024 (Agreement No. A-2024-065). ",
+        "vote": {
+          "id": 156,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 273,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Amend Agreements for On -Call Network Cabling Services (Specification No. \n22-032) (Non -General Fund) ",
+        "description": "Department(s): Information Technology \nRecommended Action: Amend agreements with American Integrated Security \nGroup Inc., Pacific Coast Cabling Inc., and Pratt Communications Inc. to increase \nthe aggregate agreement amount by $900,000, for a revised aggregate amount not \nto exceed $1,500,000 for the remainder of the current three-year period and the \nremaining optional one-year renewals (Core Agreement No. A-2024-066). ",
+        "vote": {
+          "id": 157,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 274,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18.Agreement with Ultimate Entertainment, LLC dba Mega Outdoor Movies for \nOutdoor Movie Services (General Fund) ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nUltimate Entertainment, LLC to provide outdoor movie services at the \"Movies in \nthe Park\" series for a term from June 1, 2024 through May 31, 2026, with three, \none-year renewal options, for a total amount not to exceed $200,000 (Agreement \nNo. A-2024-067). ",
+        "vote": {
+          "id": 158,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 275,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19. Construction Contract to All American Asphalt in the Amount of $2,558,098 \nfor the Local Street Preventative Maintenance FY 2023-24 Project with an \nEstimated Project Delivery Cost of $3,198,098 (Project No. 24-6907) (Non - \nGeneral & General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize a budget allocation of unspent Measure M2 and General Fund funding \nfrom Local Street Preventative Maintenance FY 2021-22 and 2022-23 for a total \nof $379,252 to the Local Street Preventative Maintenance FY 2023-24 Project, \ncompleting the project's funding requirement. \n2. Award a construction contract to All American Asphalt, the lowest responsible \nbidder, in accordance with the base bid in the amount of $2,558,098, subject to \nchange orders (not to exceed 25% of the base bid amount) in accordance with \nthe Greenbook: Standard Specifications for Public works Construction, for a \nterm beginning May 21, 2024 and ending upon project completion, and authorize \nthe City Manager to execute the contract. \n3. Approve the Project Cost analysis for a total estimated construction delivery cost \nof $3,198,098, which includes $2,558,098, for the construction contract, \n$384,000 for contract administration, inspection, and testing, and a $256,000 \nproject contingency for unanticipated or unforeseen work. \n4. Approve an appropriation adjustment recognizing $40,846 in Measure M-Street \nConstruction, Prior Year Carry Forward revenue account (03217002-50001) and \nappropriate to the Measure M2 Local Fairshare St, Improvements Other Than \nBuildings expenditure account (03217662-66220). (Requires five affirmative \nvotes) \n5. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $40,846 in construction funds for the Local Street \nPreventative Maintenance FY 2023-24 Project. \n6. Determine that the project is exempt from further review pursuant to the \nCalifornia Environmental Quality Act, as Categorical Exemption Environmental \nReview No. ER-2024-8 was filed for Project 24-6907. \nAGENDA ITEM NO. 20 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION ",
+        "vote": {
+          "id": 159,
+          "outcome": "CONTINUED",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 276,
+        "item_number": "20",
+        "section": "GENERAL",
+        "title": "20. Construction Contract to Elecnor Belco Electric, Inc. in the Amount of \n$823,888 for the ARPA Neighborhood Streetlights \u00d1Phase II Project with an \nEstimated Project Delivery Cost of $1,071,054 (Project No. 22-1388) (Non - \nGeneral Fund) (Revive Santa Ana) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Award a construction contract to Elecnor Belco Electric, Inc., the lowest \nresponsible bidder, in accordance with the base bid in the amount of $823,888, \nsubject to change orders (not to exceed 25% of the base bid amount) in \naccordance with the Greenbook: Standard Specifications for Public Works \nConstruction, for construction of the ARPA Neighborhood Streetlights \u00d1 Phase \nII Project, for a term beginning May 21, 2024 and ending upon project \ncompletion, and authorize the City Manager to execute the contract. \n2. Approve the Project Cost Analysis fora total estimated construction delivery cost \nOf $1,071,054, which includes $823,888 for the construction contract, $123,583 \nfor contract administration, inspection, and testing, and a $123,583 project \ncontingency for unanticipated or unforeseen work. \n3. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-28 was filed for Project 22-1388. \nMINUTES\u00a5 Councilmember Penaloza asked for clarification regarding the lighting \ndesign along Washington Avenue, requested decorative lights be used in the area, \nand asked whether there is a replacement fund. \nPublic Works Director Nabil Saba spoke regarding the proposed lighting, \nassociated costs, decorative lights, and the replacement fund. \nMayor Amezcua spoke regarding a French Park Neighborhood meeting and asked \nfor clarification regarding the type of lighting being used. \nCity Engineer Rudy Rosas spoke regarding the proposed lighting and potential \nchange order to use decorative lights. \nCouncilmember Bacerra asked whether Historic French Park has a lighting \nassessment district and requested information regarding lighting at French Park. \nCity Engineer Rosas stated the City does not have a light assessment district. \nMOTION: Councilmember Penaloza moved to approve the recommended \nact",
+        "vote": {
+          "id": 160,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 277,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21.Agreement with Green Halo Systems for Waste Recovery and Recycling \nTracking Software (Specification No. 24-062) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nGreen Halo Systems to provide waste recovery and recycling tracking software in \nthe amount of $79,872, plus a contingency amount of $20,000, for a total amount \nnot to exceed $99,872, for a six -year term beginning June 1, 2024 and expiring May \n31, 2030 (Agreement No. A-2024-066). ",
+        "vote": {
+          "id": 115,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 278,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22.Agreements with Mike Prlich & Sons, Inc., J&L Constructors, Inc., and PALP, \nInc. dba Excel Paving Company for On -Call Emergency Asphalt Concrete, \nConcrete, and Storm Drain Repair Services (General Fund and Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute agreements with \nMike Prlich & Sons, Inc., J&L Constructors, Inc., and PALP, Inc. dba Excel Paving \nCompany to provide on -call emergency asphalt concrete, concrete, and storm drain \nrepair services for a shared aggregate amount not to exceed $3,000,000 for a three- \nyear term beginning May 21, 2024 and expiring on May 20, 2027, with the provision \nfor one two-year extension (Core Agreement No. A-2024-069). ",
+        "vote": {
+          "id": 162,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 279,
+        "item_number": "23",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 23 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n23. Agreements with Project Partners, Interwest Consulting Group Inc., EC & AM \nAssociates Inc. dba GK & Associates Inc., Richard Fisher Associates, and \nLadayu Consulting Group for On -Call Engineering, Technical, and \nAdministrative Staff Support Services ",
+        "description": "Administrative Staff Support Services \nDepartment(s): Public Works Agency \nCITY COUNCIL 14 MAY 21, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute five agreements \nwith the firms listed below to provide engineering, technical, and administrative staff \nsupport services, for a three-year period commencing July 15, 2024 and expiring \nJuly 14, 2027, with a provision for one, two-year renewal option exercisable by the \nCity Manager and City Attorney, for a total aggregate amount not to exceed \n$2,500,000 for the term of the contract, including the optional renewal (Core \nAgreement No. A-2024-XXX). \nFirms \nProject Partners \nInterwest Consulting Group, Inc. \nG K & Associates \nRichard Fisher Associates \nLadayu Consulting Group \nMINUTES: Councilmember Penaloza spoke in opposition to the item. \nPublic Works Director Nabil Saba spoke regarding the proposed contracts and \nvarious accounts listed. \nCouncilmember Bacerra spoke in opposition to the item. \nMOTION: Councilmember Penaloza moved to continue Item No. 23 to the July \n16, 2024 City Council meeting, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass; Item Continued to July 16, 2024 ",
+        "vote": {
+          "id": 163,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 280,
+        "item_number": "24",
+        "section": "CONSENT",
+        "title": "24.Amendments to Agreements with Quality Fence Co., Inc. and United Site \nServices of California, Inc. (General Fund and Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize an amendment to agreements with Quality \nFence Co., Inc. and United Site Services of California, Inc. for on -call chain link \nfencing services to increase the amount by $894,500, for a revised aggregate \namount not to exceed $1,194,500 for the remainder of the current term expiring May \n16, 2025, including two one-year extensions (Core Agreement No. A-2024-070). ",
+        "vote": {
+          "id": 164,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 281,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25.Adopt Two Resolutions Approving Applications for Tier 1 and Tier 2 Grant \nFunds from the Orange County Transportation Authority's Environmental \nCleanup Program ",
+        "description": "Depar#ment(s): Public Works Agency \nRecommended Action: \n1. Adopt a Resolution approving the application for grant funds from the Orange \nCounty Transportation Authority's Tier 1 Environmental Cleanup Program for \nthe 10th & Flower Stormwater Capture Project \nRESOLUTION NO. 2024-016 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AUTHORIZING AN APPLICATION \nFOR FUNDS FOR THE ENVIRONMENTAL CLEANUP, TIER 1 GRANT \nPROGRAM UNDER ORANGE COUNTY LOCAL TRANSPORTATION \nORDINANCE NO. 3 FOR THE 10TH & FLOWER STORMWATER CAPTURE \nPROJECT \n2. Adopt a Resolution approving the application for grant funds from the Orange \nCounty Transportation Authority's Tier 2 Environmental Cleanup Program for \nthe Santa Ana Zoo Stormwater Capture and Diversion Project. \nRESOLUTION NO. 2024-017 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AUTHORIZING AN APPLICATION \nFOR FUNDS FOR THE ENVIRONMENTAL CLEANUP, TIER 2 GRANT \nPROGRAM UNDER ORANGE COUNTY LOCAL TRANSPORTATION \nORDINANCE NO. 3 FOR THE SANTA ANA ZOO STORMWATER CAPTURE \nAND DIVERSION PROJECT ",
+        "vote": {
+          "id": 165,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 282,
+        "item_number": "26",
+        "section": "CONSENT",
+        "title": "26. Adoption of the City of Santa Ana Emergency Operations Plan ",
+        "description": "Department(s): Police Department \nRecommended Action: \n1. Adopt a resolution approving the 2024 City of Santa Ana Emergency Operations \nPlan. \nRESOLUTION NO. 2024-018 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA TO APPROVE AND ADOPT THE \nCITY OF SANTA ANA EMERGENCY OPERATIONS PLAN \n2. Determine that, pursuant to the California Environmental Quality Act (CEQA), \nthe approval of this resolution is exempt from review pursuant to section \n15061(b)(3) as approval of the plan will have no possible significant effect on \nthe environment and, pursuant to CEQA Guidelines Sections 15262 and 15269, \nthe resolution and plan are a planning study that does not tacitly approve \nprojects that would otherwise require independent environmental review under \nCEQA. ",
+        "vote": {
+          "id": 166,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 283,
+        "item_number": "27",
+        "section": "BUSINESS",
+        "title": "27.Introduction and First Reading of an Ordinance Amending the City of Santa \nAna Municipal Code Article II (Solid Waste Collection Regulations) of Chapter \n16 (Garbage, Trash and Weeds), Article XII (Sanitation Services Users Charge) \nof Chapter 18 (Health and Sanitation), and Article II (Water) of Chapter 39 \n(Water and Sewers) to Comply with the Water Shutoff Protection Act ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Introduce and approve a first reading of an ordinance to \namend Chapter 16 Article II (Solid Waste Collection Regulations), Chapter 18 \nArticle XII (Sanitation Servicer User Charge), and Chapter 39 Article II (Water and \nSewers) of the Santa Ana Municipal Code. \nORDINANCE NO. NS-3065 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA AMENDING ARTICLE II OF CHAPTER 16, ARTICLE \nXII OF CHAPTER 18, AND ARTICLE II OF CHAPTER 39 OF THE SANTA ANA \nMUNICIPAL CODE TO COMPLY WITH THE WATER SHUTOFF PROTECTION \nACT \nMINUTES: Treasury and Customer Service ManagerAlejandra Gutierrez provided \na presentation regarding amending the Municipal Code to comply with the \nCalifornia Water Shut -Off Protection Act. \nCouncilmember Lopez spoke in support of the item and asked whether \ncommunications are going to be made related to delinquent accounts and \nrequested advertisement on social media. \nFinance Management and Services Executive Director Kathryn Downs provided \nclarification. \nCouncilmember Hernandez spoke in support of the item. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 27, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nCITY COUNCIL 17 MAY 21 % 2024 \n\n\nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 167,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 284,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "Reappoint Members to the Workforce Development Board for a Four -Year \nTerm ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Reappoint Dave Elliott, Marjorie Knitter, Patrick Korthuis, Maria Rosa Lopez, and \nNatasha Milatovich, to the Santa Ana Workforce Development Board for a four- \nyear term expiring May 31, 2028. \n2. Appoint Cory Sams (replacing Lee McMurtray) for a full four-year term expiring \nMay 31, 2028. \n3. Appoint Dr. Vaniethia Hubbard (replacing Dr. Annebelle Nery) for a partial four- \nyear term expiring May 31, 2027. ",
+        "vote": {
+          "id": 149,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 285,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Receive and File Quarterly Report of Investments as of March 31, 2024 \nDepartment(s): Finance and Management Services ",
+        "description": "Recommended Action: Receive and file. ",
+        "vote": {
+          "id": 150,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

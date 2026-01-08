@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 154,
+    "item_number": "14",
+    "title": "AGENDA ITEM NO. 14 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n14.Award an Agreement with Outdoor Dimensions, LLC for Digital Marquees (Non - \nGeneral Fund) (Revive Santa Ana) ",
+    "description": "Department(s): City Manager's Office \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Outdoor Dimensions, \nLLC to build and install digital marquees at six properties across the city for a \none-year term in a total aggregate amount not to exceed $1,859,909 subject to \nchange orders (not to exceed 25% of the base bid amount) in accordance with \nthe Greenbook: Standard Specifications for Public Works Construction. \n(Agreement No. A-2024-XXX) \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $1,859,909 of funding from the American Rescue Plan Act \nfor Digital Marquees Project (No. 22-1306). \nMINUTES: Councilmember Bacerra expressed concern regarding the location of \nthe digital marquee in his district, requested input for design from residents, and \nspoke in support of the agreement. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 14, as amended to include meeting for community input, \nseconded by Mayor Amezcua. \nCITY COUNCIL 9 MAY 213 2024 \n\n\nMINUTES: Mayor Amezcua spoke in support of the agreement and requested \ncommunityengagement regarding the digital marquees. \n9 \nCouncilmember Penaloza asked for clarification regarding the proposed locations \nand the deadline to use the Revive funds and requested community outreach. \n'I y \nPublic Affairs Information Officer Paul Eakins spoke regarding the process for \nselecting the proposed locations. \nFinance Management and Services Executive Director Kathryn Downs spoke \nregarding the Revive funds deadline. \nActing City Manager Alvaro Nunez confirmed the deadline. \nDiscussion ensued regarding the proposed location, design, community outreach,, \nand Revive funds. \nActing City Manager Nunez pulled the item from consideration to be brought back \n%-W \nin 30-45 days.",
+    "outcome": "CONTINUED",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 14,
+    "meeting_date": "2024-05-21",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

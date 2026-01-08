@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 45,
+    "item_number": "30",
+    "title": "30.Approve an Appropriation Adjustment and Award a Purchase Order to \nNational Auto Fleet Group for Two Ford F-150 Lightning EV Trucks in an \nAmount Not to Exceed $168,287 (Bid No. 24-007) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $168,287 in prior -year fund \nbalance in the Air Quality Improvement (AB 2766) Fund, Prior Year Carry \nForward revenue account and appropriate the same amount into the Fleet \nServices -Air Quality Improvement expenditure account. (Requires five \naffirmative votes) \n2. Authorize a one-time purchase and payment of a Purchase Order to National \nAuto Fleet Group for two, new 2024 Ford F-150 Lightning EV trucks in the \namount of $148,287 plus a contingency amount of $20,000, for a total amount \nnot to exceed $168,287. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 131,
+    "item_number": "17",
+    "title": "17. Legal Services Agreement with Hanson Bridgett, LLP (General Fund) ",
+    "description": "Department(s): City Attorney's Office \nRecommended Action: Approve a legal services agreement with Hanson Bridgett, \nLLP to provide legal and investigative services with a term through June 30, 2025 \nwith an optional one-year extension, and compensation not to exceed $200,000 \n(Agreement No. A-2024-123). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

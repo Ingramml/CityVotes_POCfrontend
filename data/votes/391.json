@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 391,
+    "item_number": "1",
+    "title": "1. Resolution Declaring the Results of the November 5, 2024 General Municipal \nElection \u00d1 Measures CC, DD, EE, and FF and the Election of Certain Officers ",
+    "description": "Election \u00d1 Measures CC, DD, EE, and FF and the Election of Certain Officers \nDepartment(s): City Clerk's Office \nRecommended Action: \n1. Adopt a resolution reciting the fact of the General Municipal Election held on \nNovember 5, 2024, declaring the results, and such other matters as may be \nprovided by law. \nRESOLUTION NO. 2024-074 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA RECITING THE FACT OF THE \nGENERAL MUNICIPAL ELECTION HELD ON TUESDAY, NOVEMBER 5, \n2024, DECLARING THE RESULTS, AND SUCH OTHER MATTERS AS MAY \nBE PROVIDED BY LAW \nCITY COUNCIL 2 DECEMBER 10, 2024 \n\n\n2. Execute Ordinance No. NS-3073 approved by the voters approving Article XIX, \nRent Stabilization and ,lust Cause Eviction Ordinance, of Chapter 8, Buildings \nand Structures, of the Santa Ana Municipal Code (Measure CC). \nORDINANCE NO. NS-3073 entitled AN ORDINANCE OF THE PEOPLE OF \nTHE CITY OF SANTA ANA ADOPTING A RENT STABILIZATION AND JUST \nCAUSE EVICTION ORDINANCE \n3. Authorize submission to the Secretary of State, for acceptance and filing, \namendments to the Santa Ana City Charter approved by the voters deleting \nreferences to obsolete job titles and obsolete bonding requirements, specifying \nthat all department heads are at -will employees, addressing definitions of funds \nand levies for compliance with state law, authorizing limited purchasing authority \nfor the City Clerk and City Attorney, and requiring the City Council to adopt an \nordinance to enforce the Ethics Code (Measure EE). \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 1, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 2,
+    "meeting_date": "2024-12-10",
+    "meeting_type": "special",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

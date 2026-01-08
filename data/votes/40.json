@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 40,
+    "item_number": "26",
+    "title": "26.Appoint Nathaniel Greensides Nominated by Councilmember Hernandez as \nthe Ward 5 Representative to the Personnel Board for a Partial \u00d1Term \nExpiring December 10, 2024 ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Nathaniel Greensides to the Personnel Board as \nthe Ward 5 representative and administer the Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Nathaniel \nGreensides.",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

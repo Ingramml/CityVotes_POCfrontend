@@ -1,0 +1,465 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43806",
+    "minutes_url": null,
+    "video_url": "https://youtube.com/watch?v=XWx87-dPbXU",
+    "agenda_item_count": 30,
+    "vote_count": 30,
+    "agenda_items": [
+      {
+        "id": 204,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Approve Appropriation Adjustment to Recognize the Bureau of Justice \nAssistance FY24 \u00d1 Byrne Discretionary Community Project Grant Funds \n(Non -General Fund)",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Approve appropriation adjustment to recognize a \ndisbursement of $963,000 in funds from the Department of Justice \u00d1 Office of \nJustice Programs, Bureau of Justice Assistance in revenue account (no. 12718002- \n52000, Federal Grant -Direct) and appropriate the same amount to expenditure \naccount (no. 12718700-69135, Payment to Subagent) to implement the Santa Ana \nAlternative Response Program. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 357,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 205,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Agreement with Families Forward, Inc. for the Administration of an Eviction \nPrevention Program (Non -General Fund) ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nFamilies Forward, Inc. to administer an Eviction Prevention Program for a one-year \nterm beginning November 19, 2024 in an amount not to exceed $730,046 \n(Agreement No. A-2024-187). \nMINUTES: Mayor Pro Tem Phan recused herself from Agenda Item No. 11 as the \nlisted entity, Families Forward, Inc., is a client of her employer, Rutan and Tucker. \nCITY COUNCIL 9 NOVEMBER 19, 2024 \n\n\nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 11, as part of the Consent Calendar, seconded by \nCouncilmember Penaloza. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 -- 0 -1 \u00d1 Pass ",
+        "vote": {
+          "id": 358,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 206,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12. First Amendment to the Fiscal Year (FY) 2024-25 Emergency Solutions Grant \n(ESG) Subrecipient Agreement with Interval House and Orange County's \nUnited Way, as well as a New Memorandum of Understanding (MOU) with the \nSanta Ana Police Department for Street Outreach and Engagement ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute a First Amendment to the FY 2024-25 \nESG Subrecipient Agreement with Interval House to increase the amount of the \nagreement by $35,124 to provide additional emergency shelter and supportive \nservices to survivors of domestic violence from the City of Santa Ana \n(Agreement No. A-2024-188). \n2. Authorize the City Manager to execute a First Amendment to the FY 2024-25 \nESG Subrecipient Agreement with Orange County's United Way to increase the \namount of the agreement by $17,562 to conduct additional Homeless \nManagement Information System (HMIS) data management (Agreement No. \nA-2024-189). \n3. Authorize the City Manager to execute a new Memorandum of Understanding \n(MOU) with the Santa Ana Police Department (SAPD) for the Homeless \nEvaluation Assessment Response Team (H.E.A.R.T.) Program to serve Santa \nAna residents experiencing homelessness through street outreach and \nengagement for a new total amount of $81,321. The total funding amount is \ncomprised of $46,197 in FY 2024-25 ESG funds and a $35,124 reallocation from \nFY 2023-24 ESG funds (Agreement No. A-2024-190). ",
+        "vote": {
+          "id": 359,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 207,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13. Second Amendment to Legal Services Agreement with Nathan & Kamionski \nLLP to Amend Hourly Rates ",
+        "description": "Department(s): City Attorney's Office \nRecommended Action: Approve Second Amendment to Legal Services \nAgreement with Nathan & Kamionski LLP to amend the hourly rates: Partners from \n$350 to $325 and Paralegals from $150 to $125 (Agreement No. A-2024-191). ",
+        "vote": {
+          "id": 360,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 208,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14. Grant Agreement and Appropriation Adjustment Recognizing Grant Revenue \nin the Amount of $13,627 for the California State Library Zip Books Project",
+        "description": "Department(s): Library \nRecommended Action: \n1. Authorize the Library Services Director to execute a Grant Agreement via \nDocuSign, accepting grant funds from the California State Library in the amount \nof $13,627 for the FY 2024-25 Zip Books Project (Agreement No. A-2024-192). \n2. Approve an appropriation adjustment recognizing $13,627 into the Library's \nPublic Library Grant, State Grant -Direct revenue account and appropriate the \nsame into the Public Library Grant, Books Records Videos expenditure account \nto implement the program. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 305,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 209,
+        "item_number": "15",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 15 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n15.Approve the Naming of a Park Located Between Fairview Street and King \nStreet ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Affirm the Planning Commission's adoption of a resolution \napproving Public Facilities Naming No. 2024-01 and recommend approval of the \nname \"Artesia-Pilar Park\" for the park located between Fairview Street and King \nStreet. \nMINUTES: Councilmember Hernandez spoke regarding the historic Artesia Pilar \nneighborhood and proposed naming the park \"La Artista Artesia Pilar Park.\" \nMOTION: Councilmember Hernandez moved to approve the name of \"La \nArtista Artesia Pilar Park\" for the park located between Fairview Street and \nKing Street, seconded by Councilmember Bacerra. \nCITY COUNCIL 11 NOVEMBER 19, 2024 \n\n\nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 361,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 210,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Agreement for Park Host, Volunteer Acknowledgment, Release of Liability, \nIndemnity Agreement, and Waiver for Thornton Park Park Host ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Approve an agreement with Thornton Park park host to \ncomplete the pilot Park Host Volunteer Pilot Program by December 31, 2025 \n(Agreement No. A-2024-193). ",
+        "vote": {
+          "id": 362,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 211,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17. Revised Grant Agreement with State of California Office of Traffic Safety \n(\"OTS\") (Non -General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Receive and file the revised grant agreement with the \nState of California Office of Traffic Safety (\"OTS\") for the Selective Traffic \nEnforcement Program in an amount not to exceed $755,000 approved at the \nOctober 1, 2024 City Council meeting (Agreement No. A-2024-156). ",
+        "vote": {
+          "id": 363,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 212,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18.Agreements with Elite Command Training Corporation, Utility Response \nTraining Associates, LLC, and SenseMakers, LLC to Provide Training \nServices for the Urban Area Security Initiative Grant Program FY2022 - \nFY2026 (Specification Nos. 23-187A, 23-188A, 23-189A) (Non -General Fund) ",
+        "description": "FY2026 (Specification Nos. 23-187A, 23-188A, 23-189A) (Non -General Fund) \nDepartment(s): Police Department \nRecommended Action: \nAuthorize the City Manager to execute three-year agreements, with two, one-year \nrenewal options, with the following three vendors to provide on -going training \ndeliverables to the Anaheim/Santa Ana Urban Area on an as -needed basis, for the \nthree-year period of November 19, 2024 through November 18, 2027 with two \noptional one-year renewals, in an aggregate amount not to exceed $270,444 \n\u00a5 Elite Command Training Corporation \u00d1 total amount not to exceed $83,112 \n(Agreement No. A-2024-194); \n\u00a5 Utility Response Training Associates, LLC \u00d1 total amount not to exceed \n$62,982(Agreement No. A-2024-195); \nCITY COUNCIL 12 NOVEMBER 19, 2024 \n\n\n\u00a5 SenseMakers, LLC \u00d1 total amount not to exceed $124,350(Agreement No. \nA-2024-196). ",
+        "vote": {
+          "id": 364,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 213,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19.Appropriation Adjustments to Recognize Special Gas Tax and Transportation \nSystem Improvement Area Funds Fund Balance and Amendments to the \nFiscal Year 2024-25 Capital Improvement Program for Various Projects ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $200,000 of prior -year fund \nbalance in Special Gas Tax, Prior Year Carry Forward revenue account and \nSelect Street Construction, Transfer from Fund 029 revenue account, and \nappropriate the same amount into the Gas Tax Interfund Transfer, Transfer to \nFund 059 expenditure account and HUTA 2103 Gas Tax, Improvements Other \nThan Buildings expense account. (Requires five affirmative votes) \n2. Approve an appropriation adjustment recognizing $434,400 of prior -year fund \nbalance in the New Transportation System Improvement Area E, Prior Year \nCarry Forward revenue account, and appropriate the same amount to the New \nTransportation System Improvement Area E, Improvements Other Than \nBuildings expense account. (Requires five affirmative votes) \n3. Approve an appropriation adjustment recognizing $5,100,000 in prior year fund \nbalance in the Transportation System Improvement Authorization Area B, Prior \nYear Carry Forward revenue account, and appropriate the same amount into \nthe Transportation System Improvement Authorization Area B Tustin, \nImprovements Other Than Buildings expenditure account. (Requires five \naffirmative votes) \n4. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $200,000 of Special Gas Tax, HUTA 2103 Gas Tax funds \nfor the 10th Street and Flower Street Project (Project No. 22-1342). \n5. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $434,400 of New Transportation System Improvement Area \nE funds for the Warner Widening Phase 1 Project (Project No. 14-6802). \n6. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $5,000,000 of Transportation System Improvement \nAuthorization Area B funds for the Warner Phase 2 Widening Project (Project \nNo. 18-6901). \n7. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram t",
+        "vote": {
+          "id": 365,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 214,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20. Purchase Order Contracts with Cali State Paving, Inc., Hardy & Harper, Inc., \nand Paveco Construction Inc. for On -Call Asphalt and Portland Cement \nConcrete Street Repairs (Specification No. 24-110) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award aggregate purchase order contracts to the vendors \nlisted below for on -call asphalt and portland cement concrete street repairs on an \nas -needed basis, in an annual amount not to exceed $2,380,000, for an initial three- \nyear term expiring November 18, 2027, with provisions for two, one-year renewal \noptions. \nVendor Location \nCali State Paving, Inc. Riverside, CA \nHardy & Harper, Inc. Lake Forest, CA \nPaveco Construction Inc. Riverside, CA ",
+        "vote": {
+          "id": 366,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 215,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21.Award a Construction Contract to Towo Enterprise Inc. for the Alley \nImprovements Program (No. 24-6910)(General Fund)",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $1,970,000, which includes $1,576,000 for the construction contract, \n$236,400 for contract administration, inspection, and testing, and a \n$157,600 project contingency for unanticipated or unforeseen work due to the \ncomplexity and extensive scope of this project. \n2. Award a construction contract to Towo Enterprises Inc., the lowest responsible \nbidder, in accordance with the base bid and bid alternates in the amount of \n$1,576,000, subject to change orders, for construction of the Alley \nImprovements Program (No. 24-6910), for a term beginning November 19, \n2024 and ending upon project completion, and authorize the City Manager to \nexecute the contract. \n3. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-9 was filed for Project No. 24-6910. ",
+        "vote": {
+          "id": 367,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 216,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22.Agreement with Sterling Health Services, Inc. for Affordable Care Act \nCompliance Services in an Amount Not to Exceed $50,000 (Non -General \nFund) ",
+        "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute an agreement with \nSterling Health Services, Inc. to provide Affordable Care Act compliance services \nfor three years, effective November 19, 2024 through October 31, 2027, with \nprovisions for two optional one-year extensions, not to exceed $10,000 per year \n(Agreement No. A-2024-197). ",
+        "vote": {
+          "id": 368,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 217,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "23.Approve a Second Amendment to City Clerk Employment Agreement and \nAdopt a Resolution Approving the Council Appointee Salary Schedule ",
+        "description": "Department(s): Human Resources \nRecommended Action: \nApprove a second amendment to the City Clerk Employment Agreement \nreflecting the positive City Clerk performance evaluation conducted on October \n15, 2024 and approving an adjusted annual salary for the City Clerk and an \nincrease in the amount of deferred compensation provided by the City \n(Agreement No. A-2024-198). \n2. Adopt a resolution updating the City's Classification and Compensation Plan \nwith the amended annual salary for City Clerk, and approving the Council \nAppointee Salary Schedule in compliance with the California Public Employees' \nRetirement System (CaIPERS) and Title 2 of the California Code of Regulations \nsection 570.5. \nRESOLUTION NO. 2024-060 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES \nTO THE CITY'S CLASSIFICATION AND COMPENSATION PLAN ",
+        "vote": {
+          "id": 369,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 218,
+        "item_number": "24",
+        "section": "CONSENT",
+        "title": "24.Adopt a Resolution to Effect Certain Changes to the City's Basic \nClassification and Compensation Plan and Update the Salary Schedule for \nSanta Ana Management Association (SAMA) ",
+        "description": "Department(s): Human Resources \nRecommended Action: Adopt a resolution to effect certain changes to the City's \nbasic classification and compensation plan and to update the salary schedule for \nSAMA as requested by CaIPERS, and in compliance with CaIPERS California Code \nof Regulations section 570.5. \nCITY COUNCIL 15 NOVEMBER 19, 2024 \n\n\nRESOLUTION NO. 2024-061 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE CITY'S \nCLASSIFICATION AND COMPENSATION PLAN \nMINUTES: Approved as amended. ",
+        "vote": {
+          "id": 370,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 219,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25. Conflict of Interest Code Amendments",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Adopt a resolution approving an amended Conflict of \nInterest Code for the City and its agencies and departments. \nRESOLUTION NO. 2024-062 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA AMENDING THE CONFLICT OF INTEREST CODE \nOF THE CITY AND VARIOUS AGENCIES AND DEPARTMENTS ",
+        "vote": {
+          "id": 371,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 220,
+        "item_number": "26",
+        "section": "CONSENT",
+        "title": "OF THE CITY AND VARIOUS AGENCIES AND DEPARTMENTS \n26. Resolution and Appropriation Adjustment Accepting The James Irvine \nFoundation \u00d1 Better Career's Public Sector Practice Change Grant ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Adopt a resolution to accept The James Irvine Foundation \u00d1 Better Career's \nPublic Sector Practice Change grant for $300,000 for a two-year term ending \nNovember 2026. \nRESOLUTION NO. 2024-063 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING THE ACCEPTANCE \nOF GRANT FUNDS FROM THE IRVINE FOUNDATION TO IMPROVE \nCOORDINATION, SERVICE DELIVERY, AND SUPPORT TO LOW-INCOME \nCOMMUNITIES IN SANTA ANA \n2. Authorize the City Manager, or designee, to sign and submit all documents \nincluding the initial agreement, and amendments which may be necessary for \nthe completion of the project. \n3. Approve an appropriation adjustment to recognize $300,000 in funds to .tames \nIrvine Foundation Grant -Other account (no. 13118002-62040) and appropriating \nthe same amount into the James Irvine Foundation expenditure account (no. \n13118700-various) (Requires five affirmative voles). ",
+        "vote": {
+          "id": 372,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 221,
+        "item_number": "27",
+        "section": "CONSENT",
+        "title": "Tax Board for the Exchange of Business License Tax Data \nDepartment(s): Finance and Management Services ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: \nAdopt a resolution authorizing a reciprocal agreement with the California \nFranchise Tax Board for the exchange of business license tax data. \nRESOLUTION NO. 2024-064 entitled A RESOLUTION OF THE CITY OF \nSANTA ANA AUTHORIZING A RECIPROCAL AGREEMENT WITH THE \nCALIFONIA FRANCHISE TAX BOARD FOR THE EXCHANGE OF BUSINESS \nLICENSE TAX DATA \n2. Approve a non -financial reciprocal agreement with the California Franchise Tax \nBoard for the exchange of business license tax data (Agreement No. A-2024- \n199). ",
+        "vote": {
+          "id": 373,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 222,
+        "item_number": "28",
+        "section": "CONSENT",
+        "title": "28. Resolution Approving the Acceptance of Contract Funds from the California \nDepartment of Social Services (CDSS)",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: \n1. Adopt a resolution approving the acceptance of contract funds from CDSS for \nstartup funding for after school care and full day camps for child care and \ndevelopment programming. \nRESOLUTION NO. 2024-065 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA ACCEPTING CONTRACT FUNDS \nFROM THE CALIFORNIA DEPARTMENT OF SOCIAL SERVICES FOR \nPROVISION OF CHILD CARE AND DEVELOPMENT SERVICES AND \nAUTHORIZING THE CITY MANAGER OR DESIGNEE TO NEGOTIATE AND \nEXECUTE ANY AGREEMENTS OR AMENDMENTS THERETO THAT MAY BE \nNECESSARY \n2. Approve the agreement with CDSS for child care and development \nprogramming (Agreement No. A-2024-200). \n3. Approve an appropriation adjustment for program startup funding to recognize \n$915,583 from the CDSS in the PRCSA Revenue Account, Center Programs \n(13113002-53301) and appropriate the same amount in the PRCSA, Child \nDevelopment Services expenditure accounts (13113251-various). (Requires \nfive affirmative votes) \n4. Adopt a resolution amending the current fiscal year 2024-2025 annual budget \nto adjust full-time positions in the Parks, Recreation, and Community Services \nAgency, including additions and a reallocation. (Requires five affirmative votes) \nCITY COUNCIL 17 NOVEMBER 19, 2024 \n\n\nRESOLUTION NO. 2024-066 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA TO AMEND THE CURRENT FISCAL \nYEAR 2024-2025 ANNUAL BUDGET TO ADD FULL-TIME POSITIONS IN THE \nPARKS, RECREATION AND COMMUNITY SERVICES AGENCY ",
+        "vote": {
+          "id": 374,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 223,
+        "item_number": "29",
+        "section": "CONSENT",
+        "title": "29. Third One -Year Extension of Site Plan Review No. 2016-03 and Variance Nos. \n2017-05 and 2017-06 for The Madison Mixed -Use Development Project \nLocated at 200 North Cabrillo Park Drive ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution approving a third and final one-year extension of Site Plan \nReview No. 2016-03, Variance No. 2017-05, and Variance No. 2017-06 to \nDecember 31, 2025. \nRESOLUTION NO. 2024-067 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING A THIRD ONE-YEAR \nEXTENSION OF SITE PLAN REVIEW NO. 2016-03, VARIANCE NO. 2017-05, \nAND VARIANCE NO. 2017-06 FOR THE MADISON MIXED -USE \nDEVELOPMENT LOCATED AT 200 NORTH CABRILLO PARK DRIVE \n2. Determine that, pursuant to the California Environmental Quality Act (CEQA) \nand the CEQA Guidelines, the extension for this project is exempt pursuant to \nSection 15061(b)(3). This determination has been made as it has been \ndetermined that the proposed action to extend the existing, approved entitlement \ndoes not have the potential to cause a significant effect on the environment, as \nthe existing, approved entitlement has already been evaluated pursuant to \nCEQA. ",
+        "vote": {
+          "id": 375,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 224,
+        "item_number": "30",
+        "section": "CONSENT",
+        "title": "2020-06 for the 4th and Mortimer Mixed -Use Development Project Located at \n409 and 509 East Fourth Street ",
+        "description": "409 and 509 East Fourth Street \nDepartment(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution approving a third and final one-year extension of Site Plan \nReview No. 2020-03 and Variance No. 2020-06 to December 15, 2025. \nRESOLUTION NO. 2024-068 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING A THIRD ONE-YEAR \nEXTENSION OF SITE PLAN REVIEW 2020-03 AND VARIANCE NO. 2020-06 \nFOR THE 4TH AND MORTIMER MIXED -USE DEVELOPMENT LOCATED AT \n409 AND 509 EAST FOURTH STREET \nCITY COUNCIL 18 NOVEMBER 19, 2024 \n\n\n2. Determine that, pursuant to the California Environmental Quality Act (CEQA) \nand the CEQA Guidelines, the extension for this project is exempt pursuant to \nSection 15061(b)(3). This determination has been made as it has been \ndetermined that the proposed action to extend the existing, approved entitlement \ndoes not have the potential to cause a significant effect on the environment, as \nthe existing, approved entitlement has already been evaluated pursuant to \nCEQA. ",
+        "vote": {
+          "id": 376,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 225,
+        "item_number": "31",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 31 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n31. Resolutions Authorizing Grant Applications for the Fiscal Year 2025-26 \nMeasure M2 Comprehensive Transportation Funding Program (Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Adopt resolutions authorizing the City of Santa Ana to submit applications for \nfunding consideration under the Measure M2 Comprehensive Transportation \nFunding Program 2025-26 Call for Projects. \nRESOLUTION NO. 2024-069 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING THE SUBMITTAL OF \nIMPROVEMENT PROJECTS TO THE ORANGE COUNTY \nTRANSPORTATION AUTHORITY FOR FUNDING UNDER THE \nCOMPREHENSIVE TRANSPORTATION PROGRAM \nRESOLUTION NO. 2024-070 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING THE SUBMITTAL OF \nIMPROVEMENT PROJECTS TO THE ORANGE COUNTY \nTRANSPORTATION AUTHORITY FOR FUNDING UNDER THE REGIONAL \nTRAFFIC SIGNAL_ SYNCHRONIZATION PROGRAM \n2. Direct staff to incorporate approved Comprehensive Transportation Funding \nProgram projects into the Seven -Year Capital Improvement Program for Fiscal \nYear 2025-26. \nMINUTES: Councilmember Hernandez spoke in support of the item. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 31, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nCITY COUNCIL 19 NOVEMBER 19, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 377,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 226,
+        "item_number": "32",
+        "section": "CONSENT",
+        "title": "32.Ordinance Adding Article XIV to Chapter 10 (Crimes and Miscellaneous Law \nEnforcement Provision) and Amending Related Sections in Chapter 31, \nChapter 33, and Chapter 36 of the Santa Ana Municipal Code ",
+        "description": "Department(s): Police Department \nRecommended Action: Conduct a first reading and adopt an ordinance adding \nand amending various articles and sections of the Santa Ana Municipal Code to \nprohibit conduct that interferes with public rights of access to public property to \naddress changes in the law brought by the City of Grants Pass, Oregon v. Johnson, \net. al., 144 S. Ct. 2202 (2024): \nORDINANCE NO. NS-XXXX entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA ADDING ARTICLE XIV (PROHIBITING \nINTERFERENCE WITH AND ACCESS TO PUBLIC PROPERTY) TO CHAPTER \n10 (CRIMES AND MISCELLANEOUS LAW ENFORCEMENT PROVISIONS) OF \nTHE SANTA ANA MUNICIPAL CODE AND AMENDING RELATED SECTIONS IN \nCHAPTER 10, CHAPTER 31 (RECREATION, PARKS AND PLAYGROUNDS), \nCHAPTER 33 (STREETS, SIDEWALKS AND PUBLIC WORKS, AND CHAPTER \n36 (TRAFFIC) TO PROHIBIT CONDUCT THAT INTERFERES WITH PUBLIC \nRIGHTS OF ACCESS TO PUBLIC PROPERTY TO ADDRESS CHANGES IN LAW \nBROUGHT ABOUT BY CITY OF GRANTS PASS, OREGON V. JOHNSON, ET. \nAL., 144 S. Ct. 2202 (2024) \nMINUTES: Acting Police Chief Robert Rodriguez gave a presentation regarding the \nmunicipal code update amendments to Chapters 10, 31, 33, and 36 and adding \nChapter 10 Article 14. \nCouncilmember Bacerra spoke in support of the item and inquired with City Attorney \nSonia Carvalho regarding possible restrictions in modifying the following sections: \n10-851(h)(6) and (7) and 10-100(a)(6) and (7) to increase the distance listed from \n10 feet to 20 feet. \nCITY COUNCIL 20 NOVEMBER 19, 2024 \n\n\nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 32, as amended, to increase the distance listed from 10 \nfeet to 20 feet, seconded by Mayor Amezcua. \nMINUTES: City Attorney Sonia Carvalho stated that she was not aware of any legal \nrestrictions that would prevent the section modification. \nMayor Amezcua spoke in support of the Item No. 32. \nCouncilmember Penaloza spoke in support of item No. 32, \nCouncilmember Vazquez spoke regardi",
+        "vote": {
+          "id": 378,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 227,
+        "item_number": "33",
+        "section": "CONSENT",
+        "title": "33.Investigation Regarding Councilmember Johnathan Ryan Hernandez \n(Continued from the Special Meeting of October 28, 2024; Item No. 1)",
+        "description": "Department(s): City Manager's Office \nRecommended Action: Discuss and Address Potential Remedies Regarding the \nInvestigator's Sustained Findings Regarding Councilmember Johnathan Ryan \nHernandez and Take Potential Action or Direct Staff Accordingly. \nMOTION: Councilmember Lopez moved to receive and file the investigation \nreport, seconded by Councilmember Penaloza. \nMINUTES: Mayor Pro Tem Phan spoke regarding the investigation report, \nrequested that Councilmember Hernandez attend training related to working with \nstaff, and that he recuse himself from the appointment of Mayor Pro Tem for one \nyear. \nMINUTES: Councilmember Bacerra requested a formal censure and \nCouncilmember Hernandez be removed from all boards, commissions, and \ncommittees he currently serves on. \nCouncilmember Lopez spoke regarding the lack of consistency regarding \nCouncil's processes. \nCITY COUNCIL 23 NOVEMBER 19, 2024 \n\n\nSUBSTITUTE MOTION: Mayor Pro Tern Phan moved to receive and file the \ninvestigation report, require training related to working with staff, and to have \nCouncilmember Hernandez not be eligible to serve as Mayor Pro Tem for one- \nyear, seconded by Councilmember Penaloza. \nThe substitute motion carried, 4-2-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nPENALOZA, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ, COUNCILMEMBER VAZQUEZ \nABSTAIN: COUNCILMEMBER HERNANDEZ \nABSENT: NONE \nStatus: 4 \u00d1 2 - 1\u00d1 Pass ",
+        "vote": {
+          "id": 379,
+          "outcome": "PASS",
+          "ayes": 4,
+          "noes": 2,
+          "abstain": 1,
+          "absent": 0
+        }
+      },
+      {
+        "id": 228,
+        "item_number": "34",
+        "section": "PUBLIC_HEARING",
+        "title": "34.Public Hearing - Appeal Application No. 2024-01, Appealing the Decision of \nthe Planning Commission to Approve Conditional Use Permit (CUP) No. 2022- \n06 Allowing the Construction of an Accessory Structure within the Rear Yard \nof an Existing Single -Family Residence Located at 2221 North Heliotrope \nDrive (APNs: 002-081-45 And 002-081-46) \nLegal notice published in the OC Reporter on November 6, 2024 and mailed on \nNovember 7, 2024. ",
+        "description": "November 7, 2024. \nDepartment(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution denying Appeal Application No. 2024-01, upholding the \nPlanning Commission's approval of a resolution to approve Conditional Use \nPermit (CUP) No. 2022-06 to allow the construction of an accessory structure \nwithin the rear yard of an existing single-family residence located at 2221 North \nHeliotrope Drive (APNs: 002-081-45 and 002-081-46). \nCITY COUNCIL 24 NOVEMBER 19, 2024 \n\n\nRESOLUTION NO. 2024-071 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA DENYING APPEAL APPLICATION \nNO. 2024-01 AND UPHOLDING THE DETERMINATION OF THE PLANNING \nCOMMISSION TO APPROVE CONDITIONAL USE PERMIT NO. 2022-06 AS \nCONDITIONED TO ALLOW THE CONSTRUCTION OF AN ACCESSORY \nSTRUCTURE EXCEEDING FIFTEEN FEET IN HEIGHT WITHIN THE REAR \nYARD OF THE PROPERTY LOCATED AT 2221 NORTH HELIOTROPE DRIVE \n(APN: 002-081-45 AND 002-081-46) \n2. Determine that, pursuant to the California Environmental Quality Act (CEQA) \nand the CEQA Guidelines, the project is exempt from further review pursuant to \nSection 15303 of the CEQA Guidelines (Class 3-New Construction or \nConversion of Small Structures) because the project involves the construction \nof a small accessory structure. \nMINUTES: Planning and Building Executive Director Minh Thai gave a presentation \nregarding the Appeal Application No. 2024-01, appealing approval of Conditional \nUse Permit No. 2022-06 for property located at 2221 North Heliotrope Dr. \nMayor Pro Tem Phan recorded that she has corresponded with the applicant and \nis familiar with the family. \nMayor Amezcua reported that she has visited the property. \nCouncilmember Lopez spoke regarding correspondence the applicant submitted \nto her office. \nMayor Amezcua opened the Public Hearing a 10:03 P.M. \nCity Clerk Jennifer L. Hall reported out the summary of (13) email comments \nreceived. \nThe following speakers addressed the City Council in -person: \n1. Quynh Kieu, Applic",
+        "vote": {
+          "id": 380,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 229,
+        "item_number": "35",
+        "section": "PUBLIC_HEARING",
+        "title": "35. Public Hearing - Conduct a First Reading and Adopt Ordinance Amendment \n(OA) No. 2024-04 Repealing and Reenacting in its Entirety Article XXI to \nChapter 8 of the Santa Ana Municipal Code (SAMC) Prohibiting Short -Term \nRentals (STRs), and Adopt Enhanced Fines for Violations of the Short -Term \nRentals Ordinance \nPublished in the OC Reporter on November 8, 2024. ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Introduce for first reading an ordinance (OA No. 2024-04) amending the Santa \nAna Municipal Code (SAMC) to repeal and reenact in its entirety Article XXI to \nChapter 8 of the SAMC prohibiting Short -Term Rentals. \nCITY COUNCIL 28 NOVEMBER 19, 2024 \n\n\nORDINANCE NO. NS-3072 entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA, CALIFORNIA, REPEALING AND \nREENACTING IN ITS ENTIRETY ARTICLE XXI TO CHAPTER 8 OF THE \nSANTA ANA MUNICIPAL CODE PROHIBITING SHORT-TERM RENTALS \n2. Adopt a resolution setting administrative fines for violating provisions of the \nSanta Ana Municipal Code. \nRESOLUTION NO. 2024-072 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA SETTING ADMINISTRATIVE FINES \nFOR VIOLATING PROVISIONS OF THE SANTA ANA MUNICIPAL CODE \n3. Find that, in accordance with the California Environmental Quality Act (CEQA), \nbased on the substantial evidence set forth in the record, including but not limited \nto the General Plan Update Final Program Environmental Impact Report (State \nClearinghouse No. 2020029087) and the Addendum prepared for adoption of \nthe proposed Ordinance and Resolution, the project is exempt from further \nenvironmental analysis. In the alternative, the adoption of the Ordinance and \nResolution is categorically exempt pursuant to State CEQA Guidelines section \n15301 \u00d1 Class 1, Existing Facilities. \nMINUTES: Mayor Amezcua opened the Public Hearing a 11:22 P.M. and \nannounced that public comments have been limited to two minutes. \nCity Clerk Jennifer L. Hall reported out the summary of (14) email comments \nreceived. \nThe following speakers addressed the City Council in -person: \n1. Cenorino Gomez (translation: Spanish) spoke in support of the item. \n2. Jeremy LeClair spoke in opposition to the item. \n3. Sheri Menke spoke in opposition to the item. \n4. Ana Gomez spoke in opposition to the item. \n5. Richard Austin spoke in opposition to the item. \n6. Maura",
+        "vote": {
+          "id": 381,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 230,
+        "item_number": "6",
+        "section": "CONSENT",
+        "title": "6. Appoint Alexandra Cheney Nominated by Councilmember Penaloza as the \nWard 6 Representative to the Environmental and Transportation Advisory \nCommission for a Partial Term Expiring December 8, 2026 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Alexandra Cheney to the Environmental and \nTransportation Advisory Commission as the Ward 6 representative and administer \nthe Oath of Office. (Pursuant to SAMC Sec. 2-326(a), requires five affirmative \nvotes) ",
+        "vote": {
+          "id": 352,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 231,
+        "item_number": "7",
+        "section": "GENERAL",
+        "title": "votes) \nAGENDA ITEM NO. 7 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n7. Agreements Review and Approve the Annual Calendar of City Council \nMeetings for 2025 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: \n1. Review calendar of regularly scheduled City Council meetings in 2025. \n2. Cancel the regularly scheduled City Council meetings of January 7, 2025 and \nAugust 5, 2025. \n3. Direct staff to post Notice(s) of Cancellation and waive notice to the City Council \nof said meetings as required by the Government Code \nMINUTES: Councilmember Bacerra proposed canceling the meeting of September \n2, 2025 and add a meeting on August 25, 2025. \nCouncilmember Lopez proposed canceling the September 2, 2025 and November \n18, 2025 meetings. \nCITY COUNCIL 7 NOVEMBER 19, 2024 \n\n\nMayor Pro Tern Phan proposed canceling the July 1, 2025 and August 26, 2025 \nmeetings and keeping the August 5, 2025 meeting. \nCouncilmember Hernandez spoke in support of canceling the September 2, 2025 \nand November 18, 2025 meetings. \nCouncilmember Penaloza spoke in support of canceling the September 2, 2025 \nand November 18, 2025 meetings, proposed cancelling December 16, 2025, and \nkeeping the August 5, 2025 meeting. \nBrief discussion ensued regarding meeting conflicts with conferences. \nMOTION: Councilmember Lopez moved to approve the 2025 City Council \nmeeting schedule, as amended to cancel the January 7, September 2, \nNovember 18, and December 16, 2025 meeting and to keep the August 5, 2025 \nmeeting, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 354,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 232,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Fiscal Year 2024-25 First Quarter Budget Update and Proposed Appropriation \nAdjustments ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: \n1. Receive and file the 1 st Quarter Budget Update. \n2. Approve $2.9 million in appropriation adjustments as detailed in the body of the \nreport, including multiple restricted fund adjustments and one housekeeping \nadjustment to the General Fund with a net zero impact. (Requires five affirmative \nvotes) ",
+        "vote": {
+          "id": 355,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 233,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "votes) \nAGENDA ITEM NO. 7 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n7. Agreements Review and Approve the Annual Calendar of City Council \nMeetings for 2025 ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Approve an appropriation adjustment recognizing \n$2,403,595 in funds from the State of California, into the Permanent Local Housing \nAllocation (PLHA) Program revenue account and appropriate the same amount into \nthe PLHA Round 4 expenditure account to address homelessness in the City of \nSanta Ana. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 356,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

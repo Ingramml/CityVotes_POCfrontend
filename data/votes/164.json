@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 164,
+    "item_number": "24",
+    "title": "24.Amendments to Agreements with Quality Fence Co., Inc. and United Site \nServices of California, Inc. (General Fund and Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize an amendment to agreements with Quality \nFence Co., Inc. and United Site Services of California, Inc. for on -call chain link \nfencing services to increase the amount by $894,500, for a revised aggregate \namount not to exceed $1,194,500 for the remainder of the current term expiring May \n16, 2025, including two one-year extensions (Core Agreement No. A-2024-070). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 14,
+    "meeting_date": "2024-05-21",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

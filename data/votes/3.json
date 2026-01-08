@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 3,
+    "item_number": "25",
+    "title": "25. Election of Mayor Pro Tem for 2024 ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Nominate and elect one Councilmember to serve as Mayor Pro \nTem for calendar year2024. \nMINUTES: Mayor Amezcua opened public comments for the Business Calendar. \nThere being no requests to speak, Mayor Amezcua closed the public comment period. \nCouncilmember Bacerra nominated Councilmember Phan as Mayor Pro Tem, \nseconded by Councilmember Penaloza. \nCouncilmember Vazquez nominated Councilmember Hernandez as Mayor Pro Tem, \nseconded by Mayor Pro Tem Lopez. \nCITY COUNCIL 10 JANUARY 16, 2024 \n\n\nMOTION: Mayor Amezcua moved to close nominations for Mayor Pro Tem for \ncalendar year 2024, seconded by Councilmember Bacerra. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, COUNCILMEMBER VAZQUEZ, \nMAYOR PRO TEM LOPEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass \nMOTION: Councilmember Bacerra moved to appoint Councilmember Phan as \nthe Mayor Pro Tem for calendar year 2024, seconded by Councilmember \nHernandez. \nThe motion carried, 4-3, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, MAYOR AMEZCUA \nNOES: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 4 --- 3 --- Pass \nMOTION: Councilmember Vazquez moved to appoint Councilmember \nHernandez as the Mayor Pro Tem for calendar year 2024, seconded by Mayor Pro \nTem Lopez. \nThe motion failed, 3-4, by the following roll call vote: \nAYES: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM LOPEZ \nNOES: COUNCILMEMBER BACERRA, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, MAYOR AMEZCUA \nABSTAIN: NONE \nABSENT: NONE \nStatus: 3 \u00d1 4 \u00d1 FAIL \nMINUTES: Thai Viet Phan appointed as Mayor Pro Tem for Calendar year 2024. ",
+    "outcome": "FLAG",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

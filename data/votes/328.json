@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 328,
+    "item_number": "22",
+    "title": "22. Construction Contract with Elecnor Belco Electric, Inc. for the Traffic Signal \nInstallation at Segerstrom Avenue and Spruce Street Project (Project No. 24- \n6045) (General and Non -General Fund)",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $132,134 in the New \nTransportation System Improvements Area E, Prior Year Carry \nForward revenue account (No. 03417002-50001) and appropriate the same \namount into the New Transportation System Improvements Area E, \nImprovements Other Than Buildings expenditure account (No. 03417660- \n66220). (Requires five affirmative votes) \n2. Approve an amendment to the FY 2024-25 Capital Improvement Program to \ninclude $132,134 in construction funding from the Transportation System \nImprovement Area E account for the Traffic Signal Installation at Segerstrom \nAvenue and Spruce Street Project (No. 24-6045). \nCITY COUNCIL 18 OCTOBER 1, 2024 \n\n\n3. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $803,348, which includes $642,628 for the construction contract; $96,395 for \ncontract administration, inspection, and testing; and a $64,325 project \ncontingency for unanticipated or unforeseen work. \n4. Award a construction contract to Elecnor Belco Electric, Inc., the lowest \nresponsible bidder, in accordance with the base bid and bid alternates in the \namount of $642,628, subject to change orders, for construction of the Traffic \nSignal Installation at Segerstrom Avenue and Spruce Street Project (No. 24- \n6045), for a term beginning October 1, 2024 and ending upon project \ncompletion, and authorize the City Manager to execute the contract. \n5. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-64 was filled for Project No. 24-6045. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 1,
+    "meeting_date": "2024-10-01",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

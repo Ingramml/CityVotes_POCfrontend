@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 269,
+    "item_number": "21",
+    "title": "21.Amendment to Agreement with Group 4 Architecture, Research + Planning, \nInc. for the Main Library Renovation Project (22-1380) (Revive Santa Ana) ",
+    "description": "Department(s): Library \nRecommended Action: Approve a first amendment to an agreement with Group 4 \nArchitecture, Research + Planning, Inc. for additional design and engineering \nservices, increasing the compensation amount by $499,383, for a total not -to - \nexceed amount of $2,657,948 (Agreement No. A-2024-127). \nMINUTES: Councilmember Hernandez spoke in support of the item. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

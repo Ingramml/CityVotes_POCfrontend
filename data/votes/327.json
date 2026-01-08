@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 327,
+    "item_number": "21",
+    "title": "21. Construction Contract with Diamond Construction & Design for the Santa \nAna Wellness Plaza Project (Project No. 22-1358) (Non -General Fund) (Revive \nSanta Ana) ",
+    "description": "Department(s):\u00caPublic\u00caWorks\u00caAgency\nRecommended\u00caAction:\u00ca1.\u00caApprove\u00cathe\u00caProject\u00caCost\u00caAnalysis\u00cafor\u00caa\u00catotal\u00caestimated\nconstruction\u00cadelivery\u00cacost\u00caof\u00ca$883,660,\u00cawhich\u00caincludes\u00ca$746,929\u00cafor\u00cathe\u00caconstruction\ncontract_\u00ca$69,039\u00cafor\u00cacontract\u00caadministration,\u00cainspection,\u00caand\u00catesting_\u00caand\u00caa\u00ca$74,693\nproject\u00cacontingency\u00cafor\u00caunanticipated\u00caor\u00caunforeseen\u00cawork.\n2.\u00caApprove\u00caan\u00caamendment\u00cato\u00cathe\u00caFiscal\u00caYear\u00ca2024_25\u00caCapital\u00caImprovement\u00caProgram\nto\u00cainclude\u00ca$883,660\u00caof\u00cafunding\u00cain\u00cathe\u00caAmerican\u00caRescue\u00caPlan\u00caAct\u00cafunds\u00cafor\u00cathe\u00caSanta\nAna\u00caWellness\u00caPlaza.\n3.\u00caAward\u00caa\u00caconstruction\u00cacontract\u00cato\u00caDiamond\u00caConstruction\u00ca&\u00caDesign,\u00cathe\u00calowest\nresponsible\u00cabidder,\u00cain\u00caaccordance\u00cawith\u00cathe\u00cabase\u00cabid\u00cain\u00cathe\u00caamount\u00caof\u00ca$746,929,\u00cafor\nthe\u00caconstruction\u00caof\u00cathe\u00caSanta\u00caAna\u00caWellness\u00caPlaza\u00caProject,\u00cafor\u00cathe\u00caterm\u00cabeginning\nOctober\u00ca1,\u00ca2024\u00caand\u00caending\u00caupon\u00caproject\u00cacompletion,\u00caand\u00caauthorize\u00cathe\u00caCity\u00caManager\nto\u00caexecute\u00cathe\u00cacontract.\n4.\u00caDetermine\u00cathat,\u00capursuant\u00cato\u00cathe\u00caCalifornia\u00caEnvironmental\u00caQuality\u00caAct,\u00cathe\nrecommended\u00caactions\u00caare\u00caexempt\u00cafrom\u00cafurther\u00careview.\u00caCategorical\u00caExemption\nEnvironmental\u00caReview\u00caNo.\u00caER_2024_66\u00cawas\u00cafiled\u00cafor\u00caProject\u00ca22_1358.",
+    "outcome": "FAIL",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 1,
+    "meeting_date": "2024-10-01",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

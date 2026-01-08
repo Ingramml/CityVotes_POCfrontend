@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 387,
+    "item_number": "11",
+    "title": "11.Amend Purchase and Sale Agreement with Santana Green Development, LLC \nto Extend the Deadline to Open Business at 2235 South Bristol Street by 18 \nMonths ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute the first \namendment to the agreement with Santana Green Development, LLC to extend the \nCITY COUNCIL 6 DECEMBER 3, 2024 \n\n\ndeadline to open for business to the public a drive-thru restaurant or fuel station \nwith integrated electric vehicle charging station at 2235 South Bristol Street by 18 \nmonths (Agreement No. A-2024-204). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 5,
+    "meeting_date": "2024-12-03",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

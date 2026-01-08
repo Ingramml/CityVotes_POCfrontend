@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 279,
+    "item_number": "30",
+    "title": "30.Agreement with E Source Companies, LLC for Automated Metering \nInfrastructure Implementation Support Services (Project 16-6460) (Non - \nGeneral Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nE Source Companies, LLC to provide Automated Metering Infrastructure \nimplementation support services, for a total amount not to exceed $450,000, for a \nthree-year term beginning August 20, 2024 and expiring December 31, 2027, with \na provision for one two-year extension (Agreement No. 2024-133). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

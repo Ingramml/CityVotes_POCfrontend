@@ -1,0 +1,270 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 8,
+    "meeting_date": "2024-09-17",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 17,
+    "vote_count": 17,
+    "agenda_items": [
+      {
+        "id": 143,
+        "item_number": "10",
+        "section": "GENERAL",
+        "title": "10.AGENDA ITEM NO. 10 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION ON MONDAY, SEPTEMBER 23, 2024 ",
+        "description": "",
+        "vote": {
+          "id": 292,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 144,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Amendment to the Facilities Use Agreement with the Training and Research \nFoundation to Add the Logan Community Center as a Service Location to \nProvide Licensed Afterschool Programming Until the End of the 2024-2025 \nSchool Year ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an amendment to \nthe facilities use agreement with the Training Research Foundation (TRF) to add \nthe Logan Community Center as a service location to provide childcare services to \nSanta Ana children and families, increasing the monthly fee by $600 for a monthly \ntotal fee of $2,600 for 10 months, from September 1, 2024 through June 30, 2025. \n(Agreement No. A-2024-141). ",
+        "vote": {
+          "id": 293,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 145,
+        "item_number": "12",
+        "section": "GENERAL",
+        "title": "12.Agreement with Power of One Foundation (POOF), for a co -presented Fiestas \nDel Mariachi Event and Related Services; and, Award Sunbelt Rentals Inc. \nPurchase Order Contract for Event Floor Cover (General Fund) ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Power of One \nFoundation to co -present a Fiestas Del Mariachi event at Santa Ana Stadium, \nfor an amount not to exceed 80% of revenue earned after expenditure recovery \nfor a term beginning September 18, 2024 and ending October 31, 2024 \n(Agreement No. A-2024-146). \n2. Award a Purchase Order Contract to Sunbelt Rentals Inc. for the rental of an \nevent floor cover for Santa Ana Stadium in an amount not to exceed $118,548. \n3. Approve an appropriation adjustment in the amount of $118,548 from the \nspendable General Fund balance to the PRCSA, Recreation and Community \nServices, Contractual -Professional Services expenditure account (01113230- \n62300). (Requires five affirmative votes) \nMINUTES: Councilmember Lopez expressed excitement for the event, clarified the \nevent was not a budgeted event, and expressed concern regarding the allocated \ncosts to the City of Santa Ana. \nCity Manager Alvaro Nunez spoke regarding the fiscal impact related to the proof \nof concept. \nParks, Recreation, and Community Services Director Hawk Scott spoke regarding \nthe proof of concept and risk to the City. \nCouncilmember Lopez requested additional language \"all indirect costs be \nrecuperated by the City\" be placed in the agreement. \nCouncilmember Hernandez spoke regarding the Power of One Foundation and \ncosts of the event, and expressed concern regarding associated risk and being a \npolitical event. \nMOTION: Councilmember Hernandez moved to not move forward with the \nagreement. \nMotion died due to lack of second. \nCITY COUNCIL 23 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nCouncilmember Bacerra expressed concern regarding loss of events because of \nambiguities, and asked for clarification regarding the ambiguity of associated costs, \ncosts of policing, flooring costs, and information on required forms to complete, and \nassociated political affiliations.",
+        "vote": {
+          "id": 294,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 146,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13.Agreement with Valley Maintenance Corporation for Janitorial Services at \nVarious City Locations (RFP No. 24-076) (General Fund and Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nCITY COUNCIL 16 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute an agreement with \nValley Maintenance Corporation for Janitorial Services at various locations in an \namount not to exceed $6,503,284, for the term beginning November 1, 2024 and \nexpiring October 31, 2027, with provisions for one, two-year extension (Agreement \nNo. A-2024-142). ",
+        "vote": {
+          "id": 295,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 147,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14.Agreement with TSG Enterprises, Inc. DBA The Solis Group for Labor \nCompliance and Community Workforce Agreement Professional \nAdministration Services (Non -General Fund) (RFP #24-084) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nThe Solis Group for Community Workforce Agreement professional administration \nservices to provide professional services in overseeing and monitoring labor \ncompliance requirements, for a three-year term beginning September 17, 2024 and \nexpiring on September 16, 2027, with the provision for one, two-year extension, in \nan amount not to exceed $2,000,000 (Agreement No. A-2024-143). ",
+        "vote": {
+          "id": 296,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 148,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15. Construction Contract with Armstrong Cal Builders Inc. for the Santiago Park \nMain Street Entrance Project (Project No. 20-2731) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $2,807,000 in the Parks \nCapital Grants, State Grant -Direct revenue account and appropriate the same \namount into the Parks Capital Grants, Improvements Other Than Buildings \nexpense account. (Requires five affirmative votes) \n2. Approve an appropriation adjustment recognizing $400,000 in the Residential \nDevelopment District 2, Prior Year Carry Forward revenue account and \nappropriate the same amount into Residential Development District 2, \nImprovements Other Than Building expense account. (Requires five affirmative \nvotes) \n3. Approve the Project Cost analysis for a total estimated construction delivery cost \nof $3,207,000, which includes $2,763,816, for the construction contract; \n$166,802 for contract administration, inspection, and testing; and a $276,382 \nproject contingency for unanticipated or unforeseen work. \n4. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $3,207,000 in construction funds for the Santiago Park Main \nStreet Entrance Project. \nCITY COUNCIL 17 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\n5. Award a construction contract to Armstrong Cal Builders Inc., the lowest \nresponsible bidder, in accordance with the base bid in the amount of $2,763,816, \nsubject to change orders, for construction of the Santiago Park Main Street \nEntrance Project (No. 20-2731) for a term beginning September 17, 2024 and \nending upon project completion, and authorize the City Manager to execute the \ncontract. \n6. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2023-130 was filed for Project No. 20-2731.",
+        "vote": {
+          "id": 298,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 149,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16. Construction Contract with Los Angeles Engineering, Inc. for the Bristol \nStreet Improvements and Widening from Civic Center Drive to Washington \nAvenue Project (Project No. 13-6792) (General and Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $3,343,934 of prior -year fund \nbalance in the Select Street Construction, Prior Year Carry Forward revenue \naccount, and appropriate the same amount to the Select Street Construction, \nImprovements Other Than Building expense account. (Requires five affirmative \nvotes) \n2. Approve an appropriation adjustment recognizing $1,200,000 of prior -year fund \nbalance in the New Transportation System Improvement Area F, Prior Year \nCarry Forward revenue account, and appropriate the same amount to the New \nTransportation System Improvement Area F, Improvements Other Than \nBuilding expense account. (Requires five affirmative votes) \n3. Approve an appropriation adjustment recognizing $656,000 of grant funds in the \nSelect Street Construction, Federal Grant -Indirect revenue account and \nappropriate the same amount to the Select Street Construction, Improvements \nOther Than Building expense account. (Requires five affirmative votes) \n4. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $5,199,934 in construction funds for the Bristol Street \nImprovements and Widening from Civic Center Drive to Washington Avenue \nProject (No. 13-6792). \n5. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $13,224,187, which includes $10,579,350 for the construction contract; \n$1,586,902 for contract administration, inspection, and testing; and a \n$1,057,935 project contingency for unanticipated or unforeseen work. \nCITY COUNCIL 18 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\n6. Award a construction contract to Los Angeles Engineering, Inc., the lowest \nresponsible bidder, in accordance with the base bid in the amount of \n$10,579,350 for construction of the Bristol Street Improvements and Widening \nfrom Civic Center Drive to Washington Avenue Project, for a term beginning \nSeptember 17, 2024 and ending upon project comp",
+        "vote": {
+          "id": 299,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 150,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Award a Construction Contract to PCN3, Inc. for the Newhope Library \nModernization and Delhi Library Branch Improvements Project and an \nAgreement to Shade Structures, Inc. dba USA Shade & Fabric Structures for \na shade structure at Newhope Library (Project Nos. 22-1802, 23-7540 & 22- \n1382) (General and Non -General Fund) (Revive Santa Ana) ",
+        "description": "Department(s): Public Works Agency; Library Services \nRecommended Action: \n1. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $9,132,303, which includes $8,215,533 for the construction contract, $95,217 \nfor contract administration, and a $821,533 project contingency for unanticipated \nor unforeseen work. \n2. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $9,132,303 for the Newhope Library Modernization and \nDelhi Library Improvements. \n3. Award a construction contract to PCN3, Inc., the lowest responsible bidder, in \naccordance with the base bid and alternate bid in the amount of $8,215,533 for \nconstruction of the Newhope Library Modernization and Delhi Center Library \nBranch Project, for a term beginning September 17, 2024 and ending upon \nproject completion, and authorize the City Manager to execute the contract. \n4. Approve an agreement with Shade Structures, Inc. dba USA Shade & Fabric \nStructures for the design and build of a 20-foot by 30-foot cantilever shade \nstructure at the Newhope Library for a total not to exceed of $68,341, for a term \nbeginning September 17, 2024 and expiring December 31, 2026 with provision \nfor a one-year extension, and authorize the City Manager to execute the \nagreement (Agreement No. A-2024-144). \n5. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-43 was filed for Project 22-1802. \nCITY COUNCIL_ 19 SEPTEMBER 17, 2024 ",
+        "vote": {
+          "id": 300,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 151,
+        "item_number": "18",
+        "section": "GENERAL",
+        "title": "18, Construction Contract with Vido Samarzich, Inc. for the Standard Avenue and \nMcFadden Avenue Bikeways Projects (No. 19-6923, 20-6962, 20-6965, 23- \n6705, 23-6706, & 23-6707) (General Fund) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $2,000,000 in prior -year fund \nbalance in the Residential Street Improvement, Prior Year Carry Forward \nrevenue account and appropriate the same amount into the Residential Street, \nImprovements Other Than Buildings, expenditure account. (Requires five \naffirmative votes) \n2. Approve an appropriation adjustment recognizing $2,700,000 in prior -year fund \nbalance in the Transportation System Improvement Authorization Area \nB revenue account and appropriate the same amount into the Transportation \nSystem Improvement Authorization Area B Tustin, Improvements Other Than \nBuildings expenditure account. (Requires five affirmative votes) \n3. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include an additional $5,900,000 in construction funds for \nthe Standard Avenue and McFadden Avenue Bikeways Project (No. 19-6923, \n20-6962, 20-6965, 23-6705, 23-6706, & 23-6707). \n4. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $23,550,000, which includes $19,170,060 for the construction \ncontract; $2,462,934 for contract administration, inspection, and testing; and \na $1,917,006 project contingency for unanticipated or unforeseen work due to \nthe complexity and extensive scope of this project. \n5. Award a construction contract to Vido Samarzich, Inc., the lowest responsible \nbidder, in accordance with the base bid and bid alternates in the amount \nof $19,170,060, for construction of the Standard Avenue and McFadden Avenue \nBikeways Project (No. 19-6923, 20-6962, 20-6965, 23-6705, 23-6706, & 23- \n6707), for a term beginning September 17, 2024 and ending upon project \ncompletion, and authorize the City Manager to execute the contract. \n6. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review pursuant to Article 19, \nCategorical Exemptions",
+        "vote": {
+          "id": 301,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 152,
+        "item_number": "19",
+        "section": "GENERAL",
+        "title": "19. Resolution Declaring City -Owned Properties as Exempt Surplus Land and \nDirecting the City Manager or their Designee to Comply with the Requirement \nof Government Code \u00a454220 et seq. for the Sale and Activation of Surplus \nLand ",
+        "description": "Department(s): Public Works Agency \nCITY COUNCIL 27 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nRecommended Action: \nAdopt a resolution declaring City -owned property as exempt surplus land and \ndirecting the City Manager or designee to comply with the requirements of \nGovernment Code \u00a454220 et seq. for the sale and transfer of ownership. \nRESOLUTION NO. 2024-051 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA DECLARING VARIOUS \nPROPERTIES AS EXEMPT SURPLUS LAND AND DIRECTING THE CITY \nMANAGER TO FOLLOW THE PROCEDURES SET FORTH IN THE SURPLUS \nLAND ACT, CALIFORNIA GOVERNMENT CODE SECTION 54220, ET SEQ., \nAS AMENDED, FOR THEIR DISPOSITION \n2, Determine that, pursuant to the California Environmental Quality Act (\"CEQA\"), \nthe sales of the properties as surplus are exempt from environmental review \npursuant to CEQA Guidelines section 15312 (Surplus Government Property \nSales). \nMINUTES: Councilmember Lopez asked for clarification regarding the selected 26 \nparcels, suggested a case by case basis of approval, and whether the surplus land \nis generating any money. \nCity Engineer Rudy Rosas spoke regarding the selected parcels and lots, and \nstated this would off load slivers of land for liability purposes. \nCouncilmember Bacerra spoke in support of the item. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 19, seconded by Mayor Amezcua. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+        "vote": {
+          "id": 302,
+          "outcome": "PASS",
+          "ayes": 1,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 153,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20.Second Reading of Ordinance Amending Article VI (Stadium), Sec. 2-743 \n(Liquor) of the Santa Ana Municipal Code to Allow for the Sale and \nConsumption of Beer, Wine, and Distilled Spirits at Eddie West Field -Santa \nAna Stadium \nFirst reading August 20, 2024 City Council meeting and approved by a vote of \n(6-0-1) (Councilmember Lopez absent). Published in the OC Reporter on \nAugust 21, 2024. ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: \n1. Approve the second reading of an ordinance amending Article VI (Stadium), \nSection 2-743 (Liquor) of the Santa Ana Municipal Code (SAMC) to allow for the \nsale and consumption of beer, wine, and distilled spirits at Eddie West Field - \nSanta Ana Stadium with the expressed written consent of the City Manager or \ndesignee. \nORDINANCE NO. NS-3069 entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA AMENDING CHAPTER 2 OF THE SANTA ANA \nMUNICIPAL CODE (ADMINISTRATION), ARTICLE VI (STADIUM), SECTION \n2-743 \u00d1 LIQUOR \n2. Determine that, in accordance with the \n(CEQA) and the CEQA Guidelines, the \nfurther review per Section 15301 (Class 1 \nCalifornia Environmental Quality Act \nproject is categorically exempt from \n-- Existing Facilities). \nMINUTES: Mayor Amezcua adjourned the City Council Meeting at 11:22 P.M. to \nMonday, September 23, 2024 at 5:30 P.M. \nADJOURNED REGULAR CITY COUNCIL MEETING \nCALL TO ORDER \nMINUTES: Mayor Amezcua reconvened the Adjourned Regular City Council Meeting \nof September 17, 2024 to order at 5:39 P.M. on Monday, September 23, 2024. \nCITY COUNCIL 20 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nATTENDANCE Councilmembers \nMayor Pro Tern \nMayor \nCity Manager \nCity Attorney \nCity Clerk \nROLL CALL \nPhil Bacerra \nJohnathan Ryan Hernandez \nJessie Lopez \nDavid Penaloza \nBenjamin Vazquez \nThai Viet Phan \nValerie Amezcua \nAlvaro Nunez \nSonia R. Carvalho \nJennifer L. Hall \nMINUTES: City Clerk Jennifer L. Hall conducted roll call. \nCouncilmembers Bacerra, Hernandez, Lopez, Penaloza, and Vazquez, Mayor Pro Tem \nPhan, and Mayor Amezcua were present. \nPLEDGE OF ALLEGIANCE Councilmember Penaloza \nCONSENT CALENDAR \n10.Donation Agreement with The Frida Cinema to Sponsor the DTSA First \nSaturday ArtWalk (General Fund) \nDepartment(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute a Donation \nAgreement with The Frida Cinema to sponsor t",
+        "vote": {
+          "id": 303,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 154,
+        "item_number": "21",
+        "section": "BUSINESS",
+        "title": "21. Resolution of the City Council of the City of Santa Ana Demonstrating Its \nSupport of Proposition 36 ",
+        "description": "Support of Proposition 36 \nDepartment(s): City Manager's Office \nRecommended Action: Adopt a Resolution supporting Proposition 36, which \nappears on the November 5, 2024, ballot and proposes changes to current laws to \nallow increased penalties for certain theft and drug crimes, as well as measures for \nrehabilitation and treatment for drug -related offenses. \nRESOLUTION NO. 2024-050 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA IN SUPPORT OF PROPOSITION 36: THE \nHOMELESSNESS, DRUG ADDICTION, AND THEFT REDUCTION ACT \nINITIATIVE \nMINUTES: City Clerk Jennifer L. Hall reported out the summary of email \ncomments received. 49. \nThe following speakers addressed City Council in person: \n1. Tanya Navarro spoke in opposition to the item. \nCITY COUNCIL 11 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\n2. Sandra spoke in opposition to the item. \n3. Bulmaro Vicente, Chispa, spoke in opposition to the item. \n4. John Ramirez spoke in support of the item. \n5. Victor Mendez spoke in support of the item. \n6. Ana Laura Padilla spoke in support of the item. \n7. Danny Vega spoke in support of the item. \nThe following speakers addressed City Council via teleconference: \n8. Ed Little spoke in opposition to the item. \nMayorAmezcua spoke regarding Propositions 47, 57, and 8109, detox programs, \nand spoke in support of the item. \nCouncilmember Hernandez spoke regarding gang violence and intervention and \nin opposition to the item. \nCouncilmember Vazquez spoke in opposition to the item. \nCouncilmember Bacerra spoke regarding treatment and in support of the item. \nCouncilmember Penaloza spoke regarding ongoing drug issues in the community \nand in support of the item. \nCouncilmember Lopez spoke regarding Prop. 36 and asked for clarification \nregarding punishment for crimes related to the proposition. \nCommander Andrade spoke regarding prosecutorial discretion. \nCouncilmember Bacerra addressed community concerns and statistics. \nMayor Pro Tern Phan spoke regarding the different",
+        "vote": {
+          "id": 306,
+          "outcome": "PASS",
+          "ayes": 4,
+          "noes": 3,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 155,
+        "item_number": "22",
+        "section": "PUBLIC_HEARING",
+        "title": "22. Public Hearing: Amendment Application (Zone Change) No. 2023-03, \nDevelopment Agreement No. 2023-02, Vesting Tentative Tract Map No. 2023- \n01, and Overrule of the Orange County Airport Land Use Commission's \nDetermination of Inconsistency for the Related Bristol Specific Plan \nEntitlements and Development Agreement (3600 S. Bristol Street) and \nResolution Modifying Parking Districts in the Surrounding Area \nLegal notice published in the OC Register and OC Reporter on September 6, 2024 \nand ",
+        "description": "Legal notice published in the OC Register and OC Reporter on September 6, 2024 \nand notices mailed on same date. \nDepartment(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution to (1) certify the Final Supplemental Environmental Impact \nReport (SEIR) No. 2022-01 (SCH No. 2020029087), including adoption of \nenvironmental findings of fact pursuant to the California Environmental Quality \nAct, (2) adopt a Statement of Overriding Considerations, and (3) adopt the \nMitigation Monitoring and Reporting Program; \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA (1) CERTIFYING THE FINAL \nSUPPLEMENTAL ENVIRONMENTAL IMPACT REPORT FOR THE RELATED \nBRISTOL SPECIFIC PLAN PROJECT (SCH NO. 2020029087), (2) ADOPTING \nENVIRONMENTAL FINDINGS OF FACT AND STATEMENT OF OVERRIDING \nCONSIDERATION CONSIDERATIONS FOR THE PROJECT PURSUANT TO \nTHE CALIFORNIA ENVIRONMENTAL QUALITY ACT, AND (3) ADOPTING \nTHE MITIGATION MONITORING AND REPORTING PROGRAM \n2. Adopt a resolution overruling the Orange County Airport Land Use \nCommission's determination that the Related Bristol Specific Plan is inconsistent \nwith the Airport Environs Land Use Plan, including supportive findings; \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA, CALIFORNIA, OVERRULING THE \nORANGE COUNTY AIRPORT LAND USE COMMISSION'S DETERMINATION \nTHAT THE PROPOSED RELATED BRISTOL SPECIFIC PLAN IS \nINCONSISTENT WITH THE AIRPORT ENVIRONS LAND USE PLAN FOR \nJOHN WAYNE AIRPORT, INCLUDING SUPPORTIVE FINDINGS \n3. Conduct a first reading and adopt an ordinance approving Amendment \nApplication No. 2023-03 to establish the Related Bristol Specific Plan No. 5 and \nto approve a zone change for the Property located at 3600 Bristol Street from \nGeneral Commercial (C2) and Commercial Residential (CR) to Related Bristol \nSpecific Plan (SP No. 6); \nCITY COUNCIL 6 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nORDINANCE NO. NS-XXXX entitled AN ORD",
+        "vote": {
+          "id": 307,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 1,
+          "absent": 0
+        }
+      },
+      {
+        "id": 156,
+        "item_number": "23",
+        "section": "PUBLIC_HEARING",
+        "title": "23. Public Hearing: Consolidated Annual Performance and Evaluation Report for \nFiscal Year 2023-24 \nLegal notice published in the Orange County Register on August 14, 2024 and in \nLa Opinion and Nguoi Viet on August 19, 2024. ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize submission of the Consolidated Annual \nPerformance and Evaluation Report to the U.S. Department of Housing and Urban \nDevelopment. \nMINUTES: MayorAmezcua opened the Public Hearing at 7.40 P.M. \nCity Clerk Jennifer L. Hall stated there were no speakers or email comments \nreceived. \nThere being no speakers, Mayor Amezcua closed the Public Hearing at 7:49 P.M. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 23, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 7-0 \n\u00d1 Pass ",
+        "vote": {
+          "id": 308,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 157,
+        "item_number": "24",
+        "section": "PUBLIC_HEARING",
+        "title": "24.Joint Public Hearing: Adopt Resolution and Approve Purchase and Sale \nAgreement for Acquisition of Real Property at the Southwest Corner of Main \nStreet and Third Street (APN 398-601.02) for Parking Lot (General Fund and \nNon -General Fund) \nLegal notice published in the OC Reporter on August 30 and September 9, 2024. ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \nCITY COUNCIL ACTION \n1. Adopt a resolution making certain findings with respect to the consideration to \nbe received by the Successor Agency pursuant to a Purchase and Sale \nAgreement between the Successor Agency and the City for the sale of the \nSouthwest Corner of Main Street and Third Street (APN 398-601-02), and \nauthorize the City Manager to execute all required documents as necessary. \nRESOLUTION NO. 2024-052 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING THE PURCHASE AND \nSALE AGREEMENT FOR THE ACQUISITION OF PROPERTY FROM THE \nSUCCESSOR AGENCY TO THE FORMER REDEVELOPMENT AGENCY OF \nTHE CITY OF SANTA ANA LOCATED AT 3RD STREET AND MAIN STREET \nPARKING LOT \n2. Authorize the City Manager to execute the Purchase and Sale Agreement and \nall required documents for the acquisition of real property located at the \nSouthwest Corner of Main Street and Third Street (APN 398-601-02) in the \namount of $190,000 plus closing costs (Agreement No. A-2024-147). \nSUCCESSOR AGENCY ACTION \n1. Adopt a resolution declaring a Successor Agency owned property as exempt \nSurplus Land for the purpose of a Purchase and Sale agreement with the City \nof Santa Ana. \nRESOLUTION NO. 2024-002 entitled A RESOLUTION OF THE SUCCESOR \nAGENCY TO THE FORMER COMMUNITY REDEVELOPMENT AGENCY OF \nTHE CITY OF SANTA ANA DECLARING 3RD STREET AND MAIN STREET \nPARKING LOT AS EXEMPT SURPLUS AND LAND PURSUANT TO THE \nEXEMPT SURPLUS LAND ACT AND AUTHORIZING, PURSUANT TO AN \nEXEMPTION FROM CEQA, THE SALE OF THE PARKING LOT PROPERTY \nTO THE CITY (includes determination that the sale of the property is exempt \nfrom the California Environmental Quality Act (CEQA) pursuant to CEQA \nGuidelines Section 15061(b)(3) and Section 15301) \nCITY COUNCIL 30 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\n2. Adopt a resolution making certain findings with respect to the consideration to \nbe received by the Successor Agency pursuant to a P",
+        "vote": {
+          "id": 309,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 158,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Appoint Alejandra Rodriguez Nominated by Councilmember Penaloza as the \nWard 6 Representative to the Historic Resources Commission for a Partial \nTerm Expiring December 8, 2026 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Alejandra Rodriguez to the Historic Resources \nCommission as the Ward 6 representative and administer the Oath of Office. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 8, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 7 -- 0 ",
+        "vote": {
+          "id": 290,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 159,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Appropriation Adjustment Recognizing $15,803 in California State Library \nFunding (General Fund) ",
+        "description": "Department(s): Library \nRecommended Action: Approve an appropriation adjustment to recognize \n$15,803 in California State Library California Library Services Act funds in the \nLibrary Miscellaneous Income revenue account and appropriate the same into the \nLibrary Tech and Support Services, Computer Software Subscriptions expenditure \naccount, to apply toward Library e-resources. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 291,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

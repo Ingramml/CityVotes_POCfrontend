@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 366,
+    "item_number": "20",
+    "title": "20. Purchase Order Contracts with Cali State Paving, Inc., Hardy & Harper, Inc., \nand Paveco Construction Inc. for On -Call Asphalt and Portland Cement \nConcrete Street Repairs (Specification No. 24-110) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Award aggregate purchase order contracts to the vendors \nlisted below for on -call asphalt and portland cement concrete street repairs on an \nas -needed basis, in an annual amount not to exceed $2,380,000, for an initial three- \nyear term expiring November 18, 2027, with provisions for two, one-year renewal \noptions. \nVendor Location \nCali State Paving, Inc. Riverside, CA \nHardy & Harper, Inc. Lake Forest, CA \nPaveco Construction Inc. Riverside, CA ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

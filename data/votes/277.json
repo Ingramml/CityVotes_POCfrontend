@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 277,
+    "item_number": "28",
+    "title": "28.Agreement with Bernards Bros, Inc., for Construction Management at Risk \nServices for the State Building Demolition Project (Project No. 24-9002) (Non - \nGeneral Fund)",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nBernards Bros, Inc. to perform Construction Management at Risk services for the \nState Building Demolition Project in the amount of $765,481, with a contingency of \n$84,519, for a total amount of $850,000, for a two-year term beginning August 20, \n2024 and expiring August 19, 2026, with an option for two, one-year extensions \n(Agreement No. A-2024-131)",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

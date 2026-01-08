@@ -1,0 +1,114 @@
+{
+  "success": true,
+  "member": {
+    "id": 3,
+    "full_name": "Jessie Lopez",
+    "short_name": "Lopez",
+    "position": "Council Member",
+    "start_date": "2020-12-08",
+    "end_date": null,
+    "is_current": true,
+    "stats": {
+      "total_votes": 436,
+      "aye_count": 418,
+      "nay_count": 9,
+      "abstain_count": 0,
+      "absent_count": 9,
+      "recusal_count": 0,
+      "aye_percentage": 95.9,
+      "participation_rate": 97.9
+    },
+    "recent_votes": [
+      {
+        "vote_id": 416,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "10",
+        "title": "AGENDA ITEM NO. 10 WAS MOVED OUT OF ORDER \n10.Re-Appoint Various Boards and Commissions Members Nominated by \nCouncilmember Lopez as the Ward 3 Representative to a Full Term Expiring \nDecember 12, 2028 ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 417,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "11",
+        "title": "11.Appoint Lawrence Klein to the Environmental and Transportation Advisory \nCommission and Oscar Rodriguez to the 2018 Santa Ana Measure X Citizens' \nOversight Committee Nominated by Councilmember Vazquez as the Ward 2 \nRepresentative for a Partial Term Expiring December 8, 2026",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 418,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "12",
+        "title": "12.Annual Development Impact Fee Report for Fiscal Year 2023-2024 ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 419,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "13",
+        "title": "13. Fiscal Year 2023-2024 General Fund Results ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 420,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "14",
+        "title": "GENDA ITEM NO. 14 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n14. Budget Calendar and Community Engagement Plan for Fiscal Year 2025-26 ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 421,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "15",
+        "title": "15. Citywide Purchase Order to Daily Journal Corporation for Legal Notices, \nPublic Awareness Advertising and Publishing Services (Specification No. 24- \n119) (General Fund and Non -General Fund)",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 353,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "16",
+        "title": "16.Agreement with Mekong Printing Inc. dba MK Printing for Offset Printing \nServices (Specification No. 24-082A) (General Fund and Non -General Fund) ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 422,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "17",
+        "title": "17.Agreement with Wittman Enterprises, LLC for Ambulance and Paramedic \nBilling and Collection Services (Specification No. 24-104) (General Fund) ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 423,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "18",
+        "title": ". \n18.Agreements with Dynamic Video Communications, LLC; JPW \nCommunications, Inc.; Pegasus Studios; and TV Pro Gear, Inc., for Video \nProduction and Technical Services ",
+        "outcome": "PASS",
+        "vote_choice": "AYE"
+      },
+      {
+        "vote_id": 424,
+        "meeting_date": "2024-12-17",
+        "meeting_type": "regular",
+        "item_number": "19",
+        "title": "19.Agreement with CivicPlus, LLC for the use of CivicRec Recreation ",
+        "outcome": "PASS",
+        "vote_choice": "NAY"
+      }
+    ]
+  }
+}

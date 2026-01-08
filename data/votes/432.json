@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 432,
+    "item_number": "27",
+    "title": "27. Resolution Authorizing the Executive Director of the Public Works Agency to \nExecute Program Supplement Agreements with the State of California \nDepartment of Transportation as Required by Master Agreement No. \n64SantaAnaMA and Approve Master Agreement for California State \nTransportation Agency Transit and Intercity Rail Capital Program No. \n64SantaAnaMA to Secure Transit and Intercity Rail Capital Program Grant \nFunds ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize the City Manager to execute a California State Transportation Agency \nTransit and Intercity Rail Capital Program Master Agreement No. \n64SantaAnaMA for TIRCP-Funded Projects with the State of California \nDepartment of Transportation (Agreement No. A-2024-216). \n2. Adopt a resolution authorizing the Executive Director of the Public Works \nAgency to execute all program supplement agreements required by Master \nAgreement for California State Transportation Agency Transit and Intercity Rail \nCITY COUNCIL 16 DECEMBER 17, 2024 \n\n\nCapital Program No. 64SantaAnaMA with the State of California Department of \nTransportation to reimburse the City for Transit and Intercity Rail Capital \nProgram -Funded projects. \nRESOLUTION NO. 2024-078 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AUTHORIZING THE EXECUTIVE \nDIRECTOR OF PUBLIC WORKS AGENCY TO EXECUTE ALL PROGRAM \nSUPPLEMENT AGREEMENTS REQUIRED BY THE TRANSIT AND \nINTERCITY RAIL CAPITAL PROGRAM (TIRCP) MASTER AGREEMENT NO. \n64SANTAANAMA FOR TIRCP-FUNDED PROJECTS BETWEEN THE CITY \nOF SANTA ANA AND THE STATE OF CALIFORNIA DEPARTMENT OF \nTRANSPORTATION ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 10,
+    "meeting_date": "2024-12-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

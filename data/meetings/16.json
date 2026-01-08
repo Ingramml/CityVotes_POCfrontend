@@ -1,0 +1,300 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 16,
+    "meeting_date": "2024-03-19",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/39256",
+    "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/39793",
+    "video_url": "https://youtube.com/watch?v=7Re91G1PXaY",
+    "agenda_item_count": 19,
+    "vote_count": 19,
+    "agenda_items": [
+      {
+        "id": 310,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Approve an Appropriation Adjustment and an Amendment to the Fiscal Year \n2023- 2024 Capital Improvement Program to Add Funds to the Automated \nMetering Infrastructure Project (Project No. 16-6460) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment to transfer $1,300,000 from Water Utility \nProduction & Supply, Miscellaneous Operating Expenses account and \n$1,550,000 in Water Meter Services, Contract Services \u00d1 Professional account, \nCITY COUNCIL 9 MARCH 19, 2024 \n\n\nto the Acquisition & Construction, Water Utility Capital Projects, Water Capital \nProject expenditure account. (Requires five affirmative votes) \n2. Approve an amendment to the Fiscal Year 2023-2024 Capital Improvement \nProgram to include $4,500,000 in construction funds for the Automated Metering \nInfrastructure Project. (Project No. 16-6460) ",
+        "vote": {
+          "id": 76,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 311,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Approve Appropriation Adjustment Recognizing $725,000 in Housing \nAssistance Payment Funds for Emergency Housing Vouchers ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Approve an appropriation adjustment recognizing housing \nassistance funding in the amount of $725,000 in revenue account (no. 17918002- \n52011) and appropriating the same amount to expenditure account (no. 17918760- \n69158) to administer existing vouchers. (Requires five affirmative votes). ",
+        "vote": {
+          "id": 77,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 312,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Award Approve the Homeless Housing, Assistance, and Prevention (HHAP) \nRound 5 Application ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Approve the submission of the Homeless Housing, \nAssistance, and Prevention (HHAP) Program Round 5 Application to receive funding \nfrom the State of California's Homeless Coordinating and Financing Council (HCFC) \nto address homelessness. ",
+        "vote": {
+          "id": 78,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 313,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13.City of Santa Ana 2023 General Plan Annual Progress Report \nDepartment(s): Planning and Building Agency ",
+        "description": "Recommended Action: \n1. Receive and file the City of Santa Ana 2023 General Plan Annual Progress \nReport; and \n2. Authorize staff to submit the City of Santa Ana 2023 General Plan Annual \nProgress Report to the State of California Department of Housing and Community \nDevelopment (HCD) and the Office of Planning and Research (OPR). ",
+        "vote": {
+          "id": 79,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 314,
+        "item_number": "14",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 14 PULLED FROM CONSENT CALENDAR FOR SEPARATE \nDISCUSSION. \n14.Approve Destruction of Obsolete City Records ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Approve the request for the destruction of obsolete \nrecords from the Public Works Agency's Engineering Services Division, \nDevelopment and Construction Engineering Section in accordance with the \nretention schedule outlined in City Council Resolution 2013-014. \nMINUTES: Councilmember Penaloza spoke in support of the item and requested \nthe removal of Bristol Street Widening Project records until the project has been \ncompleted. \nMayor Amezcua asked for the years of the requested records for destruction. \nPublic Works Director Nabil Saba stated the records are from prior to 2012. \nCouncilmember Lopez spoke regarding the retention policy and asked for \nclarification regarding the type of records requesting to be destroyed. \nDirector Saba spoke regarding the type of records prepared for destruction. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 14, as amended to retain any records related to the \nBristol Street Widening Project, seconded by Councilmember Hernandez. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, \nHERNANDEZ, COUNCILMEMBER \nCOUNCILMEMBER VAZQUEZ, MAYOR \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+        "vote": {
+          "id": 81,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 315,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15. Receive and File Citywide Sports Field Renovation Schedule",
+        "description": "Department(s): Public Works Agency \nCOUNCILMEMBER \nPENALOZA, \nPRO TEM PHAN, \nRecommended Action: Receive and file Citywide Sports Field Renovation \nSchedule for 2024 to 2025. ",
+        "vote": {
+          "id": 82,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 316,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Award Purchase Order Contract with Lightbox Parent, L.P. for Geographic \nInformation System Data Services Subscription (Specification No. 24-024) (Non - \nGeneral Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award a Purchase Order Contract with Lightbox Parent, L. \nP. to provide Geographic Information System Data Services for a total not to exceed \namount of $281,326, including an annual contingency of $5,000, for a term beginning \non April 16, 2024 and expiring April 15, 2029. ",
+        "vote": {
+          "id": 83,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 317,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Award Blanket Order Contract to Dell Marketing L.P. for Desktop Laptops, Mobile \nDevices, and Related Equipment in an Amount Not to Exceed $8,100,000 \n(Specification No. 24-037) (General and Non -General Fund) ",
+        "description": "epartment(s): Information Technology \nRecommended Action: Award Blanket Order Contract to Dell Marketing L.P. for \ndesktop computers, laptops, mobile devices, and related equipment for a twenty -one -month \nperiod expiring November 30, 2025 with provisions for five, one-year renewal options, in an \nannual amount not to exceed $1,200,000. ",
+        "vote": {
+          "id": 84,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 318,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18.Amend the Agreement with Hanson Bridget, LLP (General Fund) \nDepartment(s): City Attorney's Office ",
+        "description": "Recommended Action: Authorize the City Manager to execute a first amendment \nto the Agreement with Hanson Bridgett, LLP to provide legal and investigative \nservices, increasing the amount of the compensation by $125,000 for a total \nagreement amount of $175,000, and revise the term of the Agreement through June \n30, 2025, with an option to extend for up to one (1) year (Agreement No. \nA-2024-032). ",
+        "vote": {
+          "id": 85,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 319,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19. Approve and Agreement with Invengo America Corporation DBA FE Technologies \nfor Maintenance Services and Equipment for the Delhi Library Branch ",
+        "description": "Department(s): Library \nRecommended Action: Authorize the City Manager to execute an agreement with \nInvengo America Corporation DBA FE Technologies to provide maintenance \nservices and library equipment for the Delhi Library Branch for a three-year term \nending March 15, 2027 in an amount not to exceed $40,212 (Agreement No. \nA-2024-033). ",
+        "vote": {
+          "id": 86,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 320,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20. Approve an Amendment with Sedans, formerly known as ID Modeling, Inc., for \nWater System Computer Modeling and Engineering Services (Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a third amendment \nto the agreement with Sedaru, formerly known as ID Modeling, Inc., for Water System \nComputer Modeling and Engineering Services, to extend the existing term through \nDecember 31, 2024, with no supplementary expenses to the previously executed \namount (Agreement No. A-2024-034). ",
+        "vote": {
+          "id": 87,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 321,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21.Approve Second Amendments to Agreements with AESCO, Inc., Kleinfelder, \nInc., and RMA Group, Inc. for On -Call Material Testing and Special Inspection \nServices (Non- General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute the second \namendments to the standard agreement with AESCO, Inc., Kleinfelder, Inc., and \nRMAGroup, Inc. to provide on -call material testing and special inspection services \nand increase the contract amount by $2,000,000, for a total amount not to exceed \n$4,000,000 for the remaining term (Core Agreement No. A-2024-035). ",
+        "vote": {
+          "id": 88,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 322,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22. Approve First Amendments to Agreements with Tetra Tech, Inc., Ardurra \nGroup, Inc., Psomas, Kimley-Horn and Associates, Inc., Huitt-Zollars, Inc., and \nTait & Associates, Inc. for On -Call Engineering Services (Non -General Fund) ",
+        "description": "Tait & Associates, Inc. for On -Call Engineering Services (Non -General Fund) \nDepartment(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute first amendments \nto the agreements with Tetra Tech, Inc., Ardurra Group, Inc., Psomas, Kimley-Horn \nand Associates, Inc., Huitt-Zollars, Inc., and Tait & Associates, Inc. for on -calf \nengineering services to increase the agreement amount by $750,000, for a total \naggregate agreement amount not to exceed $2,750,000 for the remaining term of the \nagreement which began on August 16, 2022 and expires on August 15, 2025, with a \nprovision for two, one year optional extensions (Core Agreement No. \nA-2024-036). \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 22 as part of the consent calendar, seconded by \nCouncilmember Lopez. \nCITY COUNCIL 13 MARCH 19, 2024 \n\n\nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN \nABSENT: NONE \nStatus: 6 \u00d1 0 -1 \u00d1 Pass ",
+        "vote": {
+          "id": 89,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 1,
+          "absent": 0
+        }
+      },
+      {
+        "id": 323,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "AGENDA ITEM NO. 23 PULLED FROM CONSENT CALENDAR FOR SEPARATE \nDISCUSSION. \n23. Resolutions to Increase the City Manager's Office and Police Department \nHeadcount, Amend the City's Classification and Compensation Plan, and \nApprove the City Council Appointee Salary Schedule ",
+        "description": "Headcount, Amend the City's Classification and Compensation Plan, and \nApprove the City Council Appointee Salary Schedule \nDepartment(s): City Manager's Office \nRecommended Action: Adopt resolutions to increase the City Manager's Office \nand Police Department headcount, amend the City's classification and compensation \nplan, and approve the City Council Appointee salary schedule. \nRESOLUTION NO. 2024-006 entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA TO AMEND THE CURRENT FISCAL YEAR 2023-2024 \nANNUAL BUDGET TO ADD FULL-TIME POSITIONS IN THE CITY MANAGER'S \nOFFICE AND THE POLICE DEPARTMENT \nRESOLUTION NO. 2024-007 entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE CITY'S \nCLASSIFICATION AND COMPENSATION PLAN \nRESOLUTION NO.2024-008 entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA TO ADOPT AND APPROVE A COUNCIL \nAPPOINTEE SALARY SCHEDULE IN COMPLIANCE WITH TITLE 2 OF THE \nCALIFORNIA CODE OF REGULATIONS SECTION 570.5 AND THE CALIFORNIA \nPUBLIC EMPLOYEES' RETIREMENT SYSTEM (CALPERS) \nMINUTES: Councilmember Bacerra spoke in support of a new deputy city \nmanager position, stated this was a form of defunding the police, and spoke in \nopposition to reallocating funds. \nCouncilmember Lopez asked for clarification regarding the statement of \ndefunding police. \nInterim City Manager Tom Hatch spoke regarding the proposed reallocation of \nfunds and filling vacancies. \nCITY COUNCIL 14 MARCH 19, 2024 \n\n\nActing Police Chief Robert Rodriguez spoke regarding the positive impacts of \nreallocating funds. \nCouncilmember Lopez spoke in support of the item. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 23, seconded by Councilmember Vazquez. \nMINUTES: Councilmember Penaloza spoke in support of a new deputy city \nmanager position, expressed concern regarding the major changes to the Police \nDepartment, and spoke regarding defunding sworn police officers. \nSUBSTI",
+        "vote": {
+          "id": 56,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 324,
+        "item_number": "24",
+        "section": "BUSINESS",
+        "title": "24.Ordinance Establishing Distance Requirement for Targeting Residential \nPicketing ",
+        "description": "Picketing \nDepartment(s): City Manager's Office \nRecommended Action: \n1. Adopt an urgency ordinance establishing distance requirements for targeted \nresidential picketing. \nORDINANCE NO. NS-XXX entitled AN URGENCY ORDINANCE OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA IN ACCORDANCE WITH SANTA \nANA CHARTER SECTIONS 415 AND 417 TO ESTABLISH DISTANCE \nREQUIREMENTS FOR TARGETED RESIDENTIAL PICKETING (includes \ndetermination that the ordinance is not subject to the California \nCITY COUNCIL 16 MARCH 19, 2024 \n\n\nEnvironmental Quality Act (CEQA) pursuant to Sections 15060(c)(2) and \n15060(c)(3)); and \n2. Approve first reading of an ordinance establishing distance requirements for \ntargeted residential picketing. If approved, Article 1 section 10-110 would be \namended and entitled \"Targeted Residential Picketing\" and sections 10-111 \nand 10- 112 will be added to the Santa Ana Municipal Code. \nORDINANCE NO. NS-XXX entitled AN ORDINANCE OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AMENDING CHAPTER 10, \nARTICLE 1, SECTION 10- 110 AND ADDING SECTIONS 10-111 AND \n10-112 OF THE SANTA ANA MUNICIPAL CODE TO ESTABLISH \nDISTANCE REQUIREMENTS FOR TARGETED RESIDENTIAL PICKETING \n(includes determination that the ordinance is not subject to the California \nEnvironmental Quality Act (CEQA) pursuant to Sections 15060(c)(2) and \n15060(c)(3)). \nMINUTES: City Attorney Sonia Carvalho announced the proposed ordinance is a staff \ndriven item and spoke regarding the proposed ordinance. \nCouncilmember Hernandez spoke regarding First Amendment rights and spoke in \nopposition to the item. \nCouncilmember Vazquez spoke regarding protesting and spoke in opposition to the \nitem. \nCouncilmember Lopez spoke regarding her personal experience regarding \ninconvenience, spoke in support of an amended noise ordinance, and asked for \nclarification regarding permitting and violation of First Amendment rights. \nCity Attorney Carvalho spoke regarding protested picketing and language in the \nproposed ordinance. \nC",
+        "vote": {
+          "id": 57,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 325,
+        "item_number": "25",
+        "section": "BUSINESS",
+        "title": "AGENDA ITEM NO. 25 WAS CONTINUED TO A FUTURE CITY COUNCIL \nMEETING. \n25.Youth Commission Informational Report ",
+        "description": " Department(s): Parks, Recreation, and Community Services \nRecommended Action: Accept information report and provide direction to staff. \nCITY COUNCIL 18 MARCH 19, 2024 \n\n\nAGENDA ITEM NO. 26 WAS CONTINUED TO A FUTURE CITY COUNCIL \nMEETING. ",
+        "vote": {
+          "id": 68,
+          "outcome": "CONTINUED",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 326,
+        "item_number": "26",
+        "section": "BUSINESS",
+        "title": "26. Early Direction for the Fiscal Year 2024-25 Budget ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Provide direction for preparation of the proposed FY \n2024-25 budget. ",
+        "vote": {
+          "id": 69,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 327,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "Representative to the Youth Commission for a Partial -Term Expiring in \nDecember 10, 2024 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Wyatt Malfavon to the Youth Commission as the \nCitywide representative and administer the Oath of Office. ",
+        "vote": {
+          "id": 74,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 328,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Substance Abuse and Public Intoxication Enforcement Informational Report 4th \nQuarter 2023 ",
+        "description": "Department(s): Police Department \nRecommended Action: Receive and file. ",
+        "vote": {
+          "id": 75,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 281,
+    "item_number": "31",
+    "title": "AGENDA ITEM NO. 31 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n31. License Agreement with K&C Logistics, LLC for their use of City -Owned East \nand West Alton Avenue/SR-55 Freeway Parcel",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a license \nagreement with K&C Logistics, LLC for use of real property owned by the City at \nthe western terminus of Alton Avenue between Standard Avenue and the SR-55 \nFreeway and at the eastern terminus of Alton Avenue between Daimler Street and \nthe SR-55 Freeway, for a three-year term beginning August 20, 2024 and expiring \nAugust 19, 2027, automatically entering into a month -to -month renewal thereafter \nfor an additional two years, for a total revenue amount of $1,590,640 (Agreement \nNo. A-2024-134). \nMINUTES: Councilmember Bacerra requested modifications to Section 3H of the \nagreement to include for the licensee to keep the area and perimeter free of weeds \nand vegetation. Additionally, he proposed to add a provision to the section to post \nsigns in accordance with Santa Ana Municipal Code Section 10-96 and CCP \nSection 602. \nCouncilmember Penaloza raised concerns regarding neglect, citing the Bristol and \nWarner lots as examples. He asked whether the seven-day notice period could be \neliminated and if the contract could instead include a provision for termination if the \nlicensee fails to comply. \nCity Manager Alvaro Nunez stated that the key component was to receive some \nlevel of funding, and assured that City staff would do their due diligence to ensure \nproper property maintenance. He proposed providing the licensee with a 48-hour \nnotice period if the property fails to meet compliance standards. \nDiscussion ensued regarding the timeframe for providing notice related to the \nproperty maintenance. \nCITY COUNCIL 16 AUGUST 20, 2024 \n\n\nCity Manager Nunez suggested a 72-hour period. \nCouncilmember Penaloza agreed to the 72-hour timeframe. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 31, as amended to change section 3H to require \nmaintaining the licensed and perimeter area within 72-hours and to add to \nsection three with a re",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

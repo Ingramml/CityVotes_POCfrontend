@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 249,
+    "item_number": "17",
+    "title": "17. Second Amendments to Agreements for Rotational Towing and Storage \nServices ",
+    "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute second \namendments to the agreements with the following contractors to allow two one-year \nextensions to the term and exercise the first extension option from September 1, \n2024 through August 31, 2025, and to increase the compensation fee schedule for \nrotational towing and storage services: \n1. Standard Enterprises, Inc. dba To' and Mo' (Agreement No. A-2024-113); \n2. Greater Southern California Towing, Inc. (Agreement No. A-2024-114); \n3. B&D Towing, Inc. (Agreement No. A-2024-115); and \nCITY COUNCIL 11 AUGUST 6, 2024 \n\n\n4. MetroPro Road Services, Inc. (Agreement No. A-2024-116) ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 9,
+    "meeting_date": "2024-08-06",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

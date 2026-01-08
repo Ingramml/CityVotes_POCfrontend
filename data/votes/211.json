@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 211,
+    "item_number": "9",
+    "title": "9. Adopt a Resolution and Approve an Appropriation Adjustment to Accept the \nState California Volunteers Award Agreement JP2017-GFI ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Adopt a resolution to accept the State California Volunteers grant award, and \nauthorize the City Manager to enter into State of California \u00d1 Department of \nGeneral Services, Standard Agreement No. JP2017-GF1 (Grant Agreement) for \n$2,000,000 for the Youth Employment Project (Project). \nRESOLUTION NO. 2024-027 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING THE ACCEPTANCE OF GRANT \nFUNDS FOR CALIFORNIA VOLUNTEERS 2023 #CALIFORNIANSFORALL \nYOUTH SERVICE CORPS THROUGH THE STATE OF CALIFORNIA FOR THE \nCITY OF SANTA ANA YOUTH EMPLOYMENT PROJECT \n2. Authorize the City Manager, or designee, to conduct all negotiations, sign, and \nsubmit all documents, including, but not limited to applications, agreements, \namendments, and payment requests, which may be necessary for the completion \nof the Project scope, including but not limited to agreements with contractors, \nconsultants, and vendors detailed in Exhibit B Budget Detail of the Grant \nAgreement (Agreement No. A-2024-140). \n3. Approve an appropriation adjustment to recognize $2,000,000 in funds from ARPA \n- CA FOR ALL YOUTH WDP-State Grant -Direct account (no. 18318002-52025) \nand appropriating the same amount to expenditure account (no. 18318763- \nvarious). (Requires five affirmative votes)",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 13,
+    "meeting_date": "2024-06-18",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 236,
+    "item_number": "24",
+    "title": "AGENDA ITEM NO. 24 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n24. Resolution to Effect Certain Changes to the City's Basic Classification and \nCompensation Plan ",
+    "description": "Department(s): Human Resources \nRecommended Action: Adopt a resolution to effect certain changes to the City's \nbasic classification and compensation plan. \nRESOLUTION NO. 2024-038 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE CITY'S \nCLASSIFICATION AND COMPENSATION PLAN \nMINUTES: Councilmember Bacerra requested to move the item for all units except \nSEIU, and to bring back the SE1U unit for separate discussion. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 24, as amended, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

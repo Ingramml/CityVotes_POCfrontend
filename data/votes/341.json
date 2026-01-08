@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 341,
+    "item_number": "17",
+    "title": "17. Cooperative Agreement with Orange County Transportation Authority for the \nMcFadden Avenue Transit Signal Priority Pilot Project (Project No. 25-6030) \n(Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing Regional Early Action \nPlanning 2.0 funding in the amount of $3,690,000 into the Public Services -Street \nSafety Projects, State Grant -Indirect revenue account and appropriate the same \namount into the Regional Early Action Planning Grant, Improvements Other \nThan Building expenditure account. (Requires five affirmative votes) \n2. Authorize the City Manager to execute a cooperative agreement with Orange \nCounty Transportation Authority in an amount not to exceed $3,690,000, for the \ndesign, construction, and evaluation of the McFadden Avenue Transit Signal \nPriority Pilot Project, effective upon full approval of the agreement through \nDecember 31, 2026, with the option to be extended (Agreement No. A-2024- \n168). \n3. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $3,690,000 in design and construction funds for \nthe McFadden Avenue Transit Signal Priority Pilot Project (No. 25-6030). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 12,
+    "meeting_date": "2024-10-15",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

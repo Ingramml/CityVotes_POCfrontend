@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 379,
+    "item_number": "33",
+    "title": "33.Investigation Regarding Councilmember Johnathan Ryan Hernandez \n(Continued from the Special Meeting of October 28, 2024; Item No. 1)",
+    "description": "Department(s): City Manager's Office \nRecommended Action: Discuss and Address Potential Remedies Regarding the \nInvestigator's Sustained Findings Regarding Councilmember Johnathan Ryan \nHernandez and Take Potential Action or Direct Staff Accordingly. \nMOTION: Councilmember Lopez moved to receive and file the investigation \nreport, seconded by Councilmember Penaloza. \nMINUTES: Mayor Pro Tem Phan spoke regarding the investigation report, \nrequested that Councilmember Hernandez attend training related to working with \nstaff, and that he recuse himself from the appointment of Mayor Pro Tem for one \nyear. \nMINUTES: Councilmember Bacerra requested a formal censure and \nCouncilmember Hernandez be removed from all boards, commissions, and \ncommittees he currently serves on. \nCouncilmember Lopez spoke regarding the lack of consistency regarding \nCouncil's processes. \nCITY COUNCIL 23 NOVEMBER 19, 2024 \n\n\nSUBSTITUTE MOTION: Mayor Pro Tern Phan moved to receive and file the \ninvestigation report, require training related to working with staff, and to have \nCouncilmember Hernandez not be eligible to serve as Mayor Pro Tem for one- \nyear, seconded by Councilmember Penaloza. \nThe substitute motion carried, 4-2-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nPENALOZA, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ, COUNCILMEMBER VAZQUEZ \nABSTAIN: COUNCILMEMBER HERNANDEZ \nABSENT: NONE \nStatus: 4 \u00d1 2 - 1\u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 4,
+    "noes": 2,
+    "abstain": 1,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

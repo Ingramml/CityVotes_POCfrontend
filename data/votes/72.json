@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 72,
+    "item_number": "17",
+    "title": "17.Adopt a Resolution to Appoint a Voting Delegate and an Alternate to the \nIndependent Cities Risk Management Authority (ICRMA) Board of Directors ",
+    "description": "epartment(s): Human Resources \nRecommended Action: Adopt a resolution to appoint a voting delegate and an alternate \nto the ICRMA Board of Directors \nRESOLUTION NO. 2024-004 entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA TO FULFILL ITS OBLIGATION AS A MEMBER OF THE \nINDEPENDENT CITIES RISK MANAGEMENT AUTHORITY (ICRMA) TO APPOINT A \nVOTING DELEGATE AND AN ALTERNATE TO THE ICRMA BOARD OF \nDIRECTORS \nMINUTES: Councilmembers Bacerra and Penaloza left the meeting at 7:49 P.M. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 3,
+    "meeting_date": "2024-03-05",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

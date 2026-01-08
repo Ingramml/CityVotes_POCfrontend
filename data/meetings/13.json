@@ -1,0 +1,225 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 13,
+    "meeting_date": "2024-06-18",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/41218",
+    "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/42435",
+    "video_url": "https://youtube.com/watch?v=OBdZrrAO1RQ",
+    "agenda_item_count": 14,
+    "vote_count": 14,
+    "agenda_items": [
+      {
+        "id": 252,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Adopt a Resolution Approving the City's Annual Statement of Investment Policy \n2024-2025; Receive and File Annual Statement of Investment Policy 2024-2025",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: \n1. Adopt a Resolution approving the City's 2024-2025 Investment Policy. \nRESOLUTION NO. 2024-028 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING THE CITY'S STATEMENT OF \nINVESTMENT POLICY \nCITY COUNCIL 8 JUNE 18, 2024 \n\n\n2. Receive and file the Annual Statement of Investment Policy 2024-2025. ",
+        "vote": {
+          "id": 188,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 253,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Adopt a Resolution Establishing the Appropriations Limit of the City of Santa \nAna for FY 2024-25 ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Adopt a resolution establishing the appropriations limit of \nthe City of Santa Ana for FY 2024-25, as required by state law. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA ESTABLISHING THE APPROPRIATION LIMIT OF THE \nCITY OF SANTA ANA FOR FISCAL YEAR 2024-2025 ",
+        "vote": {
+          "id": 189,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 254,
+        "item_number": "12",
+        "section": "GENERAL",
+        "title": "12. Adoption of a Memorandum of Understanding (MOU) Establishing the Terms and \nConditions of Employment for Classifications Represented by the Santa Ana Police \nOfficers Association (SAPOA) Effective January 1, 2024 through June 30, 2027, and \nAdoption of a Resolution Updating the Compensation and Salary Schedule of Sworn \nClassifications of the Santa Ana Police Management Association (SAPMA) ",
+        "description": "!i \nDepartment(s): Human Resources \nRecommended Faction- \n1. Authorize the City Manager to execute a Memorandum of Understanding with \nSAPOA regarding wages, hours, and other terms and conditions of employment \neffective January 1, 2024 through June 30, 2027, and authorize non -substantive \nchanges which may be necessary to implement the agreement (Agreement No. \nA-2024-088); and \n2. Approve a Resolution updating the compensation and salary schedule for sworn \nclassifications of the SAPMA. \nRESOLUTION NO. 2024-030 entitled A RESOLUTION OF THE CITY COUNCIL \nOF l-l-IE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE \nCITY'S CLASSIFICATION AND COMPENSATION PLAN \nMINUTES Councilmember Penaloza spoke in support of the item. \nMayorAmezcua spoke in support of the item and spoke regarding the need to retain \nand hire personnel. \nCITY COUNCIL 9 JUNE 18, 2024 \n\n\nCouncilmember Lopez spoke regarding the City's structural deficit, asked for \nclarification regarding the impact and plan for funding the following years, and \nexpressed concern regarding the budget trajectory. \nActing City Manager Alvaro Nunez spoke regarding the budget and outlook of \nMeasure X. \nCouncilmember Bacerra spoke in support of the item. \nMayor Pro Tem Phan spoke regarding the cost associated with MOU and previous \nMOU approvals, and in support of the item. \nCouncilmember Vazquez spoke in opposition to the item and expressed concern \nregarding the budget. \nCouncilmember Hernandez spoke in opposition to the item and spoke regarding \nhaving a balanced budget. \nCouncilmember Penaloza spoke regarding the City's fiscal future and previous \nMOU approvals for SAPOA. \nMayor Pro Tem Phan spoke regarding union compensation approvals and police \ncompensation and classification study, and spoke in support of the item. \nCouncilmember Bacerra spoke regarding the political components. \nCouncilmember Lopez spoke regarding fair compensation and competitiveness and \nexpressed concern regarding the fiscal impact. \nMayor Pr",
+        "vote": {
+          "id": 197,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 255,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13. Adopt a Resolution Authorizing Ceremonial Street Naming of Virginia and William \nGuzman Way (General Fund)",
+        "description": "Department(s): Public Works Agency \nRecommended Action: 1. Adopt a resolution authorizing the Ceremonial Street \nNaming of Virginia and William Guzman Way along Santa Ana Boulevard from Pacific \nAvenue to Forest Avenue. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA DIRECTING AND AUTHORIZING A CEREMONIAL \nSTREET NAME OF VIRGINIA AND WILLIAM GUZMAN WAY ALONG SANTA ANA \nBOULEVARD FROM PACIFIC AVENUE TO FOREST AVENUE \n2. Direct Staff to install two ceremonial street signs along Santa Ana Boulevard at the \nintersections of Pacific Avenue and Forest Avenue. ",
+        "vote": {
+          "id": 202,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 256,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14. Adopt a Resolution Authorizing Ceremonial Street Naming of Warren Bussey Square \n(General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: 1. Adopt a resolution authorizing the Ceremonial Street \nNaming of Warren Bussey Square at the intersection of Pacific Avenue and Walnut \nStreet. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA DIRECTING AND AUTHORIZING A CEREMONIAL \nSTREET NAME OF WARREN BUSSEY SQUARE AT THE INTERSECTION OF \nPACIFIC AVENUE AND WALNUT STREET \n2. Direct Staff to install two ceremonial street signs at the intersection of Pacific \nAvenue and Walnut Street. ",
+        "vote": {
+          "id": 203,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 257,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15. Second Reading of the Local Resident Preference in Affordable Housing Ordinance \nFirst reading at the June 4, 2024 City Council meeting and approved by a vote of 7-0. \nPublished in the OC Reporter on June 10, 2024. ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Conduct a second reading of the Local Resident \nPreference in Affordable Housing Ordinance to comply with the State of California \nPage 10 6/18/2024 \n\n\nLocal Tenant Preferences to Prevent Displacement Act and codify the City's existing \nlocal resident preference policy. \nORDINANCE NO. NS-3066 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA CREATING A NEW ARTICLE XXI IN CHAPTER 8 OF \nTHE MUNICIPAL CODE TO CODIFY THE CITY'S LOCAL RESIDENT \nPREFERENCE IN AFFORDABLE HOUSING (includes determination that the \nordinance is not subject to the California Environmental Quality Act (CEQA) pursuant \nto Sections 15060(c)(2) because the activity will not result in a direct or reasonably \nforeseeable indirect physical change in the environment and 15060(c)(3) because the \nactivity is not a project as defined in Section 15378 of the CEQA Guidelines) ",
+        "vote": {
+          "id": 212,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 258,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16. Second Reading and Adoption of City Council Ordinance No. NS-3067 Appropriating \nMonies to the Several Offices, Agencies, and Departments of the City of Santa Ana \nfor the Fiscal Year Budget Period Commencing July 1, 2024 (REVISED) \nFirst reading at the June 4, 2024 City Council meeting and approved by a vote of 7-0. \nPublished in the OC Reporter on June 10, 2024. ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Approve the second reading and adopt Ordinance No. NS- \n3067 to appropriate monies to the several offices, agencies, and departments of the \nCity for Fiscal Year 2024-25 (FY24-25), which begins on July 1, 2024 and ends on \nJune 30, 2025. (Requires five affirmative votes) \nUNCODIFIED ORDINANCE NO. NS-3067 entitled AN UNCODIFIED ORDINANCE \nOF THE CITY COUNCIL OF THE CITY OF SANTA ANA APPROPRIATING MONIES \nTO SEVERAL OFFICES, AGENCIES, AND DEPARTMENTS OF THE CITY FOR \nFISCAL YEAR BUDGET PERIOD COMMENCING JULY 1, 2024 ",
+        "vote": {
+          "id": 213,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 259,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17. Review of City Charter Amendments Concerning Rent Stabilization Ordinance and \nNon -Citizen Voting and Resolutions Required to Submit to Voters at the November 5, \n2024 Municipal Election Ballot Measures Relating to Proposed Charter Amendments \nConcerning Ethics Code, Capital Improvement Funds, City Clerk and City Attorney \nAuthority, Civil Service, and Council Compensation ",
+        "description": "Department(): City Attorney's Office \nRecommended Actin: \n1. Adopt a resolution giving notice of the City's General Municipal Election to be \nheld in the City of Santa Ana on November 5, 2024 for the submission of \nquestions to the voters relating to proposed amendments to the City Charter; \nRESOLUTION NO. 2024-033 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA GIVING NOTICE OF A GENERAL \nMUNICIPAL ELECTION TO BE HELD IN THE CITY OF SANTA ANA ON \nNOVEMBER 5, 2024 FOR THE SUBMISSION TO THE VOTERS OF \nQUESTIONS RELATING TO THE AMENDMENT OF THE CITY CHARTER IN \nREGARD TO SECTIONS 401.5 (ETHICS CODE), 402 (COUNCIL \nCOMPENSATION), 611 (CAPITAL IMPROVEMENT FUNDS), 702 (CITY \nCLERIC AUTHORITY), 703 (CITY ATTORNEY AUTHORITY), 1002 (CIVIL \nSERVICE), AND 1103 (BONDS) \n2. Adopt a resolution designating the ballot questions related to the proposed City \nCharter amendments; \nRESOLUTION NO. 2024-034 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA SETTING FORTH THE LANGUAGE \nOF BALLOT TITLES FOR CITY CHARTER AMENDMENTS REGARDING \nCLEAN-UP OF OBSOLETE SECTIONS, CIVIL SERVICE, ETHICS CODE, \nCITY CLERK AND CITY ATTORNEY AUTHORITY AND COUNCIL \nCOMPENSATION TO BE INCLUDED ON THE BALLOT FOR THE 2024 \nGENERAL MUNICIPAL ELECTION \nCITY COUNCIL 13 JUNE 18, 2024 \n\n\n3. Review City Charter amendments concerning rent stabilization and just cause \neviction ordinance and consider whether to adopt revised resolution; and \nRESOLUTION NO. 2024-035 entitled RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA GIVING NOTICE OF A GENERAL MUNICIPAL \nELECTION TO BE HELD IN THE CITY OF SANTA ANA ON NOVEMBER 5, \n2024 FOR THE SUBMISSION OF A BALLOT MEASURE TO THE QUALIFIED \nVOTERS PROPOSING A RENT STABILIZATION AND JUST CAUSE \nEVICTION ORDINANCE AND REQUESTING THE ORANGE COUNTY \nBOARD OF SUPERVISORS TO CONSOLIDATE THIS ELECTION WITH THE \nSTATEWIDE GENERAL ELECTION \n4. Review City Charter amendment concerning non -citizen voting and consider \nwhether to adopt revi",
+        "vote": {
+          "id": 214,
+          "outcome": "PASS",
+          "ayes": 0,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 260,
+        "item_number": "4",
+        "section": "CONSENT",
+        "title": "4. Appoint Noylen Adoni Munoz Nominated by Councilmember Penaloza as the \nWard 6 Representative to the Youth Commission for a Partial Term Expiring \nDecember 8, 2026 ",
+        "description": "\u00a8epartment(s): City Clerk's Office \nCITY COUNCIL 6 JUNE 18, 2024 \n\n\nRecommended Action: Appoint Neylen Adoni Munoz to the Youth Commission as \nthe Ward 6 representative and administer the Oath of Office. (Pursuant to SAMC \nSec. 2-326(a), requires five affirmative votes) ",
+        "vote": {
+          "id": 206,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 261,
+        "item_number": "5",
+        "section": "CONSENT",
+        "title": "5. Approve Agreement with Elite Command Training for Training Services in the \nAmount of $279,890 for the Urban Areas Security Initiative Grant Program \n(Non -General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute an agreement, with \nElite Command Training to provide on -going training deliverables to the \nAnaheim/Santa Ana Urban Area on an as -needed basis, for the three-year period \nof June 18, 2024 through June 17, 2027, with two one-year renewal options, in an \namount not to exceed $279,890 (Agreement No. A-2024-083). ",
+        "vote": {
+          "id": 207,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 262,
+        "item_number": "6",
+        "section": "CONSENT",
+        "title": "6. Approve Agreement with CDCE, Inc. for Mobile Data Communications \nEquipment and Installation Services (Spec No. 24-064) (General Fund and \nNon -General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute an agreement with \nCDCE, Inc. to provide mobile data communications equipment and installation \nservices in an amount not to exceed $524,724 including a $25,000 contingency \namount, for a term beginning June 18, 2024 and expiring June 17, 2029 \n(Agreement No. A-2024-084). ",
+        "vote": {
+          "id": 208,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 263,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "7. Approve an Agreement with Community SeniorServ, Inc. dba Meals On Wheels \nOrange County for the Senior Meals Program (General Fund) ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nCommunity SeniorServ, Inc. dba Meals On Wheels Orange County for the Senior \nMeals Program in an amount of $90,300 for base services (Home Delivered Meals \nand Lunch Cafe Programs) and $9,700 for additional as needed services, for a total \nnot to exceed amount of $100,000 for the period July 1, 2024 to June 30, 2025 to be \nfunded by the General Fund (Agreement No. A-2024-085). ",
+        "vote": {
+          "id": 209,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 264,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Approve an Agreement with Coach Max Corp and Elite Executive Charter, LLC \nto Provide Charter Bus Transportation Services (General Fund) ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute aggregate \nagreements with Coach Max Corp and Elite Executive Charter, LLC to provide charter \nCITY COUNCIL 7 JUNE 18, 2024 \n\n\nbus transportation for City programs and events for a term from July 1, 2024 through \nJune 30, 2027, with two (2), one (1) year renewal options for a total amount, including \nextensions, not -to -exceed $500,000 (General Fund) (Agreement Nos. A-2024-086 \nand A-2024-087). ",
+        "vote": {
+          "id": 210,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 265,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Adopt a Resolution and Approve an Appropriation Adjustment to Accept the \nState California Volunteers Award Agreement JP2017-GFI ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Adopt a resolution to accept the State California Volunteers grant award, and \nauthorize the City Manager to enter into State of California \u00d1 Department of \nGeneral Services, Standard Agreement No. JP2017-GF1 (Grant Agreement) for \n$2,000,000 for the Youth Employment Project (Project). \nRESOLUTION NO. 2024-027 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING THE ACCEPTANCE OF GRANT \nFUNDS FOR CALIFORNIA VOLUNTEERS 2023 #CALIFORNIANSFORALL \nYOUTH SERVICE CORPS THROUGH THE STATE OF CALIFORNIA FOR THE \nCITY OF SANTA ANA YOUTH EMPLOYMENT PROJECT \n2. Authorize the City Manager, or designee, to conduct all negotiations, sign, and \nsubmit all documents, including, but not limited to applications, agreements, \namendments, and payment requests, which may be necessary for the completion \nof the Project scope, including but not limited to agreements with contractors, \nconsultants, and vendors detailed in Exhibit B Budget Detail of the Grant \nAgreement (Agreement No. A-2024-140). \n3. Approve an appropriation adjustment to recognize $2,000,000 in funds from ARPA \n- CA FOR ALL YOUTH WDP-State Grant -Direct account (no. 18318002-52025) \nand appropriating the same amount to expenditure account (no. 18318763- \nvarious). (Requires five affirmative votes)",
+        "vote": {
+          "id": 211,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

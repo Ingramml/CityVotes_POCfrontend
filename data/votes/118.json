@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 118,
+    "item_number": "21",
+    "title": "21. Memorandum of Understanding for the Master Plan of Arterial Highways with \nthe Orange County Transportation Authority and the City of Irvine ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a Memorandum of \nUnderstanding for the Master Plan of Arterial Highways Amendment with the \nOrange County Transportation Authority and the City of Irvine (Agreement No. A- \n2024-XXX). \nMINUTES: Mayor Pro Tem Phan recused herself from Agenda Item No. 21 as the \nlisted entity, City of Irvine, is a client of her employer, Rutan and Tucker and left the \ndais at 8:45 P.M. \nMayor Amezcua asked for clarification regarding the amount the City of Irvine will \nbe paying. \nPublic Works Director Nabil Saba stated the City of Irvine would pay an estimate of \n$37,000 for the intersection of Flower and Segerstrom and $45,000 for the \nintersection of Flower and MacArthur and spoke regarding the total cost. \nCouncilmember Bacerra spoke regarding the mitigation of the intersections and \nexpressed concern regarding the impacts to the community. \nMOTION: Councilmember Bacerra moved to table Agenda Item No. 21 and \ndirect staff to work with OCTA and the City of Irvine related to amending the \nmitigation measures, seconded by Councilmember Penaloza. \nThe motion carried, 6-0-1, by the following roll call vote: \nCITY COUNCIL 12 APRIL 16, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 -- 0 ---1 -- Pass ",
+    "outcome": "PASS",
+    "ayes": 0,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 4,
+    "meeting_date": "2024-04-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "RECUSAL"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

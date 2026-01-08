@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 226,
+    "item_number": "15",
+    "title": "15.Agreements with Willdan Engineering Inc., TKE Engineering, Inc., Charles \nAbbott Associates, Inc., Harris & Associates, Inc., and Cannon Corporation \nfor On -Call Engineering Plan Check Services ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute agreements with \nthe firms listed below to provide on -call engineering plan check services for a three- \nyear period beginning July 16, 2024, and expiring June 30, 2027, with a provision \nfor one, two-year renewal option for a total aggregate amount not to exceed \n$1,500,000 for the term of the agreement and for the total annual compensation not \nto exceed $300,000, including renewal options, exercisable by the City Manager \n(Core Agreement No. A-2024-099). \nFirms \nLocation \nWilldan Engineering, Inc. \nAnaheim, CA \nTKE Engineering, Inc. \nRiverside, CA \nCharles Abbott Associates, Inc. \nMission Viejo, CA \nHarris & Associates, Inc. \nIrvine, CA \nCannon Corporation \nIIrvine, CA ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 41,
+    "item_number": "27",
+    "title": "27. Receive and File Boards and Commissions Biannual Attendance Report for \nJune through December 2023 ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Receive and file Boards and Commissions Biannual \nAttendance Report. \nMINUTES: Mayor Amezcua requested vacancies be filled on boards and \ncommissions and directed staff to look at disbanding boards that have never met. \nShe expressed concern regarding lack of quorum on boards and commissions. \nCouncilmember Bacerra asked how many times the Youth Commission has met \nand requested staff work on convening the Youth Commission meeting. \nParks, Recreation, and Community Services Director Hawk Scott stated the \nYouth Commission has only met once over the last year and spoke regarding the \nlack of quorum. \nMayor Amezcua suggested changing the location of the meeting and/or \nfacilitating transportation needs. \nCouncilmember Penaloza questioned the Youth Commission stipend and \nwhether the Commission meets in person or via Zoom. \nCITY COUNCIL 17 FEBRUARY 20, 2024 \n\n\nCity Clerk Jennifer L. Hall stated all stipends have increased for all boards and \ncommissions and spoke regarding Brown Act rules related to meeting location \nand teleconferencing. \nCity Attorney Sonia Carvalho explained legislative body Brown Act rules related \nto the Youth Commission. \nCouncilmember Penaloza spoke regarding advertising on social media. \nCouncilmember Vazquez suggested picking up and dropping off youth \ncommissioners for their meetings. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 27 and direct staff to return with options for the Youth \nCommission, seconded by Councilmember Vazquez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

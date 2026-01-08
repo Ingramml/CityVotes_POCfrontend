@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 267,
+    "item_number": "19",
+    "title": "19.Agreement with Cherry Bekaert Advisory LLC for Indirect Cost Allocation \nPlan and Internal Service Fund Cost Allocation Methodology Services",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nCherry Bekaert Advisory LLC for Indirect Cost Allocation Plan and Internal Service \nFund Cost Allocation Methodology Services for a total aggregate amount not to \nexceed $150,000 for a three-year term beginning August 20, 2024 and expiring \nAugust 19, 2027, with a provision for a two-year extension (Agreement No. A- \n2024-125). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

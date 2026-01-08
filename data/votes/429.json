@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 429,
+    "item_number": "24",
+    "title": "24.Application for the State of California Department of Housing and Community ",
+    "description": "Development Prohousing Incentive Program \nDepartment(s): Community Development Agency \nRecommended Action: \n1. Adopt a resolution authorizing the City Manager to apply for up to $1 million in \ngrant funding from the State of California Department of Housing and \nCommunity Development (HCD) Prohousing Incentive Program. \nRESOLUTION NO. 2024-075 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AUTHORIZING APPLICATION FOR, \nAND RECEIPT OF, PROHOUSING INCENTIVE PROGRAM FUNDS \n2. If awarded Prohousing Incentive Program grant funding from HCD, authorize \nthe City Manager to execute an agreement with the State of California, in the \nform of HCD's \"Standard Agreement,\" for receipt of the Prohousing Incentive \nProgram grant funding for an amount up to $1 million, and any other documents \nrequired by HCD to secure the grant, if approved, as to form by the City Attorney. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 10,
+    "meeting_date": "2024-12-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

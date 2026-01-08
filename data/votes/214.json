@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 214,
+    "item_number": "17",
+    "title": "17. Review of City Charter Amendments Concerning Rent Stabilization Ordinance and \nNon -Citizen Voting and Resolutions Required to Submit to Voters at the November 5, \n2024 Municipal Election Ballot Measures Relating to Proposed Charter Amendments \nConcerning Ethics Code, Capital Improvement Funds, City Clerk and City Attorney \nAuthority, Civil Service, and Council Compensation ",
+    "description": "Department(): City Attorney's Office \nRecommended Actin: \n1. Adopt a resolution giving notice of the City's General Municipal Election to be \nheld in the City of Santa Ana on November 5, 2024 for the submission of \nquestions to the voters relating to proposed amendments to the City Charter; \nRESOLUTION NO. 2024-033 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA GIVING NOTICE OF A GENERAL \nMUNICIPAL ELECTION TO BE HELD IN THE CITY OF SANTA ANA ON \nNOVEMBER 5, 2024 FOR THE SUBMISSION TO THE VOTERS OF \nQUESTIONS RELATING TO THE AMENDMENT OF THE CITY CHARTER IN \nREGARD TO SECTIONS 401.5 (ETHICS CODE), 402 (COUNCIL \nCOMPENSATION), 611 (CAPITAL IMPROVEMENT FUNDS), 702 (CITY \nCLERIC AUTHORITY), 703 (CITY ATTORNEY AUTHORITY), 1002 (CIVIL \nSERVICE), AND 1103 (BONDS) \n2. Adopt a resolution designating the ballot questions related to the proposed City \nCharter amendments; \nRESOLUTION NO. 2024-034 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA SETTING FORTH THE LANGUAGE \nOF BALLOT TITLES FOR CITY CHARTER AMENDMENTS REGARDING \nCLEAN-UP OF OBSOLETE SECTIONS, CIVIL SERVICE, ETHICS CODE, \nCITY CLERK AND CITY ATTORNEY AUTHORITY AND COUNCIL \nCOMPENSATION TO BE INCLUDED ON THE BALLOT FOR THE 2024 \nGENERAL MUNICIPAL ELECTION \nCITY COUNCIL 13 JUNE 18, 2024 \n\n\n3. Review City Charter amendments concerning rent stabilization and just cause \neviction ordinance and consider whether to adopt revised resolution; and \nRESOLUTION NO. 2024-035 entitled RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA GIVING NOTICE OF A GENERAL MUNICIPAL \nELECTION TO BE HELD IN THE CITY OF SANTA ANA ON NOVEMBER 5, \n2024 FOR THE SUBMISSION OF A BALLOT MEASURE TO THE QUALIFIED \nVOTERS PROPOSING A RENT STABILIZATION AND JUST CAUSE \nEVICTION ORDINANCE AND REQUESTING THE ORANGE COUNTY \nBOARD OF SUPERVISORS TO CONSOLIDATE THIS ELECTION WITH THE \nSTATEWIDE GENERAL ELECTION \n4. Review City Charter amendment concerning non -citizen voting and consider \nwhether to adopt revi",
+    "outcome": "PASS",
+    "ayes": 0,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 13,
+    "meeting_date": "2024-06-18",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "NAY"
+      }
+    ]
+  }
+}

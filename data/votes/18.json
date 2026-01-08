@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 18,
+    "item_number": "20",
+    "title": "20. Second Amendment to Agreement with California Barricade Rentals, Inc. for Traffic \nControl Equipment and Services at City Events to Increase the Total Agreement Not \nTo Exceed Amount by $185,000 through March 31, 2025, for a New Total Not to \nExceed Amount of $400,000 (General Fund) ",
+    "description": "Department(s): Parks, Recreation, and Community Services \nCITY COUNCIL 19 JANUARY 16, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute a second amendment to \nthe agreement with California Barricade Rentals, Inc. for traffic control equipment and \nservices at City events to increase the total agreement not to exceed amount by $185,000 \nthrough March 31, 2025 for a new total not -to -exceed amount of$400,000 (Agreement \nNo. A-2024-013) . ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

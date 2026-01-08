@@ -1,0 +1,525 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 34,
+    "vote_count": 34,
+    "agenda_items": [
+      {
+        "id": 87,
+        "item_number": "10",
+        "section": "GENERAL",
+        "title": "10. Quarterly Report for Housing Division Projects and Activities for the Period \nof October 1, 2023 to December 31, 2023 ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Receive and file the Quarterly Report for Housing \nDivision Projects and Activities for the period of October 1, 2023 to December 31, \n2023. \nMINUTES: Councilmember Bacerra spoke regarding the in -lieu fees generated \nand asked for clarification regarding the inclusionary housing in -lieu fees received \nfor FY 23124. \nCommunity Development Executive Director Mike Garcia stated The Met paid the \nin -lieu fees based upon their development agreement in advance. \nPlanning and Building Director Minh Thai spoke regarding the development \nagreement with The Met. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 10, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 24,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 88,
+        "item_number": "11",
+        "section": "GENERAL",
+        "title": "11. Homeless Services Quarterly Report for the Period of October 1, 2023 \nthrough December 31, 2023 ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Receive and file the Quarterly Report for Homeless \nServices Projects and Activities for the period of October 1, 2023 through \nDecember 31, 2023. \nMINUTES: Councilmember Bacerra spoke regarding CityNet services and cases, \nasked whether tracking of services has been done, and stated the City does not \nhave a homeless problem but rather a crime problem. \nHomeless Services Manager Kenneth Gominsky spoke regarding offered \nprograms and services provided. \nCouncilmember Lopez stated the City does have a homeless problem. \nMayor Amezcua asked for clarification regarding the street exits housing \nplacement. \nManager Gominsky spoke regarding street outreach. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 11, seconded by Councilmember Hernandez. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: MAYOR PRO TEM PHAN \nStatus: 6 \u00d1 0 \u00d1 1 - Pass ",
+        "vote": {
+          "id": 25,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 1,
+          "absent": 0
+        }
+      },
+      {
+        "id": 89,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Appropriations Adjustment Recognizing Grant Revenue in the Amount of \n$1,086,754 for the California State Library Building Forward Library Facilities \nImprovement Program for the Newhope Library Renovation Project and Use \nof Previously Appropriated Funds in the Amount of $271,688 for the Local \nMatch Requirement ",
+        "description": "Department(s): Library \nRecommended Action: \n1. Approve an appropriation adjustment to recognize $1,086,754 in grant revenue \nfrom the California State Library and appropriate $1,086,754 into the \nappropriate expenditure accounts to implement the program. (Requires five \naffirmative votes) \n2. Approve the use of previously appropriated Cannabis Public Benefit funds for \nthe local match requirement in the amount of $271,688. ",
+        "vote": {
+          "id": 26,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 90,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13.Approve Appropriation Adjustment in the Amount of $1,150,000 and \nAdditional Contingency Funds in the Amount of $1,100,000 for an Existing \nConstruction Contract with James W. Fowler Co., and Additional Contract \nAdministration, Inspection, and Testing in the Amount of $50,000 with an \nEstimated Project Delivery Cost of $8,400,000 for the SR-55IRitchey Street \nWater Improvements Projects (Project Nos.19-6438, 19-6439, 19-6440) \n(Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment to recognize $1,150,000 in \nreimbursement obligation funds from Orange County Transportation Authority \n(OCTA), as stipulated in the three Utility Reimbursement Agreements for the \nState Route 55 Improvement Project, into the Acquisition & Construction, \nWater Utility Capital Projects, Expense Reimbursement-OCTA revenue \naccount and appropriate the same amount into the Acquisition & Construction, \nWater Utility Capital Projects, Water Capital Project expenditure account. \n(Requires five affirmative votes) \n2. Approve an amendment to the Project Cost Analysis in the amount of \n$1,150,000 for $1,100,000 in additional contingency funds and $50,000 in \nadditional contract administration, inspection, and testing for a new estimated \ntotal construction delivery cost of $8,400,000. ",
+        "vote": {
+          "id": 27,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 91,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "\n14.Approve an Appropriation Adjustment for the Santa Ana Regional \nTransportation Center Transit Beautification Projects ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Approve an appropriation adjustment to recognize \n$1,975,000 in Clean California Local Grant Program funding from the California \nDepartment of Transportation for the Santa Ana Regional Transportation Center \nPainting and Wrought Iron Fencing project, and the Santa Ana Regional \nTransportation Center Outdoor Water Fountain Renovation project. (Requires five \naffirmative votes) ",
+        "vote": {
+          "id": 28,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 92,
+        "item_number": "15",
+        "section": "GENERAL",
+        "title": "15. Approve an Appropriation Adjustment and Award a Purchase Order to Santa \nAna Guaranty Chevrolet Motors, Inc. for Eight EV Blazer SUVs, in an Amount \nNot -to- Exceed $563,304 (Bid No. 23-184A) (Non -General and General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $214,364 in prior -year fund \nbalance in the Air Quality Improvement (AB 2766) Fund, Prior Year Carry \nForward revenue account and appropriate the same amount into the Fleet \nServices -Air Quality Improvement expenditure account. (Requires five \naffirmative votes) \n2. Authorize a one-time purchase and payment of purchase order to Santa Ana \nGuaranty Chevrolet Motors, Inc. for eight Chevrolet EV Blazer SUVs, in an \namount not -to -exceed $518,304, with a $45,000 contingency. \nMINUTES: Councilmember Bacerra spoke regarding community outreach and \nthanked Public Works Director Nabil Saba and staff for their hard work and \nefforts. \nCouncilmember Hernandez thanked the Public Works Agency for keeping the \npurchase local. \nMayor Pro Tem Phan asked whether all future purchases will be EV and \nregarding federal funding opportunities for EV purchases. \nPublic Works Director Nabil Saba spoke regarding future purchases, state \nrequirements, and federal funding opportunities. \nCITY COUNCIL 11 FEBRUARY 20, 2024 \n\n\nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 15, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER \nHERNANDEZ, \nCOUNCILMEMBER \nVAZQUEZ, MAYOR \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 7 \u00d1 0 \n\u00d1 Pass \nBACERRA, COUNCILMEMBER \nCOUNCILMEMBER LOPEZ, \nPENALOZA, COUNCILMEMBER \nPRO TEM PHAN, MAYOR AMEZCUA ",
+        "vote": {
+          "id": 30,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 93,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Award a Purchase Order to Econolite Control Products, Inc. in an Amount of \n$94,720 (Bid No. 23-176) (Non -General Fund) ",
+        "description": "epartment(s): Public Works Agency \nRecommended Action: Authorize a one-time purchase and payment of purchase \norder to Econolite Control Products, Inc. for ten assembled traffic signal controller \ncabinets in an amount of $94,720 plus a contingency of $5,000, for a total amount \nnot to exceed $99,720. ",
+        "vote": {
+          "id": 31,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 94,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Award Aggregate Inventory Blanket Order Contracts for Water Meter Boxes \nand Lids to Core & Main and Ferguson Enterprises LLC, dba Ferguson \nWater Works, in a Total Aggregate Amount Not to Exceed of $3,000,000 for a \nthree-year term beginning February 6, 2024 and Expiring February 5, 2027, \nWith Provisions for up to Three Additional One -Year Renewal Periods \n(Specification No. 23-102) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award Blanket Order Contracts to Core & Main and \nFerguson Enterprises LLC, dba Ferguson Water Works, to provide water meter \nboxes and lids for a shared aggregate amount not to exceed $3,000,000, for a \nthree- year term beginning February 6, 2024 and expiring February 5, 2027, with \nprovisions for three, one-year renewal periods, in accordance with each vendor's \nrespective contract terms and conditions.",
+        "vote": {
+          "id": 32,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 95,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18.Approve an Appropriation Adjustment and a Lease Agreement with \nRailWorks Track Services, Inc. for Office Space at the Santa Ana Regional \nTransportation Center for a Five -Month Term with 12 One -Month Extensions, \nfor a Total Amount of $73,031 (Non- General Fund) ",
+        "description": "for a Total Amount of $73,031 (Non- General Fund) \nDepartment(s): Public Works Agency \nCITY COUNCIL 12 FEBRUARY 20, 2024 \n\n\nRecommended Action: \n1. Authorize the City Manager to execute a site lease agreement with Railworks \nTrack Services, Inc. to compensate the City $4,356 per month, with any partial \nmonth prorated at $145 per day, for the lease of 1,452 square feet of office \nspace located at the Santa Ana Regional Transportation Center, for a \nfive -month term beginning February 6, 2024 and ending June 30, 2024, with \nthe option of 12 one -month extensions, for a total of $73,031 in lease revenue \nfor the entire term of the agreement, including the optional extensions \n(Agreement No. A-2024-019). \n2. Approve an appropriation adjustment recognizing Fiscal Year 2023-24 lease \nincome in the amount of $20,759 into the SARTC Operations, \nRental-RailWorks revenue account and appropriate the same amount to the \nSARTC Operations, Contractual Services -Professional expenditure account. \n(Requires five affirmative votes) ",
+        "vote": {
+          "id": 33,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 96,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19.Approve an Appropriation Adjustment and Approve an Eighth Amendment \nwith Landscape West Management Service, Inc. to Increase the Contract \nAmount by $277,500 for Landscape Services (Project No. 24-6602) \n(Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment accepting $75,000 in the PWA \nEnterprise Capital Grants, Miscellaneous Revenue account and appropriate \nthe same amount to the WaterSMART-Watershed Mgmt Prog expenditure \naccount. (Requires five affirmative votes) \n2. Authorize the City Manager to execute an eighth amendment to the agreement \nwith Landscape West Management Services, Inc. to increase the contract \namount by $277,500, for a total agreement amount not to exceed $8,499,500 \n(Agreement A-2024-020). ",
+        "vote": {
+          "id": 34,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 97,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20.Approve Third Agreement Amendments for Emergency On -Call Water and \nSewer Repair Services with Mike Prlich & Sons, Inc., Paulus Engineering, \nInc., and TE Roberts, Inc. ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute the third \namendment to agreements with Mike Prlich & Sons, Inc., Paulus Engineering, \nInc., and TE Roberts, Inc. for on -call emergency sewer and water system repair \nservices to increase the annual shared agreement amount by $850,000, for an \nupdated annual amount of $2,050,000, for the remaining term of the agreement \nexpiring August 19, 2024 (Core Agreement A-2024-021). ",
+        "vote": {
+          "id": 35,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 98,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21.Approve an Agreement with Working Wardrobes to Provide Workforce \nDevelopment Services to Unemployed People with Barriers to Employment ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute an agreement \nwith Working Wardrobes for workforce development services, including workforce \nreadiness workshops, job development, career planning, and job training in an \namount not to exceed $742,000, for a term commencing February 6, 2024 and \nexpiring December 31, 2025 (Agreement No. A-2024-022). \nMINUTES: Councifinember Hernandez and Mayor Amezcua spoke in support of \nthe agreement. ",
+        "vote": {
+          "id": 36,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 99,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22.Agreement with Torti Gallas + Partners, Inc. (TGP) to Assist the City with the \nDevelopment and Adoption of a Public Realm Plan for Each of the Five \nGeneral Plan Focus Areas in an Amount Not to Exceed $799,282 \n(Specification No. 23-011) (General Fund and Non -General Fund) ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: Authorize the City Manager to execute an agreement \nwith Neal I. Payton Architectural Corporation dba Torti Gallas + Partners, Inc. \n(TGP) to assist the City with the development and adoption of a Public Realm \nPlan for each of the five General Plan Focus Areas, in an amount not to exceed \n$799,282 for a two- year term beginning on February 6, 2024 and expiring on \nJanuary 31, 2026, with provisions for a one two-year extension (Agreement No. \nA-2024-023). ",
+        "vote": {
+          "id": 22,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 100,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "23.Adopt a Resolution Amending the Classification and Compensation Plan for \nClassifications of Employment Designated as Unrepresented Executive \nManagement ",
+        "description": "Department(s): Human Resources \nRecommended Action: Adopt a Resolution that amends the City's Classification \nand Compensation Plan for classifications of employment designated as \nunrepresented Executive Management (EM) to adjust the salary schedule of the \nLibrary Services Director. \nRESOLUTION NO. 2024-001 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE \nCITY'S CLASSIFICATIONS OF EMPLOYMENT DESIGNATED AS \nUNREPRESENTED EXECUTIVE MANAGEMENT (EM) ",
+        "vote": {
+          "id": 37,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 101,
+        "item_number": "24",
+        "section": "CONSENT",
+        "title": "24.Amendment Application No. 2023-04 and Zoning Ordinance Amendment No. \n2023- 03 for the Expansion of Vista Heritage Charter School Located at 601 \nNorth Fairview Street (Second Reading) \nLegal notice published in the OC Reporter on January 19, 2024. ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action. \n1. Conduct a second reading and adopt an ordinance approving Amendment \nApplication (Zone Change) No. 2023-04. \nORDINANCE NO. NS-3055 entitled AN ORDINANCE OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING AMENDMENT \nAPPLICATION NO. 2023-04 AMENDING THE ZONING FOR THE \nPROPERTY LOCATED AT 601 NORTH FAIRVIEW STREET (APN: \n405-241-04) FROM LIGHT INDUSTRIAL (M1) TO SPECIFIC DEVELOPMENT \nNO. 82 (SD-82) \n2. Conduct a second reading and adopt an ordinance approving Zoning \nOrdinance Amendment (ZOA) No. 2023-03 as conditioned. \nORDINANCE NO. NS-3056 entitled ZONING ORDINANCE AMENDMENT \nNO. 2023- 03 - AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF \nSANTA ANA AMENDING SPECIFIC DEVELOPMENT NO. 82 (SD-82) TO \nEXPAND THE BOUNDARIES OF THE SD-82 AND TO AMEND VARIOUS \nSECTIONS OF THE SD- 82 TO ALLOW FOR THE CREATION OF THREE (3) \nLAND USE ZONES, NEW PERMITTED USES AND ANCILLARY USES, AND \nADMINISTRATIVE REQUIREMENTS FOR PROPERTY MAINTENANCE, \nCOVENANTS, CONDITIONS AND RESTRICTIONS (CC&RS) AND \nRECIPROCAL PARKING AND ACCESS AGREEMENTS \n3. Determine that adoption of these ordinances is exempt from further review \nunder the California Environmental Quality Act (CEQA) pursuant to sections \n15301 and 15183 of the CEQA guidelines. ",
+        "vote": {
+          "id": 38,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 102,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25.Ordinance Amendment No. 2023-04 amending Article 11.11 of Chapter 2 \n(Sunshine Ordinance) of the Santa Ana Municipal Code (SAMC) Addressing \nApplicability of Ordinance to Specific Development Amendments (Second \nReading); Ordinance Amendment No. 2023-05 to Update Chapter 14 (Fire \nProtection and Prevention and Emergency Services) of the SAMC \nAddressing Eligibility for Permits for the Sale of Safe and Sane Fireworks \n(Second Reading); and Zoning Ordinance Amendment No. 2023-04 to \nUpdate Chap",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Find and determine that the adoption of these ordinances is exempt from \nfurther review under the California Environmental Quality Act (CEQA) pursuant \nto sections 15060(c)(2) and 15060(c)(3) of the CEQA Guidelines, as amended \nfrom time to time. \n2. Conduct a second reading and adopt an ordinance approving Ordinance \nAmendment No. 2023-04 amending Article I1.11 of Chapter 2 (Sunshine \nOrdinance) of the SAMC addressing applicability of the ordinance to specific \ndevelopment amendments. \nORDINANCE NO. NS-3057 entitled ORDINANCE AMENDMENT NO. 2023-04 \n-- AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA \nAMENDING CHAPTER 2 (ADMINISTRATION) OF THE SANTA ANA \nMUNICIPAL CODE RELATING TO PUBLIC INPUT THROUGH COMMUNITY \nMEETINGS \n3. Conduct a second reading and adopt an ordinance approving Ordinance \nAmendment No. 2023-05 amending Chapter 14 (Fire Protection and \nPrevention and Emergency Services) addressing eligibility for permits for the \nsale of safe and sane fireworks. \nORDINANCE NO. NS-3058 entitled ORDINANCE AMENDMENT NO. 2023-05 \n\u00d1 AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA \nAMENDING PORTIONS OF CHAPTER 14 (FIRE PROTECTION AND \nPREVENTION AND EMERGENCY SERVICES) OF THE SANTA ANA \nMUNICIPAL CODE RELATING TO SAFE AND SANE FIREWORKS \n4. Conduct second reading and adopt an ordinance approving Zoning Ordinance \nAmendment No. 2023-04 amending Chapter 41 (Zoning) of the SAMC \naddressing billboards and general restrictions. \nCITY COUNCIL 16 FEBRUARY 20, 2024 \n\n\nORDINANCE NO. NS-3059 entitled ZONING ORDINANCE AMENDMENT \nNO. 2023- 04 \u00d1 AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF \nSANTA ANA AMENDING PORTIONS OF CHAPTER 41 (ZONING) OF THE \nSANTA ANA MUNICIPAL CODE RELATING TO GENERAL RESTRICTIONS \nAND BILLBOARDS ",
+        "vote": {
+          "id": 39,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 103,
+        "item_number": "26",
+        "section": "CONSENT",
+        "title": "26.Appoint Nathaniel Greensides Nominated by Councilmember Hernandez as \nthe Ward 5 Representative to the Personnel Board for a Partial \u00d1Term \nExpiring December 10, 2024 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Nathaniel Greensides to the Personnel Board as \nthe Ward 5 representative and administer the Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Nathaniel \nGreensides.",
+        "vote": {
+          "id": 40,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 104,
+        "item_number": "27",
+        "section": "GENERAL",
+        "title": "27. Receive and File Boards and Commissions Biannual Attendance Report for \nJune through December 2023 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Receive and file Boards and Commissions Biannual \nAttendance Report. \nMINUTES: Mayor Amezcua requested vacancies be filled on boards and \ncommissions and directed staff to look at disbanding boards that have never met. \nShe expressed concern regarding lack of quorum on boards and commissions. \nCouncilmember Bacerra asked how many times the Youth Commission has met \nand requested staff work on convening the Youth Commission meeting. \nParks, Recreation, and Community Services Director Hawk Scott stated the \nYouth Commission has only met once over the last year and spoke regarding the \nlack of quorum. \nMayor Amezcua suggested changing the location of the meeting and/or \nfacilitating transportation needs. \nCouncilmember Penaloza questioned the Youth Commission stipend and \nwhether the Commission meets in person or via Zoom. \nCITY COUNCIL 17 FEBRUARY 20, 2024 \n\n\nCity Clerk Jennifer L. Hall stated all stipends have increased for all boards and \ncommissions and spoke regarding Brown Act rules related to meeting location \nand teleconferencing. \nCity Attorney Sonia Carvalho explained legislative body Brown Act rules related \nto the Youth Commission. \nCouncilmember Penaloza spoke regarding advertising on social media. \nCouncilmember Vazquez suggested picking up and dropping off youth \ncommissioners for their meetings. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 27 and direct staff to return with options for the Youth \nCommission, seconded by Councilmember Vazquez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 41,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 105,
+        "item_number": "28",
+        "section": "GENERAL",
+        "title": "28.Approve an Addendum to the Fiscal Year 2023-24 Request for Proposals for \nAffordable Homeownership Opportunities ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to issue an Addendum to the \nFiscal Year 2023-24 Request for Proposals for Affordable Homeownership \nOpportunities to expand the types of eligible proposals for affordable rental projects \nwith a development site preference for specific areas in the City and revise the name \nto Request for Proposals for Affordable Housing Development. \nMINUTES: Councilmember Bacerra asked for clarification regarding the means of \ncontact to affordable housing membership associations, developers, and non- \nprofit organizations, questioned the targeted five areas, and requested staff do \nproactive research and come back with a status update within six -months. \nCITY COUNCIL 18 FEBRUARY 20, 2024 \n\n\nCommunity Development Executive Director Mike Garcia stated staff conducted \nphone calls, emails, and letters as a form of awareness and notification to \naffordable housing membership associations, developers, and non-profit \norganizations, spoke regarding the process of the RFP and the proposed \naddendum, and focused areas for single lot development. He suggested an open - \nuntil -filled process with an initial review of RFP responses by April 1, 2024 and a \nsix-month deadline. \nCouncilmember Lopez spoke in support of the item and requested staff be \ncautions with larger corporations renting out the affordable housing units and an \nexpansion of the hotel conversion area. \nCouncilmember Hernandez spoke in support of the item. \nMOTION: Councilmember Lopez moved to approve the recommended \naction for Item No. 28, as amended to staff being cautions with larger \ncorporations renting out affordable housing units and an expansion of the \nhotel conversion area, seconded by Councilmember Hernandez. \nMINUTES: Councilmember Bacerra asked for clarification regarding the \nexpansion of the targeted five areas and the amount of tax revenue generated \nrelated to affordable housing. He stated affordable housing is no",
+        "vote": {
+          "id": 43,
+          "outcome": "PASS",
+          "ayes": 4,
+          "noes": 3,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 106,
+        "item_number": "29",
+        "section": "CONSENT",
+        "title": "29.Approve an Appropriation Adjustment to Recognize Additional Measure M2 \nRegional Capacity Program Funds and Amend the FY 2023-24 Capital \nImprovement Program for Bristol Street Improvements Phase 3A & 4 \n(Projects 13-6792, 11-6741) (Non- General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve appropriation adjustments to recognize additional approved Measure \nM2 Competitive funds by the Orange County Transportation Authority due to \nincreased construction costs in the amounts of $205,949 and $317,276 for Bristol \nStreet Improvements Phase 3A & 4 (Project No. 13-6792, 11-6741). (Requires \nfive affirmative votes) \n2. Approve amendments to the Fiscal Year 2023-24 Capital Improvement Program \nto add the additional Measure M2 Competitive funds to Bristol Street \nImprovements Phase 3A & 4 (Project No. 13-6792, 11-6741). ",
+        "vote": {
+          "id": 44,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 107,
+        "item_number": "30",
+        "section": "CONSENT",
+        "title": "30.Approve an Appropriation Adjustment and Award a Purchase Order to \nNational Auto Fleet Group for Two Ford F-150 Lightning EV Trucks in an \nAmount Not to Exceed $168,287 (Bid No. 24-007) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $168,287 in prior -year fund \nbalance in the Air Quality Improvement (AB 2766) Fund, Prior Year Carry \nForward revenue account and appropriate the same amount into the Fleet \nServices -Air Quality Improvement expenditure account. (Requires five \naffirmative votes) \n2. Authorize a one-time purchase and payment of a Purchase Order to National \nAuto Fleet Group for two, new 2024 Ford F-150 Lightning EV trucks in the \namount of $148,287 plus a contingency amount of $20,000, for a total amount \nnot to exceed $168,287. ",
+        "vote": {
+          "id": 45,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 108,
+        "item_number": "31",
+        "section": "CONSENT",
+        "title": "31.Authorize an Appropriation Adjustment and Award a Purchase Order Contract \nto Musco Sports Lighting, LLC for LED Sports Lighting with Related Supplies \nand Services in an Amount Not to Exceed $732,955 (Specfication No. 24-020) \n(Non- General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize a one-time purchase and payment of a Purchase Order to Musco \nSports Lighting, LLC for the purchase of LED sports lighting, control and \nmonitoring system, and installation services for the Santiago Sports Complex in \nan amount not -to -exceed $732,955, including a contingency of $63,736. \n2. Authorize an Appropriation Adjustment for $732,955 from District 2 Acquisition \nand Development Fees Account (Acct. No. 31213002-53300) to District 2 \nImprovements Other than Buildings Account (Acct. No. 31213260-66220). \n(Requires five affirmative votes) ",
+        "vote": {
+          "id": 46,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 109,
+        "item_number": "32",
+        "section": "CONSENT",
+        "title": "32.Award a Purchase Order in the Amount of $71,532 to AirGaps, LLC for Firewall \nHardware and Services (Specification No. 24-015) (Non -General Fund) ",
+        "description": "Department(s): Information Technology \nRecommended Action: Authorize a one-time purchase and payment of Purchase \nOrder to AirGaps, LLC for firewall hardware and services in an amount not to exceed \n$71,532. ",
+        "vote": {
+          "id": 47,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 110,
+        "item_number": "33",
+        "section": "CONSENT",
+        "title": "33.Amend Blanket Order Contract with Smart & Final Stores LLC for Sundry Food \nand Paper Goods, for a Revised Annual Amount Not -to -Exceed $80,000 \n(Specification No. 19-046) (General Fund) ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an amendment to \nincrease Blanket Order Contract authority with Smart & Final Stores LLC for the \npurchase of sundry food and paper goods by $35,000, for a revised annual amount \nnot to exceed $80,000 for the current contract term expiring June 1, 2024, and allow \nautomatic renewal of each annual contract term until terminated. ",
+        "vote": {
+          "id": 48,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 111,
+        "item_number": "34",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM PULLED FROM CONSENT CALENDAR FOR SEPARATE \nDISCUSSION \n34.Award Aggregate Blanket Order Contracts to Curley Wholesale Electric and \nWalters Wholesale Electric Co. for Street Lighting Poles and Materials in an \nAggregate Amount Not to Exceed $2,500,000 (Specification No. 23-175) \n(General Fund and Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award aggregate Blanket Order Contracts to vendors \nlisted below for street lighting poles and materials on an as -needed basis in an \nannual not- to -exceed aggregate amount of $500,000, and a total not -to -exceed \naggregate amount of $2,500,000, for an initial one-year period beginning February \n21, 2024 and expiring February 20, 2025, with provisions for four one-year renewal \noptions. \nVendor Location \nCurley Wholesale Electric Santa Ana, CA \nWalters Wholesale Electric Co. Brea, CA \nMINUTES: Councilmember Penaloza thanked staff for selecting local vendors \nand asked for clarification regarding recovery costs and costs of light posts. \nPublic Works Director Nabil Saba stated he would work with Risk Management to \nprovide a report on recovery costs for damages and spoke regarding the cost of \nlight posts. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 34, seconded by Councilmember Bacerra. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 50,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 112,
+        "item_number": "35",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 35 WAS REMOVED FROM CONSIDERATION \n35.Approve Second Amendments to Agreements with Claudia Perez, Andrew \nLinares, and Valerie Magdaleno for City Council Aide Consultancy Services \n(General Fund) ",
+        "description": "Department(s): City Manager's Office \nRecommended Action: Authorize the City Manager to execute amendments to the \nagreements with Claudia Perez, Andrew Linares, and Valerie Magdaleno for City \nCouncil aide consultancy services to increase the not -to -exceed amount of each \nagreement by $10,000, for a total amount not to exceed $60,000 per each \nagreement, and to extend the term of the agreements to June 30, 2024. (Agreement \nNos. A-2024-XXX, A-2024-XXX, A-2024-XXX) ",
+        "vote": {
+          "id": 51,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 113,
+        "item_number": "36",
+        "section": "CONSENT",
+        "title": "36.Approve an Amendment to the Agreement with MDG Associates, Inc. to \nContinue Providing Administrative and Technical Support for CDBG, HOME, \nESG, and WIOA Programs ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute an amendment to \nthe agreement with MDG Associate, Inc. to continue providing administrative and \ntechnical support for the Community Development Block Grant (CDBG), HOME \nInvestment Partnership Program (HOME), Emergency Solutions Grant (ESG), and \nWorkforce Innovation and Opportunity Act (WIOA) federal grant programs, \nexpanding the scope of work to include the five-year Consolidated Plan and FY \n2025 Annual Action Plan, increasing the not -to -exceed amount by $44,500, and \nextending the term for one year, for a total agreement amount of $259,616 \n(Agreement No. A-2024-024). ",
+        "vote": {
+          "id": 52,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 114,
+        "item_number": "37",
+        "section": "CONSENT",
+        "title": "37.Agreement with The Critter Care Center, Inc. for Veterinary Services for the \nSanta Ana Zoo ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nThe Critter Care Center, Inc. to provide veterinary services for the Santa Ana Zoo in \nan annual amount not to exceed $180,999.80, which includes a $20,000 contingency, \nfor a term from March 1, 2024 through February 28, 2027, with two, one-year renewal \noptions, for a total amount not to exceed $904,999. (General Fund) (Agreement \nNo. A-2024-025) ",
+        "vote": {
+          "id": 53,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 115,
+        "item_number": "38",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM PULLED FROM CONSENT CALENDAR FOR SEPARATE \nDISCUSSION \n38. Approve an Agreement with Bean Sprouts at the Santa Ana Zoo ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nBean Sprouts, LLC dba Bean Sprouts to provide food and beverage concession \nservices at the Santa Ana Zoo with a 6% revenue share to the City on the first \n$300,000, 8% revenue share between $300,001 - $500,000, and 10% revenue share \nabove $500,000 in cumulative cafe net sales for a given contract year, March 18 to \nMarch 17 of the following year, for an initial term of three years, effective March 18, \n2024, with two 2-year renewal options (Agreement No. A-2024-026). \nMINUTES: Councilmember Penaloza spoke in support of the item and asked for \nclarification regarding the requirements for local brewers/vendors as part of the \nagreement and designated areas for alcohol consumption. \nParks, Recreation, and Community Services Director Hawk Scott spoke \nregarding Alcohol Beverage Control requirements and stated he would look into \nincorporating local businesses. \nCouncilmember Hernandez spoke in support of capitalizing on expansion of \nalcohol consumption areas and incorporating local business. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 38, as amended to pursue Santa Ana vendors, seconded \nby Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 54,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 116,
+        "item_number": "39",
+        "section": "CONSENT",
+        "title": "39. Approve a Three -Year Agreement with the Orange County School of the Arts for \nSchool Resource Officer Services in the Amount of $806,127 ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute a three-year service \nagreement with the Orange County School of the Arts (OCSA), which provides for the \nCITY COUNCIL 24 FEBRUARY 20, 2024 \n\n\nSanta Ana Police Department to staff one full-time School Resource Officer (SRO) to \nthe school, for the period of April 1, 2024 through March 31, 2027 in an amount not to \nexceed $806,127 (Agreement No. A-2024-027). ",
+        "vote": {
+          "id": 55,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 117,
+        "item_number": "40",
+        "section": "CONSENT",
+        "title": "40.Approve an Appropriation Adjustment and Lease Agreement with Aldridge \nElectric, Inc. for Office Space at the Santa Ana Regional Transportation Center \nfor a One -Year Term with Twelve One -Month Extensions for a Total Revenue \nAmount of $283,944 (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize the City Manager to execute a site lease agreement with Aldridge \nElectric, Inc. for the lease of 2,041 square feet of office space located at the \nSanta Ana Regional Transportation Center for a one-year term beginning on \nFebruary 20, 2024 through February 19, 2025, for a total of $283,944 in lease \nrevenue for the entire term of the agreement, including optional extensions \n(Agreement No. A-2024-028). \n2. Approve an appropriation adjustment recognizing Fiscal Year 2023-24 lease \nincome in the amount of $44,558 into the SARTC Operations, Rental -Aldridge \nElectric revenue account and appropriating the same amount into the SARTC \nOperations, Contractual Services expenditure account. (Requires five affirmative \nvotes) ",
+        "vote": {
+          "id": 42,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 118,
+        "item_number": "41",
+        "section": "CONSENT",
+        "title": "41.Approve Agreements for Automotive, Motorcycle, Truck, and Heavy \nEquipment Repair Services in an Aggregate Amount Not to Exceed $2,500,000 \n(Specification No. 23-098) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute agreements with the \nvendors listed below to provide automotive, motorcycle, truck, and heavy equipment \nrepair services in an annual aggregate amount not to exceed $500,000, and total \naggregate amount not to exceed $2,500,000 for an initial three-year term beginning \nFebruary 20, 2024 and expiring February 19, 2027, with provisions for two, 1-year \nextensions (Core Agreement No. A-2024-029). \nVendor Name \nSanta Ana Guaranty Chevrolet Motors, Inc. \nJoe MacPherson Ford dba AutoNation Ford Tustin \nBragg Investment Company, Inc. dba Coastline Equipment \nElite Automotive Services, LLC \nFleetworks, Inc. \nSeavco dba Iry Seaver Motorcycles \nLos Angeles Truck Centers, LLC dba Velocity Truck Centers \nLocation \nSanta Ana, CA \nTustin, CA \nLong Beach, CA \nLake Forest, CA \nSanta Fe Springs, CA \nOrange, CA \nWhittier, CA \nCITY COUNCIL 25 FEBRUARY 20, 2024 \n\n\nCerritos Ford, Inc. dba Norm Reeves Ford Superstore Cerritos, CA \nPlumbers Depot Inc. Hawthorne, CA \nR. C. A. Investments, Inc. dba Long Beach BMW Motorcycles Long Beach, CA \nCerritos Ford, Inc. dba Tuttle -Click Ford Lincoln Irvine, CA ",
+        "vote": {
+          "id": 49,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 119,
+        "item_number": "42",
+        "section": "BUSINESS",
+        "title": "42. Nominate and Appoint an Alternate Representative to the Southern California \nAssociation of Governments General Assembly Business Meeting ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Nominate and appoint an alternate for purposes of the \nSouthern California Association of Governments General Assembly Business \nMeeting. \nMINUTES: City Clerk Jennifer L. Hall gave a brief report. \nMOTION: Councilmember Penaloza moved to appoint Councilmember \nBacerra as the alternate representative to the Southern California \nAssociation of Governments General Assembly Business Meeting, seconded \nby Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 58,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 120,
+        "item_number": "43",
+        "section": "BUSINESS",
+        "title": "43. Fiscal Year 2023-24 Mid -Year Budget Update, Appropriation Requests, and \nWorkforce Changes ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: \n1. Receive and file the FY 2023-24 Mid -Year budget update. \n2. Approve the recommended Appropriation Adjustments. (Requires five \naffirmative votes) \n3. Adopt Resolution No. 2024-002 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES \nTO THE CITY'S CLASSIFICATION AND COMPENSATION PLAN \n4. Adopt Resolution No. 2024-003 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA TO AMEND THE CURRENT \nFISCAL YEAR 2023-2024 ANNUAL BUDGET TO ADJUST FULL-TIME \nPOSITIONS IN THE CITY CLERK'S OFFICE, COMMUNITY DEVELOPMENT \nAGENCY, LIBRARY SERVICES, PARKS, RECREATION & COMMUNITY \nSERVICES AGENCY, AND PUBLIC WORKS AGENCY, INCLUDING \nADDITIONS AND/OR REALLOCATIONS \nMINUTES. Finance Management Services Director Kathryn Downs gave a \npresentation regarding the Mid -year budget update, appropriation requests, and \nworkforce changes. \nMayor Amezcua asked for the closing date of the community survey and the \nnumber of completed surveys. \nDirector Downs stated the closing date of the survey is May 9, 2024, stated all \nbudget material has been translated in multiple languages, and approximately 500 \nsurveys had been submitted. \nCouncilmember Hernandez asked for clarification regarding the preparation for \nthe Measure X sunsetting. \nDirector Downs spoke regarding the primary preparation of sales tax measure \nsunsetting. \nMayor Pro Tem Phan asked what services can be cut with the sales tax measure \nsunsetting. \nDirector Downs spoke regarding the least prioritized services by residents. \nCITY COUNCIL 27 FEBRUARY 20, 2024 \n\n\nCouncilmember Sacerra spoke regarding the reductions of revenue, asked for \nclarification regarding the Police Department's vacancy rate, and spoke regarding \nthe need to generate additional revenue. \nActing Police Chief Robert Rodriquez spoke regarding the Police Department's \nvacancy rate. \nMayor Amezcua asked for clarification regarding the vacan",
+        "vote": {
+          "id": 59,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 373,
+    "item_number": "27",
+    "title": "Tax Board for the Exchange of Business License Tax Data \nDepartment(s): Finance and Management Services ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: \nAdopt a resolution authorizing a reciprocal agreement with the California \nFranchise Tax Board for the exchange of business license tax data. \nRESOLUTION NO. 2024-064 entitled A RESOLUTION OF THE CITY OF \nSANTA ANA AUTHORIZING A RECIPROCAL AGREEMENT WITH THE \nCALIFONIA FRANCHISE TAX BOARD FOR THE EXCHANGE OF BUSINESS \nLICENSE TAX DATA \n2. Approve a non -financial reciprocal agreement with the California Franchise Tax \nBoard for the exchange of business license tax data (Agreement No. A-2024- \n199). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

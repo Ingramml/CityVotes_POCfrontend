@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 228,
+    "item_number": "17",
+    "title": "17.Additional Contingency Funds in the Amount of $625,000 for an Existing \nConstruction Contractwith EverLevel Holdings, LLC for the First Street Slope \nStabilization Project (Project No. 22-1341) (Revive Santa Ana Program) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the Project Cost Analysis in the amount of $625,000 \nin additional contingency funds for a new total estimated construction delivery \ncost of $6,725,000. \n2. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $625,000 of American Rescue Plan Act (ARPA) funds for \nthe First Street Slope Stabilization Project (22-1341). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

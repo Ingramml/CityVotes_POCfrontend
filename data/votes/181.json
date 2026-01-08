@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 181,
+    "item_number": "21",
+    "title": "21.Approve Template and General Hourly Parameters for City Council Aide \nAgreements ",
+    "description": "\u00a8epartment(s): City Attorney's Office \nRecommended Action: Approve template and general hourly parameters for City \nCouncil Aide Agreements; Authorize the City Attorney to revise the template \nagreement as necessary. \nMINUTES: Councilmember Penaloza stated councilmembers should have the right \nto select the pay rate of the aides. \nCouncilmember Bacerra recommended changes to section 3 for the term to be \nchanged to one-year, sub -section g should read receiving any payment or \nreimbursement from a campaign for candidate for Santa Ana City Council or Mayor \nor their campaign account, and section 7 insurance policy costs. He stated \ncouncilmembers should have the right to select the pay rate of the aides. \nCity Attorney Sonia Carvalho spoke regarding section 7. \nCouncilmember Hernandez stated he is not in support of item b section 5. \nCity Attorney Carvalho provided clarification to item b section 5 and requested a \nmaximum hourly rate. \nMayor Pro Tem Phan suggested a $90 hourly maximum rate, spoke regarding \ninsurance, suggested the term be modified to be the same as the councilmember, \nand removing sub -section g. \nCouncilmember Vazquez spoke regarding the section related to campaign \nactivities, insurance, and proposed a $50/hour ceiling. \nCouncilmember Lopez requested the pay period for invoices be brought down to \n30 days, spoke regarding a uniform invoice, insurance, hourly wage rate, and item \nb section 5. She requested additional language to sub -section a. \nCouncilmember Penaloza spoke in support of a 30-day pay period and no political \ncampaign activities, was not supportive of the proposed pay scale, and requested \nadding language related to campaign activities. \nMayor Amezcua spoke in support of the insurance and 30-day pay period, was not \nin support of the proposed hourly wage rate scale, and requested background \nchecks. She stated members of the City Council should have the right to select the \npay rate of the aides. \nCITY COUNCIL 22 JUNE 4, 2024 \n\n\nAc",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 17,
+    "meeting_date": "2024-06-04",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

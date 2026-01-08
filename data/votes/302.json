@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 302,
+    "item_number": "19",
+    "title": "19. Resolution Declaring City -Owned Properties as Exempt Surplus Land and \nDirecting the City Manager or their Designee to Comply with the Requirement \nof Government Code \u00a454220 et seq. for the Sale and Activation of Surplus \nLand ",
+    "description": "Department(s): Public Works Agency \nCITY COUNCIL 27 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nRecommended Action: \nAdopt a resolution declaring City -owned property as exempt surplus land and \ndirecting the City Manager or designee to comply with the requirements of \nGovernment Code \u00a454220 et seq. for the sale and transfer of ownership. \nRESOLUTION NO. 2024-051 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA DECLARING VARIOUS \nPROPERTIES AS EXEMPT SURPLUS LAND AND DIRECTING THE CITY \nMANAGER TO FOLLOW THE PROCEDURES SET FORTH IN THE SURPLUS \nLAND ACT, CALIFORNIA GOVERNMENT CODE SECTION 54220, ET SEQ., \nAS AMENDED, FOR THEIR DISPOSITION \n2, Determine that, pursuant to the California Environmental Quality Act (\"CEQA\"), \nthe sales of the properties as surplus are exempt from environmental review \npursuant to CEQA Guidelines section 15312 (Surplus Government Property \nSales). \nMINUTES: Councilmember Lopez asked for clarification regarding the selected 26 \nparcels, suggested a case by case basis of approval, and whether the surplus land \nis generating any money. \nCity Engineer Rudy Rosas spoke regarding the selected parcels and lots, and \nstated this would off load slivers of land for liability purposes. \nCouncilmember Bacerra spoke in support of the item. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 19, seconded by Mayor Amezcua. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 1,
+    "noes": 1,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 8,
+    "meeting_date": "2024-09-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

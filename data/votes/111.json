@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 111,
+    "item_number": "15",
+    "title": "15. Blanket Order Contract to US Gain, a Division of US Venture Inc., for \nCompressed Natural Gas Fueling Services (Spec No. 24-049) (Non -General \nFund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Award Blanket Order Contract to US Gain, a Division of \nUS Venture Inc., for compressed natural gas fueling services, in amount not to \nexceed $240,000, on an as -needed basis, for an initial one-year term beginning \nApril 16, 2024 and expiring April 15, 2025, with provisions for one, one-year renewal \noption. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 4,
+    "meeting_date": "2024-04-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

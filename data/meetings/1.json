@@ -1,0 +1,330 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 1,
+    "meeting_date": "2024-10-01",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43136",
+    "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44050",
+    "video_url": "https://youtube.com/watch?v=gvXruPlME9M",
+    "agenda_item_count": 21,
+    "vote_count": 21,
+    "agenda_items": [
+      {
+        "id": 1,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Agreements with Accent on Languages, Inc., Mente, Inc. dba Cesar Vargas \nand Associates, Continental Interpreting Services, Inc., and Interpreters \nUnlimited, Inc. for Citywide Translation and Interpretation Services \n(Specification No. 24-022A) (General Fund and Non -General Fund) \nCITY COUNCIL 12 OCTOBER 1, 2024 ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute aggregate \nagreements with Accent on Languages, Inc., Mente, Inc. dba Cesar Vargas and \nAssociates, Continental Interpreting Services, Inc., and Interpreters Unlimited, Inc. \nto provide citywide translation and interpretation services for a term beginning \nOctober 01, 2024 and expiring September 30, 2027, with provisions for two, one- \nyear extensions, in an aggregate amount not to exceed $1,290,000 (Core \nAgreement No. A-2024-148). \nVendor \nLocation \nAccent on Languages, Inc. \nBerkeley, CA \nCesar Vargas and Associates \nOrange, CA \nContinental Interpreting Services, Inc. \nBrea, CA \nInterpreters Unlimited, Inc. \nSan Diego, CA \nMINUTES: Councilmember Hernandez spoke in support of the item. ",
+        "vote": {
+          "id": 317,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 2,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "AGENDA ITEM NO. 11 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n11.Agreement with RSG, Inc. for Contract Staffing to Support the Rent \nStabilization and Just Cause Eviction Program (Non -General Fund)",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute Agreement with \nRSG, Inc. to provide contract staffing for the Rent Stabilization and Just Cause \nEviction Program for a two-year term, with provisions for up to two, one-year \nextensions, in a total amount not to exceed $800,000 (Agreement No. A-2024- \n149). \nMINUTES: Mayor Amezcua asked for clarification regarding staffing and the use \nof inclusionary funds. \nCommunity Development Executive Director Mike Garcia spoke regarding staffing \nand personnel, and use of the inclusionary funds. \nCouncilmember Bacerra expressed concern regarding targeting property owners \nand the lack of funds and spoke in opposition to the item. \nMayor Pro Tem Phan spoke in support of the item. \nDiscussion ensued regarding staffing and personal, costs of consultants, and the \nrent stabilization program. \nCITY COUNCIL 13 OCTOBER 1, 2024 \n\n\nDirector Garcia answered the Council Members' questions and provided \nclarification. \nMayor Amezcua expressed concern regarding the amount being paid to \nconsultants. \nCouncilmember Hernandez spoke regarding consulting services provided and in \nsupport of the item. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 11, seconded by Mayor Pro Tem Phan. \nThe motion carried, 4-3, by the following roll call vote: \nAYES: \nCOUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nLOPEZ, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN \nNOES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nPENALOZA, MAYOR AMEZCUA \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 4\u00d1 3 ",
+        "vote": {
+          "id": 318,
+          "outcome": "PASS",
+          "ayes": 4,
+          "noes": 3,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 3,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Agreement with Evergreen Solutions, LLC for Classification and \nCompensation Study Services (Specification No. 24-081) (General Fund and \nNon -General Fund) ",
+        "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute an agreement with \nEvergreen Solutions, LLC to provide classification and compensation study services \nfor a term of one year, which will expire September 30, 2025, in an amount not to \nexceed $128,500 (Agreement A-2024-150). ",
+        "vote": {
+          "id": 274,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 4,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "AGENDA ITEM NO. 13 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n13.Approve Agreements with Carahsoft Technology Corp. and IK Consulting, \nLLC for Enterprise Land Management System Software and Implementation \nServices (Specification No. 24-087A) (General Fund and Non -General \nFund) (Revive Santa Ana) ",
+        "description": "Department(s): Information Technology \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Carahsoft Technology \nCorp. for software subscription licensing, support, and training of Accela Civic \nCITY COUNCIL 14 OCTOBER 1, 2024 \n\n\nPlatform planning, permitting, and licensing system, in an aggregate amount not \nto exceed $1,800,000, for an initial one-year term beginning October 1, 2024, \nwith provisions for four optional one-year renewals. (Agreement No. A-2024- \n151). \n2. Authorize the City Manager to execute an agreement with IK Consulting, LLC \nfor Accela Civic Applications implementation services, in an amount not to \nexceed $1,107,445, for a 27-month term beginning October 1, 2024 and expiring \nDecember 31, 2026. (Agreement No. A-2024-152). \nMINUTES: Councilmember Bacerra spoke regarding land management systems \nthroughout cities and asked why the City is not going after a system like the City of \nSacramento. \nChief Technology Innovations Officer Jack Ciulla spoke regarding the RFP process \nand stated he is not aware of the system that City of Los Angeles utilizes. \nPlanning and Building Director Minh Thai stated the goal for code enforcement, \nbuilding, planning, and land use information is to be more accessible and spoke \nregarding Accela. \nCouncilmember Bacerra spoke in support of the item and requested staff look at \nCity of Los Angeles system. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 13, seconded by Councilmember Vazquez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 7 \u00d1 0 ",
+        "vote": {
+          "id": 319,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 5,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14.Agreements with New Tangram, LLC dba Tangram Interiors, Goforth & Marti \ndba G/M Business Interiors, and J.K. Miklin, Inc. dba Yamada Enterprises for \nPublic and Office Furniture and Installation Services for the Main Library \nRenovation Project (No. 24-080A) (General Fund) (Revive Santa Ana) ",
+        "description": "Department(s): Library \nRecommended Action: 1. Authorize the City Manager to execute an agreement \nwith New Tangram, LLC dba Tangram Interiors to provide and install public -facing \nCITY COUNCIL 15 OCTOBER 1, 2024 \n\n\nand office furniture at the Main Library, in an amount of $674,658 plus a 15% \ncontingency amount of $101,198, for a total amount not to exceed $775,856, for a \nterm expiring December 31, 2026, with provision for one, one-year renewal option \n(Agreement No. A-2024-153). \n2. Authorize the City Manager to execute an agreement with Goforth & Marti dba GIM \nBusiness Interiors to provide and install public -facing furniture at the Main Library, \nin an amount of $307,999 plus a 15% contingency amount of $46,200, for a total \nnot -to -exceed amount of $354,199, for a term expiring December 31, 2026, with \nprovision for one, one-year renewal option (Agreement No. A-2024-154). \n3. Authorize the City Manager to execute an agreement with J.K. Miklin, Inc. dba \nYamada Enterprises to provide and install library -specific furniture at the Main \nLibrary, in an amount of $41 1,964 plus a 15% contingency amount of $61,795 for a \ntotal not -to -exceed amount of $473,759, for a term expiring December 31, 2026, \nwith provision for one, one-year renewal option (Agreement No. A-2024-155). \nMINUTES: Councilmember Hernandez spoke in support of investing in the future and \nmodernizing libraries. ",
+        "vote": {
+          "id": 320,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 6,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15.Appropriation Adjustment for FY 2023 Homeland Security Grant Program \nFunding (Non -General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Approve an appropriation adjustment recognizing \n$5,113,750 in the FY 2023 Urban Area Security Initiative, Federal Grant -Indirect \nrevenue account and appropriate same to the UASI CalOES Santa Ana \nexpenditures accounts. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 321,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 7,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Appropriation Adjustment and Agreement Accepting $755,000 from the State \nOffice of Traffic Safety for Selective Traffic Enforcement Program (Non - \nGeneral Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with the State of California \nOffice of Traffic Safety for the Selective Traffic Enforcement Program for a one- \nyear period beginning October 1, 2024 through September 30, 2025, in an \namount not to exceed $755,000 (Agreement No. A-2024-156). \n2. Approve an appropriation adjustment accepting $755,000 in the Office of Traffic \nSafety, Federal Grant -Indirect revenue account and appropriate same to the \nSelective Traffic Enforcement Program expenditure accounts. (Requires five \naffirmative votes) ",
+        "vote": {
+          "id": 322,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 8,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Approve Agreement with Axon Enterprise, Inc. for Taser Equipment (General \nFund and Non -General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute an agreement with \nAxon Enterprise, Inc. for the provision of Taser 10 equipment to the Santa Ana \nPolice Department for a five year period beginning December 15, 2024 to \nDecember 14, 2029, in an amount not to exceed $1,963,569 (Agreement No. A- \n2024-157). ",
+        "vote": {
+          "id": 323,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 9,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18.Agreement with Stommel Inc. dba LEHR Auto Electric for Police Vehicle \nConversion Equipment and Installation Services (Specification No. 24-105) \n(Non -General Fund)",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nStommel, Inc. dba LEHR Auto Electric for police vehicle conversion equipment and \ninstallation services, for a three-year period commencing October 1, 2024 and \nexpiring September 30, 2027, with a provision for one, two-year renewal option, for \na total amount, including extension, not to exceed $2,000,000 (Agreement No. A- \n2024-158). ",
+        "vote": {
+          "id": 324,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 10,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19.Agreement with Cumming Management Group, Inc. for Climate Action Plan \nUpdate Services (General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nCumming Management Group, Inc. to prepare a new Climate Action Plan in the \nbase amount of $450,060, with a contingency of $45,006 for a total amount of \n$495,066, for a three-year term beginning October 1, 2024 and expiring September \n30, 2027, with an option for two, one-year extensions (Agreement No. A-2024- \n159). ",
+        "vote": {
+          "id": 325,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 11,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20.Agreement with BlueViolet for Security, Access Control, and Intercom \nMaintenance (Non -General and General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nBlueViolet to maintain existing security, access control, and intercom systems for a \nthree-year period beginning October 1, 2024 through September 30, 2027, with \none, two-year renewal option, in an amount to exceed $208,195 (Agreement No. \nA-2024-160). ",
+        "vote": {
+          "id": 326,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 12,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21. Construction Contract with Diamond Construction & Design for the Santa \nAna Wellness Plaza Project (Project No. 22-1358) (Non -General Fund) (Revive \nSanta Ana) ",
+        "description": "Department(s):\u00caPublic\u00caWorks\u00caAgency\nRecommended\u00caAction:\u00ca1.\u00caApprove\u00cathe\u00caProject\u00caCost\u00caAnalysis\u00cafor\u00caa\u00catotal\u00caestimated\nconstruction\u00cadelivery\u00cacost\u00caof\u00ca$883,660,\u00cawhich\u00caincludes\u00ca$746,929\u00cafor\u00cathe\u00caconstruction\ncontract_\u00ca$69,039\u00cafor\u00cacontract\u00caadministration,\u00cainspection,\u00caand\u00catesting_\u00caand\u00caa\u00ca$74,693\nproject\u00cacontingency\u00cafor\u00caunanticipated\u00caor\u00caunforeseen\u00cawork.\n2.\u00caApprove\u00caan\u00caamendment\u00cato\u00cathe\u00caFiscal\u00caYear\u00ca2024_25\u00caCapital\u00caImprovement\u00caProgram\nto\u00cainclude\u00ca$883,660\u00caof\u00cafunding\u00cain\u00cathe\u00caAmerican\u00caRescue\u00caPlan\u00caAct\u00cafunds\u00cafor\u00cathe\u00caSanta\nAna\u00caWellness\u00caPlaza.\n3.\u00caAward\u00caa\u00caconstruction\u00cacontract\u00cato\u00caDiamond\u00caConstruction\u00ca&\u00caDesign,\u00cathe\u00calowest\nresponsible\u00cabidder,\u00cain\u00caaccordance\u00cawith\u00cathe\u00cabase\u00cabid\u00cain\u00cathe\u00caamount\u00caof\u00ca$746,929,\u00cafor\nthe\u00caconstruction\u00caof\u00cathe\u00caSanta\u00caAna\u00caWellness\u00caPlaza\u00caProject,\u00cafor\u00cathe\u00caterm\u00cabeginning\nOctober\u00ca1,\u00ca2024\u00caand\u00caending\u00caupon\u00caproject\u00cacompletion,\u00caand\u00caauthorize\u00cathe\u00caCity\u00caManager\nto\u00caexecute\u00cathe\u00cacontract.\n4.\u00caDetermine\u00cathat,\u00capursuant\u00cato\u00cathe\u00caCalifornia\u00caEnvironmental\u00caQuality\u00caAct,\u00cathe\nrecommended\u00caactions\u00caare\u00caexempt\u00cafrom\u00cafurther\u00careview.\u00caCategorical\u00caExemption\nEnvironmental\u00caReview\u00caNo.\u00caER_2024_66\u00cawas\u00cafiled\u00cafor\u00caProject\u00ca22_1358.",
+        "vote": {
+          "id": 327,
+          "outcome": "FAIL",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 13,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22. Construction Contract with Elecnor Belco Electric, Inc. for the Traffic Signal \nInstallation at Segerstrom Avenue and Spruce Street Project (Project No. 24- \n6045) (General and Non -General Fund)",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $132,134 in the New \nTransportation System Improvements Area E, Prior Year Carry \nForward revenue account (No. 03417002-50001) and appropriate the same \namount into the New Transportation System Improvements Area E, \nImprovements Other Than Buildings expenditure account (No. 03417660- \n66220). (Requires five affirmative votes) \n2. Approve an amendment to the FY 2024-25 Capital Improvement Program to \ninclude $132,134 in construction funding from the Transportation System \nImprovement Area E account for the Traffic Signal Installation at Segerstrom \nAvenue and Spruce Street Project (No. 24-6045). \nCITY COUNCIL 18 OCTOBER 1, 2024 \n\n\n3. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $803,348, which includes $642,628 for the construction contract; $96,395 for \ncontract administration, inspection, and testing; and a $64,325 project \ncontingency for unanticipated or unforeseen work. \n4. Award a construction contract to Elecnor Belco Electric, Inc., the lowest \nresponsible bidder, in accordance with the base bid and bid alternates in the \namount of $642,628, subject to change orders, for construction of the Traffic \nSignal Installation at Segerstrom Avenue and Spruce Street Project (No. 24- \n6045), for a term beginning October 1, 2024 and ending upon project \ncompletion, and authorize the City Manager to execute the contract. \n5. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-64 was filled for Project No. 24-6045. ",
+        "vote": {
+          "id": 328,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 14,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "23. Property Preservation Agreements for the Properties Located at 2620 N \nFlower Street, 2369 N Flower Street, 424 S Broadway, and 825 N Lacy Street ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: Authorize the City Manager to execute the attached Mills \nAct agreements with the below -referenced property owners for the identified \nstructure(s) (Agreement Nos. A-2024-161, A-2024-162, A-2024-163, and A-2024- \n164). [Includes determination that the proposed projects are exempt from further \nreview in accordance with the California Environmental Quality Act as the following \nCategorical Exemptions will be filed: ER No. 2024-16, ER No. 2024-18, ER No. \n2024-39, and ER No. 2024-40] \nTable 1: Mills Act Agreements Approved by the Historic Resources \nCommission (HRC) \nHistoric Property \nPreservation \nProperty Owners \nAddress/House \nVote by HRC \nAgreement No. \n8:0:0:1 \nThomas M. Harris \n2024-02 \n2620 N Flower \n(Commissioner \nStreet \nEscamilla \nabsent) \nPaul Gulino and Julie \n2024-05 \n2369 N Flower \n9:0:0:0 \nBidmead \nStreet \n8:0:0:1 \nKevin Kajikawa and \n2024-06 \n424 S \n(Commissioner \nJonathan Melendez \nBroadway \nEscamilla \nabsent \nDavid Bush Smith \n2024-08 \n825 N Lacy \n9:0:0:0 \nStreet ",
+        "vote": {
+          "id": 329,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 15,
+        "item_number": "24",
+        "section": "CONSENT",
+        "title": "24.Third Extension of Site Plan Review No. 2020-04 for the Central Pointe Mixed - \nUse Project to be Located at 1801 East Fourth Street ",
+        "description": "Recommended Action: \n1. Adopt a resolution approving a third and final one-year extension of Site Plan \nReview No. 2020-04 to November 9, 2025. \nRESOLUTION NO. 2024-057 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING A ONE-YEAR \nEXTENSION OF SITE PLAN REVIEW NO. 2020-04 FOR THE CENTRAL \nPOINTE MIXED -USE DEVELOPMENT TO BE LOCATED AT 1801 EAST \nFOURTH STREET \n2. Determine that, pursuant to the California Environmental Quality Act (CEQA) \nand the CEQA Guidelines, the extension for this project is exempt pursuant to \nSection 15061(b)(3). This determination has been made as it has been \ndetermined that the proposed action to extend the existing, approved entitlement \ndoes not have the potential to cause a significant effect on the environment, as \nthe existing, approved entitlement has already been evaluated pursuant to \nCEQA. ",
+        "vote": {
+          "id": 330,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 16,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25. Proposed Revisions to Youth Commission Bylaws ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action; Adopt a resolution approving revised bylaws for the Youth \nCommission to reflect a new meeting date and time, update procedures, and make \nclerical edits. \nRESOLUTION NO. 2024-058 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING REVISED BYLAWS FOR THE \nYOUTH COMMISSION ",
+        "vote": {
+          "id": 331,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 17,
+        "item_number": "26",
+        "section": "PUBLIC_HEARING",
+        "title": "26.Continued Public Hearing: Amendment Application (Zone Change) No. 2023- \n03, Development Agreement No. 2023-02, Vesting Tentative Tract Map No. \n2023-01, and Overrule of the Orange County Airport Land Use Commission's \nDetermination of Inconsistency for the Related Bristol Specific Plan \nEntitlements and Development Agreement (3600 S. Bristol Street) and \nResolution Modifying Parking Districts in the Surrounding Area \nLegal notice published in the OC Register and OC Reporter on September 6, 2",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution to (1) certify the Final Supplemental Environmental Impact \nReport (SEIR) No. 2022-01 (SCH No. 2020029087), including adoption of \nenvironmental findings of fact pursuant to the California Environmental Quality \nAct, (2) adopt a Statement of Overriding Considerations, and (3) adopt the \nMitigation Monitoring and Reporting Program; \nRESOLUTION NO. 2024-053 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA (1) CERTIFYING THE FINAL \nSUPPLEMENTAL ENVIRONMENTAL IMPACT REPORT FOR THE RELATED \nBRISTOL SPECIFIC PLAN PROJECT (SCH NO. 2020029087),(2) ADOPTING \nENVIRONMENTAL FINDINGS OF FACT AND STATEMENT OF OVERRIDING \nCONSIDERATION CONSIDERATIONS FOR THE PROJECT PURSUANT TO \nTHE CALIFORNIA ENVIRONMENTAL QUALITY ACT, AND (3) ADOPTING \nTHE MITIGATION MONITORING AND REPORTING PROGRAM \n2. Adopt a resolution overruling the Orange County Airport Land Use \nCommission's determination that the Related Bristol Specific Plan is inconsistent \nwith the Airport Environs Land Use Plan, including supportive findings; \nCITY COUNCIL 5 OCTOBER 1, 2024 \n\n\nRESOLUTION NO. 2024-054 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA, CALIFORNIA, OVERRULING THE \nORANGE COUNTY AIRPORT LAND USE COMMISSION'S DETERMINATION \nTHAT THE PROPOSED RELATED BRISTOL SPECIFIC PLAN IS \nINCONSISTENT WITH THE AIRPORT ENVIRONS LAND USE PLAN FOR \nJOHN WAYNE AIRPORT, INCLUDING SUPPORTIVE FINDINGS \n3. Conduct a first reading and adopt an ordinance approving Amendment \nApplication No. 2023-03 to establish the Related Bristol Specific Plan No. 5 and \nto approve a zone change for the Property located at 3600 Bristol Street from \nGeneral Commercial (C2) and Commercial Residential (CR) to Related Bristol \nSpecific Plan (SP No. 5); \nORDINANCE NO. NS-3070 entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING AMENDMENT APPLICATION \nNO. 2023-03 TO ESTABLISH THE RELATED BRISTOL SPECIFI",
+        "vote": {
+          "id": 304,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 18,
+        "item_number": "6",
+        "section": "CONSENT",
+        "title": "6. Appoint Adrian Ramirez Nominated by Councilmember Hernandez as the \nWard 5 Representative to the Youth Commission for a Partial Term Expiring \nDecember 10, 2024 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Adrian Ramirez to the Youth Commission as the \nWard 5 representative and administer the Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Adrian \nRamirez. \nMINUTES: Mayor Amezcua stated that Agenda Item No. 21 was pulled by the City \nManager. \nCouncilmember Vazquez requested to comment on Agenda Item No. 13. \nCouncilmember Hernandez requested to comment on Agenda Item Nos. 10 and 14. \nCouncilmember Bacerra pulled Agenda Item Nos. 9 and 13 for separate discussion and \nconsideration. \nCITY COUNCIL 10 OCTOBER 1, 2024 \n\n\nMayor Amezcua pulled Agenda Item No. I I for separate discussion and consideration. \nMOTION: Councilmember Hernandez moved to approve Consent Calendar Item \nNos. 5 through 25 with the exception of Agenda Item No. 6 already approved, \nAgenda Item Nos. 9, 11, and 13 pulled for separate discussion and consideration, \nand Agenda Item No. 21 withdrawn by staff, seconded by Councilmember Bacerra. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 313,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 19,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "CONSIDERATION; MOVED PRIOR TO THE CONSENT CALENDAR \n7. Receive and File Quarterly Report of Investments as of June 30, 2024 ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Receive and file. ",
+        "vote": {
+          "id": 314,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 20,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Appropriation Adjustment to Carryover Unspent Amounts From Fiscal Year \n2023-24 to Fiscal Year 2024-25",
+        "description": "2023-24 to Fiscal Year 2024-25 \nDepartment(s): Finance and Management Services \nRecommended Action: \n1. Approve an Appropriation Adjustment to reduce the FY 2023-24 budget for \nunspent amounts to be carried over to FY 2024-25. (Requires five affirmative \nvotes) \n2. Approve an Appropriation Adjustment to increase the FY 2024-25 budget for \namounts carried forward from FY 2023-24. (Requires five affirmative votes)",
+        "vote": {
+          "id": 315,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 21,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Citywide Purchase Order with DS Services of America, Inc. dba Primo Water \nNorth America for Bottle Water and Related Products (Specification No. 24- \n093) (General Fund and Non -General Fund) ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Award citywide purchase order to DS Services of America, \nInc. dba Primo Water North America for bottled water and related products for a \nterm beginning on October 2, 2024 and expiring February 29, 2028, in an annual \namount not to exceed $50,000. \nMINUTES: Councilmember Bacerra spoke in opposition to the item and asked why \nbottling water is not an in-house service. \nCity Manager Alvaro Nunez addressed the necessity of the contract and confirmed \nhe would bring back a report that assessed the process and costs of bottling water \nin-house. \nMayor Pro Tem Phan spoke in support of the item and promoted the continued use \nof individual water bottles/flasks. \nMayor Amezcua echoed Mayor Pro Tem Phan's comments. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 9, as amended to have staff prepare a feasibility of bottling \nthe City's own water, seconded by Councilmember Hernandez. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nLOPEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER BACERRA \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+        "vote": {
+          "id": 316,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

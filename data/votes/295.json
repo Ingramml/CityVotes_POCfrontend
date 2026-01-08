@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 295,
+    "item_number": "13",
+    "title": "13.Agreement with Valley Maintenance Corporation for Janitorial Services at \nVarious City Locations (RFP No. 24-076) (General Fund and Non -General \nFund) ",
+    "description": "Department(s): Public Works Agency \nCITY COUNCIL 16 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute an agreement with \nValley Maintenance Corporation for Janitorial Services at various locations in an \namount not to exceed $6,503,284, for the term beginning November 1, 2024 and \nexpiring October 31, 2027, with provisions for one, two-year extension (Agreement \nNo. A-2024-142). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 8,
+    "meeting_date": "2024-09-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

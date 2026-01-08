@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 381,
+    "item_number": "35",
+    "title": "35. Public Hearing - Conduct a First Reading and Adopt Ordinance Amendment \n(OA) No. 2024-04 Repealing and Reenacting in its Entirety Article XXI to \nChapter 8 of the Santa Ana Municipal Code (SAMC) Prohibiting Short -Term \nRentals (STRs), and Adopt Enhanced Fines for Violations of the Short -Term \nRentals Ordinance \nPublished in the OC Reporter on November 8, 2024. ",
+    "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Introduce for first reading an ordinance (OA No. 2024-04) amending the Santa \nAna Municipal Code (SAMC) to repeal and reenact in its entirety Article XXI to \nChapter 8 of the SAMC prohibiting Short -Term Rentals. \nCITY COUNCIL 28 NOVEMBER 19, 2024 \n\n\nORDINANCE NO. NS-3072 entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA, CALIFORNIA, REPEALING AND \nREENACTING IN ITS ENTIRETY ARTICLE XXI TO CHAPTER 8 OF THE \nSANTA ANA MUNICIPAL CODE PROHIBITING SHORT-TERM RENTALS \n2. Adopt a resolution setting administrative fines for violating provisions of the \nSanta Ana Municipal Code. \nRESOLUTION NO. 2024-072 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA SETTING ADMINISTRATIVE FINES \nFOR VIOLATING PROVISIONS OF THE SANTA ANA MUNICIPAL CODE \n3. Find that, in accordance with the California Environmental Quality Act (CEQA), \nbased on the substantial evidence set forth in the record, including but not limited \nto the General Plan Update Final Program Environmental Impact Report (State \nClearinghouse No. 2020029087) and the Addendum prepared for adoption of \nthe proposed Ordinance and Resolution, the project is exempt from further \nenvironmental analysis. In the alternative, the adoption of the Ordinance and \nResolution is categorically exempt pursuant to State CEQA Guidelines section \n15301 \u00d1 Class 1, Existing Facilities. \nMINUTES: Mayor Amezcua opened the Public Hearing a 11:22 P.M. and \nannounced that public comments have been limited to two minutes. \nCity Clerk Jennifer L. Hall reported out the summary of (14) email comments \nreceived. \nThe following speakers addressed the City Council in -person: \n1. Cenorino Gomez (translation: Spanish) spoke in support of the item. \n2. Jeremy LeClair spoke in opposition to the item. \n3. Sheri Menke spoke in opposition to the item. \n4. Ana Gomez spoke in opposition to the item. \n5. Richard Austin spoke in opposition to the item. \n6. Maura",
+    "outcome": "PASS",
+    "ayes": 6,
+    "noes": 1,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "NAY"
+      }
+    ]
+  }
+}

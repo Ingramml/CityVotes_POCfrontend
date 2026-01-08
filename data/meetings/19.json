@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 19,
+    "meeting_date": "2024-10-28",
+    "meeting_type": "special",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43501",
+    "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44048",
+    "video_url": "https://youtube.com/watch?v=9Nu4E3JGu28",
+    "agenda_item_count": 1,
+    "vote_count": 1,
+    "agenda_items": [
+      {
+        "id": 380,
+        "item_number": "1",
+        "section": "BUSINESS",
+        "title": "1. Discuss and Address Potential Remedies Regarding the Investigator's \nSustained Findings Regarding Councilmember Johnathan Ryan Hernandez and \nTake Potential Action or Direct Staff Accordingly ",
+        "description": "MINUTES: Councilmember Hernandez spoke regarding his collaboration and \nefforts related to the Juneteenth event, his advocacy and transparency efforts, \ncosts to the City, and political ploys. \nCITY COUNCIL 2 OCTOBER 28, 2024 \n\n\nMayor Amezcua spoke regarding the findings of the investigation of \nCouncilmember Hernandez and approved monies related to settlements and \nrecalls by Council vote, and stated that this meeting is not political. \nCouncilmember Penaloza spoke regarding the findings of the investigation of \nCouncilmember Hernandez and violations of the City Charter, stated \nCouncilmember Hernandez must be held accountable for his actions, and \nclarified that this meeting is not political. \nCouncilmember Bacerra spoke regarding the findings of the investigation of \nCouncilmember Hernandez, violation of the City Charter and Code of Ethics, and \naccountability by elected officials. \nCouncilmember Hernandez spoke regarding systemic racism and review of the \nmatter by the Ad Hoc committee. \nDiscussion ensued regarding the sustained investigation findings and elected \nofficials involvement in City events. \nCouncilmember Vazquez spoke regarding the lack of scope related to the findings \nof the investigation of Councilmember Hernandez and stated the meeting is \npolitically motivated. \nMayor Pro Tem Phan spoke regarding the findings of the investigation of \nCouncilmember Hernandez and accountability by elected officials, and stated she \nhas not fully read the report and cannot make a fully informed decision at this time. \nMOTION: Mayor Pro Tem Phan moved to continue Agenda Item No. 1 to the \nNovember 19, 2024 City Council meeting, seconded by Councilmember \nVazquez. \nMINUTES: Councilmember Bacerra expressed disappointment in the lack of \nCouncil Members reading the unredacted investigation report. \nCouncilmember Penaloza echoed previous comments, spoke regarding the lack of \nreprimand of elected officials in the City and accountability, and stated he \nrequested the nex",
+        "vote": {
+          "id": 351,
+          "outcome": "PASS",
+          "ayes": 5,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 1
+        }
+      }
+    ]
+  }
+}

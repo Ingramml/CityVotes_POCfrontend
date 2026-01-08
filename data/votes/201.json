@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 201,
+    "item_number": "38",
+    "title": "38. Resolution of the City of Santa Ana Authorizing the Issuance and Sale of \nWater Revenue Bonds, Series 2024 ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: \nAdopt a resolution authorizing the Issuance of the Santa Ana Financing \nAuthority's Water of Santa Ana Water Revenue Bonds, Series 2024 (\"the \nBonds\") \nRESOLUTION NO. 2024-025 entitled RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA AUTHORIZING THE EXECUTION AND \nDELIVERY BY THE CITY OF A MASTER INSTALLMENT PURCHASE \nAGREEMENT, A FIRST SUPPLEMENT TO MASTER INSTALLMENT \nPURCHASE AGREEMENT, AN ESCROW AGREEMENT, A CONTINUING \nDISCLOSURE CERTIFICATE AND A PURCHASE CONTRACT IN \nCONNECTION WITH THE ISSUANCE OF SANTA ANA PUBLIC FINANCING \nAUTHORITY WATER REVENUE BONDS, SERIES 2024, APPROVING THE \nISSUANCE OF SUCH BONDS IN AN AGGREGATE PRINCIPAL AMOUNT OF \nNOT TO EXCEED $47,000,000, AUTHORIZING THE DISTRIBUTION OF AN \nOFFICIAL STATEMENT IN CONNECTION WITH THE OFFERING AND SALE \nOF SUCH BONDS, AND AUTHORIZING THE EXECUTION OF NECESSARY \nDOCUMENTS AND CERTIFICATES AND RELATED ACTIONS. \n2. Authorize the execution of and approving a form of the Master Installment \nPurchase Agreement, First Supplement to the Master Installment Purchase \nAgreement, Escrow Agreement, Bond Purchase Agreement, Indenture of Trust, \nand Preliminary Official Statement. \nMINUTES: Finance Management and Services Director Kathryn Downs provided \na presentation regarding the Water Revenue Bonds. \nMayor Pro Tern Phan asked what happens if the bonds are not approved. \nDeputy Director of Public Works Cesar Barrera spoke regarding the challenges \nrelated to not approving the item. \nMayor Amezcua spoke in support of the item. \nMOTION: Mayor Amezcua moved to approve the recommended action for \nItem No. 38, seconded by Mayor Pro Tern Phan. \nMINUTES: Councilmember Penaloza asked for clarification regarding the rates. \nDirector Downs clarified there would be no rate increases. \nThe motion carried, 7-0, by the following roll call vote: \nCITY COUNCIL 16 JUNE 4, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOP",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 17,
+    "meeting_date": "2024-06-04",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

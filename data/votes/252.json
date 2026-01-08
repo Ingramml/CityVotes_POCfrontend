@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 252,
+    "item_number": "20",
+    "title": "AGENDA ITEM NO. 20 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n20. Construction Contract to Cabifornia, Inc. for the Santa Ana Regional \nTransportation Center Fountain Renovation (Project No. 24-6058) (General \nFund and Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the FY 2024-25 Capital Improvement Program to \ninclude $587,250 in construction funding approved in FY 2023-24 from the \nClean California Local Grants Program through the California Department of \nTransportation. \n2. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $587,250 which includes $435,000 for the construction contract, $65,250 for \ncontract administration, inspection, and testing, and a $87,000 project \ncontingency for unanticipated or unforeseen work. \n3. Award a construction contract to Cabifornia, Inc. in accordance with the base \nbid in the amount of $435,000, subject to change orders (not to exceed 25% of \nthe base bid amount) in accordance with the Greenbook: Standard \nSpecifications for Public Works Construction, for the fountain replacement of the \nSanta Ana Regional Transportation Center for the term beginning upon \nCITY COUNCIL 14 AUGUST 6, 2024 \n\n\nexecution of the contract and ending upon project completion, and authorize the \nCity Manager to execute the contract. \n4. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-58 was filed for project 24-6058. \nMINUTES: Councilmember Penaloza expressed excitement for renovation and \nexpressed concern regarding the 25% contingency amount. \nPublic Works Director Nabil Saba spoke regarding the proposed contingency \nrelated to construction contracts and the Greenbook Standards, \nCity Attorney Sonia Carvalho spoke regarding standard contingencies. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 20, as amended to lower the contingency for change \norders from 25% to 10%, seconded by Councilmember Hernandez. \nMINUTES: Councilmember Bacerra expressed concern with the 25% contingency \nand suggested a 10%-15% contingency. \nCounci",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 9,
+    "meeting_date": "2024-08-06",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

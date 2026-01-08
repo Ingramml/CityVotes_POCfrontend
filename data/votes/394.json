@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 394,
+    "item_number": "11",
+    "title": "AGENDA ITEM NO. 11 WAS MOVED OUT OF ORDER \n11.Appoint Lawrence Klein to the Environmental and Transportation Advisory \nCommission and Oscar Rodriguez to the 2018 Santa Ana Measure X Citizens' \nOversight Committee Nominated by Councilmember Vazquez as the Ward 2 \nRepresentative for a Partial Term Expiring December 8, 2026 ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Lawrence Klein to the Environmental and \nTransportation Advisory Commission and Oscar Rodriguez to the 2018 Santa Ana \nMeasure X Citizens' Oversight Committee as the Ward 2 representative and \nadminister the Oaths of Office. (Pursuant to SAMC Sec. 2-326(a), requires five \naffirmative votes.) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Lawrence \nKlein. \nSTAFF PRESENTATION ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 2,
+    "meeting_date": "2024-12-10",
+    "meeting_type": "special",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

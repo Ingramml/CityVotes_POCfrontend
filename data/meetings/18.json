@@ -1,0 +1,255 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 18,
+    "meeting_date": "2024-04-02",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 16,
+    "vote_count": 16,
+    "agenda_items": [
+      {
+        "id": 364,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10. Amend the Blanket Purchase Order Contracts with Horizons Construction Co., \nPro -Craft Construction, Inc., and Verne's Plumbing (Specification No. 20-118) \n(General and Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize an amendment to the blanket purchase order \ncontracts with Horizons Construction Co., Pro -Craft Construction, Inc., and Verne's \nPlumbing for plumbing services to increase the contract amount by $790,620, for a \nrevised aggregate amount not to exceed $2,335,620 for the remainder of the current \nterm expiring September 30, 2024 and the last renewal period expiring September \n30, 2025. ",
+        "vote": {
+          "id": 92,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 365,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Agreement for the Sale of Land from the City and Approve an Appropriation \nAdjustment, Generating $4,800 in Revenue for FY 2023-24 Right -of -Way \nManagement Project (Non -General Fund) ",
+        "description": "Management Project (Non -General Fund) \nDepartment(s): Public Works Agency \nCITY COUNCIL 8 APRIL 2, 2024 \n\n\nRecommended Action: \n1. Authorize the City Manager to execute a purchase and sale agreement with \nGuadalupe Castaneda for the sale of City -owned property located at APN No. \n410-071-44, behind 3025 Ramona Drive, in the amount of $4,800 (Agreement \nNo. A-2024-037). \n2. Approve an appropriation adjustment recognizing revenue in the amount of \n$4,800 in the Public Works General Fund, Sale of Land revenue account (No. \n01117002- 57071) for Fiscal Year 2023-24 and appropriating the same to the \nPublic Works Right -of -Way expenditure account, Improvements Other Than \nBuilding (No. 01117622- 66220) Project 24-6900 for FY 2023-24 Right of Way \nManagement. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 93,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 366,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12. Cooperative Agreement with the City of La Habra and Partnering Cities for the \nEuclid Street Corridor Traffic Signal Synchronization Project (Project 23-6721) \n(Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a cooperative \nagreement with the Cities of La Habra, Fullerton, Anaheim, Garden Grove, and \nFountain Valley, identifying each city's roles and responsibilities, including Santa \nAna's match requirement of $113,827, for the implementation of the Euclid Street \nCorridor Traffic Signal Synchronization Project, for a term beginning upon full \napproval of the agreement by all parties and ending December 31, 2028, with an \noption for extension upon written agreement by all parties (Agreement No. \nA-2024-038). \nMINUTES: Councilmember Phan recused herself from Agenda Item No. 12 as the \nlisted entity, City of Anaheim, is a client of her employer, Rutan and Tucker. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 12 as part of the Consent Calendar, seconded by \nCouncilmember Bacerra. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR \nAMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 \u00d1 0 \u00d11 \u00d1 Pass \nCITY COUNCIL 9 APRIL 2, 2024 ",
+        "vote": {
+          "id": 94,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 367,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "3. Agreement with Houston & Harris, PCS, Inc. to Provide Closed Circuit Television \nInspection Services of the Sanitary Sewer System (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nHouston & Harris, PCS, Inc. to provide closed circuit television inspection services \nof the sanitary sewer system for a three-year term beginning April 2, 2024 and \nexpiring April 1, 2027, with a provision for a two-year extension, in a total amount not \nto exceed $4,000,000 (Agreement No. A-2024-039). ",
+        "vote": {
+          "id": 95,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 368,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14. Legal Services Agreement with Best Best & Krieger LLP for Bond Counsel for \nPotential Water Enterprise Revenue Bond Issuance (non -General Fund) ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nBest Best & Krieger LLP for bond counsel and disclosure counsel services related to \na potential water enterprise revenue bond issuance for a not -to -exceed amount of \n$88,000 for a term expiring September 30, 2025 (Agreement No. A-2024-040). ",
+        "vote": {
+          "id": 96,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 369,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15.Agreement with Hera Property Registry, LLC for Foreclosure, Abandoned \nVacant Lots, and Structure Registration Program Services for Administering \nthe City's Property Registration Program ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nHera Property Registry, LLC to provide foreclosure, abandoned vacant lots, and \nstructure registration program services for a three-year term expiring April 1, \n2027,with an option for two one-year extensions (Agreement No. A-2024-041). ",
+        "vote": {
+          "id": 97,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 370,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Agreement with Healthcare and Emergency Animal Rescue Team to Provide \nSpay and Neutering Services for Qualifying Low -Income Residents ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nHealthcare and Emergency Animal Rescue Team (HEART) to provide veterinarian \nmedical services for a spay and neutering program to low-income Santa Ana \nresidents for a three-year term commencing April 3, 2024 and expiring March 18, \n2027, with provisions for two one-year extensions, in an amount not to exceed \n$75,000 (Agreement No. A-2024-042). ",
+        "vote": {
+          "id": 99,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 371,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17. Lease Agreements with Rick Kagasoff for Two Warehouse Locations for the \nSanta Ana Police Department Evidence Section in the Amount of $877,200 ",
+        "description": "Department(s): Police Department \nCITY COUNCIL 10 APRIL 2, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute three-year lease \nagreements with Rick Kagasoff for two separate warehouse locations for the period \nof May 1, 2024 through April 30, 2027, with an option for one 1-year extension, in an \naggregate amount not to exceed $877,200 (Core Agreement No. A-2024-043): \nWarehouse 1 \u00d1 6,500 sq. ft. industrial building in an amount not to exceed \n$438,600 \nWarehouse 2 \u00d1 6,500 sq. ft. industrial building in an amount not to exceed \n$438,600 ",
+        "vote": {
+          "id": 100,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 372,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18. Resolution to Authorize Grant Funds from the State Coastal Conservancy Grant \nfor Santiago Park Main Street Construction Project ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Adopt a resolution accepting grant funds from the State \nCoastal Conservancy Grant for Santiago Park Main Street Construction, Main Street \nEntrance in an amount of $2,807,000. \nRESOLUTION NO. 2024-009 entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA APPROVING THE GRANT OF FUNDS FROM THE \nSTATE COASTAL CONSERVANCY FOR THE SANTIAGO PARK MAIN STREET \nCONSTRUCTION ",
+        "vote": {
+          "id": 101,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 373,
+        "item_number": "19",
+        "section": "BUSINESS",
+        "title": "19. Early Direction for the Fiscal Year 2024-25 Budget (continued from the meeting \nof March 19, 2024, Item No. 26) ",
+        "description": " Early Direction for the Fiscal Year 2024-25 Budget (continued from the meeting \nof March 19, 2024, Item No. 26) \nDepartment(s): Finance and Management Services \nRecommended Action: Provide direction for preparation of the proposed FY \n2024-25 budget. \nMINUTES: Finance and Management Services Director Kathryn Downs provided a \npresentation regarding the Early Direction for the Fiscal Year 2024-25 Budget. \nCouncilmember Hernandez spoke in support of Measure X Committee's \nrecommendation for a feasibility study of a park in vacant land at Washington Square, \nPolice funded ambulance transports, parking validations for City Council meetings, hours \nshifted in parking enforcement, funds for Angel's Park, and re pavement of Civic Center \nDrive. \nCITY COUNCIL 11 APRIL 2, 2024 \n\n\nCouncilmember Bacerra requested a comparison with other cities regarding \nmiscellaneous fees, spoke in support of parking validations for City Council meetings, \nand questioned why there are two contracts related to parking enforcement and services \nand delinquency increased costs. He asked for clarification regarding the parking study \nrates and free parking in structures and paid parking meters, requested a reasonable \nincreased rate regarding the Zoo, expressed concern regarding the expiration of leased \nvehicles agreement, spoke in support of a feasibility study related to opioids, and \nrequested adding five items to exhibit 1 \u00d1 filling sworn Police Department vacancies, \ninvesting in the water tower observation deck, dedicated left turn signals enhancements \nat the intersections of Raitt and Segerstrom, Flower and MacArthur, and Dyer and \nSegerstrom, and a, formalized agreement for Griset Park. \nDirector Downs spoke regarding the two contractors related to citations and services and \nprovided clarification regarding the status quo vs. regular rates. \nActing Police Chief Robert Rodriguez spoke regarding increased cost for delinquency \nprocessing. \nCouncilmember Penaloza spoke in support of park",
+        "vote": {
+          "id": 102,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 374,
+        "item_number": "20",
+        "section": "BUSINESS",
+        "title": "20.Ordinance Amending Chapter 2 of the City of Santa Ana Municipal Code \n(Administration), Article IV (Officers, Departments, Boards and Commissions), \nDivision 15 Relating to Emergency Services Section 2-643 \u00d1 Definitions ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Approve the introduction and first reading of an ordinance \nto expand the definition of an emergency in the Santa Ana Municipal Code. \nORDINANCE NO. NS-3062 AN ORDINANCE OF THE CITY COUNCIL OF THE \nCITY OF SANTA ANA AMENDING CHAPTER 2 OF THE SANTA ANA MUNICIPAL \nCODE (ADMINISTRATION), ARTICLE IV (OFFICERS, DEPARTMENTS, BOARDS \nAND COMMISSIONS), DIVISION 15 RELATING TO EMERGENCY SERVICES, \nSECTION 2-643 - DEFINITIONS \nMINUTES: Finance and Management Services Director Kathryn Downs provided a \npresentation regarding an Ordinance to Amend Local Emergency Definition. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 20, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1Pass ",
+        "vote": {
+          "id": 103,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 375,
+        "item_number": "21",
+        "section": "BUSINESS",
+        "title": "21.Approve Urgency Ordinance No. NS-XXXX of the City Council of the City of \nSanta Ana, adding Article XXI to Chapter 8 of the Santa Ana Municipal Code \n(SAMC) Prohibiting Short -Term Rentals (STRs) and for First Reading of an \nOrdinance Amending the SAMC Adding Article XXI to Chapter 8 of the SAMC \nProhibiting Short- Term Rentals ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt an urgency ordinance by two-thirds (2/3 vote) amending the Santa Ana \nMunicipal Code (SAMC) to add Article XXI to Chapter 8 of the SAMC prohibiting \nShort -Term Rentals. \nORDINANCE NO. NS-3060 entitled AN URGENCY ORDINANCE OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA PURSUANT TO CHARTER \nSECTIONS 415 AND 417 ADDING ARTICLE XXI TO CHAPTER 8 OF THE \nSANTA ANA MUNICIPAL CODE PROHIBITING SHORT-TERM RENTALS \n2. Approve first reading of an ordinance amending the Santa Ana Municipal Code \n(SAMC) to add Article XXI to Chapter 8 of the SAMC prohibiting Short -Term \nRentals. \nORDINANCE NO. NS-3061 entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA ADDING ARTICLE XXI TO CHAPTER 8 OF THE \nSANTA ANA MUNICIPAL CODE TO PROHIBIT SHORT-TERM RENTALS \n3. Find that, in accordance with the California Environmental Quality Act (CEQA), the \nproposed action is not subject to the requirements of the California \nEnvironmental Quality Act, pursuant to (Guidelines) Section 15060\u00a9(2) because \nthe activity will not result in a direct or reasonably foreseeable indirect physical \nchange in the environment and 15060\u00a9(3) because the activity is not a project \nas defined in Section 15378 of the CEQA Guidelines, California Code of \nRegulations, Title 14, Chapter 3, because it has no potential for resulting in \nphysical change to the environment, directly or indirectly and so is not a project. \nMINUTES: Planning and Building Director Minh Thai provided a presentation \nregarding Short -Term Rental Ordinance. \nMayor Amezcua asked whether there is a fee charged, noise complaint fees, or \nregulations related to short-term rentals (STR), and spoke regarding potential \nregulations and fines, and requested information be brought back. \nDirector Thai confirmed there is no fee charged and spoke regarding the \nenforcement process and the proposed ordinance. \nCouncilmember Penaloza spoke in support of the item and spoke r",
+        "vote": {
+          "id": 104,
+          "outcome": "FLAG",
+          "ayes": 4,
+          "noes": 3,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 376,
+        "item_number": "22",
+        "section": "BUSINESS",
+        "title": "22.Youth Commission Informational Report (continued from the meeting of March \n19, 2024, Item No. 25)",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Accept informational report and provide direction to staff. \nMOTION: Mayor Amezcua moved to approve the recommended action for \nItem No. 22, seconded by Mayor Pro Tern Phan. \nMINUTES: Mayor Amezcua asked whether the Youth Commission has met. \nParks, Recreation, and Community Services Director Hawk Scott confirmed the \nCommission has not met and spoke regarding staff recommendations. \nCouncilmember Lopez proposed the current youth commissioners be removed \nand new members be appointed, and stated that if the same issue continues, then \nthe Commission should be disbanded. \nCouncilmember Hernandez echoed previous comments and stated he would like \nto give the Commission the opportunity to meet. \nCouncilmember Vazquez spoke in support of a staff -run Youth Advisory \nCommittee. \nMayor Pro Tem Phan proposed the Commission meet four times a year and spoke \nin support of keeping the Commission as -is. \nCouncilmember Bacerra asked how many vacancies there are, and requested \nstaff look into different mechanisms for attendance, and have the Council appoint \nmembers. \nDirector Scott spoke regarding the vacancies. \nCITY COUNCIL 18 APRIL 2, 2024 \n\n\nCouncilmember Penaloza echoed Councilmember Lopez's comments. \nMayor Amezcua suggested the Commission decide the date and time of their \nmeetings. \nDiscussion ensued regarding the lack of meetings and report of attendance. \nCity Clerk Jennifer L. Hall provided clarification regarding the attendance report. \nMOTION: Mayor Pro Tem Phan moved to approve the recommended action \nfor Item No. 22 and continue the Youth Commission as -is, seconded by Mayor \nAmezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 - 0 \u00d1 Pass ",
+        "vote": {
+          "id": 105,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 377,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "7. Appoint Luis Mier Nominated by Mayor Amezcua as the Tenant \nRepresentative to the Rental Housing Board for a Full -Term Expiring in 2027 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Luis Mier to the Rental Housing Board as a \nTenant Representative and administer the Oath of Office. ",
+        "vote": {
+          "id": 80,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 378,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Approve Submittal of Request for Time Extension of the Measure M2 \nComprehensive Transportation Funding Program for Bristol Street \nImprovements Phase IV, Warner Avenue to Saint Andrew Place, Bristol Street \nand Memory Lane Intersection Improvements, and Warner Avenue \nImprovements, Oak Street to Grand Avenue (Project Nos. 11-6741, 17-6833, \nand 18-6901) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the Public Works Agency to request a two-year \ntime extension of Measure M2 Comprehensive Transportation Funding Program \nfunding for Bristol Street Improvements Phase IV (Warner Avenue to Saint Andrew \nPlace) (23-SNTA-ACE-4043), Bristol Street and Memory Lane Intersection \nImprovements (23-SNTA-ICE-4041), and Warner Avenue Improvements (Oak Street \nto Grand Avenue) (23-SNTA-ACE-4044). ",
+        "vote": {
+          "id": 90,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 379,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Appropriation Adjustment for the Walnut Street Urban Greening Project ",
+        "description": "Recommended Action: Approve an appropriation adjustment to recognize \n$2,199,000 in Clean California Local Grant Program funding from the California \nDepartment of Transportation for the Walnut Street Urban Greening project into \nthe Parks Capital Grant-PWA, State Grant -Direct revenue account and appropriate \nthe same amount into the Parks Capital Grant-PWA, Improvements Other Than \nBuildings expenditure account. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 91,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

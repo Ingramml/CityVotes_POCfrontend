@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 245,
+    "item_number": "14",
+    "title": "AGENDA ITEM NO. 94 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n14.Award an Agreement with Outdoor Dimensions, LLC for Digital Marquees \n(Non -General Fund) (Revive Santa Ana) ",
+    "description": "Department(s): City Manager Office \nCITY COUNCIL 8 AUGUST 6, 2024 \n\n\nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Outdoor Dimensions, \nLLC to build and install digital marquees at six (6) properties across the city for \na one-year term in a total aggregate amount not to exceed $1,859,909 subject \nto change orders (not to exceed 25% of the base bid amount) in accordance \nwith the Greenbook: Standard Specifications for Public Works Construction \n(Agreement No. A-2024-110). \n2. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement \nProgram to include $1,859,909 of funding from the American Rescue Plan Act \nfor Digital Marquees Project (No. 22-1306). \n3. Determine that, in accordance with the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review Nos. ER-2024-47, ER-2024-48, ER-2024-49, ER-2024- \n50, ER-2024-51, and ER-2024-52 were filed for this project. \nMINUTES: Councilmember Penaloza spoke regarding the noted change in the \nchange orders, asked for clarification regarding the monies listed in the staff report, \nand spoke in opposition to the item. \nAssistant City Manager Steven Mendoza spoke regarding the reflected percentage \non the staff report and the noted the change announced by the City Clerk. \nCouncilmember Lopez spoke in support of the item and requested an email of \nwhen all agreements have been executed. \nMayor Pro Tem Phan spoke in support of the item. \nMOTION: Councilmember Lopez moved to approve the recommended action \nfor Item No. 14, seconded by Councilmember Hernandez. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER PENALOZA \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d1 1 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 0,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 9,
+    "meeting_date": "2024-08-06",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

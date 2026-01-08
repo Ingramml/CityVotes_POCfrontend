@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 73,
+    "item_number": "18",
+    "title": "18.Consideration of Ceasefire Resolution as Proposed Through Councilmember \nRequested Items ",
+    "description": "Requested Items \nDepartment(s): City Clerk's Office \nRecommended Action: Consideration of Ceasefire Resolution. \nA RESOLUTION OF THE CITY COUNCIL OF SANTA ANA, CALIFORNIA \nAFFIRMING SUPPORT FOR THE WORLDWIDE CALL FOR AN IMMEDIATE \nCEASEFIRE IN GAZA \nMINUTES: Councilmember Vazquez spoke regarding the ceasefire resolution. \nCITY COUNCIL 11 MARCH 5, 2024 \n\n\nThe following speakers addressed the City Council in person: \n1. Robin spoke in opposition to the item. \n2. Jason Garshfield spoke in opposition to the item. \n3. Monica L. spoke regarding the divisiveness of the community due to the \nresolution. \n4. Dr. Erik Ludwig spoke in opposition to the item. \n5. EJ spoke in opposition to the item. \n6. Mali spoke in opposition to the item. \n7. Rabbi Gersh Zylberman spoke in opposition to the item and the impacts of the \nresolution to local municipalities. \nB. Jeffrey Katz spoke in support of a ceasefire and requested a revised \nresolution. \n9. Sue Guilford requested the City Council focus on City issues and spoke in \nopposition to the item. \n10. Mandy Shamis requested the City Council focus on City issues and spoke in \nopposition to the item. \n11. Curtis Deilets requested the City Council focus on City issues and spoke in \nopposition to the item. \n12. Steffanie Belasco spoke regarding the divisiveness of the community due to \nthe resolution. \n13. Leonard Silberman requested the City Council focus on City issues and take a \npositive action on this item. \n14. Joey B. spoke in opposition to the item. \n15. Galina B. spoke in opposition to the item. \n16. Dr. Norman Rosen spoke in opposition to the item. \n17. Mike Rubin spoke in opposition to the item. \n18. Gali spoke in opposition to the item. \n19. Michal L. spoke in opposition to the item. \nCITY COUNCIL 12 MARCH 5, 2024 \n\n\n20. Stephaney Avital spoke in opposition to the item. \n21. Rabbi Eliezre spoke in opposition to the item. \n22. Mitchell Cohen spoke in opposition to the item. \n23. Shaheera Owaynat spoke in support of the item. \n",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 3,
+    "meeting_date": "2024-03-05",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 258,
+    "item_number": "25",
+    "title": "25.Approve an Agreement with the Metropolitan Water District of Southern \nCalifornia, Municipal Water District of Orange County, Orange County Water \nDistrict, City of Anaheim, and City of Fullerton for the Assignment of \nExtraordinary Supply from the Santa Ana River Conservation and Conjunctive \nUse Program (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nthe Metropolitan Water District of Southern California, Municipal Water District of \nOrange County, Orange County Water District, City of Anaheim, and City of \nFullerton for the assignment of Extraordinary Supply from the Santa Ana River \nConservation and Conjunctive Use Program (Agreement No. A-2024-121). \nMINUTES: Mayor Pro Tem Phan recused herself from Agenda Item No. 25 as the listed \nentities, Orange County Water District and City of Anaheim, are clients of her employer, \nRutan and Tucker. \nCITY COUNCIL 17 AUGUST 6, 2024 \n\n\nMOTION: Councilmember Hernandez moved to approve the recommended action \nfor Item No. 25 as part of the Consent Calendar, seconded by Councilmember \nLopez. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 \u00d1 0 \u00d11 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 0,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 9,
+    "meeting_date": "2024-08-06",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "RECUSAL"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

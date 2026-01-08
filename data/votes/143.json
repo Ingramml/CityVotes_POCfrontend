@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 143,
+    "item_number": "24",
+    "title": "24. First Resolution and Agreement Amendment Reflecting the Positive City \nClerk Evaluation Conducted on April 16, 2024, and Approving an Adjusted \nAnnual Salary for the City Clerk; and Resolution Approving the Council \nAppointee Salary Schedule in .Compliance with the California Public \nEmployees' Retirement System (CaIPERS) and Title 2 of the California Code \nof Regulations section 570.5 ",
+    "description": "Department(s): Human Resources \nRecommended Action: 1. Adopt a resolution reflecting the positive City Clerk \nperformance evaluation conducted on April 16, 2024 and approving an adjusted \nannual salary for the City Clerk, and \nRESOLUTION NO. 2024-011 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA AFFIRMING A POSITIVE PERFORMANCE \nEVALUATION AND APPROVING A SALARY ADJUSTMENT FOR THE CITY \nCLERK \nCITY COUNCIL 13 MAY 7, 2024 \n\n\n2. Approve a first amendment to City Clerk employment agreement to reflect \nadjusted annual salary (Agreement No. A-2024-XXX), and \n3. Adopt a resolution updating the City's Classification and Compensation Plan \nwith the amended annual salary for City Clerk, and approving the Council Appointee \nSalary Schedule in compliance with the California Public Employees' Retirement \nSystem (CaIPERS) and Title 2 of the California Code of Regulations section 570.5. \nRESOLUTION NO. 2024-012 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE CITY'S \nCLASSIFICATION AND COMPENSATION PLAN ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 20,
+    "meeting_date": "2024-05-07",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 100,
+    "item_number": "17",
+    "title": "17. Lease Agreements with Rick Kagasoff for Two Warehouse Locations for the \nSanta Ana Police Department Evidence Section in the Amount of $877,200 ",
+    "description": "Department(s): Police Department \nCITY COUNCIL 10 APRIL 2, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute three-year lease \nagreements with Rick Kagasoff for two separate warehouse locations for the period \nof May 1, 2024 through April 30, 2027, with an option for one 1-year extension, in an \naggregate amount not to exceed $877,200 (Core Agreement No. A-2024-043): \nWarehouse 1 \u00d1 6,500 sq. ft. industrial building in an amount not to exceed \n$438,600 \nWarehouse 2 \u00d1 6,500 sq. ft. industrial building in an amount not to exceed \n$438,600 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 18,
+    "meeting_date": "2024-04-02",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

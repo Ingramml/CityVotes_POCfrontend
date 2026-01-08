@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 322,
+    "item_number": "16",
+    "title": "16.Appropriation Adjustment and Agreement Accepting $755,000 from the State \nOffice of Traffic Safety for Selective Traffic Enforcement Program (Non - \nGeneral Fund) ",
+    "description": "Department(s): Police Department \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with the State of California \nOffice of Traffic Safety for the Selective Traffic Enforcement Program for a one- \nyear period beginning October 1, 2024 through September 30, 2025, in an \namount not to exceed $755,000 (Agreement No. A-2024-156). \n2. Approve an appropriation adjustment accepting $755,000 in the Office of Traffic \nSafety, Federal Grant -Indirect revenue account and appropriate same to the \nSelective Traffic Enforcement Program expenditure accounts. (Requires five \naffirmative votes) ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 1,
+    "meeting_date": "2024-10-01",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

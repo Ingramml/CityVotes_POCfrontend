@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 231,
+    "item_number": "20",
+    "title": "AGENDA ITEM NO. 20 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n20.Approve a Lease Agreement with Walsh Construction Company II, LLC for \nOffice Space at the Santa Ana Regional Transportation Center ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a lease agreement \nwith Walsh Construction Company II, LLC to compensate the City $11,627 per \nmonth, with any partial month prorated at $388 per day, for the lease of \napproximately 4,429 square feet of office space located at the Santa Ana Regional \nTransportation Center for a 12-month term beginning on July 16, 2024 and ending \nJuly 15, 2025, with the option of 12 one -month extensions, for a total of $279,850 \nin lease revenue for the entire term of the agreement, including optional extensions \n(Agreement No. A-2024-102). \nMINUTES: Councilmember Bacerra asked for clarification regarding the intended \ntenant uses for the office space. \nPublic Works Director Nabil Saba indicated staff is exploring options to optimize \nthe use of space. \nActing City Manager Alvaro Nunez clarified that-- Economic Development will \ncollaborate with Public Works to recruit businesses for the train station. \nMayor Amezcua expressed concern regarding safety and stated this area should \nbe a priority area. \nCouncilmember Lopez echoed support for space optimization to benefit micro \nbusinesses owned by city residents. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 20, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStratus: 7 \u00d1 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

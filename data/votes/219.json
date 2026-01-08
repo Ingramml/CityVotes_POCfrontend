@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 219,
+    "item_number": "9",
+    "title": "9. Amendments to an Agreement with Java Connections, LLC dba \nLaptopsAnytime for the Purchase and Installation of a New Laptop Dispenser \nKiosk at the Future Delhi Library Branch, along with Hardware Support and \nSoftware Licensing for the Delhi Kiosk and Existing Newhope Library Kiosk \n(General Fund) ",
+    "description": "Department(s): Library \nRecommended Action: Authorize the City Manager to execute two amendments \nto an agreement with Java Connections, LLC, dba LaptopsAnytime for the purchase \nand installation of a laptop dispenser kiosk at the future Delhi Branch Library, \nhardware support, and software licensing through September 30, 2026 for the Delhi \nand Newhope kiosks, increasing compensation by $48,924.39, for a total not -to - \nexceed amount of $76,548.25 (Agreement No. A-2024-092 and A-2024-093). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

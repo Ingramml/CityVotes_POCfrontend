@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 185,
+    "item_number": "25",
+    "title": "AGENDA ITEM NO. 25 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n25.Second Amendment to Agreement with Invoice Cloud, Inc. for Enhanced \nElectronic Billing and Payment Presentation Services, Debit/Credit Card and \nElectronic Check Merchant Payment Processing Services, and Payment \nKiosk Services (General Fund) ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute a second \namendment to the agreement with Invoice Cloud, Inc. to extend the contract's \ncurrent term through December 31, 2025, with optional extensions, in an amount \nnot to exceed $1,427,800, including a contingency of $129,800 (Agreement No. A- \n2024-076). \nCITY COUNCIL 23 JUNE 4, 2024 \n\n\nMINUTES: Councilmember Penaloza asked for clarification regarding additional \nacceptable payment sources. \nAssistant City Manager Steven Mendoza spoke regarding acceptable payments. \nFinance and Management Services Director Kathryn Downs spoke regarding \nacceptable payment sources. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 25, seconded by Mayor Amezcua. \nThe motion carried, 4-0-0-3, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nPENALOZA, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNONE \nNOES: NONE \nABSTAIN: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nABSENT: LOPEZ, COUNCILMEMBER VAZQUEZ \nStatus: 4-0 \u00d1 0 \u00d1 3\u00d1Pass ",
+    "outcome": "PASS",
+    "ayes": 4,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 3,
+    "meeting_id": 17,
+    "meeting_date": "2024-06-04",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "ABSENT"
+      }
+    ]
+  }
+}

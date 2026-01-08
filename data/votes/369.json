@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 369,
+    "item_number": "23",
+    "title": "23.Approve a Second Amendment to City Clerk Employment Agreement and \nAdopt a Resolution Approving the Council Appointee Salary Schedule ",
+    "description": "Department(s): Human Resources \nRecommended Action: \nApprove a second amendment to the City Clerk Employment Agreement \nreflecting the positive City Clerk performance evaluation conducted on October \n15, 2024 and approving an adjusted annual salary for the City Clerk and an \nincrease in the amount of deferred compensation provided by the City \n(Agreement No. A-2024-198). \n2. Adopt a resolution updating the City's Classification and Compensation Plan \nwith the amended annual salary for City Clerk, and approving the Council \nAppointee Salary Schedule in compliance with the California Public Employees' \nRetirement System (CaIPERS) and Title 2 of the California Code of Regulations \nsection 570.5. \nRESOLUTION NO. 2024-060 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES \nTO THE CITY'S CLASSIFICATION AND COMPENSATION PLAN ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

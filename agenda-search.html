@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Item Search - CityVotes Santa Ana</title>
+    <meta name="description" content="Search Santa Ana City Council agenda items by keyword.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/santa-ana.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-sa-blue">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <i class="fas fa-vote-yea me-2"></i>CityVotes
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="council.html">
+                            <i class="fas fa-users me-1"></i>Council
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meetings.html">
+                            <i class="fas fa-calendar me-1"></i>Meetings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="votes.html">
+                            <i class="fas fa-check-square me-1"></i>Votes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="agenda-search.html">
+                            <i class="fas fa-search me-1"></i>Search
+                        </a>
+                    </li>
+                </ul>
+                <span class="navbar-text text-sa-gold">
+                    <i class="fas fa-map-marker-alt me-1"></i>Santa Ana
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-light py-4">
+        <div class="container">
+            <h1><i class="fas fa-search me-2"></i>Agenda Item Search</h1>
+            <p class="text-muted mb-0">Search agenda items by keyword across all meetings</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <!-- Search Box -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <form id="searchForm" class="row g-3">
+                    <div class="col-md-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <input type="text" class="form-control form-control-lg" id="searchInput"
+                                   placeholder="Enter keywords (e.g., housing, budget, police, zoning...)"
+                                   autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Results Stats -->
+        <div class="d-flex justify-content-between align-items-center mb-3" id="resultsStats" style="display: none !important;">
+            <span class="text-muted" id="resultsCount"></span>
+            <span class="text-muted" id="resultsTime"></span>
+        </div>
+
+        <!-- Results List -->
+        <div id="resultsContainer">
+            <div class="text-center py-5 text-muted">
+                <i class="fas fa-search fa-3x mb-3"></i>
+                <p>Enter a keyword to search agenda items</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <nav class="mt-4" id="paginationNav" style="display: none;">
+            <ul class="pagination justify-content-center" id="pagination">
+            </ul>
+        </nav>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h6>CityVotes - Santa Ana Voting Transparency</h6>
+                    <p class="text-muted mb-0">Data sourced from official Santa Ana city council meeting records.</p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <span class="text-muted">2024 Data</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    const API_BASE = 'http://localhost:8000/api/db';
+    let currentSearch = '';
+    let currentOffset = 0;
+    const pageSize = 20;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Check URL params for initial search
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+            document.getElementById('searchInput').value = query;
+            performSearch(query, 0);
+        }
+
+        // Handle form submit
+        document.getElementById('searchForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                currentSearch = query;
+                currentOffset = 0;
+                // Update URL
+                window.history.pushState({}, '', `?q=${encodeURIComponent(query)}`);
+                performSearch(query, 0);
+            }
+        });
+    });
+
+    async function performSearch(query, offset = 0) {
+        const container = document.getElementById('resultsContainer');
+        container.innerHTML = `
+            <div class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Searching...</span>
+                </div>
+                <p class="mt-2 text-muted">Searching...</p>
+            </div>
+        `;
+
+        const startTime = performance.now();
+
+        try {
+            const response = await fetch(`${API_BASE}/agenda-items?search=${encodeURIComponent(query)}&limit=${pageSize}&offset=${offset}`);
+            const data = await response.json();
+            const elapsed = Math.round(performance.now() - startTime);
+
+            if (data.success) {
+                // Show stats
+                document.getElementById('resultsStats').style.display = 'flex';
+                document.getElementById('resultsCount').textContent = `Found ${data.total} agenda items`;
+                document.getElementById('resultsTime').textContent = `${elapsed}ms`;
+
+                if (data.items.length === 0) {
+                    container.innerHTML = `
+                        <div class="text-center py-5 text-muted">
+                            <i class="fas fa-search fa-3x mb-3"></i>
+                            <p>No agenda items found matching "${query}"</p>
+                            <p class="small">Try different keywords or check your spelling</p>
+                        </div>
+                    `;
+                    document.getElementById('paginationNav').style.display = 'none';
+                    return;
+                }
+
+                container.innerHTML = data.items.map(item => `
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h5 class="card-title">
+                                        ${item.item_number ? `<span class="badge bg-secondary me-2">Item ${item.item_number}</span>` : ''}
+                                        ${highlightSearch(item.title, query)}
+                                    </h5>
+                                    ${item.section ? `<p class="text-muted small mb-2"><i class="fas fa-folder me-1"></i>${highlightSearch(item.section, query)}</p>` : ''}
+                                    ${item.description ? `<p class="card-text">${highlightSearch(truncateText(item.description, 300), query)}</p>` : ''}
+                                </div>
+                                <div class="text-end ms-3" style="white-space: nowrap;">
+                                    ${item.outcome ? `<span class="badge ${item.outcome === 'PASS' ? 'bg-success' : item.outcome === 'FAIL' ? 'bg-danger' : 'bg-secondary'}">${item.outcome}</span>` : '<span class="badge bg-light text-dark">No Vote</span>'}
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center small">
+                                <span class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>${formatDate(item.meeting_date)} - ${item.meeting_type} Meeting
+                                </span>
+                                <div>
+                                    <a href="meeting-detail.html?id=${item.meeting_id}" class="btn btn-sm btn-outline-primary me-1">
+                                        <i class="fas fa-calendar-day me-1"></i>View Meeting
+                                    </a>
+                                    ${item.vote_id ? `<a href="vote-detail.html?id=${item.vote_id}" class="btn btn-sm btn-outline-secondary"><i class="fas fa-vote-yea me-1"></i>View Vote</a>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+
+                // Update pagination
+                updatePagination(data.total, offset, query);
+            }
+        } catch (error) {
+            console.error('Error searching:', error);
+            container.innerHTML = `
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-triangle me-2"></i>
+                    Failed to search. Make sure the backend is running on port 8000.
+                </div>
+            `;
+        }
+    }
+
+    function highlightSearch(text, query) {
+        if (!text || !query) return text || '';
+        const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+        return text.replace(regex, '<mark>$1</mark>');
+    }
+
+    function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function truncateText(text, maxLength) {
+        if (!text || text.length <= maxLength) return text;
+        return text.substring(0, maxLength) + '...';
+    }
+
+    function updatePagination(total, currentOffset, query) {
+        const totalPages = Math.ceil(total / pageSize);
+        const currentPage = Math.floor(currentOffset / pageSize);
+
+        if (totalPages <= 1) {
+            document.getElementById('paginationNav').style.display = 'none';
+            return;
+        }
+
+        document.getElementById('paginationNav').style.display = 'block';
+        const pagination = document.getElementById('pagination');
+
+        let html = '';
+
+        // Previous button
+        html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
+            <a class="page-link" href="#" onclick="performSearch('${escapeQuotes(query)}', ${(currentPage - 1) * pageSize}); return false;">Previous</a>
+        </li>`;
+
+        // Page numbers
+        for (let i = 0; i < totalPages; i++) {
+            if (i === 0 || i === totalPages - 1 || Math.abs(i - currentPage) <= 2) {
+                html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
+                    <a class="page-link" href="#" onclick="performSearch('${escapeQuotes(query)}', ${i * pageSize}); return false;">${i + 1}</a>
+                </li>`;
+            } else if (Math.abs(i - currentPage) === 3) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+        }
+
+        // Next button
+        html += `<li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
+            <a class="page-link" href="#" onclick="performSearch('${escapeQuotes(query)}', ${(currentPage + 1) * pageSize}); return false;">Next</a>
+        </li>`;
+
+        pagination.innerHTML = html;
+    }
+
+    function escapeQuotes(str) {
+        return str.replace(/'/g, "\\'").replace(/"/g, '\\"');
+    }
+
+    function formatDate(dateStr) {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+    </script>
+</body>
+</html>

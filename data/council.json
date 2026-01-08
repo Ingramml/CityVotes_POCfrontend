@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "members": [
+    {
+      "id": 5,
+      "full_name": "Benjamin Vazquez",
+      "short_name": "Vazquez",
+      "position": "Council Member",
+      "start_date": "2022-12-13",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 430,
+        "nay_count": 2,
+        "abstain_count": 0,
+        "absent_count": 4,
+        "aye_percentage": 98.6,
+        "participation_rate": 99.1
+      }
+    },
+    {
+      "id": 4,
+      "full_name": "David Penaloza",
+      "short_name": "Penaloza",
+      "position": "Council Member",
+      "start_date": "2020-12-08",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 421,
+        "nay_count": 6,
+        "abstain_count": 0,
+        "absent_count": 9,
+        "aye_percentage": 96.6,
+        "participation_rate": 97.9
+      }
+    },
+    {
+      "id": 3,
+      "full_name": "Jessie Lopez",
+      "short_name": "Lopez",
+      "position": "Council Member",
+      "start_date": "2020-12-08",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 418,
+        "nay_count": 9,
+        "abstain_count": 0,
+        "absent_count": 9,
+        "aye_percentage": 95.9,
+        "participation_rate": 97.9
+      }
+    },
+    {
+      "id": 2,
+      "full_name": "Johnathan Ryan Hernandez",
+      "short_name": "Hernandez",
+      "position": "Council Member",
+      "start_date": "2020-12-08",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 429,
+        "nay_count": 4,
+        "abstain_count": 0,
+        "absent_count": 3,
+        "aye_percentage": 98.4,
+        "participation_rate": 99.3
+      }
+    },
+    {
+      "id": 7,
+      "full_name": "Phil Bacerra",
+      "short_name": "Bacerra",
+      "position": "Council Member",
+      "start_date": "2018-12-11",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 424,
+        "nay_count": 6,
+        "abstain_count": 0,
+        "absent_count": 6,
+        "aye_percentage": 97.2,
+        "participation_rate": 98.6
+      }
+    },
+    {
+      "id": 6,
+      "full_name": "Thai Viet Phan",
+      "short_name": "Phan",
+      "position": "Council Member",
+      "start_date": "2020-12-08",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 410,
+        "nay_count": 1,
+        "abstain_count": 4,
+        "absent_count": 9,
+        "aye_percentage": 94.0,
+        "participation_rate": 95.2
+      }
+    },
+    {
+      "id": 1,
+      "full_name": "Valerie Amezcua",
+      "short_name": "Amezcua",
+      "position": "Mayor",
+      "start_date": "2022-12-13",
+      "end_date": null,
+      "is_current": true,
+      "stats": {
+        "total_votes": 436,
+        "aye_count": 426,
+        "nay_count": 4,
+        "abstain_count": 0,
+        "absent_count": 6,
+        "aye_percentage": 97.7,
+        "participation_rate": 98.6
+      }
+    }
+  ]
+}

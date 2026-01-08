@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 222,
+    "item_number": "11",
+    "title": "11.Agreement with MDG Associates, Inc. for the Preparation of the Fiscal Year \n2025-29 Regional Assessment of Fair Housing and Memorandum of \nUnderstanding with Surrounding Jurisdictions ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an Agreement with MDG Associates, Inc. \nto prepare the Fiscal Year 2025-29 Regional Assessment of Fair Housing (AFH), \nwhereby the City will act as the lead for the Regional AFH, in an amount not to \nexceed $159,882 for a one-year term beginning August 1, 2024 and expiring \nJuly 30, 2025 (Agreement No. A-2024-095). \n2. Authorize the City Manager to execute a Memorandum of Understanding and \nPayment Agreement with all of the surrounding jurisdictions in Orange County \nto jointly engage MDG Associates, Inc. to provide a Regional AFH, and \nauthorize the City Attorney to reasonably revise or amend the Memorandum of \nUnderstanding as needed in order to collect payment, substantially in the form \nattached hereto, with all of the surrounding jurisdictions participating in the \nRegional AFH (Agreement No. A-2024-096). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

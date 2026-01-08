@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 48,
+    "item_number": "33",
+    "title": "33.Amend Blanket Order Contract with Smart & Final Stores LLC for Sundry Food \nand Paper Goods, for a Revised Annual Amount Not -to -Exceed $80,000 \n(Specification No. 19-046) (General Fund) ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an amendment to \nincrease Blanket Order Contract authority with Smart & Final Stores LLC for the \npurchase of sundry food and paper goods by $35,000, for a revised annual amount \nnot to exceed $80,000 for the current contract term expiring June 1, 2024, and allow \nautomatic renewal of each annual contract term until terminated. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 32,
+    "item_number": "17",
+    "title": "17.Award Aggregate Inventory Blanket Order Contracts for Water Meter Boxes \nand Lids to Core & Main and Ferguson Enterprises LLC, dba Ferguson \nWater Works, in a Total Aggregate Amount Not to Exceed of $3,000,000 for a \nthree-year term beginning February 6, 2024 and Expiring February 5, 2027, \nWith Provisions for up to Three Additional One -Year Renewal Periods \n(Specification No. 23-102) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Award Blanket Order Contracts to Core & Main and \nFerguson Enterprises LLC, dba Ferguson Water Works, to provide water meter \nboxes and lids for a shared aggregate amount not to exceed $3,000,000, for a \nthree- year term beginning February 6, 2024 and expiring February 5, 2027, with \nprovisions for three, one-year renewal periods, in accordance with each vendor's \nrespective contract terms and conditions.",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

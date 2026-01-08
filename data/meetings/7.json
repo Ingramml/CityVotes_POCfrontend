@@ -1,0 +1,345 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 22,
+    "vote_count": 22,
+    "agenda_items": [
+      {
+        "id": 121,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10. Award a Construction Contract to Baker Electric & Renewables LLC in the Amount \nof $691,335 for the Traffic Signal Installation at Chestnut Avenue and Zoo Lane \n(formerly Elk Lane) with an Estimated Project Delivery Cost of $864,168 (Project \nNo. 23-6999) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement Program to \ninclude $864,168 of funding in Transportation System Impact Authority (TSIA) Area A \nand Capital Outlay Fund Parks Improvement funds for the Traffic Signal Installation at \nChestnut Avenue and Zoo Lane (formerly Elk Lane). \n2. Approve an appropriation adjustment to recognize Transportation System Impact \nAuthority Area A funds in an amount of $839,168 in the Prior Year Carry Forward \nrevenue account, and appropriate the same amount to the Transportation System \nImpact Authority Area 'A, Improvements Other than Buildings expenditure account. \n(Requires five affirmative votes) \n3. Authorize budget reallocation of $25,000 in unspent Capital Outlay Fund Parks \nImprovement account from the Maintenance &Repair Buildings &Ground (No. 24- \n2600) Project to construction funds for the Traffic Signal Installation at Chestnut Avenue \nand Zoo Lane (formerly Elk Lane) (No. 23-6999) to complete the project funding \nrequirement. \n4. Award a construction contract to Baker Electric & Renewables LLC., the lowest \nresponsive bidder, in accordance with the base bid in the amount of $691,335, subject \nto change orders (not to exceed 25% of the base bid amount) in accordance with the \nGreenbook: Standard Specifications for Public Works Construction, for construction of \nnew Traffic Signal Installation at Chestnut Avenue and Zoo Lane (formerly Elk Lane) \nProject, for the term beginning December 19, 2023 and ending upon project \nCITY COUNCIL 14 JANUARY 16, 2024 \n\n\ncompletion. \n5. Approve the Project Cost Analysis for a total estimated construction delivery cost of \n$864,168, which includes $691,335 for the construction contract, $103,700 for contract \nadministration, inspection, and testing; and a $69,133 project contingency for \nunanticipated or unforeseen work. \n6. Determine that, pursuant to the California Environmental Quality Act, the recommended \n",
+        "vote": {
+          "id": 8,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 122,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11. Cooperative Agreement with the Orange County Transportation Authority for the \nOperations and Maintenance of the OC Streetcar System (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a cooperative agreement \nwith the Orange County Transportation Authority (OCTA) for the Operations and \nMaintenance of the OC Streetcar System for a term beginning on the effective date of this \nagreement for a period of 50 years, with an optional 20-year extension at the discretion of \nOCTA (Agreement No. A-2024-002). ",
+        "vote": {
+          "id": 9,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 123,
+        "item_number": "12",
+        "section": "GENERAL",
+        "title": "12. Approve an Agreement with Professional Sports Field Maintenance, Inc. for Infield \nMaintenance Services at City Parks and Facilities in an Amount Not -to -Exceed \n$2,759,035 (RFP No.23-152) (General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nProfessional Sports Fields Maintenance, Inc., for infield maintenance services in an \nannual amount not -to -exceed $459,839, plus an annual contingency of $91,968, for a total \namount not -to -exceed $2,759,035, for a three-year term beginning on February 1, 2024 \nand expiring January 31, 2027 with provisions for two, one-year extensions (Agreement \nNo. A-2024-003). \nMINUTES: Mayor Amezcua spoke regarding saving monies and questioned whether \nemployees can complete these jobs for Agenda Item Nos. 12, 13, 14, and 19. \nCouncilmember Hernandez spoke regarding not approving contracts that take jobs away \nfrom current employees and questioned the capacity for in-house services. \nInterim City Manager Tom Hatch spoke regarding the extension of current contracts \nand contract services provided. He stated the contracts supplement current workload \nprovided by employees. \nMayor Amezcua spoke regarding employee vacancies in the City and questioned why \ncontract services are not completed by unfilled positions. \nCITY COUNCIL 15 JANUARY 16, 2024 \n\n\nInterim City Manager Hatch Spoke regarding the current vacancies and clarified the \ncontract services being provided. \nMOTION: Mayor Amezcua moved to approve the recommended action for Agenda \nItem No. 12, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 0 \u00d1 Pass ",
+        "vote": {
+          "id": 10,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 124,
+        "item_number": "13",
+        "section": "GENERAL",
+        "title": "Approve an Agreement with RPW Services, Inc. for Integrated Pest Management \n(IPM) and Pest Control Services at City Parks and Facilities in an Amount Not to \nExceed $3,966,300 (RFP No. 23-153) (General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with RPW \nServices, Inc. for integrated pest management and pest control services in an annual \namount not -to -exceed $661,050, plus an annual contingency of $132,210, for a total \namount not -to -exceed $3,966,300 for a three-year term beginning on February 1, 2024 \nand expiring January 31, 2027 with provisions for two, one-year extensions (Agreement \nNo. A-2024-004). \nMOTION: Mayor Amezcua moved to approve the recommended action for \nAgenda Item No. 13, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 -- 0 _ Pass \nCITY COUNCIL 16 JANUARY 16, 2024 ",
+        "vote": {
+          "id": 11,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 125,
+        "item_number": "14",
+        "section": "GENERAL",
+        "title": "14. Approve a Takeover Agreement with Great American Insurance Group to Take Over \nthe Santa Ana Zoo Giant River Otter and Primate Trails Project and Approve an \nAmendment to the Agreement with CLR Design to Increase the Construction \nAdministration Services Amount by $75,000 for a New Estimated Total Services \nCost of $193,000 (Project No. 16-2658) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize the City Manager to execute a takeover agreement with Great American \nInsurance Group subject to change orders (not to exceed 25% of the base bid amount) \nin accordance with the Greenbook: Standard Specifications for Public Works \nconstruction, to take over the Santa Ana Zoo Giant River Otter and Primate Trails \nProject and be responsible for the completion of all work in accordance with the \ncontract (Agreement No. A-2024-005). \n2. Authorize the City Manager to execute a first amendment to the agreement with CLR \nDesign Inc. for construction support services for the Santa Ana Zoo Giant River Otter \nand Primate Trails Project, to increase the amount by $75,000, for a total agreement \namount of $193,000 (Agreement No. A-2024-006). \nMOTION: Mayor Amezcua moved to approve the recommended action for \nAgenda Item No. 14, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 --- 0 -- Pass ",
+        "vote": {
+          "id": 12,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 126,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "Approve Aggregate Agreements with DIMS Facility Services, Landscape West \nManagement Services, Inc., Mariposa Landscapes, Inc., and PCA Arborists & \nConsultants, Inc. dba Pacific Coast Horticulturists for Landscape Maintenance at \nCity Parks and Facilities in an Aggregate Amount Not -to -Exceed $35,737,920 (RFP \nNo. 23-151) (General Fund and Non -General Fund) ",
+        "description": "No. 23-151) (General Fund and Non -General Fund) \nDepartment(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute aggregate agreements \nto DMS Facility Services, Landscape West Management Services, Mariposa \nCITY COUNCIL 17 JANUARY 1 6, 2024 \n\n\nLandscapes, Inc., and Pacific Coast Horticulturists for landscape maintenance services in \nan annual aggregate amount not -to -exceed $5,228,321, plus an annual contingency of \n$1,919,264, for a total aggregate amount not -to -exceed $35,737,920 for a three year term \nbeginning February 1, 2024, and expiring January 31, 2027, with provisions for two, \none-year extensions (Core Agreement No. A-2024-007). \nMINUTES: Councilmember Vazquez spoke in support of the item. ",
+        "vote": {
+          "id": 13,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 127,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "NUTES: Councilmember Vazquez spoke in support of the item. \n16. First Amendment to the Density Bonus Housing Agreement for Legacy Square \nDepartment(s): Community Development Agency ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Approve a First Amendment to the Density Bonus Housing \nAgreement with National Community Renaissance of California and Legacy Square, L.P. \nfor the permanent loan conversion of Legacy Square (Agreement No. A-2024-008). \nMOTION: Councilmember Bacerra moved to approve the recommended action \nfor Agenda Item No. 16 as part of the Consent Calendar, seconded by Mayor \nAmezcua. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 \u00d1 0 \u00d1 1 \u00d1 Pass ",
+        "vote": {
+          "id": 14,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 1,
+          "absent": 0
+        }
+      },
+      {
+        "id": 128,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "Approve a First Amendment to the Fiscal Year 2023-24 Emergency Solutions Grant \n(ESG) Memorandum of Understanding with the Santa Ana Police Department \nHEART Program for Additional Street Outreach and ESG Subrecipient Agreement \nwith Interval House to Provide Emergency Shelter and Supportive Services to \nVictims of Domestic Violence from the City of Santa Ana ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute a First Amendment to the Santa Ana Police \nDepartment Homeless Evaluation Assessment Response Team (HEART) Program \nMemorandum of Understanding (MOU) to increase the amount of the agreement by \n$32,394.61 for program year July 1, 2023 - June 30, 2024 for additional street \noutreach activities (Agreement No. A-2024-009). \n2. Authorize the City Manager to execute a First Amendment to the Interval House \nSubrecipient Agreement to increase the amount of the agreement by $32,393.00 for \nprogram year July 1, 2023 - June 30, 2024 to provide emergency shelter and \nsupportive services to victims of domestic violence from the City of Santa Ana \n(Agreement No. A-2024-010). ",
+        "vote": {
+          "id": 15,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 129,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18. Approve an Agreement with occupational Health Centers of California, a Medical \nCorporation dba Concentra Medical Centers (\"Concentra\") to Provide Pre - \nEmployment Medical Services ",
+        "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute an agreement with \nConcentra to provide a comprehensive medical services review program in an amount \nnot to exceed $450,000 for a three-year term from January 31, 2024 through January 30, \n2027, with the option for the City to grant up to two 1-year renewals of $150,000 each \nadditional year, in an amount not to exceed $750,000 over a five-year term (Agreement \nNo. A-2024-01 1). ",
+        "vote": {
+          "id": 16,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 130,
+        "item_number": "19",
+        "section": "GENERAL",
+        "title": " Second Amendment to Agreement with Al Party Rental for Event Equipment Rental \nServices at City Events to Increase the Annual Amount by $45,000 per Year through \nMarch 31, 2025, ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an amendment to an \nagreement with Al Party Rental for event equipment rental services at City events to \nincrease the annual amount by $45,000 per year through March 31, 2025, for a total \nincrease of $90,000 and new agreement total of $540,000 (Agreement No. A-2024- \n012). \nMOTION: Mayor Amezcua moved to approve the recommended action for \nAgenda Item No. 19, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, COUNCILMEMBER \nPENALOZA, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 17,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 131,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20. Second Amendment to Agreement with California Barricade Rentals, Inc. for Traffic \nControl Equipment and Services at City Events to Increase the Total Agreement Not \nTo Exceed Amount by $185,000 through March 31, 2025, for a New Total Not to \nExceed Amount of $400,000 (General Fund) ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nCITY COUNCIL 19 JANUARY 16, 2024 \n\n\nRecommended Action: Authorize the City Manager to execute a second amendment to \nthe agreement with California Barricade Rentals, Inc. for traffic control equipment and \nservices at City events to increase the total agreement not to exceed amount by $185,000 \nthrough March 31, 2025 for a new total not -to -exceed amount of$400,000 (Agreement \nNo. A-2024-013) . ",
+        "vote": {
+          "id": 18,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 132,
+        "item_number": "21",
+        "section": "CONSENT",
+        "title": "21. Second Amendment to the Agreement with Matchpoint Tennis Academy LLC \n(\"Matchpoint) for the Management, operation, and Maintenance of the Cabrillo \nTennis Center",
+        "description": "Departments): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute the second amendment \nto the agreement with Matchpoint Tennis Academy LLC to adjust the terms and conditions \nof Section 4 in the agreement and reduce the term from 15 years to 10 years with an \nexpiration date of December 31, 2029 with the Option for a one 5-year extension \n(Agreement No. A-2024-014). ",
+        "vote": {
+          "id": 19,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 133,
+        "item_number": "22",
+        "section": "CONSENT",
+        "title": "22. Historic Property Preservation Agreements ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \nAuthorize the City Manager or designee to execute the attached Mills Act \nagreements with the below -referenced property owners for the identified \nstructure(s). \nProperty Historic \nOwner(s) Property/Preservation Address/House Vote by HRC \nAgreement No. \nCharles William \nLake and Julie S. \nPage 13 1 /16/2024 \n\n\nLake, as \nTrustees of the \nCharles William \nLake and Julie S. 2023-10 \nLake 2002 \nFamily Trust \nDated \nSeptember 20, \n2002 \nDaniel and 2023-11 \nRobbyn Taylor \n2028 N. \nGreenleaf Street \n5.0.0.3 \n(Commissioners \nHardy, Cornelious, \nand Escamilla \nabsent) \n5.0.0.3 \n1607 N. Freeman (Commissioners \nStreet Hardy, Cornelious, \nand Escamilla \nabsent) \n2. Determine that, in accordance with the California Environmental Quality Act, the \nproposed projects are exempt for further review as Categorical Exemptions ER \nNo. 2023-105 and 2023-107 will be filed for the projects. ",
+        "vote": {
+          "id": 20,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 134,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "\n23. Approve a First Amendment to Agreement with Data Ticket, Inc. (General Fund) \nDepartment(s): Police Department ",
+        "description": "Recommended Action: Authorize the City Manager to execute the first amendment to \nthe agreement with Data Ticket, Inc. for automated parking citation and processing \nservices for an additional amount of $730,351.69, for a total aggregate amount not to \nexceed $2,000,000 for the remaining term of the agreement expiring February 14, 2025 \n(Agreement No. A-2024-017). ",
+        "vote": {
+          "id": 21,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 135,
+        "item_number": "24",
+        "section": "GENERAL",
+        "title": "24. Agreements with Enterprise Fleet Management for Leased Vehicles (General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute the following seven \nagreements with Enterprise FM Trust and Enterprise Fleet Mangement, Inc. for leased \nvehicles for the period of January 1, 2024 through April 18, 2026 for a total annual amount \nnot to exceed $612,936, with a one-year extension option: (Core Agreement No. A-2024- \n018) \n1. Master Walkaway Lease Agreement; \n2. Master Equity Lease Agreement; \n3. Maintenance Management and Fleet Rental Agreement; \n4. Supplemental Agreement between city and Enterprise; \n5. Indemnity Agreement for Master walkaway Lease Agreement; \n6. Indemnity Agreement for Master Equity Lease Agreement; \n7. Amendment to Maintenance Management and Fleet Rental Agreement. \nMINUTES: Councilmember Penaloza asked for clarification regarding the type/model \nof the leased vehicles throughout the department. \nCity Attorney Sonia Carvalho provided clarification. \nCouncilmember Penaloza requested the type of vehicles leased be discussed during \nlabor negotiations. \nCouncilmember Lopez left the meeting via teleconference at 8: 03 P.M. \nCITY COUNCIL 21 JANUARY 16, 2024 \n\n\nMayor Amezcua spoke regarding the type of vehicles used by the Police Department, \nand requested information/ presentation regarding the type of vehicles, costs, and the \npolice budget. \nMOTION: Councilmember Penaloza moved to approve the recommended action \nfor Agenda Item No. 24 and direct staff to review and formulate the policy on the \ntype of vehicles taken home as part of negotiations, seconded by Mayor Amezcua. \nThe motion carried, 5-1-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, COUNCILMEMBER VAZQUEZ, \nMAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: COUNCILMEMBER HERNANDEZ \nABSTAIN: NONE \nABSENT: COUNCILMEMBER LOPEZ \nStatus: 5-1 \u00d1 0 \u00d1 1 \u00d1Pass ",
+        "vote": {
+          "id": 23,
+          "outcome": "PASS",
+          "ayes": 5,
+          "noes": 1,
+          "abstain": 1,
+          "absent": 1
+        }
+      },
+      {
+        "id": 136,
+        "item_number": "25",
+        "section": "BUSINESS",
+        "title": "25. Election of Mayor Pro Tem for 2024 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Nominate and elect one Councilmember to serve as Mayor Pro \nTem for calendar year2024. \nMINUTES: Mayor Amezcua opened public comments for the Business Calendar. \nThere being no requests to speak, Mayor Amezcua closed the public comment period. \nCouncilmember Bacerra nominated Councilmember Phan as Mayor Pro Tem, \nseconded by Councilmember Penaloza. \nCouncilmember Vazquez nominated Councilmember Hernandez as Mayor Pro Tem, \nseconded by Mayor Pro Tem Lopez. \nCITY COUNCIL 10 JANUARY 16, 2024 \n\n\nMOTION: Mayor Amezcua moved to close nominations for Mayor Pro Tem for \ncalendar year 2024, seconded by Councilmember Bacerra. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, COUNCILMEMBER VAZQUEZ, \nMAYOR PRO TEM LOPEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass \nMOTION: Councilmember Bacerra moved to appoint Councilmember Phan as \nthe Mayor Pro Tem for calendar year 2024, seconded by Councilmember \nHernandez. \nThe motion carried, 4-3, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, MAYOR AMEZCUA \nNOES: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 4 --- 3 --- Pass \nMOTION: Councilmember Vazquez moved to appoint Councilmember \nHernandez as the Mayor Pro Tem for calendar year 2024, seconded by Mayor Pro \nTem Lopez. \nThe motion failed, 3-4, by the following roll call vote: \nAYES: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM LOPEZ \nNOES: COUNCILMEMBER BACERRA, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, MAYOR AMEZCUA \nABSTAIN: NONE \nABSENT: NONE \nStatus: 3 \u00d1 4 \u00d1 FAIL \nMINUTES: Thai Viet Phan appointed as Mayor Pro Tem for Calendar year 2024. ",
+        "vote": {
+          "id": 3,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 137,
+        "item_number": "26",
+        "section": "BUSINESS",
+        "title": "Amendment Application No. 2023-04 and Zoning Ordinance Amendment No. 2023- \n03 for the expansion of Vista Heritage Charter School located at 601 North Fairview \nStreet \nPublished in the Orange County Reporter on January 6, 2024 and notices mailed on \nJanuary 4, 2023. ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action \n1. Approve first reading of an ordinance approving Amendment Application (Zone \nChange) No. 2023-04. \nORDINANCE NO. NS-3055 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA APPROVING AMENDMENT APPLICATION NO. 2023-04 \nAMENDING THE ZONING FOR THE PROPERTY LOCATED AT 601 NORTH \nFAIRVIEW STREET (APN: 405-241-04) FROM LIGHT INDUSTRIAL (Ml) TO \nSPECIFIC DEVELOPMENT NO.82 (SD-82) \nCITY COUNCIL 5 JANUARY 16, 2024 \n\n\n2. Adopt first reading of an ordinance approving Zoning Ordinance Amendment (ZOA) \nNo. 2023-03 as conditioned. \nORDINANCE NO. NS-3056 entitled ZONING ORDINANCE AMENDMENT NO. \n2023-03 \u00d1 AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA \nAMENDING SPECIFIC DEVELOPMENT NO. 82 (SD-82) TO EXPAND THE \nBOUNDARIES OF THE SD-82 AND TO AMEND VARIOUS SECTIONS OF THE SD- \n82 TO ALLOW FOR THE CREATION OF THREE (3) LAND USE ZONES, NEW \nPERMITTED USES AND ANCILLARY USES, AND ADMINISTRATIVE \nREQUIREMENTS FOR PROPERTY MAINTENANCE, COVENANTS, CONDITIONS \nAND RESTRICTIONS (CC&RS) AND RECIPROCAL PARKING AND ACCESS \nAGREEMENTS \n3. Determine that, pursuant to the California Environmental Quality Act (CEQA) and the \nCEQA Guidelines, the project is exempt from further review per Section 15301 \nExisting Facilities (Class 1 \u00d1 Existing Facilities) of the CEQA Guidelines and per \nSection 15183 (Projects Consistent with a Community Plan, General Plan, or Zoning) \nof the CEQA Guidelines. \nMINUTES: Planning and Building Director Minh Thai gave a presentation regarding \nthe Vista Heritage Charter school. \nMayor Amezcua opened the Public Hearing a 6:39 P.M. \nThe following speakers addressed the City Council in person: \nI. Collin Felch, Applicant, spoke in support of the item. \n2. 111ari Ulascoaga spoke about her experience at Vista Charter School. \n3. Leon Raya spoke in support of the project. \n4. Zoila Lubin spoke in support of the project. \n5. John Ramirez spoke in support of the project. \nCity Clerk J",
+        "vote": {
+          "id": 1,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 138,
+        "item_number": "27",
+        "section": "BUSINESS",
+        "title": "27.Ordinance Amendment No. 2023-04 Amending Article 11.11 of Chapter 2 (Sunshine \nOrdinance) of the Santa Ana Municipal Code (SAMC) Addressing Applicability of \nOrdinance to Specific Development Amendments; Ordinance Amendment No. \n2023- 05 to Update Chapter 14 (Fire Protection and Prevention and Emergency \nServices) of the SAMC Addressing Eligibility for Permits for the Sale of Safe and \nSane Fireworks; and Zoning Ordinance Amendment No. 2023-04 to Update \nChapter 41 (Zoning) of the SAMC Addres",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Approve first reading of an ordinance amending Article 11.11 of Chapter 2 (Sunshine \nOrdinance) of the SAMC addressing applicability of ordinance to specific development \namendments. \nORDINANCE NO. NS-3057 entitled ORDINANCE AMENDMENT NO. 2023-04 \u00d1 AN \nORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA AMENDING \nCHAPTER 2 (ADMINISTRATION) OF THE SANTA ANA MUNICIPAL CODE \nRELATING TO PUBLIC INPUT THROUGH COMMUNITY MEETINGS \n2. Approve first reading of an ordinance amending Chapter 14 (Fire Protection and \nPrevention and Emergency Services) addressing eligibility for permits for the sale of \nsafe and sane fireworks. \nORDINANCE NO. NS-3058 entitled ORDINANCE AMENDMENT NO. 2023-05 \u00d1 AN \nORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA AMENDING \nPORTIONS OF CHAPTER 14 (FIRE PROTECTION AND PREVENTION AND \nEMERGENCY SERVICES) OF THE SANTA ANA MUNICIPAL CODE RELATING TO \nSAFE AND SANE FIREWORKS \n3. Approve first reading of a zoning ordinance amending Chapter 41 (Zoning) of the \nSAMC addressing wireless communication facilities, billboards, hotels, general \nrestrictions, and definitions. \nCITY COUNCIL 7 JANUARY 1 6, 2024 \n\n\nORDINANCE NO. NS-3059 entitled ZONING ORDINANCE AMENDMENT NO. \n2023-04 \u00d1 AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA \nAMENDING PORTIONS OF CHAPTER 41 (ZONING) OF THE SANTA ANA \nMUNICIPAL CODE RELATING TO GENERAL RESTRICTIONS, AND BILLBOARDS \n4. Determine that, pursuant to the California Environmental Quality Act (\"CEQA\") and the \nCEQA Guidelines, the adoption of these Ordinances is exempt from CEQA review \npursuant to sections 15060(c)(2) and 15060(c)(3) of the CEQA Guidelines because it \nwill not result in a direct or reasonably foreseeable indirect physical change in the \nenvironment, as there is no possibility it will have a significant effect on the \nenvironment and it is not a \"project,\" as defined in Section 15378 of the CEQA \nGuidelines. As a result, Enviro",
+        "vote": {
+          "id": 2,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 139,
+        "item_number": "6",
+        "section": "CONSENT",
+        "title": "elopment Board. \n6. Receive and File: Fiscal Year 2022-23 Annual Comprehensive Financial Report, \nRelated Audit Reports, and Measure X Agreed -Upon -Procedures Report ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Receive and file the following audited and separately issued \nreports for the Fiscal Year Ended June 30, 2023: \n1. The Auditor's unmodified \"clean\" opinion letter for the fiscal year 2022-23 Audited \nFinancial Statements included in the Annual Comprehensive Financial Report (ACFR) \n2. Government Auditing Standards (GAS) Letter \n3. Governance Letter \n4. Air Quality Management District (AQMD) Audited Financial Statements \n5. The Auditor's report on the Appropriations Limit (GANN Limit) \n6. The Auditor's report on compliance with the Statement of Investment Policy \n7. Measure XAgreed-Upon-Procedures Report ",
+        "vote": {
+          "id": 4,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 140,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "7. Receive and File the Certification of Approval by City Engineer of Final Tract Map \n2019-02, County Tract Map No. 19064 For 301 and 305 North Mountain View Street \n(Applicant: Olympia Capital Corporation) (No Fiscal Impact) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Receive and file the certification of approval by City Engineer of \nthe Final Tract Map 2019-02. ",
+        "vote": {
+          "id": 5,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 141,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "Award a Purchase Order Contract to Los Angeles Truck Centers for One Rizon e18L \nEll Truck, in an Amount Not -to -Exceed $237,588 (Bid No. 23-190) (Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $237,588 in prior -year fund \nbalance in the Air Quality Improvement (AB 2766) Fund, Prior Year Carry Forward \nrevenue account and appropriate the same amount into the Fleet Services -Air Quality \nImprovement expenditure account. (Requires five affirmative votes) \nCITY COUNCIL 13 JANUARY 16, 2024 \n\n\n2. Authorize a onetime purchase and payment of a Purchase Order to Los Angeles \nTruck Centers for one 2023 Rizon e18L EV Truck, in an amount not to exceed \n$237,588, including a $20,000 contingency amount. ",
+        "vote": {
+          "id": 6,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 142,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "Approve an Appropriation Adjustment and Increase the Agreement Amount by \n$100,000 for Existing Agreements with AimTD, LLC and Transportation Studies, Inc. \nfor a New Aggregate Amount Not to Exceed $240,000 (Project Nos. 21-6897, 22- \n6897, 23-6897, 24-6897) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute second amendments to \nagreements for traffic counting services with AimTD, LLC and Transportation Studies, Inc., \nto increase the agreement aggregate amount by an additional $100,000, for a total \nagreement aggregate amount of $240,000 from June 30, 2024 to June 30, 2025 (Core \nAgreement No. A-2024-001 ). ",
+        "vote": {
+          "id": 7,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

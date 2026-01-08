@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 210,
+    "item_number": "8",
+    "title": "8. Approve an Agreement with Coach Max Corp and Elite Executive Charter, LLC \nto Provide Charter Bus Transportation Services (General Fund) ",
+    "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute aggregate \nagreements with Coach Max Corp and Elite Executive Charter, LLC to provide charter \nCITY COUNCIL 7 JUNE 18, 2024 \n\n\nbus transportation for City programs and events for a term from July 1, 2024 through \nJune 30, 2027, with two (2), one (1) year renewal options for a total amount, including \nextensions, not -to -exceed $500,000 (General Fund) (Agreement Nos. A-2024-086 \nand A-2024-087). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 13,
+    "meeting_date": "2024-06-18",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

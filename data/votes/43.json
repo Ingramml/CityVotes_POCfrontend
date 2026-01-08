@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 43,
+    "item_number": "28",
+    "title": "28.Approve an Addendum to the Fiscal Year 2023-24 Request for Proposals for \nAffordable Homeownership Opportunities ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to issue an Addendum to the \nFiscal Year 2023-24 Request for Proposals for Affordable Homeownership \nOpportunities to expand the types of eligible proposals for affordable rental projects \nwith a development site preference for specific areas in the City and revise the name \nto Request for Proposals for Affordable Housing Development. \nMINUTES: Councilmember Bacerra asked for clarification regarding the means of \ncontact to affordable housing membership associations, developers, and non- \nprofit organizations, questioned the targeted five areas, and requested staff do \nproactive research and come back with a status update within six -months. \nCITY COUNCIL 18 FEBRUARY 20, 2024 \n\n\nCommunity Development Executive Director Mike Garcia stated staff conducted \nphone calls, emails, and letters as a form of awareness and notification to \naffordable housing membership associations, developers, and non-profit \norganizations, spoke regarding the process of the RFP and the proposed \naddendum, and focused areas for single lot development. He suggested an open - \nuntil -filled process with an initial review of RFP responses by April 1, 2024 and a \nsix-month deadline. \nCouncilmember Lopez spoke in support of the item and requested staff be \ncautions with larger corporations renting out the affordable housing units and an \nexpansion of the hotel conversion area. \nCouncilmember Hernandez spoke in support of the item. \nMOTION: Councilmember Lopez moved to approve the recommended \naction for Item No. 28, as amended to staff being cautions with larger \ncorporations renting out affordable housing units and an expansion of the \nhotel conversion area, seconded by Councilmember Hernandez. \nMINUTES: Councilmember Bacerra asked for clarification regarding the \nexpansion of the targeted five areas and the amount of tax revenue generated \nrelated to affordable housing. He stated affordable housing is no",
+    "outcome": "PASS",
+    "ayes": 4,
+    "noes": 3,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "ABSENT"
+      }
+    ]
+  }
+}

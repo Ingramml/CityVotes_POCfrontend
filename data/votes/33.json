@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 33,
+    "item_number": "18",
+    "title": "18.Approve an Appropriation Adjustment and a Lease Agreement with \nRailWorks Track Services, Inc. for Office Space at the Santa Ana Regional \nTransportation Center for a Five -Month Term with 12 One -Month Extensions, \nfor a Total Amount of $73,031 (Non- General Fund) ",
+    "description": "for a Total Amount of $73,031 (Non- General Fund) \nDepartment(s): Public Works Agency \nCITY COUNCIL 12 FEBRUARY 20, 2024 \n\n\nRecommended Action: \n1. Authorize the City Manager to execute a site lease agreement with Railworks \nTrack Services, Inc. to compensate the City $4,356 per month, with any partial \nmonth prorated at $145 per day, for the lease of 1,452 square feet of office \nspace located at the Santa Ana Regional Transportation Center, for a \nfive -month term beginning February 6, 2024 and ending June 30, 2024, with \nthe option of 12 one -month extensions, for a total of $73,031 in lease revenue \nfor the entire term of the agreement, including the optional extensions \n(Agreement No. A-2024-019). \n2. Approve an appropriation adjustment recognizing Fiscal Year 2023-24 lease \nincome in the amount of $20,759 into the SARTC Operations, \nRental-RailWorks revenue account and appropriate the same amount to the \nSARTC Operations, Contractual Services -Professional expenditure account. \n(Requires five affirmative votes) ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

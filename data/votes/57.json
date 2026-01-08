@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 57,
+    "item_number": "24",
+    "title": "24.Ordinance Establishing Distance Requirement for Targeting Residential \nPicketing ",
+    "description": "Picketing \nDepartment(s): City Manager's Office \nRecommended Action: \n1. Adopt an urgency ordinance establishing distance requirements for targeted \nresidential picketing. \nORDINANCE NO. NS-XXX entitled AN URGENCY ORDINANCE OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA IN ACCORDANCE WITH SANTA \nANA CHARTER SECTIONS 415 AND 417 TO ESTABLISH DISTANCE \nREQUIREMENTS FOR TARGETED RESIDENTIAL PICKETING (includes \ndetermination that the ordinance is not subject to the California \nCITY COUNCIL 16 MARCH 19, 2024 \n\n\nEnvironmental Quality Act (CEQA) pursuant to Sections 15060(c)(2) and \n15060(c)(3)); and \n2. Approve first reading of an ordinance establishing distance requirements for \ntargeted residential picketing. If approved, Article 1 section 10-110 would be \namended and entitled \"Targeted Residential Picketing\" and sections 10-111 \nand 10- 112 will be added to the Santa Ana Municipal Code. \nORDINANCE NO. NS-XXX entitled AN ORDINANCE OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AMENDING CHAPTER 10, \nARTICLE 1, SECTION 10- 110 AND ADDING SECTIONS 10-111 AND \n10-112 OF THE SANTA ANA MUNICIPAL CODE TO ESTABLISH \nDISTANCE REQUIREMENTS FOR TARGETED RESIDENTIAL PICKETING \n(includes determination that the ordinance is not subject to the California \nEnvironmental Quality Act (CEQA) pursuant to Sections 15060(c)(2) and \n15060(c)(3)). \nMINUTES: City Attorney Sonia Carvalho announced the proposed ordinance is a staff \ndriven item and spoke regarding the proposed ordinance. \nCouncilmember Hernandez spoke regarding First Amendment rights and spoke in \nopposition to the item. \nCouncilmember Vazquez spoke regarding protesting and spoke in opposition to the \nitem. \nCouncilmember Lopez spoke regarding her personal experience regarding \ninconvenience, spoke in support of an amended noise ordinance, and asked for \nclarification regarding permitting and violation of First Amendment rights. \nCity Attorney Carvalho spoke regarding protested picketing and language in the \nproposed ordinance. \nC",
+    "outcome": "FLAG",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 16,
+    "meeting_date": "2024-03-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

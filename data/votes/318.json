@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 318,
+    "item_number": "11",
+    "title": "AGENDA ITEM NO. 11 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n11.Agreement with RSG, Inc. for Contract Staffing to Support the Rent \nStabilization and Just Cause Eviction Program (Non -General Fund)",
+    "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute Agreement with \nRSG, Inc. to provide contract staffing for the Rent Stabilization and Just Cause \nEviction Program for a two-year term, with provisions for up to two, one-year \nextensions, in a total amount not to exceed $800,000 (Agreement No. A-2024- \n149). \nMINUTES: Mayor Amezcua asked for clarification regarding staffing and the use \nof inclusionary funds. \nCommunity Development Executive Director Mike Garcia spoke regarding staffing \nand personnel, and use of the inclusionary funds. \nCouncilmember Bacerra expressed concern regarding targeting property owners \nand the lack of funds and spoke in opposition to the item. \nMayor Pro Tem Phan spoke in support of the item. \nDiscussion ensued regarding staffing and personal, costs of consultants, and the \nrent stabilization program. \nCITY COUNCIL 13 OCTOBER 1, 2024 \n\n\nDirector Garcia answered the Council Members' questions and provided \nclarification. \nMayor Amezcua expressed concern regarding the amount being paid to \nconsultants. \nCouncilmember Hernandez spoke regarding consulting services provided and in \nsupport of the item. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 11, seconded by Mayor Pro Tem Phan. \nThe motion carried, 4-3, by the following roll call vote: \nAYES: \nCOUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nLOPEZ, COUNCILMEMBER VAZQUEZ, MAYOR PRO TEM \nPHAN \nNOES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nPENALOZA, MAYOR AMEZCUA \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 4\u00d1 3 ",
+    "outcome": "PASS",
+    "ayes": 4,
+    "noes": 3,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 1,
+    "meeting_date": "2024-10-01",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "NAY"
+      }
+    ]
+  }
+}

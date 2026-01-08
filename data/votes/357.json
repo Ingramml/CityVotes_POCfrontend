@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 357,
+    "item_number": "10",
+    "title": "10.Approve Appropriation Adjustment to Recognize the Bureau of Justice \nAssistance FY24 \u00d1 Byrne Discretionary Community Project Grant Funds \n(Non -General Fund)",
+    "description": "Department(s): Community Development Agency \nRecommended Action: Approve appropriation adjustment to recognize a \ndisbursement of $963,000 in funds from the Department of Justice \u00d1 Office of \nJustice Programs, Bureau of Justice Assistance in revenue account (no. 12718002- \n52000, Federal Grant -Direct) and appropriate the same amount to expenditure \naccount (no. 12718700-69135, Payment to Subagent) to implement the Santa Ana \nAlternative Response Program. (Requires five affirmative votes) ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

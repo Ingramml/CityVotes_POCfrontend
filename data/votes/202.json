@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 202,
+    "item_number": "13",
+    "title": "13. Adopt a Resolution Authorizing Ceremonial Street Naming of Virginia and William \nGuzman Way (General Fund)",
+    "description": "Department(s): Public Works Agency \nRecommended Action: 1. Adopt a resolution authorizing the Ceremonial Street \nNaming of Virginia and William Guzman Way along Santa Ana Boulevard from Pacific \nAvenue to Forest Avenue. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA DIRECTING AND AUTHORIZING A CEREMONIAL \nSTREET NAME OF VIRGINIA AND WILLIAM GUZMAN WAY ALONG SANTA ANA \nBOULEVARD FROM PACIFIC AVENUE TO FOREST AVENUE \n2. Direct Staff to install two ceremonial street signs along Santa Ana Boulevard at the \nintersections of Pacific Avenue and Forest Avenue. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 13,
+    "meeting_date": "2024-06-18",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

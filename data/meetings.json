@@ -1,0 +1,230 @@
+{
+  "success": true,
+  "meetings": [
+    {
+      "id": 10,
+      "meeting_date": "2024-12-17",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 23,
+      "vote_count": 23
+    },
+    {
+      "id": 2,
+      "meeting_date": "2024-12-10",
+      "meeting_type": "special",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44150",
+      "minutes_url": null,
+      "video_url": "https://youtube.com/watch?v=NtAyrvp58I8",
+      "agenda_item_count": 24,
+      "vote_count": 24
+    },
+    {
+      "id": 5,
+      "meeting_date": "2024-12-03",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44041",
+      "minutes_url": null,
+      "video_url": "https://youtube.com/watch?v=-_SU_IlCZsI",
+      "agenda_item_count": 10,
+      "vote_count": 10
+    },
+    {
+      "id": 11,
+      "meeting_date": "2024-11-19",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43806",
+      "minutes_url": null,
+      "video_url": "https://youtube.com/watch?v=XWx87-dPbXU",
+      "agenda_item_count": 30,
+      "vote_count": 30
+    },
+    {
+      "id": 19,
+      "meeting_date": "2024-10-28",
+      "meeting_type": "special",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43501",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44048",
+      "video_url": "https://youtube.com/watch?v=9Nu4E3JGu28",
+      "agenda_item_count": 1,
+      "vote_count": 1
+    },
+    {
+      "id": 12,
+      "meeting_date": "2024-10-15",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43287",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44049",
+      "video_url": "https://youtube.com/watch?v=gRL1Vim4aRA",
+      "agenda_item_count": 18,
+      "vote_count": 18
+    },
+    {
+      "id": 1,
+      "meeting_date": "2024-10-01",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43136",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44050",
+      "video_url": "https://youtube.com/watch?v=gvXruPlME9M",
+      "agenda_item_count": 21,
+      "vote_count": 21
+    },
+    {
+      "id": 21,
+      "meeting_date": "2024-09-23",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 7,
+      "vote_count": 7
+    },
+    {
+      "id": 8,
+      "meeting_date": "2024-09-17",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 17,
+      "vote_count": 17
+    },
+    {
+      "id": 22,
+      "meeting_date": "2024-08-20",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/42278",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/43101",
+      "video_url": "https://youtube.com/watch?v=miKLUW6O8Cc",
+      "agenda_item_count": 30,
+      "vote_count": 30
+    },
+    {
+      "id": 9,
+      "meeting_date": "2024-08-06",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 21,
+      "vote_count": 21
+    },
+    {
+      "id": 15,
+      "meeting_date": "2024-07-16",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 24,
+      "vote_count": 24
+    },
+    {
+      "id": 13,
+      "meeting_date": "2024-06-18",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/41218",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/42435",
+      "video_url": "https://youtube.com/watch?v=OBdZrrAO1RQ",
+      "agenda_item_count": 14,
+      "vote_count": 14
+    },
+    {
+      "id": 17,
+      "meeting_date": "2024-06-04",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 35,
+      "vote_count": 35
+    },
+    {
+      "id": 14,
+      "meeting_date": "2024-05-21",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 20,
+      "vote_count": 20
+    },
+    {
+      "id": 20,
+      "meeting_date": "2024-05-07",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 19,
+      "vote_count": 19
+    },
+    {
+      "id": 4,
+      "meeting_date": "2024-04-16",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/39833",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/40945",
+      "video_url": "https://youtube.com/watch?v=kCYrJx-9-AY",
+      "agenda_item_count": 19,
+      "vote_count": 19
+    },
+    {
+      "id": 18,
+      "meeting_date": "2024-04-02",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 16,
+      "vote_count": 16
+    },
+    {
+      "id": 16,
+      "meeting_date": "2024-03-19",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/39256",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/39793",
+      "video_url": "https://youtube.com/watch?v=7Re91G1PXaY",
+      "agenda_item_count": 19,
+      "vote_count": 19
+    },
+    {
+      "id": 3,
+      "meeting_date": "2024-03-05",
+      "meeting_type": "regular",
+      "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/38919",
+      "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/40341",
+      "video_url": "https://youtube.com/watch?v=N4r4ZhOa280",
+      "agenda_item_count": 12,
+      "vote_count": 12
+    },
+    {
+      "id": 6,
+      "meeting_date": "2024-02-20",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 34,
+      "vote_count": 34
+    },
+    {
+      "id": 7,
+      "meeting_date": "2024-01-16",
+      "meeting_type": "regular",
+      "agenda_url": null,
+      "minutes_url": null,
+      "video_url": null,
+      "agenda_item_count": 22,
+      "vote_count": 22
+    }
+  ],
+  "count": 22,
+  "total": 22,
+  "available_years": [
+    2024
+  ]
+}

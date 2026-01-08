@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 15,
+    "item_number": "17",
+    "title": "Approve a First Amendment to the Fiscal Year 2023-24 Emergency Solutions Grant \n(ESG) Memorandum of Understanding with the Santa Ana Police Department \nHEART Program for Additional Street Outreach and ESG Subrecipient Agreement \nwith Interval House to Provide Emergency Shelter and Supportive Services to \nVictims of Domestic Violence from the City of Santa Ana ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute a First Amendment to the Santa Ana Police \nDepartment Homeless Evaluation Assessment Response Team (HEART) Program \nMemorandum of Understanding (MOU) to increase the amount of the agreement by \n$32,394.61 for program year July 1, 2023 - June 30, 2024 for additional street \noutreach activities (Agreement No. A-2024-009). \n2. Authorize the City Manager to execute a First Amendment to the Interval House \nSubrecipient Agreement to increase the amount of the agreement by $32,393.00 for \nprogram year July 1, 2023 - June 30, 2024 to provide emergency shelter and \nsupportive services to victims of domestic violence from the City of Santa Ana \n(Agreement No. A-2024-010). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

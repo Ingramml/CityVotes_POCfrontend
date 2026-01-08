@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings - CityVotes Santa Ana</title>
+    <meta name="description" content="Santa Ana City Council meeting history with agenda and voting records.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/santa-ana.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-sa-blue">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <i class="fas fa-vote-yea me-2"></i>CityVotes
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="council.html">
+                            <i class="fas fa-users me-1"></i>Council
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="meetings.html">
+                            <i class="fas fa-calendar me-1"></i>Meetings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="votes.html">
+                            <i class="fas fa-check-square me-1"></i>Votes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agenda-search.html">
+                            <i class="fas fa-search me-1"></i>Search
+                        </a>
+                    </li>
+                </ul>
+                <span class="navbar-text text-sa-gold">
+                    <i class="fas fa-map-marker-alt me-1"></i>Santa Ana
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-light py-4">
+        <div class="container">
+            <h1><i class="fas fa-calendar me-2"></i>City Council Meetings</h1>
+            <p class="text-muted mb-0">Complete meeting history with agenda items and voting records</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <!-- Filter Row -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <label for="yearFilter" class="form-label">Filter by Year</label>
+                <select class="form-select" id="yearFilter" onchange="filterByYear()">
+                    <option value="">All Years</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center h-100" style="background: rgba(255,255,255,0.1); border-color: rgba(0,0,0,0.1);">
+                    <div class="card-body py-2">
+                        <h4 class="text-primary mb-0" id="totalMeetings">--</h4>
+                        <small class="text-muted">Meetings</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center h-100" style="background: rgba(255,255,255,0.1); border-color: rgba(0,0,0,0.1);">
+                    <div class="card-body py-2">
+                        <h4 class="text-success mb-0" id="totalVotes">--</h4>
+                        <small class="text-muted">Total Votes</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center h-100" style="background: rgba(255,255,255,0.1); border-color: rgba(0,0,0,0.1);">
+                    <div class="card-body py-2">
+                        <h4 class="text-info mb-0" id="dateRange">--</h4>
+                        <small class="text-muted">Date Range</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meetings List -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-list me-2"></i>All Meetings</h5>
+            </div>
+            <div class="list-group list-group-flush" id="meetingsList">
+                <div class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <nav class="mt-4" id="paginationNav" style="display: none;">
+            <ul class="pagination justify-content-center" id="pagination">
+            </ul>
+        </nav>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h6>CityVotes - Santa Ana Voting Transparency</h6>
+                    <p class="text-muted mb-0">Data sourced from official Santa Ana city council meeting records.</p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <span class="text-muted">2024 Data</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    const API_BASE = 'http://localhost:8000/api/db';
+    let currentPage = 0;
+    const pageSize = 10;
+    let currentYear = null;
+
+    document.addEventListener('DOMContentLoaded', async function() {
+        // Check URL params for year filter
+        const urlParams = new URLSearchParams(window.location.search);
+        const yearParam = urlParams.get('year');
+        if (yearParam) {
+            currentYear = parseInt(yearParam);
+        }
+
+        await Promise.all([
+            loadStats(),
+            loadMeetings()
+        ]);
+    });
+
+    function filterByYear() {
+        const yearSelect = document.getElementById('yearFilter');
+        currentYear = yearSelect.value ? parseInt(yearSelect.value) : null;
+
+        // Update URL
+        if (currentYear) {
+            window.history.pushState({}, '', `?year=${currentYear}`);
+        } else {
+            window.history.pushState({}, '', window.location.pathname);
+        }
+
+        loadMeetings(0);
+    }
+
+    async function loadStats() {
+        try {
+            const response = await fetch(`${API_BASE}/stats`);
+            const data = await response.json();
+
+            if (data.success) {
+                document.getElementById('totalMeetings').textContent = data.stats.total_meetings;
+                document.getElementById('totalVotes').textContent = data.stats.total_votes.toLocaleString();
+
+                if (data.stats.date_range.start && data.stats.date_range.end) {
+                    const start = new Date(data.stats.date_range.start).getFullYear();
+                    const end = new Date(data.stats.date_range.end).getFullYear();
+                    document.getElementById('dateRange').textContent = start === end ? start : `${start}-${end}`;
+                }
+            }
+        } catch (error) {
+            console.error('Error loading stats:', error);
+        }
+    }
+
+    async function loadMeetings(offset = 0) {
+        try {
+            let url = `${API_BASE}/meetings?limit=${pageSize}&offset=${offset}`;
+            if (currentYear) {
+                url += `&year=${currentYear}`;
+            }
+
+            const response = await fetch(url);
+            const data = await response.json();
+
+            if (data.success) {
+                // Populate year filter dropdown
+                const yearSelect = document.getElementById('yearFilter');
+                if (data.available_years && yearSelect.options.length <= 1) {
+                    data.available_years.forEach(year => {
+                        const option = document.createElement('option');
+                        option.value = year;
+                        option.textContent = year;
+                        if (year === currentYear) option.selected = true;
+                        yearSelect.appendChild(option);
+                    });
+                }
+
+                // Update meeting count in stats
+                document.getElementById('totalMeetings').textContent = data.total;
+
+                const list = document.getElementById('meetingsList');
+                if (data.meetings.length === 0) {
+                    list.innerHTML = `
+                        <div class="list-group-item text-center py-4 text-muted">
+                            <i class="fas fa-calendar-times fa-2x mb-2"></i>
+                            <p class="mb-0">No meetings found${currentYear ? ` for ${currentYear}` : ''}</p>
+                        </div>
+                    `;
+                } else {
+                    list.innerHTML = data.meetings.map(meeting => `
+                        <a href="meeting-detail.html?id=${meeting.id}" class="list-group-item list-group-item-action">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <h5 class="mb-1">
+                                        <i class="fas fa-calendar-day me-2 text-primary"></i>
+                                        ${formatDate(meeting.meeting_date)}
+                                    </h5>
+                                    <p class="mb-1 text-muted">${meeting.meeting_type} Meeting</p>
+                                    <div>
+                                        ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="badge bg-secondary me-1" onclick="event.stopPropagation()"><i class="fas fa-file-alt me-1"></i>Agenda</a>` : ''}
+                                        ${meeting.minutes_url ? `<a href="${meeting.minutes_url}" target="_blank" class="badge bg-secondary me-1" onclick="event.stopPropagation()"><i class="fas fa-file-lines me-1"></i>Minutes</a>` : ''}
+                                        ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="badge bg-danger me-1" onclick="event.stopPropagation()"><i class="fas fa-video me-1"></i>Video</a>` : ''}
+                                    </div>
+                                </div>
+                                <div class="col-auto text-end">
+                                    <span class="badge bg-primary rounded-pill fs-6">${meeting.vote_count} votes</span>
+                                    <div class="small text-muted mt-1">${meeting.agenda_item_count} agenda items</div>
+                                </div>
+                            </div>
+                        </a>
+                    `).join('');
+                }
+
+                // Update pagination
+                updatePagination(data.total, offset);
+            }
+        } catch (error) {
+            console.error('Error loading meetings:', error);
+            document.getElementById('meetingsList').innerHTML = `
+                <div class="list-group-item">
+                    <div class="alert alert-danger mb-0">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Failed to load meetings. Make sure the backend is running.
+                    </div>
+                </div>
+            `;
+        }
+    }
+
+    function updatePagination(total, currentOffset) {
+        const totalPages = Math.ceil(total / pageSize);
+        const currentPage = Math.floor(currentOffset / pageSize);
+
+        if (totalPages <= 1) {
+            document.getElementById('paginationNav').style.display = 'none';
+            return;
+        }
+
+        document.getElementById('paginationNav').style.display = 'block';
+        const pagination = document.getElementById('pagination');
+
+        let html = '';
+
+        // Previous button
+        html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
+            <a class="page-link" href="#" onclick="loadMeetings(${(currentPage - 1) * pageSize}); return false;">Previous</a>
+        </li>`;
+
+        // Page numbers
+        for (let i = 0; i < totalPages; i++) {
+            if (i === 0 || i === totalPages - 1 || Math.abs(i - currentPage) <= 2) {
+                html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
+                    <a class="page-link" href="#" onclick="loadMeetings(${i * pageSize}); return false;">${i + 1}</a>
+                </li>`;
+            } else if (Math.abs(i - currentPage) === 3) {
+                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            }
+        }
+
+        // Next button
+        html += `<li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
+            <a class="page-link" href="#" onclick="loadMeetings(${(currentPage + 1) * pageSize}); return false;">Next</a>
+        </li>`;
+
+        pagination.innerHTML = html;
+    }
+
+    function formatDate(dateStr) {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    }
+    </script>
+</body>
+</html>

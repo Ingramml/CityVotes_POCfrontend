@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 359,
+    "item_number": "12",
+    "title": "12. First Amendment to the Fiscal Year (FY) 2024-25 Emergency Solutions Grant \n(ESG) Subrecipient Agreement with Interval House and Orange County's \nUnited Way, as well as a New Memorandum of Understanding (MOU) with the \nSanta Ana Police Department for Street Outreach and Engagement ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute a First Amendment to the FY 2024-25 \nESG Subrecipient Agreement with Interval House to increase the amount of the \nagreement by $35,124 to provide additional emergency shelter and supportive \nservices to survivors of domestic violence from the City of Santa Ana \n(Agreement No. A-2024-188). \n2. Authorize the City Manager to execute a First Amendment to the FY 2024-25 \nESG Subrecipient Agreement with Orange County's United Way to increase the \namount of the agreement by $17,562 to conduct additional Homeless \nManagement Information System (HMIS) data management (Agreement No. \nA-2024-189). \n3. Authorize the City Manager to execute a new Memorandum of Understanding \n(MOU) with the Santa Ana Police Department (SAPD) for the Homeless \nEvaluation Assessment Response Team (H.E.A.R.T.) Program to serve Santa \nAna residents experiencing homelessness through street outreach and \nengagement for a new total amount of $81,321. The total funding amount is \ncomprised of $46,197 in FY 2024-25 ESG funds and a $35,124 reallocation from \nFY 2023-24 ESG funds (Agreement No. A-2024-190). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

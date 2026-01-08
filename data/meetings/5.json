@@ -1,0 +1,165 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 5,
+    "meeting_date": "2024-12-03",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44041",
+    "minutes_url": null,
+    "video_url": "https://youtube.com/watch?v=-_SU_IlCZsI",
+    "agenda_item_count": 10,
+    "vote_count": 10,
+    "agenda_items": [
+      {
+        "id": 77,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10. First Amendment to Agreement with Allied Universal Janitorial Services \n(General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute the first \namendment to the agreement with Allied Universal Executive Protection and \nIntelligence Services, Inc. dba Allied Universal Janitorial Services to provide \njanitorial services at the Police Department in the additional amount of $739,123, \nfor a total aggregate amount not to exceed $2,972,646 through October 31, 2025 \n(Agreement No. A-2024-203). ",
+        "vote": {
+          "id": 386,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 78,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Amend Purchase and Sale Agreement with Santana Green Development, LLC \nto Extend the Deadline to Open Business at 2235 South Bristol Street by 18 \nMonths ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute the first \namendment to the agreement with Santana Green Development, LLC to extend the \nCITY COUNCIL 6 DECEMBER 3, 2024 \n\n\ndeadline to open for business to the public a drive-thru restaurant or fuel station \nwith integrated electric vehicle charging station at 2235 South Bristol Street by 18 \nmonths (Agreement No. A-2024-204). ",
+        "vote": {
+          "id": 387,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 79,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12. Municipal Facilities License Agreement with Los Angeles SMSA Limited \nPartnership, dba Verizon Wireless, a California Limited Partnership ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nLos Angeles SMSA Limited Partnership, dba Verizon Wireless, a California limited \npartnership, for the use of street lights for the installation of wireless devices other \nthan small cell for a ten-year period, with provisions for two automatic five-year \nextensions (Agreement No. A-2024-205). ",
+        "vote": {
+          "id": 388,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 80,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "AGENDA ITEM NO. 13 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n13.Agreement with RMF Contracting, Inc. dba R&M Electrical Contracting to \nProvide Lighting at Angels Park (No. 22-1421), Centennial Park (No. 22-1422), \nand Delhi Park (No. 22-1423) (Non -General Fund) (Revive Santa Ana) ",
+        "description": "and Delhi Park (No. 22-1423) (Non -General Fund) (Revive Santa Ana) \nDepartment(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $187,665 of accumulated fund \nbalance in Acquisition and Development, Prior Year Carry Forward revenue account \n(31213002-50001) that will be appropriated for spending in the Acquisition and \nDevelopment, Improvements Other Than Buildings expenditure account \n(31213260-66220). (Requires five affirmative votes) \n2. Approve an appropriation adjustment recognizing $82,058 of accumulated fund \nbalance in Acquisition and Development, Prior Year Carry Forward revenue account \n(31313002-50001) that will be appropriated for spending in the Acquisition and \nDevelopment, Improvements Other Than Buildings expenditure account \n(31313260-66220). (Requires five affirmative votes) \n3. Approve an appropriation adjustment recognizing $29,066 of accumulated fund \nbalance in Acquisition and Development, Prior Year Carry Forward revenue account \n(31413002-50001) that will be appropriated for spending in the Acquisition and \nDevelopment, Improvements Other Than Buildings expenditure account \n(31413260-66220) (Requires five affirmative votes). \n4. Approve an amendment to the Fiscal Year 2024-2025 Capital Improvement \nProgram to include $1,748,789 in construction funds for the Angels Park Lights \n(Project No. 22-1421), Centennial Park Lights (Project No. 22-1422), and Delhi \nPark Lights (Project No. 22-1423) funded by the American Rescue Plan Act \n(ARPA). \nCITY COUNCIL 7 DECEMBER 3, 2024 \n\n\nAward an agreement with RMF Contracting, Inc. dba R&M Electrical Contracting \nto provide Lighting at Angels Park, Centennial Park, and Delhi Park, in an \namount of $1,589,808, with a contingency of $158,981 for a total estimated \nproject delivery cost of $1,748,789, beginning December 3, 2024 and expiring \nDecember 2, 2027, with the option for one, two-year extension (Agreement No. \nA-2024-206). \n6. Determine the recommended act",
+        "vote": {
+          "id": 389,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 81,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14. Resolution Approving Revisions to the City's Municipal Securities Continuing \nDisclosure Policy And Procedures ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Adopt a resolution approving revisions to the City's \nMunicipal Securities Continuing Disclosure Policy and Procedures \nRESOLUTION NO. 2024-073 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING REVISIONS TO THE MUNICIPAL \nSECURITIES DISCLOSURE POLICY AND PROCEDURES \n15-Second Reading of Ordinance Amendment (OA) No. 2024-04 Repealing and \nReenacting in its Entirety Article XXI to Chapter 8 of the Santa Ana Municipal \nCode (SAMC) Prohibiting Short -Term Rentals (STRs) \nFirst reading November 19, 2024 City Council meeting and approved by a vote of \n6-1 (Mayor Amezcua dissenting) \nDepartment(s): Planning and Building Agency \nCITY COUNCIL 8 DECEMBER 3, 2024 \n\n\nRecommended Action: Conduct a second reading and adopt an ordinance \namending the Santa Ana Municipal Code (SAMC) to add Article XXI to Chapter 8 \nof the SAMC prohibiting Short -Term Rentals. \nORDINANCE NO. NS-3072 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA, CALIFORNIA, REPEALING AND REENACTING IN \nITS ENTIRETY ARTICLE XXI TO CHAPTER 8 OF THE SANTA ANA MUNICIPAL \nCODE PROHIBITING SHORT-TERM RENTALS \nMOTION: Councilmember Hernandez \naction for Item No. 15, as part of \nCouncilmember Penaloza. \nmoved to approve the recommended \nthe Consent Calendar, seconded by \nThe motion carried, 6-1, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN \nNOES: \nMAYOR AMEZCUA \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 6 \u00d11 ",
+        "vote": {
+          "id": 390,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 82,
+        "item_number": "5",
+        "section": "CONSENT",
+        "title": "5. Receive and File Quarterly Report of Investments as of September 30, 2024 ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Receive and file. ",
+        "vote": {
+          "id": 382,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 83,
+        "item_number": "6",
+        "section": "CONSENT",
+        "title": "6. Receive and File Quarterly Report of Contracts up to $50,000 for Non -Public \nWorks and up to $500,000 for Public Works Authorized by the City Manager \nas Permitted by Charter Section 421",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Receive and file Quarterly Report of Contracts entered \ninto between July 1, 2024 to September 30, 2024. ",
+        "vote": {
+          "id": 383,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 84,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "7. Receive and File the American Rescue Plan Act (ARPA) Project Update",
+        "description": "Recommended Action: Receive and file the American Rescue Plan Act (ARPA) \nproject update demonstrating that the City has obligated the entire funding \nallocation by the deadline of December 31, 2024. ",
+        "vote": {
+          "id": 384,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 85,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Agreement with Benefit Financial Services Group for Administrative, \nInvestment, and Communication Advisory Services ",
+        "description": "Recommended Action: Authorize the City Manager to execute an agreement with \nBenefit Financial Services Group (\"BFSG\") for administrative, investment, and \ncommunication advisory services for a total aggregate amount not -to -exceed \n$175,000 for a three-year term beginning January 1, 2025, and expiring December \n31, 2027, with a provision for a two-year extension (Agreement No. A-2024-201). ",
+        "vote": {
+          "id": 347,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 86,
+        "item_number": "9",
+        "section": "GENERAL",
+        "title": "GENDA ITEM NO. 9 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n9. Agreement with Rattle Tech LLC for the Implementation of a Citizen Request \nMobile App and Backend Work Management System (Specification No. 24- \n099A) (General Fund and Non -General Fund) (Revive Santa Ana) \nCITY COUNCIL 5 DECEMBER 3, 2024 ",
+        "description": "Department(s): Information Technology \nRecommended Action: Authorize the City Manager to execute an agreement with \nRattle Tech, LLC for Civita App community engagement platform and professional \nservices, for an amount not to exceed $100,000 annually, for a total aggregate \namount not to exceed $500,000, for an initial one-year term beginning January 1, \n2025, with provisions for four optional one-year renewals (Agreement No. A-2024- \n202). \nMINUTES: Mayor Amezcua spoke in support of the item. \nCouncilmember Hernandez spoke in support of the item. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 9, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 385,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

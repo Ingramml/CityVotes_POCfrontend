@@ -1,0 +1,105 @@
+COUNCIL MEMBERS
+id,full_name,short_name,position,district,start_date,is_current,total_votes,aye_count,nay_count,abstain_count,absent_count,aye_percentage,participation_rate
+1,Valerie Amezcua,Amezcua,Mayor,3,2022-12-13,TRUE,874,831,18,12,13,95.1,98.5
+2,Thai Viet Phan,Phan,Vice Mayor,1,2020-12-08,TRUE,874,798,45,18,13,91.3,98.5
+3,Johnathan Ryan Hernandez,Hernandez,Council Member,5,2020-12-08,TRUE,874,812,31,15,16,92.9,98.2
+4,David Penaloza,Penaloza,Council Member,2,2022-12-13,TRUE,874,845,8,9,12,96.7,98.6
+5,Phil Bacerra,Bacerra,Council Member,4,2018-12-11,TRUE,874,756,78,22,18,86.5,97.9
+6,Jessie Lopez,Lopez,Council Member,6,2020-12-08,TRUE,874,819,25,14,16,93.7,98.2
+7,Benjamin Vazquez,Vazquez,Council Member,3,2022-12-13,TRUE,874,802,42,11,19,91.8,97.8
+
+MEETINGS (2024)
+id,meeting_date,meeting_type,agenda_item_count,vote_count
+1,2024-12-17,Regular,18,18
+2,2024-12-03,Regular,22,22
+3,2024-11-19,Regular,19,19
+4,2024-11-05,Regular,24,24
+5,2024-10-15,Regular,21,21
+6,2024-10-01,Regular,17,17
+7,2024-09-17,Regular,20,20
+8,2024-09-03,Regular,23,23
+9,2024-08-20,Regular,18,18
+10,2024-08-06,Regular,21,21
+11,2024-07-16,Regular,19,19
+12,2024-07-02,Regular,22,22
+13,2024-06-18,Regular,20,20
+14,2024-06-04,Regular,25,25
+15,2024-05-21,Regular,18,18
+16,2024-05-07,Regular,21,21
+17,2024-04-16,Regular,19,19
+18,2024-04-02,Regular,23,23
+19,2024-03-19,Regular,20,20
+20,2024-03-05,Regular,22,22
+21,2024-02-20,Regular,18,18
+22,2024-02-06,Regular,21,21
+23,2024-01-16,Regular,26,26
+
+MEETINGS (2022)
+id,meeting_date,meeting_type,agenda_item_count,vote_count
+24,2022-12-20,Regular,19,19
+25,2022-12-06,Regular,22,22
+26,2022-11-15,Regular,18,18
+27,2022-11-01,Regular,24,24
+28,2022-10-18,Regular,20,20
+29,2022-10-04,Regular,17,17
+30,2022-09-20,Regular,21,21
+31,2022-09-06,Regular,23,23
+32,2022-08-16,Regular,19,19
+33,2022-08-02,Regular,22,22
+34,2022-07-19,Regular,18,18
+35,2022-07-05,Regular,20,20
+36,2022-06-21,Regular,25,25
+37,2022-06-07,Regular,21,21
+38,2022-05-17,Regular,19,19
+39,2022-05-03,Regular,22,22
+40,2022-04-19,Regular,18,18
+41,2022-04-05,Regular,23,23
+42,2022-03-15,Regular,20,20
+43,2022-02-15,Regular,21,21
+44,2022-01-18,Regular,24,24
+
+SAMPLE VOTES (2024)
+id,meeting_date,item_number,section,title,outcome,ayes,noes,abstain,absent
+1,2024-12-17,1,CONSENT,Approval of Minutes - Regular Meeting December 3 2024,PASS,7,0,0,0
+2,2024-12-17,2,CONSENT,Claims and Demands Report,PASS,7,0,0,0
+3,2024-12-17,3,BUSINESS,2025 Budget Amendment - Parks Department,PASS,6,1,0,0
+4,2024-12-17,4,CONSENT,Professional Services Agreement - IT Consulting,PASS,7,0,0,0
+5,2024-12-17,5,BUSINESS,Zoning Amendment - Downtown Mixed Use District,PASS,5,2,0,0
+6,2024-12-17,6,CONSENT,Award of Contract - Street Resurfacing Phase III,PASS,7,0,0,0
+7,2024-12-17,7,PUBLIC_HEARING,Conditional Use Permit - 123 Main Street Commercial Development,PASS,6,0,1,0
+8,2024-12-17,8,CONSENT,Grant Application Authorization - Community Development Block Grant,PASS,7,0,0,0
+9,2024-12-17,9,BUSINESS,Ordinance Amendment - Short-Term Rental Regulations,FAIL,3,4,0,0
+10,2024-12-17,10,CONSENT,Resolution Accepting Transportation Grant Funds,PASS,7,0,0,0
+
+SAMPLE VOTES (2022)
+id,meeting_date,item_number,section,title,outcome,ayes,noes,abstain,absent
+21,2022-01-18,1,CONSENT,Approval of Minutes - Regular Meeting January 4 2022,PASS,7,0,0,0
+22,2022-01-18,2,CONSENT,Claims and Demands Report,PASS,7,0,0,0
+23,2022-01-18,3,BUSINESS,COVID-19 Emergency Response Funding Allocation,PASS,6,1,0,0
+24,2022-01-18,4,CONSENT,Professional Services Agreement - Environmental Assessment,PASS,7,0,0,0
+25,2022-01-18,5,PUBLIC_HEARING,Affordable Housing Development Agreement,PASS,5,2,0,0
+26,2022-01-18,6,CONSENT,Grant Application - State Emergency Management Agency,PASS,7,0,0,0
+27,2022-01-18,7,BUSINESS,Proposal for New City Logo and Branding,FAIL,2,5,0,0
+28,2022-01-18,8,BUSINESS,Park Renovation Project - Phase 2 Approval,PASS,6,0,1,0
+29,2022-01-18,9,CONSENT,Intergovernmental Agreement - Regional Transit Authority,PASS,7,0,0,0
+30,2022-01-18,10,CONSENT,Resolution Honoring City Employee Retirements,PASS,7,0,0,0
+
+MEMBER VOTES SAMPLE (for vote id 5 - split vote)
+vote_id,member_id,member_name,vote_choice
+5,1,Amezcua,AYE
+5,2,Phan,AYE
+5,3,Hernandez,AYE
+5,4,Penaloza,AYE
+5,5,Bacerra,NAY
+5,6,Lopez,AYE
+5,7,Vazquez,NAY
+
+ALIGNMENT MATRIX (agreement percentages)
+,Amezcua,Phan,Hernandez,Penaloza,Bacerra,Lopez,Vazquez
+Amezcua,100,94.4,96.5,98.0,90.0,97.0,93.7
+Phan,94.4,100,92.3,92.7,85.5,93.7,95.9
+Hernandez,96.5,92.3,100,95.9,89.5,96.8,93.4
+Penaloza,98.0,92.7,95.9,100,90.1,97.7,94.5
+Bacerra,90.0,85.5,89.5,90.1,100,88.2,89.5
+Lopez,97.0,93.7,96.8,97.7,88.2,100,93.9
+Vazquez,93.7,95.9,93.4,94.5,89.5,93.9,100

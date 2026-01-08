@@ -1,0 +1,195 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 3,
+    "meeting_date": "2024-03-05",
+    "meeting_type": "regular",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/38919",
+    "minutes_url": "https://santa-ana.primegov.com/Public/CompiledDocument/40341",
+    "video_url": "https://youtube.com/watch?v=N4r4ZhOa280",
+    "agenda_item_count": 12,
+    "vote_count": 12,
+    "agenda_items": [
+      {
+        "id": 46,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Approve a Purchase Order to The Charles Machine Works Inc. for Sewer \nLining Materials, Supplies, and Accessories (Spec No. XX-XXX) (Non -General \nFund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Approve a sole source purchase order to The Charles \nMachine Works Inc., for sewer lateral lining materials, supplies, and accessories \nfor an aggregate amount not to exceed $1,750,000, for a one-year term beginning \nMarch 5, 2024 and expiring March 4, 2025, with provisions for up to four additional \none-year renewal periods. ",
+        "vote": {
+          "id": 63,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 47,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Award a Purchase Order to Smartcover\u00a8 Systems for Remote Alarm \nMonitoring and Management Services (Spec No. 24-025) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Approve a sole source purchase order Hadronex, Inc. DBA \nSmartcover0 for remote alarm monitoring and management systems and services \nfor an aggregate amount not to exceed $580,000 for a one-year term beginning \nMarch 6, 2024 and expiring June 30, 2025, with provisions for up to three \nadditional one-year renewal periods. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 11 as part of the consent calendar, seconded by \nCouncilmember Hernandez. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nMAYOR PRO TEM PHAN (recusal) \nABSENT: \nNONE \nStatus: 6 \u00d1 0 \n\u00d1 1 - Pass ",
+        "vote": {
+          "id": 64,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 48,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Award a Blanket Order Contract to Hach Company for Water Quaity Testing \nSupplies, Calibration, and Maintenance Services (Bid No. 23-179) (Non - \nGeneral Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Award a blanket order contract to Hach Company for the \npurchase of water quality testing supplies, calibration, and maintenance services on \nan as -needed basis in an amount not to exceed $650,000, for a three-year term \nCITY COUNCIL 8 MARCH 5, 2024 \n\n\nbeginning March 5, 2024 and expiring March 4, 2027, with provisions for two one- \nyear renewal options. ",
+        "vote": {
+          "id": 65,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 49,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13.Amend Aggregate Blanket Order Contracts for Waterworks Fitting and \nSupplies with Core & Main LP, Ferguson Enterprise LLC, and Western Water \nWorks Supply Company for a new Aggregate Amount Not to Exceed \n$2,400,000 (Specification No. 21-012) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an amendment to \nincrease the blanket order contract not -to -exceed amount with Core & Main LP, \nFerguson Enterprise LLC, and Western Water Works Supply Company for the \npurchase of waterworks fittings and supplies by an annual $400,000, for a new \naggregate amount not to exceed $2,400,000, for the current contract term expiring \nMay 17, 2024, and two one-year renewal periods. ",
+        "vote": {
+          "id": 66,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 50,
+        "item_number": "14",
+        "section": "CONSENT",
+        "title": "14.Amend the Agreement with Service First for Pool Equipment Repair Services on \nan as -Needed Basis to Increase the Contract Amount by $300,000 Annually \n(General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute the first amendment to \nthe agreement with Service First to provide scheduled pool maintenance and repair \nservices, increasing the amount by $300,000 annually and increase the contingency to 20% \nof the new annual amount for a total agreement amount of $2,988,810, for the remaining \nterm through February 20, 2026 (Agreement No. A--2024-030). ",
+        "vote": {
+          "id": 67,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 51,
+        "item_number": "15",
+        "section": "GENERAL",
+        "title": "15. Amend the Agreement with Service First to Increase the Contract Amount by \n$300,000 Annually for Fountain Maintenance and Repair Services (General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute a second \namendment to the agreement with Service First to provide scheduled fountain \nmaintenance and repair services, increasing the amount by $300,000 annually, for a \ntotal agreement amount of $1,868,000, for the remaining term through December \n31, 2025 (Agreement No. A-2024-051). \nMINUTES: Councilmember Penaloza spoke regarding the demolition of the Civic \nCenter within the next five years and expressed concern regarding the investment \nin maintenance and repairs of fountains that will be demolished. \nCITY COUNCIL 9 MARCH 5, 2024 \n\n\nPublic Works Executive Director Nabil Saba spoke regarding the proposed \nagreement and the impacts of de -commissioning the maintenance and repairs. \nMOTION: Councilmember Penaloza moved to continue Item No. 15, \nseconded by Mayor Amezcua. \nMINUTES: Councilmember Lopez asked for clarification regarding the timeline of \ndemolition of the Civic Center and spoke in support of the item. \nDirector Saba clarified that the Civic Center will not demolished within five years. \nCouncilmember Penaloza stated he is not in support of maintenance and repairs \nat the Civic Center and asked when the State building would be demolished. \nDirector Saba stated staff is working on a plan to demolish the building. \nCouncilmember Hernandez thanked staff for their hard work and efforts and \nasked which fountains would be maintained and repaired. \nDirector Saba spoke regarding the maintenance and repairs of fountains. \nCouncilmember Bacerra asked for clarification regarding the terms and services \nof the agreement. \nDirector Saba spoke regarding the proposed agreement. \nCouncilmember Lopez spoke in support of the item. \nSUBSTITUTE MOTION: Councilmember Bacerra moved to approve the \nrecommended action for Item No. 15, seconded by Councilmember Lopez. \nMINUTES: Mayor Pro Tem Phan spoke in support of the item. \nDiscussion ensued regarding maintenance and costs of fou",
+        "vote": {
+          "id": 70,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 52,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Agreements with Galls, LLC and L.N. Curtis & Sons for Police Uniforms, \nAccessories, and Miscellaneous Equipment (General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute a one-year \nagreements with the following vendors for the purchase of police uniforms, accessories, and \nmiscellaneous equipment for the period of March 5, 2024 through March 4, 2025, with an \noption for a six-month extension, for an aggregate amount not to exceed $600,000 (Core \nAgreement No. A-2024-031): \n\u00a5 Galls, LLC \u00d1 in amount not to exceed $300,000 \n\u00a5 L.N. Curtis & Sons dba Curtis Blue Line \u00d1 in an amount not to \nexceed $300,000 ",
+        "vote": {
+          "id": 71,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 53,
+        "item_number": "17",
+        "section": "CONSENT",
+        "title": "17.Adopt a Resolution to Appoint a Voting Delegate and an Alternate to the \nIndependent Cities Risk Management Authority (ICRMA) Board of Directors ",
+        "description": "epartment(s): Human Resources \nRecommended Action: Adopt a resolution to appoint a voting delegate and an alternate \nto the ICRMA Board of Directors \nRESOLUTION NO. 2024-004 entitled A RESOLUTION OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA TO FULFILL ITS OBLIGATION AS A MEMBER OF THE \nINDEPENDENT CITIES RISK MANAGEMENT AUTHORITY (ICRMA) TO APPOINT A \nVOTING DELEGATE AND AN ALTERNATE TO THE ICRMA BOARD OF \nDIRECTORS \nMINUTES: Councilmembers Bacerra and Penaloza left the meeting at 7:49 P.M. ",
+        "vote": {
+          "id": 72,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 54,
+        "item_number": "18",
+        "section": "BUSINESS",
+        "title": "18.Consideration of Ceasefire Resolution as Proposed Through Councilmember \nRequested Items ",
+        "description": "Requested Items \nDepartment(s): City Clerk's Office \nRecommended Action: Consideration of Ceasefire Resolution. \nA RESOLUTION OF THE CITY COUNCIL OF SANTA ANA, CALIFORNIA \nAFFIRMING SUPPORT FOR THE WORLDWIDE CALL FOR AN IMMEDIATE \nCEASEFIRE IN GAZA \nMINUTES: Councilmember Vazquez spoke regarding the ceasefire resolution. \nCITY COUNCIL 11 MARCH 5, 2024 \n\n\nThe following speakers addressed the City Council in person: \n1. Robin spoke in opposition to the item. \n2. Jason Garshfield spoke in opposition to the item. \n3. Monica L. spoke regarding the divisiveness of the community due to the \nresolution. \n4. Dr. Erik Ludwig spoke in opposition to the item. \n5. EJ spoke in opposition to the item. \n6. Mali spoke in opposition to the item. \n7. Rabbi Gersh Zylberman spoke in opposition to the item and the impacts of the \nresolution to local municipalities. \nB. Jeffrey Katz spoke in support of a ceasefire and requested a revised \nresolution. \n9. Sue Guilford requested the City Council focus on City issues and spoke in \nopposition to the item. \n10. Mandy Shamis requested the City Council focus on City issues and spoke in \nopposition to the item. \n11. Curtis Deilets requested the City Council focus on City issues and spoke in \nopposition to the item. \n12. Steffanie Belasco spoke regarding the divisiveness of the community due to \nthe resolution. \n13. Leonard Silberman requested the City Council focus on City issues and take a \npositive action on this item. \n14. Joey B. spoke in opposition to the item. \n15. Galina B. spoke in opposition to the item. \n16. Dr. Norman Rosen spoke in opposition to the item. \n17. Mike Rubin spoke in opposition to the item. \n18. Gali spoke in opposition to the item. \n19. Michal L. spoke in opposition to the item. \nCITY COUNCIL 12 MARCH 5, 2024 \n\n\n20. Stephaney Avital spoke in opposition to the item. \n21. Rabbi Eliezre spoke in opposition to the item. \n22. Mitchell Cohen spoke in opposition to the item. \n23. Shaheera Owaynat spoke in support of the item. \n",
+        "vote": {
+          "id": 73,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 55,
+        "item_number": "7",
+        "section": "CONSENT",
+        "title": "7. Appoint Ernie Aguilar Nominated by Councilmember Hernandez as a Landlord \nRepresentative to the Rental Housing Board for a Full -Term Expiring in 2027 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Ernie Aguilar to the Rental Housing Board as a \nLandlord Representative and administer the Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Ernie \nAguilar. ",
+        "vote": {
+          "id": 60,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 56,
+        "item_number": "8",
+        "section": "CONSENT",
+        "title": "8. Receive and File Quarterly Report of Investments as of December 31, 2023 \nDepartment(s): Finance and Manager Services ",
+        "description": "Recommended Action: Receive and file. ",
+        "vote": {
+          "id": 61,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 57,
+        "item_number": "9",
+        "section": "CONSENT",
+        "title": "9. Receive and File Quarterly Report of Contracts up to $50,000 for Non -Public \nWorks and up to $500,000 for Public Works Authorized by the City Manager ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Receive and file Quarterly Report of Contracts entered into \nbetween October 1, 2023 and December 31, 2023, ",
+        "vote": {
+          "id": 62,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

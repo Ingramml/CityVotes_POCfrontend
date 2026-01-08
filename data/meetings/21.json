@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 21,
+    "meeting_date": "2024-09-23",
+    "meeting_type": "regular",
+    "agenda_url": null,
+    "minutes_url": null,
+    "video_url": null,
+    "agenda_item_count": 7,
+    "vote_count": 7,
+    "agenda_items": [
+      {
+        "id": 400,
+        "item_number": "10",
+        "section": "CONSENT",
+        "title": "10.Item\u00caNo.\u00ca10:\u00caDonation\u00caAgreement\u00cawith\u00caThe\u00caFrida\u00caCinema\u00cato\u00caSponsor\u00cathe\u00caDTSA\u00caFirst\nSaturday\u00caArtWalk\u00ca(General\u00caFund)",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize the City Manager to execute a Donation \nAgreement with The Frida Cinema to sponsor the Downtown Santa Ana (DTSA) \nFirst Saturday ArtWalk for a one-year term beginning October 1, 2024 and ending \nSeptember 31, 2025, in an amount not to exceed $150,000 (Agreement No. A- \n2024-145). \nMINUTES: Community Development Director Mike Garcia gave a brief report \nregarding the ArtWalk. \nCouncilmember Hernandez spoke in support of the item. \nBrief discussion ensued regarding the placement of the item on the Agenda and \nfunding of the project. \nCouncilmember Bacerra spoke in support of the ArtWalk, expressed concern \nregarding budgeting related to the event, and requested a more sustainable idea \nto keep the event ongoing. \nCITY COUNCIL 21 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n  Loading....\nCity Manager Alvaro Nunez spoke regarding evaluation of future funding for \nevents. \nCouncilmember Vazquez spoke regarding the ArtWalk and in support of the item. \nCouncilmember Lopez spoke in support of the item. \nMayor Pro Tem Phan spoke in support of the item and requested a more \nsustainable idea moving forward. \nMayor Amezcua spoke regarding shared funding with the schools and in support \nof the item. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 10, seconded by Councilmember Bacerra. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass",
+        "vote": {
+          "id": 310,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 401,
+        "item_number": "11",
+        "section": "CONSENT",
+        "title": "11.Amendment to the Facilities Use Agreement with the Training and Research \nFoundation to Add the Logan Community Center as a Service Location to \nProvide Licensed Afterschoo! Programming Until the End of the 2024-2025 \nSchool Year ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an amendment to \nthe facilities use agreement with the Training Research Foundation (TRF) to add \nthe Logan Community Center as a service location to provide childcare services to \nSanta Ana children and families, increasing the monthly fee by $600 for a monthly \ntotal fee of $2,600 for 10 months, from September 1, 2024 through June 30, 2025. \n(Agreement No. A-2024-141). \nMINUTES: Councilmember Vazquez spoke regarding supporting families and in \nsupport of the item. \nCouncilmember Hernandez thanked staff for the agreement, spoke regarding the \nhistory of the agreement, and in support of the item.",
+        "vote": {
+          "id": 311,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 402,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Agreement with Power of One Foundation (POOF), for a co -presented Fiestas \nDel Mariachi Event and Related Services; and, Award Sunbelt Rentals Inc. \nPurchase Order Contract for Event Floor Cover (General Fund) ",
+        "description": "12.Agreement with Power of One Foundation (POOF), for a co -presented Fiestas \nDel Mariachi Event and Related Services; and, Award Sunbelt Rentals Inc. \nPurchase Order Contract for Event Floor Cover (General Fund) \nDepartment(s): Parks, Recreation, and Community Services \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Power of One \nFoundation to co -present a Fiestas Del Mariachi event at Santa Ana Stadium, \nfor an amount not to exceed 80% of revenue earned after expenditure recovery \nfor a term beginning September 18, 2024 and ending October 31, 2024 \n(Agreement No. A-2024-146). \n2. Award a Purchase Order Contract to Sunbelt Rentals Inc. for the rental of an \nevent floor cover for Santa Ana Stadium in an amount not to exceed $118,548. \n3. Approve an appropriation adjustment in the amount of $118,548 from the \nspendable General Fund balance to the PRCSA, Recreation and Community \nServices, Contractual -Professional Services expenditure account (01113230- \n62300). (Requires five affirmative votes) \nMINUTES: Councilmember Lopez expressed excitement for the event, clarified the \nevent was not a budgeted event, and expressed concern regarding the allocated \ncosts to the City of Santa Ana. \nCity Manager Alvaro Nunez spoke regarding the fiscal impact related to the proof \nof concept. \nParks, Recreation, and Community Services Director Hawk Scott spoke regarding \nthe proof of concept and risk to the City. \nCouncilmember Lopez requested additional language \"all indirect costs be \nrecuperated by the City\" be placed in the agreement. \nCouncilmember Hernandez spoke regarding the Power of One Foundation and \ncosts of the event, and expressed concern regarding associated risk and being a \npolitical event. \nMOTION: Councilmember Hernandez moved to not move forward with the \nagreement. \nMotion died due to lack of second. \nCITY COUNCIL 23 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n  \nCouncilmember Bacerra expressed concern regarding loss of events beca",
+        "vote": {
+          "id": 312,
+          "outcome": "FAIL",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 403,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "18, Construction Contract with Vido Samarzich, Inc. for the Standard Avenue and \nMcFadden Avenue Bikeways Projects (No. 19-6923, 20-6962, 20-6965, 23- \n6705, 23-6706, & 23-6707) (General Fund) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $2,000,000 in prior -year fund \nbalance in the Residential Street Improvement, Prior Year Carry Forward \nrevenue account and appropriate the same amount into the Residential Street, \nImprovements Other Than Buildings, expenditure account. (Requires five \naffirmative votes) \n2. Approve an appropriation adjustment recognizing $2,700,000 in prior -year fund \nbalance in the Transportation System Improvement Authorization Area \nB revenue account and appropriate the same amount into the Transportation \nSystem Improvement Authorization Area B Tustin, Improvements Other Than \nBuildings expenditure account. (Requires five affirmative votes) \n3. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include an additional $5,900,000 in construction funds for \nthe Standard Avenue and McFadden Avenue Bikeways Project (No. 19-6923, \n20-6962, 20-6965, 23-6705, 23-6706, & 23-6707). \n4. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $23,550,000, which includes $19,170,060 for the construction \ncontract; $2,462,934 for contract administration, inspection, and testing; and \na $1,917,006 project contingency for unanticipated or unforeseen work due to \nthe complexity and extensive scope of this project. \n5. Award a construction contract to Vido Samarzich, Inc., the lowest responsible \nbidder, in accordance with the base bid and bid alternates in the amount \nof $19,170,060, for construction of the Standard Avenue and McFadden Avenue \nBikeways Project (No. 19-6923, 20-6962, 20-6965, 23-6705, 23-6706, & 23- \n6707), for a term beginning September 17, 2024 and ending upon project \ncompletion, and authorize the City Manager to execute the contract. \n6. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review pursuant to Article 19, \nCategorical Exemptions",
+        "vote": {
+          "id": 161,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 404,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19. Resolution Declaring City -Owned Properties as Exempt Surplus Land and \nDirecting the City Manager or their Designee to Comply with the Requirement \nof Government Code \u00a454220 et seq. for the Sale and Activation of Surplus \nLand",
+        "description": "Department(s): Public Works Agency \nCITY COUNCIL 27 SEPTEMBER 17, 2024 \nSEPTEMBER 23, 2024 \n  \nRecommended Action: \nAdopt a resolution declaring City -owned property as exempt surplus land and \ndirecting the City Manager or designee to comply with the requirements of \nGovernment Code \u00a454220 et seq. for the sale and transfer of ownership. \nRESOLUTION NO. 2024-051 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA DECLARING VARIOUS \nPROPERTIES AS EXEMPT SURPLUS LAND AND DIRECTING THE CITY \nMANAGER TO FOLLOW THE PROCEDURES SET FORTH IN THE SURPLUS \nLAND ACT, CALIFORNIA GOVERNMENT CODE SECTION 54220, ET SEQ., \nAS AMENDED, FOR THEIR DISPOSITION \n2, Determine that, pursuant to the California Environmental Quality Act (\"CEQA\"), \nthe sales of the properties as surplus are exempt from environmental review \npursuant to CEQA Guidelines section 15312 (Surplus Government Property \nSales). \nMINUTES: Councilmember Lopez asked for clarification regarding the selected 26 \nparcels, suggested a case by case basis of approval, and whether the surplus land \nis generating any money. \nCity Engineer Rudy Rosas spoke regarding the selected parcels and lots, and \nstated this would off load slivers of land for liability purposes. \nCouncilmember Bacerra spoke in support of the item. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 19, seconded by Mayor Amezcua. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+        "vote": {
+          "id": 221,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 405,
+        "item_number": "23",
+        "section": "PUBLIC_HEARING",
+        "title": "23. Public Hearing: Consolidated Annual Performance and Evaluation Report for \nFiscal Year 2023-24 \nLegal notice published in the Orange County Register on August 14, 2024 and in \nLa Opinion and Nguoi Viet on August 19, 2024.",
+        "description": "Department(s): Community Development Agency \nRecommended Action: Authorize submission of the Consolidated Annual \nPerformance and Evaluation Report to the U.S. Department of Housing and Urban \nDevelopment. \nMINUTES: MayorAmezcua opened the Public Hearing at 7.40 P.M. \nCity Clerk Jennifer L. Hall stated there were no speakers or email comments \nreceived. \nThere being no speakers, Mayor Amezcua closed the Public Hearing at 7:49 P.M. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 23, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 7-0 ",
+        "vote": {
+          "id": 280,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 406,
+        "item_number": "24",
+        "section": "PUBLIC_HEARING",
+        "title": "24.Joint Public Hearing: Adopt Resolution and Approve Purchase and Sale \nAgreement for Acquisition of Real Property at the Southwest Corner of Main \nStreet and Third Street (APN 398-601.02) for Parking Lot (General Fund and \nNon -General Fund) \nLegal notice published in the OC Reporter on August 30 and September 9, 2024. ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \nCITY COUNCIL ACTION \n1. Adopt a resolution making certain findings with respect to the consideration to \nbe received by the Successor Agency pursuant to a Purchase and Sale \nAgreement between the Successor Agency and the City for the sale of the \nSouthwest Corner of Main Street and Third Street (APN 398-601-02), and \nauthorize the City Manager to execute all required documents as necessary. \nRESOLUTION NO. 2024-052 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING THE PURCHASE AND \nSALE AGREEMENT FOR THE ACQUISITION OF PROPERTY FROM THE \nSUCCESSOR AGENCY TO THE FORMER REDEVELOPMENT AGENCY OF \nTHE CITY OF SANTA ANA LOCATED AT 3RD STREET AND MAIN STREET \nPARKING LOT \n2. Authorize the City Manager to execute the Purchase and Sale Agreement and \nall required documents for the acquisition of real property located at the \nSouthwest Corner of Main Street and Third Street (APN 398-601-02) in the \namount of $190,000 plus closing costs (Agreement No. A-2024-147). \nSUCCESSOR AGENCY ACTION \n1. Adopt a resolution declaring a Successor Agency owned property as exempt \nSurplus Land for the purpose of a Purchase and Sale agreement with the City \nof Santa Ana. \nRESOLUTION NO. 2024-002 entitled A RESOLUTION OF THE SUCCESOR \nAGENCY TO THE FORMER COMMUNITY REDEVELOPMENT AGENCY OF \nTHE CITY OF SANTA ANA DECLARING 3RD STREET AND MAIN STREET \nPARKING LOT AS EXEMPT SURPLUS AND LAND PURSUANT TO THE \nEXEMPT SURPLUS LAND ACT AND AUTHORIZING, PURSUANT TO AN \nEXEMPTION FROM CEQA, THE SALE OF THE PARKING LOT PROPERTY \nTO THE CITY (includes determination that the sale of the property is exempt \nfrom the California Environmental Quality Act (CEQA) pursuant to CEQA \nGuidelines Section 15061(b)(3) and Section 15301) 2. Adopt a resolution making certain findings with respect to the consideration to \nbe received by the Successor Agency pursuant to a Purchase and Sale \nAgreement between the Successor Agency an",
+        "vote": {
+          "id": 297,
+          "outcome": "FLAG",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

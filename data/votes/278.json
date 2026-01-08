@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 278,
+    "item_number": "29",
+    "title": "AGENDA ITEM NO. 29 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n29.Agreement with Mariposa Landscape Inc. for Landscape Maintenance \nServices at Water Production Facilities and the Corporate Yard (Specification \nNo. 24-018) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nMariposa Landscape Inc. for landscape maintenance services for a three-year term \nbeginning August 20, 2024 and expiring August 19, 2027, with a provision for two, \none-year renewal options, for an aggregate amount of $695,760, including a \ncontingency of $160,560, for the term of the agreement, including renewal options \nexercisable by the City Manager (Agreement No. A-2024-132). \nMINUTES: Councilmember Bacerra asked whether the description of work listed \non exhibit 1 of the staff report included green landscaped walls at the city yard and \nthe city water facilities, whether Mariposa is the same company doing the current \nlandscaping, and why there was a 23% contingency instead of a 10% contingency. \nPublic Works Director Nabil Saba confirmed the description of the landscaped walls \nand stated Marisposa Landscape, Inc. is not the current landscaping company \nbeing used by the City. He spoke regarding the requested 23% contingency. \nCity Manager Alvaro Nunez spoke regarding contingencies and stated that staff \nwill request a 10% contingency moving forward. \nCouncilmember Penaloza asked for clarification regarding the areas the \nagreement would cover and expressed concern with the 23% contingency. \nDirector Saba stated the landscape maintenance services are for the Water \nProduction Facilities and the Corporate Yard. \nCity Manager Nunez spoke regarding enhancing staff report language to better \nillustrate the funding source. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 29, as amended to reduce the contingency amount to 10%, \nseconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStat",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 22,
+    "meeting_date": "2024-08-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

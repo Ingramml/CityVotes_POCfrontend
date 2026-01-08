@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 388,
+    "item_number": "12",
+    "title": "12. Municipal Facilities License Agreement with Los Angeles SMSA Limited \nPartnership, dba Verizon Wireless, a California Limited Partnership ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute an agreement with \nLos Angeles SMSA Limited Partnership, dba Verizon Wireless, a California limited \npartnership, for the use of street lights for the installation of wireless devices other \nthan small cell for a ten-year period, with provisions for two automatic five-year \nextensions (Agreement No. A-2024-205). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 5,
+    "meeting_date": "2024-12-03",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

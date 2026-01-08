@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 375,
+    "item_number": "29",
+    "title": "29. Third One -Year Extension of Site Plan Review No. 2016-03 and Variance Nos. \n2017-05 and 2017-06 for The Madison Mixed -Use Development Project \nLocated at 200 North Cabrillo Park Drive ",
+    "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution approving a third and final one-year extension of Site Plan \nReview No. 2016-03, Variance No. 2017-05, and Variance No. 2017-06 to \nDecember 31, 2025. \nRESOLUTION NO. 2024-067 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA APPROVING A THIRD ONE-YEAR \nEXTENSION OF SITE PLAN REVIEW NO. 2016-03, VARIANCE NO. 2017-05, \nAND VARIANCE NO. 2017-06 FOR THE MADISON MIXED -USE \nDEVELOPMENT LOCATED AT 200 NORTH CABRILLO PARK DRIVE \n2. Determine that, pursuant to the California Environmental Quality Act (CEQA) \nand the CEQA Guidelines, the extension for this project is exempt pursuant to \nSection 15061(b)(3). This determination has been made as it has been \ndetermined that the proposed action to extend the existing, approved entitlement \ndoes not have the potential to cause a significant effect on the environment, as \nthe existing, approved entitlement has already been evaluated pursuant to \nCEQA. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 8,
+    "item_number": "10",
+    "title": "10. Award a Construction Contract to Baker Electric & Renewables LLC in the Amount \nof $691,335 for the Traffic Signal Installation at Chestnut Avenue and Zoo Lane \n(formerly Elk Lane) with an Estimated Project Delivery Cost of $864,168 (Project \nNo. 23-6999) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an amendment to the Fiscal Year 2023-24 Capital Improvement Program to \ninclude $864,168 of funding in Transportation System Impact Authority (TSIA) Area A \nand Capital Outlay Fund Parks Improvement funds for the Traffic Signal Installation at \nChestnut Avenue and Zoo Lane (formerly Elk Lane). \n2. Approve an appropriation adjustment to recognize Transportation System Impact \nAuthority Area A funds in an amount of $839,168 in the Prior Year Carry Forward \nrevenue account, and appropriate the same amount to the Transportation System \nImpact Authority Area 'A, Improvements Other than Buildings expenditure account. \n(Requires five affirmative votes) \n3. Authorize budget reallocation of $25,000 in unspent Capital Outlay Fund Parks \nImprovement account from the Maintenance &Repair Buildings &Ground (No. 24- \n2600) Project to construction funds for the Traffic Signal Installation at Chestnut Avenue \nand Zoo Lane (formerly Elk Lane) (No. 23-6999) to complete the project funding \nrequirement. \n4. Award a construction contract to Baker Electric & Renewables LLC., the lowest \nresponsive bidder, in accordance with the base bid in the amount of $691,335, subject \nto change orders (not to exceed 25% of the base bid amount) in accordance with the \nGreenbook: Standard Specifications for Public Works Construction, for construction of \nnew Traffic Signal Installation at Chestnut Avenue and Zoo Lane (formerly Elk Lane) \nProject, for the term beginning December 19, 2023 and ending upon project \nCITY COUNCIL 14 JANUARY 16, 2024 \n\n\ncompletion. \n5. Approve the Project Cost Analysis for a total estimated construction delivery cost of \n$864,168, which includes $691,335 for the construction contract, $103,700 for contract \nadministration, inspection, and testing; and a $69,133 project contingency for \nunanticipated or unforeseen work. \n6. Determine that, pursuant to the California Environmental Quality Act, the recommended \n",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

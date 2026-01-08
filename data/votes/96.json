@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 96,
+    "item_number": "14",
+    "title": "14. Legal Services Agreement with Best Best & Krieger LLP for Bond Counsel for \nPotential Water Enterprise Revenue Bond Issuance (non -General Fund) ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nBest Best & Krieger LLP for bond counsel and disclosure counsel services related to \na potential water enterprise revenue bond issuance for a not -to -exceed amount of \n$88,000 for a term expiring September 30, 2025 (Agreement No. A-2024-040). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 18,
+    "meeting_date": "2024-04-02",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

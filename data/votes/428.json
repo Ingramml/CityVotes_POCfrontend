@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 428,
+    "item_number": "23",
+    "title": "23.Agreements with the County of Orange to Strengthen Regional Workforce \nDevelopment Partnerships and Advancing Education -Industry Alignment \nthrough WIOA Initiatives (Non -General Fund) ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with the County of Orange \naccepting grant funds of $110,000 to assist in the coordination and \nimplementation of the Regional Equity and Recovery Partnership (RERP) grant \nfor the period from December 17, 2024 to December 31, 2025, subject to non - \nsubstantive changes (Agreement No. A-2024-213 . \nCITY COUNCIL 14 DECEMBER 17, 2024 \n\n\n2. Authorize the City Manager to execute an agreement with the County of Orange \naccepting grant funds of $30,000 for coordination of workforce efforts under the \nRegional Plan Implementation (RPI) 5.0 grant for the period of December 17, \n2024 to March 31, 2025, subject to non -substantive changes (Agreement No. \nA-2024-214). \n3. Approve an appropriation adjustment to recognize $30,000 in funds from \nOrange County Grant Revenue Federal Grant -Indirect account (no. 12418002- \n52001) and $110,000 from State Grant -Indirect account (no. 12418002-52027) \nand appropriating the same amounts to OC WIOA RPI 5.0 expenditure account \n(no. 12418750-various) and OC RERP expenditure account (no. 12418752- \nvarious), respectively. (Requires five affirmative votes) ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 10,
+    "meeting_date": "2024-12-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

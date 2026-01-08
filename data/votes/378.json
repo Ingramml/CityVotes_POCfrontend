@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 378,
+    "item_number": "32",
+    "title": "32.Ordinance Adding Article XIV to Chapter 10 (Crimes and Miscellaneous Law \nEnforcement Provision) and Amending Related Sections in Chapter 31, \nChapter 33, and Chapter 36 of the Santa Ana Municipal Code ",
+    "description": "Department(s): Police Department \nRecommended Action: Conduct a first reading and adopt an ordinance adding \nand amending various articles and sections of the Santa Ana Municipal Code to \nprohibit conduct that interferes with public rights of access to public property to \naddress changes in the law brought by the City of Grants Pass, Oregon v. Johnson, \net. al., 144 S. Ct. 2202 (2024): \nORDINANCE NO. NS-XXXX entitled AN ORDINANCE OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA ADDING ARTICLE XIV (PROHIBITING \nINTERFERENCE WITH AND ACCESS TO PUBLIC PROPERTY) TO CHAPTER \n10 (CRIMES AND MISCELLANEOUS LAW ENFORCEMENT PROVISIONS) OF \nTHE SANTA ANA MUNICIPAL CODE AND AMENDING RELATED SECTIONS IN \nCHAPTER 10, CHAPTER 31 (RECREATION, PARKS AND PLAYGROUNDS), \nCHAPTER 33 (STREETS, SIDEWALKS AND PUBLIC WORKS, AND CHAPTER \n36 (TRAFFIC) TO PROHIBIT CONDUCT THAT INTERFERES WITH PUBLIC \nRIGHTS OF ACCESS TO PUBLIC PROPERTY TO ADDRESS CHANGES IN LAW \nBROUGHT ABOUT BY CITY OF GRANTS PASS, OREGON V. JOHNSON, ET. \nAL., 144 S. Ct. 2202 (2024) \nMINUTES: Acting Police Chief Robert Rodriguez gave a presentation regarding the \nmunicipal code update amendments to Chapters 10, 31, 33, and 36 and adding \nChapter 10 Article 14. \nCouncilmember Bacerra spoke in support of the item and inquired with City Attorney \nSonia Carvalho regarding possible restrictions in modifying the following sections: \n10-851(h)(6) and (7) and 10-100(a)(6) and (7) to increase the distance listed from \n10 feet to 20 feet. \nCITY COUNCIL 20 NOVEMBER 19, 2024 \n\n\nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 32, as amended, to increase the distance listed from 10 \nfeet to 20 feet, seconded by Mayor Amezcua. \nMINUTES: City Attorney Sonia Carvalho stated that she was not aware of any legal \nrestrictions that would prevent the section modification. \nMayor Amezcua spoke in support of the Item No. 32. \nCouncilmember Penaloza spoke in support of item No. 32, \nCouncilmember Vazquez spoke regardi",
+    "outcome": "PASS",
+    "ayes": 6,
+    "noes": 1,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

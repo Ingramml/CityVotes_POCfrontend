@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 22,
+    "item_number": "22",
+    "title": "22.Agreement with Torti Gallas + Partners, Inc. (TGP) to Assist the City with the \nDevelopment and Adoption of a Public Realm Plan for Each of the Five \nGeneral Plan Focus Areas in an Amount Not to Exceed $799,282 \n(Specification No. 23-011) (General Fund and Non -General Fund) ",
+    "description": "Department(s): Planning and Building Agency \nRecommended Action: Authorize the City Manager to execute an agreement \nwith Neal I. Payton Architectural Corporation dba Torti Gallas + Partners, Inc. \n(TGP) to assist the City with the development and adoption of a Public Realm \nPlan for each of the five General Plan Focus Areas, in an amount not to exceed \n$799,282 for a two- year term beginning on February 6, 2024 and expiring on \nJanuary 31, 2026, with provisions for a one two-year extension (Agreement No. \nA-2024-023). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

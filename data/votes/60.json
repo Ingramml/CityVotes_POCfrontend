@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 60,
+    "item_number": "7",
+    "title": "7. Appoint Ernie Aguilar Nominated by Councilmember Hernandez as a Landlord \nRepresentative to the Rental Housing Board for a Full -Term Expiring in 2027 ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Ernie Aguilar to the Rental Housing Board as a \nLandlord Representative and administer the Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Ernie \nAguilar. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 3,
+    "meeting_date": "2024-03-05",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

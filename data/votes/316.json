@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 316,
+    "item_number": "9",
+    "title": "9. Citywide Purchase Order with DS Services of America, Inc. dba Primo Water \nNorth America for Bottle Water and Related Products (Specification No. 24- \n093) (General Fund and Non -General Fund) ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Award citywide purchase order to DS Services of America, \nInc. dba Primo Water North America for bottled water and related products for a \nterm beginning on October 2, 2024 and expiring February 29, 2028, in an annual \namount not to exceed $50,000. \nMINUTES: Councilmember Bacerra spoke in opposition to the item and asked why \nbottling water is not an in-house service. \nCity Manager Alvaro Nunez addressed the necessity of the contract and confirmed \nhe would bring back a report that assessed the process and costs of bottling water \nin-house. \nMayor Pro Tem Phan spoke in support of the item and promoted the continued use \nof individual water bottles/flasks. \nMayor Amezcua echoed Mayor Pro Tem Phan's comments. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 9, as amended to have staff prepare a feasibility of bottling \nthe City's own water, seconded by Councilmember Hernandez. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER HERNANDEZ, COUNCILMEMBER \nLOPEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER BACERRA \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 6,
+    "noes": 1,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 1,
+    "meeting_date": "2024-10-01",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

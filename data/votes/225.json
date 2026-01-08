@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 225,
+    "item_number": "14",
+    "title": "14.Construction Contract to Loengreen, Inc. for the Council Chambers ADA \nRestroom and Translation Booth Remodel Project (Project No. 22-0504) (Non - \nGeneral Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Approve an appropriation adjustment recognizing $554,472 of prior -year fund \nbalance in the CATV Fund, Prior Year Carry Forward revenue account and \nappropriate the same amount to the CATV Fund, Buildings & Building \nImprovements expenditure account. (Requires five affirmative votes) \n2. Approve an appropriation adjustment recognizing $554,472 of prior -year fund \nbalance in the Liability and Property Insurance Fund, Prior Year Carry Forward \nrevenue account and appropriate the same amount to the Risk Management \nProjects, Buildings & Building Improvements expenditure account. (Requires \nfive affirmative votes) \n3. Award construction contract to Loengreen, Inc., the lowest responsible bidder, \nin accordance with the base bid in the amount of $821,440 for construction of \nthe Council Chambers ADA Restroom and Translation Booth Remodel Project, \nfor the term beginning July 16, 2024 and ending upon project completion, and \nauthorize the City Manager to execute the contract. \nCITY COUNCIL 8 JULY 16, 2024 \n\n\n4. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $1,108,994 which includes $821,440 for the construction contract, $123,216 \nfor contract administration, inspection, and testing, and a $164,288 project \ncontingency for unanticipated or unforeseen work. \n5. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $1,108,944 in construction funding from the CATV Fund and \nLiability Property Insurance Fund. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 15,
+    "meeting_date": "2024-07-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

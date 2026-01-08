@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 54,
+    "item_number": "38",
+    "title": "AGENDA ITEM PULLED FROM CONSENT CALENDAR FOR SEPARATE \nDISCUSSION \n38. Approve an Agreement with Bean Sprouts at the Santa Ana Zoo ",
+    "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nBean Sprouts, LLC dba Bean Sprouts to provide food and beverage concession \nservices at the Santa Ana Zoo with a 6% revenue share to the City on the first \n$300,000, 8% revenue share between $300,001 - $500,000, and 10% revenue share \nabove $500,000 in cumulative cafe net sales for a given contract year, March 18 to \nMarch 17 of the following year, for an initial term of three years, effective March 18, \n2024, with two 2-year renewal options (Agreement No. A-2024-026). \nMINUTES: Councilmember Penaloza spoke in support of the item and asked for \nclarification regarding the requirements for local brewers/vendors as part of the \nagreement and designated areas for alcohol consumption. \nParks, Recreation, and Community Services Director Hawk Scott spoke \nregarding Alcohol Beverage Control requirements and stated he would look into \nincorporating local businesses. \nCouncilmember Hernandez spoke in support of capitalizing on expansion of \nalcohol consumption areas and incorporating local business. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 38, as amended to pursue Santa Ana vendors, seconded \nby Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 6,
+    "meeting_date": "2024-02-20",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

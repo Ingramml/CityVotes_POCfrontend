@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 90,
+    "item_number": "8",
+    "title": "8. Approve Submittal of Request for Time Extension of the Measure M2 \nComprehensive Transportation Funding Program for Bristol Street \nImprovements Phase IV, Warner Avenue to Saint Andrew Place, Bristol Street \nand Memory Lane Intersection Improvements, and Warner Avenue \nImprovements, Oak Street to Grand Avenue (Project Nos. 11-6741, 17-6833, \nand 18-6901) (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the Public Works Agency to request a two-year \ntime extension of Measure M2 Comprehensive Transportation Funding Program \nfunding for Bristol Street Improvements Phase IV (Warner Avenue to Saint Andrew \nPlace) (23-SNTA-ACE-4043), Bristol Street and Memory Lane Intersection \nImprovements (23-SNTA-ICE-4041), and Warner Avenue Improvements (Oak Street \nto Grand Avenue) (23-SNTA-ACE-4044). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 18,
+    "meeting_date": "2024-04-02",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

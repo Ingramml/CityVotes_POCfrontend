@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 348,
+    "item_number": "23",
+    "title": "23. Historic Property Preservation Agreements for the Properties Located at 214- \n218 W. 4th Street, 2539 N. French Street, 1113 W. Riviera Street, 2312 N. \nSpurgeon Street, and 1106 S. Parton Street ",
+    "description": "Department(s): Planning and Building Agency \nRecommended Action: Authorize the City Manager to execute the attached Mills \nAct agreements with the below -referenced property owners for the identified \nstructure(s) (Agreement Nos. A-2024-177, A-2024-178, A-2024-179, A-2024-180, \nCITY COUNCIL 15 OCTOBER 15, 2024 \n\n\nand A-2024-181). [includes determination that the proposed projects are exempt \nfrom further review in accordance with the California Environmental Quality Act as \nthe following Categorical Exemptions will be filed: ER No. 2024-67, ER-2024-68, \nER-2024-69, ER-2024-70, and ER-2024-71] \nTable 1: Mills Act Agreements Approved by the Historic Resources \nCommission (HRC) \nHistoric \nProperty \nProperty \nAddress/House \nVote by HRC \nOwner(s) \nPreservation \nAgreement No. \n6:0:0:3 \nLiennette Chung, \n214-218 W. 4th \n(Commissioners \nWild Orchid \n2022-20 \nStreet \nEscamilla, Rincon, \nInvestments, LLC \nand Murashie absent) \n7:0:0:2 \nFrancois -Xavier \n2539 N. French \n(Commissioners \nand Roxana Fyad \n2024-09 \nStreet \nRincon and Murashie \nabsent \n6:0:0:3 \nCharles A. and \n1113 W. Riviera \n(Commissioners \nMolly H. Martin \n2024-10 \nDrive \nEscamilla, Rincon, \nand Murashie absent) \n7:0:0:2 \nCarter and \n2312 N. \n(Commissioners \nChelsea Sapp \n2024-11 \nSpurgeon Street \nRincon and Murashie \nabsent) \n6:0:0:3 \n1106 S. Parton \n(Commissioners \nJennifer Schutza \n2024-12 \nStreet \nEscamilla, Rincon, \nand Murashie absent ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 12,
+    "meeting_date": "2024-10-15",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

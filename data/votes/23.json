@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 23,
+    "item_number": "24",
+    "title": "24. Agreements with Enterprise Fleet Management for Leased Vehicles (General Fund) ",
+    "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute the following seven \nagreements with Enterprise FM Trust and Enterprise Fleet Mangement, Inc. for leased \nvehicles for the period of January 1, 2024 through April 18, 2026 for a total annual amount \nnot to exceed $612,936, with a one-year extension option: (Core Agreement No. A-2024- \n018) \n1. Master Walkaway Lease Agreement; \n2. Master Equity Lease Agreement; \n3. Maintenance Management and Fleet Rental Agreement; \n4. Supplemental Agreement between city and Enterprise; \n5. Indemnity Agreement for Master walkaway Lease Agreement; \n6. Indemnity Agreement for Master Equity Lease Agreement; \n7. Amendment to Maintenance Management and Fleet Rental Agreement. \nMINUTES: Councilmember Penaloza asked for clarification regarding the type/model \nof the leased vehicles throughout the department. \nCity Attorney Sonia Carvalho provided clarification. \nCouncilmember Penaloza requested the type of vehicles leased be discussed during \nlabor negotiations. \nCouncilmember Lopez left the meeting via teleconference at 8: 03 P.M. \nCITY COUNCIL 21 JANUARY 16, 2024 \n\n\nMayor Amezcua spoke regarding the type of vehicles used by the Police Department, \nand requested information/ presentation regarding the type of vehicles, costs, and the \npolice budget. \nMOTION: Councilmember Penaloza moved to approve the recommended action \nfor Agenda Item No. 24 and direct staff to review and formulate the policy on the \ntype of vehicles taken home as part of negotiations, seconded by Mayor Amezcua. \nThe motion carried, 5-1-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER PHAN, COUNCILMEMBER VAZQUEZ, \nMAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: COUNCILMEMBER HERNANDEZ \nABSTAIN: NONE \nABSENT: COUNCILMEMBER LOPEZ \nStatus: 5-1 \u00d1 0 \u00d1 1 \u00d1Pass ",
+    "outcome": "PASS",
+    "ayes": 5,
+    "noes": 1,
+    "abstain": 1,
+    "absent": 1,
+    "meeting_id": 7,
+    "meeting_date": "2024-01-16",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "NAY"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "ABSENT"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "ABSENT"
+      }
+    ]
+  }
+}

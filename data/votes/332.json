@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 332,
+    "item_number": "8",
+    "title": "8. Appoint Vivian Wilhelm Nominated by the Community Development Agency \nas the Senior Tenant Representative to the Community Development \nCommission for a Full Term Expiring November 14, 2026 ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Vivian Wilhelm to the Community Development \nCommission as the Senior Tenant Representative and administer the Oath of \nOffice. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 12,
+    "meeting_date": "2024-10-15",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

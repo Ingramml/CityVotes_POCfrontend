@@ -1,0 +1,375 @@
+{
+  "success": true,
+  "meeting": {
+    "id": 2,
+    "meeting_date": "2024-12-10",
+    "meeting_type": "special",
+    "agenda_url": "https://santa-ana.primegov.com/Public/CompiledDocument/44150",
+    "minutes_url": null,
+    "video_url": "https://youtube.com/watch?v=NtAyrvp58I8",
+    "agenda_item_count": 24,
+    "vote_count": 24,
+    "agenda_items": [
+      {
+        "id": 22,
+        "item_number": "1",
+        "section": "CONSENT",
+        "title": "1. Resolution Declaring the Results of the November 5, 2024 General Municipal \nElection \u00d1 Measures CC, DD, EE, and FF and the Election of Certain Officers ",
+        "description": "Election \u00d1 Measures CC, DD, EE, and FF and the Election of Certain Officers \nDepartment(s): City Clerk's Office \nRecommended Action: \n1. Adopt a resolution reciting the fact of the General Municipal Election held on \nNovember 5, 2024, declaring the results, and such other matters as may be \nprovided by law. \nRESOLUTION NO. 2024-074 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA RECITING THE FACT OF THE \nGENERAL MUNICIPAL ELECTION HELD ON TUESDAY, NOVEMBER 5, \n2024, DECLARING THE RESULTS, AND SUCH OTHER MATTERS AS MAY \nBE PROVIDED BY LAW \nCITY COUNCIL 2 DECEMBER 10, 2024 \n\n\n2. Execute Ordinance No. NS-3073 approved by the voters approving Article XIX, \nRent Stabilization and ,lust Cause Eviction Ordinance, of Chapter 8, Buildings \nand Structures, of the Santa Ana Municipal Code (Measure CC). \nORDINANCE NO. NS-3073 entitled AN ORDINANCE OF THE PEOPLE OF \nTHE CITY OF SANTA ANA ADOPTING A RENT STABILIZATION AND JUST \nCAUSE EVICTION ORDINANCE \n3. Authorize submission to the Secretary of State, for acceptance and filing, \namendments to the Santa Ana City Charter approved by the voters deleting \nreferences to obsolete job titles and obsolete bonding requirements, specifying \nthat all department heads are at -will employees, addressing definitions of funds \nand levies for compliance with state law, authorizing limited purchasing authority \nfor the City Clerk and City Attorney, and requiring the City Council to adopt an \nordinance to enforce the Ethics Code (Measure EE). \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 1, seconded by Mayor Amezcua. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 391,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 23,
+        "item_number": "10",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 10 WAS MOVED OUT OF ORDER \n10.Re-Appoint Various Boards and Commissions Members Nominated by \nCouncilmember Lopez as the Ward 3 Representative to a Full Term Expiring \nDecember 12, 2028",
+        "description": "December 12, 2028 \nDepartment(s): City Clerk's Office \nRecommended Action: Appoint the following members and administer the Oaths \nof Office. \n1. Debra Russell \u00d1Arts and Culture Commission (Pursuant to SAMC Sec. 2- \n326(a), requires five affirmative votes.) \n2. Alfonso Ceja Villa \u00d1 Community Development Commission \n3. David Crockett \u00d1 Personnel Board \n4. Isuri Ramos \u00d1 Planning Commission (Pursuant to SAMC Sec. 2-326(a), \nrequires five affirmative votes.) \n5. Alonzo Lugo \u00d1 Santa Ana 2018 Measure X Citizens' Oversight Committee \n6. Mercy Benitez \u00d1 Youth Commission (Pursuant to SAMC Sec. 2-326(a), requires \nfive affirmative votes.) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Offices to the \ncommissioners who were present. \nCITY COUNCIL 5 DECEMBER 17, 2024 ",
+        "vote": {
+          "id": 393,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 24,
+        "item_number": "11",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 11 WAS MOVED OUT OF ORDER \n11.Appoint Lawrence Klein to the Environmental and Transportation Advisory \nCommission and Oscar Rodriguez to the 2018 Santa Ana Measure X Citizens' \nOversight Committee Nominated by Councilmember Vazquez as the Ward 2 \nRepresentative for a Partial Term Expiring December 8, 2026 ",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Lawrence Klein to the Environmental and \nTransportation Advisory Commission and Oscar Rodriguez to the 2018 Santa Ana \nMeasure X Citizens' Oversight Committee as the Ward 2 representative and \nadminister the Oaths of Office. (Pursuant to SAMC Sec. 2-326(a), requires five \naffirmative votes.) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Lawrence \nKlein. \nSTAFF PRESENTATION ",
+        "vote": {
+          "id": 394,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 25,
+        "item_number": "12",
+        "section": "CONSENT",
+        "title": "12.Annual Development Impact Fee Report for Fiscal Year 2023-2024 ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Receive and File. ",
+        "vote": {
+          "id": 395,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 26,
+        "item_number": "13",
+        "section": "CONSENT",
+        "title": "13. Fiscal Year 2023-2024 General Fund Results ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: \n1. Receive and file this informational report:. \n2. Approve proposed General Fund appropriation adjustments as detailed \nin Exhibit 1 (Requires two-thirds vote). ",
+        "vote": {
+          "id": 396,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 27,
+        "item_number": "14",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 14 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n14. Budget Calendar and Community Engagement Plan for Fiscal Year 2025-26 ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Approve the Budget Calendar and Community \nEngagement Plan for Fiscal Year 2025-26 (FY25-26). \nMINUTES: Councilmember Lopez requested a yearly practice regarding the \ninvolvement of a Youth Forum and partnership with the local school district. \nCouncilmember Penaloza requested the involvement of multiple school districts. \nMOTION: Councilmember Lopez moved to approve the recommended action \nfor Agenda Item No. 14, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nCITY COUNCIL 9 DECEMBER 17, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 397,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 28,
+        "item_number": "15",
+        "section": "CONSENT",
+        "title": "15. Citywide Purchase Order to Daily Journal Corporation for Legal Notices, \nPublic Awareness Advertising and Publishing Services (Specification No. 24- \n119) (General Fund and Non -General Fund) ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Award Citywide Purchase Order to Daily Journal \nCorporation for legal notices, public awareness advertising, and publishing services \nfor a term beginning on December 18, 2024 as part of the County agreement, and \nexpiring September 14, 2028, in an amount not to exceed $1,000,000 based on the \nterm and pricing. ",
+        "vote": {
+          "id": 398,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 29,
+        "item_number": "16",
+        "section": "CONSENT",
+        "title": "16.Agreement with Mekong Printing Inc. dba MK Printing for Offset Printing \nServices (Specification No. 24-082A) (General Fund and Non -General Fund) ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nMekong Printing Inc. dba MK Printing to provide offset printing services for a term \nbeginning November 20, 2024 and expiring November 19, 2027, with provision for \none, 2-year extension, in an amount not to exceed $500,000 (Agreement No. A- \n2024-207). \nMINUTES: Mayor Pro Tem Phan left the dais at 8:00 P.M. \nAGENDA ITEM NO. 17 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION ",
+        "vote": {
+          "id": 399,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 30,
+        "item_number": "17",
+        "section": "GENERAL",
+        "title": "17.Agreement with Wittman Enterprises, LLC for Ambulance and Paramedic \nBilling and Collection Services (Specification No. 24-104) (General Fund) ",
+        "description": "Department(s): Finance and Management Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nWittman Enterprises, LLC to provide ambulance and paramedic/medical billing and \ncollection recovery services, based on a contingent collection fee rate of 3.75%, for \na term beginning January 1, 2025 and expiring December 31, 2027, with provisions \nfor three optional one-year extensions (Agreement No. A-2024-208). \nCITY COUNCIL 10 DECEMBER 17, 2024 \n\n\nMINUTES: Councilmember Penaloza asked for clarification regarding paramedic \nservices and medical billing and education. \nExecutive Director of Finance and Management Services Kathryn Downs stated \nthe service is not free and the individual's insurance is billed, and briefly spoke \nregarding medical information education. \nCity Manager Alvaro Nunez spoke regarding medical billing education and \nprovided a balance. \nCouncilmember Vazquez spoke regarding the paramedic subscription program. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Agenda Item No. 17, seconded by Mayor Amezcua. \nThe motion carried, 6-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: MAYOR PRO TEM PHAN (recusal) \nABSENT: NONE \nStatus: 6 \u00d1 0 \u00d11 -- Pass ",
+        "vote": {
+          "id": 400,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 1,
+          "absent": 0
+        }
+      },
+      {
+        "id": 31,
+        "item_number": "18",
+        "section": "CONSENT",
+        "title": "MINUTES: Mayor Pro Tem Phan retuned to the dais at 8:07 P.M. \n18.Agreements with Dynamic Video Communications, LLC; JPW \nCommunications, Inc.; Pegasus Studios; and TV Pro Gear, Inc., for Video \nProduction and Technical Services ",
+        "description": "Department(s): City Manager's Office \nRecommended Action: Authorize the City Manager to execute agreements with \nDynamic Video Communications, LLC; JPW Communications, Inc.; Pegasus \nStudios; and TV Pro Gear, Inc., to provide on -call video production and technical \nservices for video production of City Council meetings; other video productions \nincluding recorded event videos, live event videos, marketing and public service \nannouncement (PSA) videos, animated videos, and social media video content; and \naudio/visual system design and equipment maintenance, for the period of January \n1, 2025 through December 31, 2026, in a total aggregate amount not to exceed \n$600,000, with the option for the City to grant up to two (2), one (1) year renewals, \nexercisable in writing by the City Manager and the City Attorney (Core Agreement \nNo. A-2024-209).",
+        "vote": {
+          "id": 401,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 32,
+        "item_number": "19",
+        "section": "CONSENT",
+        "title": "19.Agreement with CivicPlus, LLC for the use of CivicRec Recreation \nRegistration Software (General Fund) ",
+        "description": "Department(s): Parks, Recreation, and Community Services \nRecommended Action: Authorize the City Manager to execute an agreement with \nCivicPlus for use of their recreation software beginning December 1, 2024 through \nDecember 16, 2025, with an option to extend for an additional year, for a total \nagreement amount not to exceed $50,000 (Agreement No. A-2024-210). \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Agenda Item No. 19, as part of the Consent Calendar, seconded by \nCouncilmember Penaloza. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: COUNCILMEMBER LOPEZ \nABSTAIN: NONE \nABSENT: NONE \nStatus: 6 \u00d11 \u00d1 Pass ",
+        "vote": {
+          "id": 402,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 33,
+        "item_number": "20",
+        "section": "CONSENT",
+        "title": "20. Purchase Order Contracts with Los Angeles Fencing Co. and Quality Fence \nCo. Inc. for Fence Rental, Purchase, and Installation Services (Specification \nNo. 24-130A) (General Fund and Non -General Fund) ",
+        "description": "No. 24-130A) (General Fund and Non -General Fund) \nDepartment(s): Public Works Agency \nRecommended Action: Award aggregate Purchase Order Contracts to the \nvendors listed below for on -call fence rental, purchase, and installation services on \nan as -needed basis, in an annual aggregate amount not to exceed $1,000,000, for \na term beginning December 17, 2024 and expiring December 16, 2026, with \nprovisions for three additional one-year renewal options. \nVendor \nLocation \nLos Angeles Fencing Co. \nOntario, CA \nQuality Fencing Co. Inc. \nParamount , CA ",
+        "vote": {
+          "id": 403,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 34,
+        "item_number": "21",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 21 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n21.Agreements with Houston & Harris PCS, Inc., T.E. Roberts, Inc., and Paulus \nEngineering, Inc. for Emergency On -Call Water and Sewer Clean Up Services \n(Specification No. 24-054) (Non -General Fund) ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute agreements with \nHouston & Harris PCS, Inc., T.E. Roberts, Inc., and Paulus Engineering, Inc. for \nemergency on -call water and sewer clean up services, for a term beginning January \n1, 2025 and expiring December 31, 2027, with a provision for one, two year renewal, \nfor a total aggregate amount not to exceed $775,000 for the term of the contract, \nincluding the optional renewal (Core Agreement No. A-2024-211). \nMINUTES: Councilmember Lopez spoke in support of the item and thanked staff \nfor their hard work and efforts. \nMOTION: Councilmember Lopez moved to approve the recommended action \nfor Agenda Item No. 21, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass",
+        "vote": {
+          "id": 404,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 35,
+        "item_number": "22",
+        "section": "GENERAL",
+        "title": "AGENDA ITEM NO. 22 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n22.Agreement with City Net to Provide Street Outreach and Engagement \nServices for Individuals Experiencing Homelessness (Non -General Fund) ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with Kingdom Causes, Inc. \ndba City Net, in an annual amount not to exceed $3,750,420, for the Santa Ana \nMultidisciplinary Street Outreach and Engagement (SMART) Program to \nprovide homeless outreach services and non -emergency, non -medical dispatch \nservices for homeless -related calls, for a one-year term from January 1, 2025 \nthrough December 31, 2025, with a one-year renewal option, for a total not -to - \nexceed amount of $7,500,840 for the entire agreement (Agreement No. 2024- \n212). \n2. Authorize the City Manager to execute agreements required by state or federal \nagencies for the use of Homeless Housing, Assistance and Prevention (HHAP) \nfunding, or for any additional funding that may become available. \nCITY COUNCIL 13 DECEMBER 17, 2024 \n\n\nMINUTES: Councilmember Bacerra spoke in opposition to the item and expressed \nconcern regarding the lack of assistance from the County in addressing \nhomelessness. \nCouncilmember Vazquez spoke in support of the item. \nMayor Amezcua requested quarterly reports and spoke in support of the item. \nMayor Pro Tern Phan spoke in support of the item. \nCouncilmember Penaloza spoke in support of the item and expressed concern \nregarding the automatic renewal of the contract. \nCity Manager Alvaro Nunez spoke regarding the term of the contract, quarterly \nreports, and maximizing relationships to achieve objectives. \nBrief discussion ensured regarding services being provided by the City. \nCouncilmember Lopez spoke in support of the item. \nCouncilmember Vazquez requested comparable data on the reports. \nMOTION: Councilmember Vazquez moved to approve the recommended \naction for Agenda Item No. 22, as amended to include a detailed report at the \nend of the year prior to the renewal, seconded by Councilmember Hernandez. \nThe motion carried, 6-1, by the following roll call vote: \nAYES: COUNCILMEMBER HERNANDEZ, COUNCILMEMB",
+        "vote": {
+          "id": 405,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 1,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 36,
+        "item_number": "23",
+        "section": "CONSENT",
+        "title": "23.Agreements with the County of Orange to Strengthen Regional Workforce \nDevelopment Partnerships and Advancing Education -Industry Alignment \nthrough WIOA Initiatives (Non -General Fund) ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Authorize the City Manager to execute an agreement with the County of Orange \naccepting grant funds of $110,000 to assist in the coordination and \nimplementation of the Regional Equity and Recovery Partnership (RERP) grant \nfor the period from December 17, 2024 to December 31, 2025, subject to non - \nsubstantive changes (Agreement No. A-2024-213 . \nCITY COUNCIL 14 DECEMBER 17, 2024 \n\n\n2. Authorize the City Manager to execute an agreement with the County of Orange \naccepting grant funds of $30,000 for coordination of workforce efforts under the \nRegional Plan Implementation (RPI) 5.0 grant for the period of December 17, \n2024 to March 31, 2025, subject to non -substantive changes (Agreement No. \nA-2024-214). \n3. Approve an appropriation adjustment to recognize $30,000 in funds from \nOrange County Grant Revenue Federal Grant -Indirect account (no. 12418002- \n52001) and $110,000 from State Grant -Indirect account (no. 12418002-52027) \nand appropriating the same amounts to OC WIOA RPI 5.0 expenditure account \n(no. 12418750-various) and OC RERP expenditure account (no. 12418752- \nvarious), respectively. (Requires five affirmative votes) ",
+        "vote": {
+          "id": 406,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 37,
+        "item_number": "24",
+        "section": "CONSENT",
+        "title": "24.Application for the State of California Department of Housing and Community \nDevelopment Prohousing Incentive Program ",
+        "description": "Department(s): Community Development Agency \nRecommended Action: \n1. Adopt a resolution authorizing the City Manager to apply for up to $1 million in \ngrant funding from the State of California Department of Housing and \nCommunity Development (HCD) Prohousing Incentive Program. \nRESOLUTION NO. 2024-075 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AUTHORIZING APPLICATION FOR, \nAND RECEIPT OF, PROHOUSING INCENTIVE PROGRAM FUNDS \n2. If awarded Prohousing Incentive Program grant funding from HCD, authorize \nthe City Manager to execute an agreement with the State of California, in the \nform of HCD's \"Standard Agreement,\" for receipt of the Prohousing Incentive \nProgram grant funding for an amount up to $1 million, and any other documents \nrequired by HCD to secure the grant, if approved, as to form by the City Attorney. ",
+        "vote": {
+          "id": 407,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 38,
+        "item_number": "25",
+        "section": "CONSENT",
+        "title": "25.Adopt a Resolution, Authorize Award Amendment, and Approve an \nAppropriation Adjustment Accepting Additional FY 2022 Urban Area Security \nInitiative Grant Program Funds (Non -General Fund) ",
+        "description": "Department(s): Police Department \nRecommended Action: \nAdopt a resolution authorizing and directing the City Manager and the Chief of \nPolice or their designee(s) to accept an additional $36,500 in FY 2022 Urban \nArea Security Initiative Funding, increasing the sub -recipient award from \n$1, 927,800 to $1,964,300. \nCITY COUNCIL 15 DECEMBER 17, 2024 \n\n\nRESOLUTION NO. 2024-076 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA ACCEPTING ADDITIONAL FY2022 \nURBAN AREA SECURITY INITIATIVE SUB -RECIPIENT FUNDING AND \nAPPROPRIATION ADJUSTMENT \n2. Approve an Appropriation Adjustment recognizing additional FY 2022 Urban \nAreas Security Initiative in the amount of $36,500 in revenue account and \nappropriate same in the FY 2022 Urban Areas Security Initiative Program Grant \nexpenditure accounts. (Requires five affirmative votes) \n3. Authorize the City Manager and Chief of Police to execute the Grant Sub - \nRecipient Award Amendment #2 with the City of Anaheim for the FY 2022 Urban \nArea Security Initiative Grant Program (Agreement No. 2024-215). ",
+        "vote": {
+          "id": 408,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 39,
+        "item_number": "26",
+        "section": "CONSENT",
+        "title": "26. Resolution Approving the Submission of the Fiscal Year 2023-24 Measure M2 \nYear -End Expenditure Report ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: Adopt a resolution approving the Measure M2 Annual \nExpenditure Report for Fiscal Year 2023-24 and authorize submission of the report \nto the Orange County Transportation Authority as required by Measure M2 Funding \nEligibility Guidelines. \nRESOLUTION NO. 2024-077 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA CONCERNING THE MEASURE M2 \nEXPENDITURE REPORT FOR THE CITY OF SANTA ANA ",
+        "vote": {
+          "id": 409,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 40,
+        "item_number": "27",
+        "section": "CONSENT",
+        "title": "27. Resolution Authorizing the Executive Director of the Public Works Agency to \nExecute Program Supplement Agreements with the State of California \nDepartment of Transportation as Required by Master Agreement No. \n64SantaAnaMA and Approve Master Agreement for California State \nTransportation Agency Transit and Intercity Rail Capital Program No. \n64SantaAnaMA to Secure Transit and Intercity Rail Capital Program Grant \nFunds ",
+        "description": "Department(s): Public Works Agency \nRecommended Action: \n1. Authorize the City Manager to execute a California State Transportation Agency \nTransit and Intercity Rail Capital Program Master Agreement No. \n64SantaAnaMA for TIRCP-Funded Projects with the State of California \nDepartment of Transportation (Agreement No. A-2024-216). \n2. Adopt a resolution authorizing the Executive Director of the Public Works \nAgency to execute all program supplement agreements required by Master \nAgreement for California State Transportation Agency Transit and Intercity Rail \nCITY COUNCIL 16 DECEMBER 17, 2024 \n\n\nCapital Program No. 64SantaAnaMA with the State of California Department of \nTransportation to reimburse the City for Transit and Intercity Rail Capital \nProgram -Funded projects. \nRESOLUTION NO. 2024-078 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA AUTHORIZING THE EXECUTIVE \nDIRECTOR OF PUBLIC WORKS AGENCY TO EXECUTE ALL PROGRAM \nSUPPLEMENT AGREEMENTS REQUIRED BY THE TRANSIT AND \nINTERCITY RAIL CAPITAL PROGRAM (TIRCP) MASTER AGREEMENT NO. \n64SANTAANAMA FOR TIRCP-FUNDED PROJECTS BETWEEN THE CITY \nOF SANTA ANA AND THE STATE OF CALIFORNIA DEPARTMENT OF \nTRANSPORTATION ",
+        "vote": {
+          "id": 410,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 41,
+        "item_number": "28",
+        "section": "BUSINESS",
+        "title": "28. Biennial Review and [Re]Appointment of Regional Board Representatives ",
+        "description": "Department(s). City Clerk's Office \nRecommended Action: \n1. Review the regional board appointment list and [re]appoint members and \nalternates to serve as representatives to various outside agencies through \nDecember 2026 (or specific term where noted) [Metropolitan Water District of \nSouthern California (MWD), Newport Bay Watershed Executive Committee, \nOrange County Fire Authority (OCFA), Orange County Housing Finance Trust \n(OCHFT), Orange County Sanitation District (OC San), Orange County Water \nDistrict (OCWD), Southern California Association of Governments (SCAG), \nOrange County Council of Governments (OCCOG), Santa Ana River Flood \nProtection Agency (SARFPA), Transportation Corridor Agencies (TCA)]. \n2. Adopt a resolution designating and appointing a representative to the Orange \nCounty Fire Authority's Board of Directors, if necessary. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA DESIGNATING AND APPOINTING \nITS REPRESENTATIVE TO THE ORANGE COUNTY FIRE AUTHORITY'S \nBOARD OF DIRECTORS (Not Required) \n3. Direct the City Clerk to update and post the Fair Political Practices Commission \n(FPPC) Form 806 (Agency Report of Public Official Appointments) on the City's \nwebsite. \nCITY COUNCIL 17 DECEMBER 17, 2024 \n\n\nMINUTES: City Clerk Jennifer L. Hall gave a report regarding the biennial review \nand reappointment of regional board representatives. \nBrief discussion ensued regarding regional board representatives. \nMOTION: Councilmember Penaloza moved to appoint all the current \nincumbents to their positions with the exception of Councilmember Lopez to \nserve as the alternate to Orange County Sanitation District (OC San), \nseconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus",
+        "vote": {
+          "id": 411,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 42,
+        "item_number": "29",
+        "section": "BUSINESS",
+        "title": "29.Ordinance Amending and Adding Provisions to Chapter 10 (Crimes and \nMiscellaneous Law Enforcement Provisions) and Amending Related Sections \nin Chapter 31, Chapter 33 and Chapter 36 of the Santa Ana Municipal Code ",
+        "description": "Department(s): Police Department \nRecommended Action: Conduct a first reading and adopt an ordinance adding \nand amending various articles and sections of the Santa Ana Municipal Code to \nprohibit conduct that interferes with public rights of access to public property to \naddress changes in the law brought by the City of Grants Pass, Oregon V. Johnson, \net. al., 144 S. Ct. 2202 (2024): \nORDINANCE NO. NS-3074 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA AMENDING AND ADDING PROVISIONS TO \nCHAPTER 10 (CRIMES AND MISCELLANEOUS LAW ENFORCEMENT \nPROVISIONS) OF THE SANTA ANA MUNICIPAL CODE AND AMENDING \nRELATED SECTIONS IN CHAPTER 31 (RECREATION, PARKS AND \nPLAYGROUNDS), CHAPTER 33 (STREETS, SIDEWALKS AND PUBLIC \nWORKS), AND CHAPTER 36 (TRAFFIC) TO PROHIBIT CONDUCT THAT \nINTERFERES WITH THE PUBLIC'S RIGHTS OF ACCESS TO PUBLIC \nPROPERTY AND TO ADDRESS CHANGES IN LAW BROUGHT ABOUT BY CITY \nOF GRANTS PASS, OREGON V. JOHNSON, ET. AL., 144 S. Ct. 2202 (2024) \nMINUTES: Mayor Pro Tem Phan spoke regarding the proposed ordinance and in \nsupport of the item. \nCITY COUNCIL 18 DECEMBER 17, 2024 \n\n\nCouncilmember Bacerra spoke regarding safe access to public spaces and spoke \nin support of the item. \nCouncilmember Lopez spoke regarding the proposed ordinance and in support of \nthe item. \nCouncilmember Vazquez spoke in support of the item. \nMayor Amezcua spoke regarding quality of life in the City and in support of the item. \nMOTION: Councilmember Penaloza moved to approve the recommended \naction for Item No. 29, seconded by Councilmember Bacerra. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 412,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 43,
+        "item_number": "30",
+        "section": "BUSINESS",
+        "title": "30. Uncodified Ordinance of the City Council of the City Of Santa Ana Amending \nthe List of Replacement Parcels and Parcels Exempt From California \nGovernment Code Sections 65912.114 And 65912.124 Based On Written \nFindings Pursuant to California Government Code Sections 65912.114(i) and \n65912.124(i) ",
+        "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt an uncodified ordinance amending the list of replacement parcels and \nparcels exempt from California Government Code Sections 65912.114 and \n65912.124 based on written findings pursuant to California Government Code \nSections 65912.114(i) and 65912.124(i). \nUNCODIFIED ORDINANCE NO. NS-3075 entitled AN UNCODIFIED \nORDINANCE OF THE CITY COUNCIL OF THE CITY OF SANTA ANA \nAMENDING THE LIST OF REPLACEMENT PARCELS AND PARCELS \nEXEMPT FROM CALIFORNIA GOVERNMENT CODE SECTIONS 65912.114 \nAND 65912.124 BASED UPON WRITTEN FINDINGS PURSUANT TO \nCALIFORNIA GOVERNMENT CODE SECTIONS 65912.114(i) AND \n65912.124(i) \nCITY COUNCIL 19 DECEMBER 17, 2024 \n\n\n2. Determine that adoption of this ordinance not subject to the California \nEnvironmental Quality Act (CEQA). Pursuant to California Government Code \nsections 65912.114(o) and 65912.124(o), adoption of an ordinance by a city \nimplementing the provisions of AB 2011 is statutorily exempt. \nMOTION: Councilmember Bacerra moved to approve the recommended \naction for Item No. 30, seconded by Councilmember Hernandez. \nThe motion carried, 6-0-0-1, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER PENALOZA, \nCOUNCILMEMBER VAZQUEZ, MAYOR PRO TEM PHAN, \nMAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: COUNCILMEMBER LOPEZ \nStatus: 6-0\u00d1 0 - 1 \u00d1Pass ",
+        "vote": {
+          "id": 413,
+          "outcome": "PASS",
+          "ayes": 6,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 1
+        }
+      },
+      {
+        "id": 44,
+        "item_number": "31",
+        "section": "BUSINESS",
+        "title": "31. Resolution Recognizing the Significant Concerns of the Community and the \nFamily of Edgar Vargas Arzate",
+        "description": "Department(s): City Manager's Office \nRecommended Action: Adopt a resolution recognizing the significant concerns of \nthe community and the family of Edgar Vargas Arzate. \nRESOLUTION NO. 2024-079 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA RECOGNIZING THE SIGNIFICANT CONCERNS \nOF THE COMMUNITY AND THE FAMILY OF EDGAR VARGAS ARZATE AND \nREAFFIRMING THE CITY'S COMMITMENT TO JUSTICE, ACCOUNTABILITY, \nAND COMMUNITY RELATIONSHIPS \nMINUTES: Councilmember Vazquez requested to add a \"whereas statement to \nreflect the City of Santa Ana reaffirms its status as a Sanctuary City.\" \nMayor Pro Tem Phan spoke in support of the item as is and questioned the request \nfor the additional line item. \nCouncilmember Vazquez stated he wants to reassure the families in the community. \nCouncilmember Bacerra spoke regarding the status of the City of Santa Ana being a \nsanctuary city and spoke in support of the item as -is. \nDiscussion ensued regarding the status of the City of Santa Ana being a sanctuary \ncity. \nCITY COUNCIL 20 DECEMBER 17, 2024 \n\n\nMOTION: Councilmember Vazquez moved to approve the recommended \naction for Item No. 31, as amended, to add a whereas statement to reflect \nthe City of Santa Ana reaffirms its status as a Sanctuary City, seconded by \nCouncilmember Hernandez. \nSUBSTITUE MOTION: Councilmember Penaloza moved to approve the \nrecommended action for Item No. 31, seconded by Mayor Amezcua. \nThe substitute motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+        "vote": {
+          "id": 414,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      },
+      {
+        "id": 45,
+        "item_number": "9",
+        "section": "GENERAL",
+        "title": "9. Re -Appoint Various Boards and Commissions Members Nominated by Mayor \nAmezcua as the Mayoral Representative for a Full Term Expiring December 8,2026",
+        "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint the following members and administer the Oaths \nof Office. \n1. Dr. Maria (Susie) Lopez -Guerra \u00d1Arts and Culture Commission \n2. Ana Laura Padilla \u00d1 Community Development Commission \n3. Mario Alvarado \u00d1 Environmental and Transportation Advisory Commission \n4. Irma Juaregui, Historic Resources Commission \n5. Selica Diaz \u00d1 Parks, Recreation, and Community Services Commission \n6. Ernesto Gomez \u00d1 Personnel Board \n7. Christopher Leo \u00d1 Planning Commission \n8. Danny Vega \u00d1 Police Oversight Commission \n9. Timothy Johnson -- Santa Ana 2018 Measure X Citizens' Oversight Committee \n10. Wyatt Malfavon \u00d1 Youth Commission \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Offices to the \ncommissioners who were present. ",
+        "vote": {
+          "id": 392,
+          "outcome": "PASS",
+          "ayes": 7,
+          "noes": 0,
+          "abstain": 0,
+          "absent": 0
+        }
+      }
+    ]
+  }
+}

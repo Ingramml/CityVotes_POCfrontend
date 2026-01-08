@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 84,
+    "item_number": "17",
+    "title": "17.Award Blanket Order Contract to Dell Marketing L.P. for Desktop Laptops, Mobile \nDevices, and Related Equipment in an Amount Not to Exceed $8,100,000 \n(Specification No. 24-037) (General and Non -General Fund) ",
+    "description": "epartment(s): Information Technology \nRecommended Action: Award Blanket Order Contract to Dell Marketing L.P. for \ndesktop computers, laptops, mobile devices, and related equipment for a twenty -one -month \nperiod expiring November 30, 2025 with provisions for five, one-year renewal options, in an \nannual amount not to exceed $1,200,000. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 16,
+    "meeting_date": "2024-03-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

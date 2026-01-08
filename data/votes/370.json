@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 370,
+    "item_number": "24",
+    "title": "24.Adopt a Resolution to Effect Certain Changes to the City's Basic \nClassification and Compensation Plan and Update the Salary Schedule for \nSanta Ana Management Association (SAMA) ",
+    "description": "Department(s): Human Resources \nRecommended Action: Adopt a resolution to effect certain changes to the City's \nbasic classification and compensation plan and to update the salary schedule for \nSAMA as requested by CaIPERS, and in compliance with CaIPERS California Code \nof Regulations section 570.5. \nCITY COUNCIL 15 NOVEMBER 19, 2024 \n\n\nRESOLUTION NO. 2024-061 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA TO EFFECT CERTAIN CHANGES TO THE CITY'S \nCLASSIFICATION AND COMPENSATION PLAN \nMINUTES: Approved as amended. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 11,
+    "meeting_date": "2024-11-19",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

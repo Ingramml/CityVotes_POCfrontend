@@ -1,0 +1,207 @@
+{
+  "success": true,
+  "members": [
+    "Vazquez",
+    "Penaloza",
+    "Lopez",
+    "Hernandez",
+    "Bacerra",
+    "Phan",
+    "Amezcua"
+  ],
+  "alignment_pairs": [
+    {
+      "member1": "Amezcua",
+      "member2": "Bacerra",
+      "shared_votes": 430,
+      "agreements": 424,
+      "agreement_rate": 98.6
+    },
+    {
+      "member1": "Amezcua",
+      "member2": "Hernandez",
+      "shared_votes": 429,
+      "agreements": 425,
+      "agreement_rate": 99.1
+    },
+    {
+      "member1": "Amezcua",
+      "member2": "Lopez",
+      "shared_votes": 425,
+      "agreements": 414,
+      "agreement_rate": 97.4
+    },
+    {
+      "member1": "Amezcua",
+      "member2": "Penaloza",
+      "shared_votes": 427,
+      "agreements": 421,
+      "agreement_rate": 98.6
+    },
+    {
+      "member1": "Amezcua",
+      "member2": "Phan",
+      "shared_votes": 411,
+      "agreements": 406,
+      "agreement_rate": 98.8
+    },
+    {
+      "member1": "Amezcua",
+      "member2": "Vazquez",
+      "shared_votes": 430,
+      "agreements": 426,
+      "agreement_rate": 99.1
+    },
+    {
+      "member1": "Hernandez",
+      "member2": "Bacerra",
+      "shared_votes": 429,
+      "agreements": 423,
+      "agreement_rate": 98.6
+    },
+    {
+      "member1": "Hernandez",
+      "member2": "Lopez",
+      "shared_votes": 426,
+      "agreements": 420,
+      "agreement_rate": 98.6
+    },
+    {
+      "member1": "Hernandez",
+      "member2": "Penaloza",
+      "shared_votes": 426,
+      "agreements": 421,
+      "agreement_rate": 98.8
+    },
+    {
+      "member1": "Hernandez",
+      "member2": "Phan",
+      "shared_votes": 410,
+      "agreements": 409,
+      "agreement_rate": 99.8
+    },
+    {
+      "member1": "Hernandez",
+      "member2": "Vazquez",
+      "shared_votes": 431,
+      "agreements": 431,
+      "agreement_rate": 100.0
+    },
+    {
+      "member1": "Lopez",
+      "member2": "Bacerra",
+      "shared_votes": 425,
+      "agreements": 413,
+      "agreement_rate": 97.2
+    },
+    {
+      "member1": "Lopez",
+      "member2": "Penaloza",
+      "shared_votes": 422,
+      "agreements": 411,
+      "agreement_rate": 97.4
+    },
+    {
+      "member1": "Lopez",
+      "member2": "Phan",
+      "shared_votes": 406,
+      "agreements": 398,
+      "agreement_rate": 98.0
+    },
+    {
+      "member1": "Lopez",
+      "member2": "Vazquez",
+      "shared_votes": 427,
+      "agreements": 420,
+      "agreement_rate": 98.4
+    },
+    {
+      "member1": "Penaloza",
+      "member2": "Bacerra",
+      "shared_votes": 427,
+      "agreements": 419,
+      "agreement_rate": 98.1
+    },
+    {
+      "member1": "Penaloza",
+      "member2": "Phan",
+      "shared_votes": 409,
+      "agreements": 404,
+      "agreement_rate": 98.8
+    },
+    {
+      "member1": "Penaloza",
+      "member2": "Vazquez",
+      "shared_votes": 427,
+      "agreements": 421,
+      "agreement_rate": 98.6
+    },
+    {
+      "member1": "Phan",
+      "member2": "Bacerra",
+      "shared_votes": 411,
+      "agreements": 404,
+      "agreement_rate": 98.3
+    },
+    {
+      "member1": "Vazquez",
+      "member2": "Bacerra",
+      "shared_votes": 430,
+      "agreements": 424,
+      "agreement_rate": 98.6
+    },
+    {
+      "member1": "Vazquez",
+      "member2": "Phan",
+      "shared_votes": 411,
+      "agreements": 410,
+      "agreement_rate": 99.8
+    }
+  ],
+  "most_aligned": [
+    {
+      "member1": "Hernandez",
+      "member2": "Vazquez",
+      "shared_votes": 431,
+      "agreements": 431,
+      "agreement_rate": 100.0
+    },
+    {
+      "member1": "Hernandez",
+      "member2": "Phan",
+      "shared_votes": 410,
+      "agreements": 409,
+      "agreement_rate": 99.8
+    },
+    {
+      "member1": "Vazquez",
+      "member2": "Phan",
+      "shared_votes": 411,
+      "agreements": 410,
+      "agreement_rate": 99.8
+    }
+  ],
+  "least_aligned": [
+    {
+      "member1": "Amezcua",
+      "member2": "Lopez",
+      "shared_votes": 425,
+      "agreements": 414,
+      "agreement_rate": 97.4
+    },
+    {
+      "member1": "Lopez",
+      "member2": "Penaloza",
+      "shared_votes": 422,
+      "agreements": 411,
+      "agreement_rate": 97.4
+    },
+    {
+      "member1": "Lopez",
+      "member2": "Bacerra",
+      "shared_votes": 425,
+      "agreements": 413,
+      "agreement_rate": 97.2
+    }
+  ]
+}

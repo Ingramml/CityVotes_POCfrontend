@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 390,
+    "item_number": "14",
+    "title": "14. Resolution Approving Revisions to the City's Municipal Securities Continuing \nDisclosure Policy And Procedures ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Adopt a resolution approving revisions to the City's \nMunicipal Securities Continuing Disclosure Policy and Procedures \nRESOLUTION NO. 2024-073 entitled A RESOLUTION OF THE CITY COUNCIL \nOF THE CITY OF SANTA ANA APPROVING REVISIONS TO THE MUNICIPAL \nSECURITIES DISCLOSURE POLICY AND PROCEDURES \n15-Second Reading of Ordinance Amendment (OA) No. 2024-04 Repealing and \nReenacting in its Entirety Article XXI to Chapter 8 of the Santa Ana Municipal \nCode (SAMC) Prohibiting Short -Term Rentals (STRs) \nFirst reading November 19, 2024 City Council meeting and approved by a vote of \n6-1 (Mayor Amezcua dissenting) \nDepartment(s): Planning and Building Agency \nCITY COUNCIL 8 DECEMBER 3, 2024 \n\n\nRecommended Action: Conduct a second reading and adopt an ordinance \namending the Santa Ana Municipal Code (SAMC) to add Article XXI to Chapter 8 \nof the SAMC prohibiting Short -Term Rentals. \nORDINANCE NO. NS-3072 entitled AN ORDINANCE OF THE CITY COUNCIL OF \nTHE CITY OF SANTA ANA, CALIFORNIA, REPEALING AND REENACTING IN \nITS ENTIRETY ARTICLE XXI TO CHAPTER 8 OF THE SANTA ANA MUNICIPAL \nCODE PROHIBITING SHORT-TERM RENTALS \nMOTION: Councilmember Hernandez \naction for Item No. 15, as part of \nCouncilmember Penaloza. \nmoved to approve the recommended \nthe Consent Calendar, seconded by \nThe motion carried, 6-1, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN \nNOES: \nMAYOR AMEZCUA \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 6 \u00d11 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 5,
+    "meeting_date": "2024-12-03",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

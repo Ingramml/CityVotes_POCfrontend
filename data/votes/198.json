@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 198,
+    "item_number": "35",
+    "title": "35. November 5, 2024 General Municipal Election ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: \n1. Adopt a resolution calling and giving notice of the November 5, 2024 General \nMunicipal Election to be held in the City of Santa Ana for the election of certain \nofficers; \nRESOLUTION NO. 2024-022 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA CALLING FOR AND GIVING \nNOTICE OF A GENERAL MUNICIPAL ELECTION TO BE HELD ON \nTUESDAY, NOVEMBER 5, 2024, FOR THE ELECTION OF CERTAIN \nOFFICERS AS PROVIDED BY THE PROVISIONS OF ARTICLE XII OF THE \nCHARTER OF THE CITY OF SANTA ANA \nCITY COUNCIL, 13 JUNE 4, 2024 \n\n\n2. Adopt a resolution requesting the Orange County Board of Supervisors to \nconsolidate the November 5, 2024 General Municipal Election with the \nStatewide General Election; and \nRESOLUTION NO. 2024-023 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA REQUESTING THE BOARD OF \nSUPERVISORS OF THE COUNTY OF ORANGE TO CONSOLIDATE A \nGENERAL MUNICIPAL ELECTION TO BE HELD ON NOVEMBER 5, 2024, \nWITH THE STATEWIDE GENERAL ELECTION TO BE HELD ON THAT DATE \nPURSUANT TO SECTION 10403 AND 10418 OF THE ELECTIONS CODE \n3. Adopt a resolution adopting regulations for candidate statements. \nRESOLUTION NO. 2024-024 entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA ADOPTING REGULATIONS FOR \nCANDIDATES FOR ELECTIVE OFFICE PERTAINING TO CANDIDATE \nSTATEMENTS SUBMITTED TO THE VOTERS AT AN ELECTION TO BE \nHELD ON TUESDAY, NOVEMBER 5, 2024 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 17,
+    "meeting_date": "2024-06-04",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

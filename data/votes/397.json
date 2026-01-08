@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 397,
+    "item_number": "14",
+    "title": "AGENDA ITEM NO. 14 WAS PULLED FOR SEPARATE DISCUSSION AND \nCONSIDERATION \n14. Budget Calendar and Community Engagement Plan for Fiscal Year 2025-26 ",
+    "description": "Department(s): Finance and Management Services \nRecommended Action: Approve the Budget Calendar and Community \nEngagement Plan for Fiscal Year 2025-26 (FY25-26). \nMINUTES: Councilmember Lopez requested a yearly practice regarding the \ninvolvement of a Youth Forum and partnership with the local school district. \nCouncilmember Penaloza requested the involvement of multiple school districts. \nMOTION: Councilmember Lopez moved to approve the recommended action \nfor Agenda Item No. 14, seconded by Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nCITY COUNCIL 9 DECEMBER 17, 2024 \n\n\nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 2,
+    "meeting_date": "2024-12-10",
+    "meeting_type": "special",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

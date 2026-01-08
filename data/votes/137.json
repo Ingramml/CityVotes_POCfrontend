@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 137,
+    "item_number": "18",
+    "title": "18.Award a Purchase Order to Guaranty. Chevrolet for Three Chevrolet Equinox \nSUVs in an Amount Not to Exceed $109,290 (Specification No. 24-060) (Non - \nGeneral Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize a one-time purchase and payment of a \npurchase order to Guaranty Chevrolet Motors, Inc. for three 2024-2025 Chevrolet \nEquinox SUVs, in an amount of $106,290 plus a contingency amount of $3,000, for \na total amount not to exceed $109,290, \nMINUTES: Councilmember Hernandez spoke in support of the item. ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 20,
+    "meeting_date": "2024-05-07",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

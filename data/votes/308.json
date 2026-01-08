@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 308,
+    "item_number": "23",
+    "title": "23. Public Hearing: Consolidated Annual Performance and Evaluation Report for \nFiscal Year 2023-24 \nLegal notice published in the Orange County Register on August 14, 2024 and in \nLa Opinion and Nguoi Viet on August 19, 2024. ",
+    "description": "Department(s): Community Development Agency \nRecommended Action: Authorize submission of the Consolidated Annual \nPerformance and Evaluation Report to the U.S. Department of Housing and Urban \nDevelopment. \nMINUTES: MayorAmezcua opened the Public Hearing at 7.40 P.M. \nCity Clerk Jennifer L. Hall stated there were no speakers or email comments \nreceived. \nThere being no speakers, Mayor Amezcua closed the Public Hearing at 7:49 P.M. \nMOTION: Councilmember Hernandez moved to approve the recommended \naction for Item No. 23, seconded by Councilmember Penaloza. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: \nCOUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: \nNONE \nABSTAIN: \nNONE \nABSENT: \nNONE \nStatus: 7-0 \n\u00d1 Pass ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 8,
+    "meeting_date": "2024-09-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

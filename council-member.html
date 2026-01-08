@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council Member - CityVotes Santa Ana</title>
+    <meta name="description" content="Council member voting profile and history.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom CSS -->
+    <link href="css/santa-ana.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-sa-blue">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <i class="fas fa-vote-yea me-2"></i>CityVotes
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="council.html">
+                            <i class="fas fa-users me-1"></i>Council
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meetings.html">
+                            <i class="fas fa-calendar me-1"></i>Meetings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="votes.html">
+                            <i class="fas fa-check-square me-1"></i>Votes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agenda-search.html">
+                            <i class="fas fa-search me-1"></i>Search
+                        </a>
+                    </li>
+                </ul>
+                <span class="navbar-text text-sa-gold">
+                    <i class="fas fa-map-marker-alt me-1"></i>Santa Ana
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav class="bg-light py-2">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="council.html">Council</a></li>
+                <li class="breadcrumb-item active" id="breadcrumbName">Loading...</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <!-- Loading State -->
+        <div id="loadingState" class="text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <!-- Member Profile -->
+        <div id="memberProfile" style="display: none;">
+            <!-- Header -->
+            <div class="row mb-4">
+                <div class="col-md-8">
+                    <div class="d-flex align-items-center">
+                        <div class="me-4">
+                            <i class="fas fa-user-circle fa-5x text-sa-blue"></i>
+                        </div>
+                        <div>
+                            <h1 class="mb-1" id="memberName">--</h1>
+                            <p class="text-muted mb-0" id="memberPosition">--</p>
+                            <small class="text-muted" id="memberTerm">--</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="row mb-4">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h3 class="text-primary" id="statTotalVotes">--</h3>
+                            <small class="text-muted">Total Votes</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h3 class="text-success" id="statAyeRate">--%</h3>
+                            <small class="text-muted">Aye Rate</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h3 class="text-info" id="statParticipation">--%</h3>
+                            <small class="text-muted">Participation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h3 class="text-warning" id="statAbsent">--</h3>
+                            <small class="text-muted">Absences</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vote Breakdown Chart -->
+            <div class="row mb-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Vote Breakdown</h5>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="voteChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Voting Statistics</h5>
+                        </div>
+                        <div class="card-body" id="voteStats">
+                            <!-- Stats will be populated -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Votes -->
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Recent Votes</h5>
+                    <small class="text-muted" id="votesShowing">Showing 10 most recent</small>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Date</th>
+                                <th>Item</th>
+                                <th>Title</th>
+                                <th>Vote</th>
+                                <th>Outcome</th>
+                            </tr>
+                        </thead>
+                        <tbody id="recentVotesTable">
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Pagination for all votes -->
+                <div class="card-footer" id="votePaginationContainer" style="display: none;">
+                    <nav>
+                        <ul class="pagination pagination-sm justify-content-center mb-0" id="votePagination">
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorState" style="display: none;">
+            <div class="alert alert-danger">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                <span id="errorMessage">Failed to load member data.</span>
+            </div>
+            <a href="council.html" class="btn btn-primary">Back to Council</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h6>CityVotes - Santa Ana Voting Transparency</h6>
+                    <p class="text-muted mb-0">Data sourced from official Santa Ana city council meeting records.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    const API_BASE = 'http://localhost:8000/api/db';
+
+    document.addEventListener('DOMContentLoaded', async function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const memberId = urlParams.get('id');
+
+        if (!memberId) {
+            showError('No member ID provided');
+            return;
+        }
+
+        await loadMember(memberId);
+    });
+
+    async function loadMember(memberId) {
+        try {
+            const response = await fetch(`${API_BASE}/council/${memberId}`);
+            const data = await response.json();
+
+            if (data.success) {
+                displayMember(data.member);
+            } else {
+                showError('Member not found');
+            }
+        } catch (error) {
+            console.error('Error loading member:', error);
+            showError('Failed to load member data. Make sure the backend is running.');
+        }
+    }
+
+    function displayMember(member) {
+        document.getElementById('loadingState').style.display = 'none';
+        document.getElementById('memberProfile').style.display = 'block';
+
+        // Header
+        document.getElementById('memberName').textContent = member.full_name;
+        document.getElementById('breadcrumbName').textContent = member.full_name;
+        document.getElementById('memberPosition').textContent = member.position || 'Council Member';
+        document.title = `${member.full_name} - CityVotes Santa Ana`;
+
+        if (member.start_date) {
+            const start = new Date(member.start_date).getFullYear();
+            const end = member.end_date ? new Date(member.end_date).getFullYear() : 'Present';
+            document.getElementById('memberTerm').textContent = `Term: ${start} - ${end}`;
+        }
+
+        // Stats
+        const stats = member.stats;
+        document.getElementById('statTotalVotes').textContent = stats.total_votes.toLocaleString();
+        document.getElementById('statAyeRate').textContent = stats.aye_percentage + '%';
+        document.getElementById('statParticipation').textContent = stats.participation_rate + '%';
+        document.getElementById('statAbsent').textContent = stats.absent_count;
+
+        // Vote breakdown stats
+        document.getElementById('voteStats').innerHTML = `
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-check text-success me-2"></i>Aye</span>
+                    <strong>${stats.aye_count}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-success" style="width: ${stats.aye_percentage}%"></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-times text-danger me-2"></i>Nay</span>
+                    <strong>${stats.nay_count}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-danger" style="width: ${(stats.nay_count / stats.total_votes * 100).toFixed(1)}%"></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-minus text-warning me-2"></i>Abstain</span>
+                    <strong>${stats.abstain_count}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-warning" style="width: ${(stats.abstain_count / stats.total_votes * 100).toFixed(1)}%"></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-user-slash text-secondary me-2"></i>Absent</span>
+                    <strong>${stats.absent_count}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-secondary" style="width: ${(stats.absent_count / stats.total_votes * 100).toFixed(1)}%"></div>
+                </div>
+            </div>
+            ${stats.recusal_count > 0 ? `
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-ban text-info me-2"></i>Recusal</span>
+                    <strong>${stats.recusal_count}</strong>
+                </div>
+            </div>
+            ` : ''}
+        `;
+
+        // Chart
+        new Chart(document.getElementById('voteChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Aye', 'Nay', 'Abstain', 'Absent'],
+                datasets: [{
+                    data: [stats.aye_count, stats.nay_count, stats.abstain_count, stats.absent_count],
+                    backgroundColor: ['#28a745', '#dc3545', '#ffc107', '#6c757d']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        // Recent votes table
+        const votesTable = document.getElementById('recentVotesTable');
+        votesTable.innerHTML = member.recent_votes.map(vote => `
+            <tr>
+                <td><small>${formatDate(vote.meeting_date)}</small></td>
+                <td><span class="badge bg-light text-dark">${vote.item_number}</span></td>
+                <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${truncate(vote.title, 50)}</a></td>
+                <td>${getVoteBadge(vote.vote_choice)}</td>
+                <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}">${vote.outcome}</span></td>
+            </tr>
+        `).join('');
+
+        // Show pagination if there are more than 10 votes
+        if (member.stats.total_votes > 10) {
+            document.getElementById('votePaginationContainer').style.display = 'block';
+            document.getElementById('votesShowing').innerHTML = `Showing 10 of ${member.stats.total_votes} votes <button class="btn btn-sm btn-outline-primary ms-2" onclick="loadAllVotes(${member.id}, 0)">View All</button>`;
+        }
+
+        // Store member ID for pagination
+        window.currentMemberId = member.id;
+    }
+
+    const votePageSize = 20;
+
+    async function loadAllVotes(memberId, offset = 0) {
+        try {
+            const response = await fetch(`${API_BASE}/council/${memberId}/votes?limit=${votePageSize}&offset=${offset}`);
+            const data = await response.json();
+
+            if (data.success) {
+                const votesTable = document.getElementById('recentVotesTable');
+                votesTable.innerHTML = data.votes.map(vote => `
+                    <tr>
+                        <td><small>${formatDate(vote.meeting_date)}</small></td>
+                        <td><span class="badge bg-light text-dark">${vote.item_number}</span></td>
+                        <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${truncate(vote.title, 50)}</a></td>
+                        <td>${getVoteBadge(vote.vote_choice)}</td>
+                        <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}">${vote.outcome}</span></td>
+                    </tr>
+                `).join('');
+
+                // Update showing text
+                const start = offset + 1;
+                const end = Math.min(offset + data.count, data.total);
+                document.getElementById('votesShowing').textContent = `Showing ${start}-${end} of ${data.total} votes`;
+
+                // Update pagination
+                updateVotePagination(data.total, offset, memberId);
+            }
+        } catch (error) {
+            console.error('Error loading votes:', error);
+        }
+    }
+
+    function updateVotePagination(total, currentOffset, memberId) {
+        const totalPages = Math.ceil(total / votePageSize);
+        const currentPage = Math.floor(currentOffset / votePageSize);
+
+        document.getElementById('votePaginationContainer').style.display = 'block';
+        const pagination = document.getElementById('votePagination');
+
+        let html = '';
+
+        // Previous button
+        html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
+            <a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${(currentPage - 1) * votePageSize}); return false;">Prev</a>
+        </li>`;
+
+        // Page numbers (show max 5 pages)
+        const startPage = Math.max(0, currentPage - 2);
+        const endPage = Math.min(totalPages - 1, currentPage + 2);
+
+        if (startPage > 0) {
+            html += `<li class="page-item"><a class="page-link" href="#" onclick="loadAllVotes(${memberId}, 0); return false;">1</a></li>`;
+            if (startPage > 1) html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+            html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
+                <a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${i * votePageSize}); return false;">${i + 1}</a>
+            </li>`;
+        }
+
+        if (endPage < totalPages - 1) {
+            if (endPage < totalPages - 2) html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            html += `<li class="page-item"><a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${(totalPages - 1) * votePageSize}); return false;">${totalPages}</a></li>`;
+        }
+
+        // Next button
+        html += `<li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
+            <a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${(currentPage + 1) * votePageSize}); return false;">Next</a>
+        </li>`;
+
+        pagination.innerHTML = html;
+    }
+
+    function showError(message) {
+        document.getElementById('loadingState').style.display = 'none';
+        document.getElementById('errorState').style.display = 'block';
+        document.getElementById('errorMessage').textContent = message;
+    }
+
+    function getVoteBadge(choice) {
+        const badges = {
+            'AYE': '<span class="badge bg-success">Aye</span>',
+            'NAY': '<span class="badge bg-danger">Nay</span>',
+            'ABSTAIN': '<span class="badge bg-warning text-dark">Abstain</span>',
+            'ABSENT': '<span class="badge bg-secondary">Absent</span>',
+            'RECUSAL': '<span class="badge bg-info">Recusal</span>'
+        };
+        return badges[choice] || `<span class="badge bg-light text-dark">${choice}</span>`;
+    }
+
+    function formatDate(dateStr) {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function truncate(str, len) {
+        if (!str) return '';
+        return str.length > len ? str.substring(0, len) + '...' : str;
+    }
+    </script>
+</body>
+</html>

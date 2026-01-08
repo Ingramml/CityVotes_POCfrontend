@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 300,
+    "item_number": "17",
+    "title": "17.Award a Construction Contract to PCN3, Inc. for the Newhope Library \nModernization and Delhi Library Branch Improvements Project and an \nAgreement to Shade Structures, Inc. dba USA Shade & Fabric Structures for \na shade structure at Newhope Library (Project Nos. 22-1802, 23-7540 & 22- \n1382) (General and Non -General Fund) (Revive Santa Ana) ",
+    "description": "Department(s): Public Works Agency; Library Services \nRecommended Action: \n1. Approve the Project Cost Analysis for a total estimated construction delivery cost \nof $9,132,303, which includes $8,215,533 for the construction contract, $95,217 \nfor contract administration, and a $821,533 project contingency for unanticipated \nor unforeseen work. \n2. Approve an amendment to the Fiscal Year 2024-25 Capital Improvement \nProgram to include $9,132,303 for the Newhope Library Modernization and \nDelhi Library Improvements. \n3. Award a construction contract to PCN3, Inc., the lowest responsible bidder, in \naccordance with the base bid and alternate bid in the amount of $8,215,533 for \nconstruction of the Newhope Library Modernization and Delhi Center Library \nBranch Project, for a term beginning September 17, 2024 and ending upon \nproject completion, and authorize the City Manager to execute the contract. \n4. Approve an agreement with Shade Structures, Inc. dba USA Shade & Fabric \nStructures for the design and build of a 20-foot by 30-foot cantilever shade \nstructure at the Newhope Library for a total not to exceed of $68,341, for a term \nbeginning September 17, 2024 and expiring December 31, 2026 with provision \nfor a one-year extension, and authorize the City Manager to execute the \nagreement (Agreement No. A-2024-144). \n5. Determine that, pursuant to the California Environmental Quality Act, the \nrecommended actions are exempt from further review. Categorical Exemption \nEnvironmental Review No. ER-2024-43 was filed for Project 22-1802. \nCITY COUNCIL_ 19 SEPTEMBER 17, 2024 ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 8,
+    "meeting_date": "2024-09-17",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "vote": {
+    "id": 339,
+    "item_number": "15",
+    "title": "15.Agreement with Mike Prlich and Sons, Inc., T.E. Roberts, Inc., Big Ben, Inc., \nand J&L Constructors, Inc. for Large Water Services Vault and Meter \nApparatus Improvements (Non -General Fund) ",
+    "description": "Department(s): Public Works Agency \nRecommended Action: Authorize the City Manager to execute agreements with \nMike Prlich and Sons, Inc., T.E. Roberts, Inc., Big Ben, Inc., and J&L Constructors, \nInc. for large water meter services vault and meter apparatus improvements, for a \ntotal aggregate amount not to exceed $7,500,000, for a three-year term beginning \nOctober 15, 2024 and expiring October 14, 2027, with a provision for one two-year \nextension (Core Agreement No. 2024-165). ",
+    "outcome": "PASS",
+    "ayes": 7,
+    "noes": 0,
+    "abstain": 0,
+    "absent": 0,
+    "meeting_id": 12,
+    "meeting_date": "2024-10-15",
+    "meeting_type": "regular",
+    "member_votes": [
+      {
+        "member_id": 5,
+        "full_name": "Benjamin Vazquez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 4,
+        "full_name": "David Penaloza",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 3,
+        "full_name": "Jessie Lopez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 2,
+        "full_name": "Johnathan Ryan Hernandez",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 7,
+        "full_name": "Phil Bacerra",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 6,
+        "full_name": "Thai Viet Phan",
+        "vote_choice": "AYE"
+      },
+      {
+        "member_id": 1,
+        "full_name": "Valerie Amezcua",
+        "vote_choice": "AYE"
+      }
+    ]
+  }
+}
