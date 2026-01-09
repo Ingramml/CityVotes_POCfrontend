@@ -1,0 +1,13 @@
+# CityVotes - Santa Ana City Council Voting Records
+# https://cityvotes.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cityvotes.vercel.app/sitemap.xml
+
+# Disallow legacy/internal pages
+Disallow: /home.html
+Disallow: /upload.html
+Disallow: /dashboards/
