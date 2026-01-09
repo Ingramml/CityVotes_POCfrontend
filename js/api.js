@@ -133,7 +133,25 @@ const CityVotesAPI = {
     // ==================== Votes ====================
 
     /**
-     * Get all votes (summary list)
+     * Get votes index with available years
+     */
+    async getVotesIndex() {
+        return this.fetchJSON('votes-index.json');
+    },
+
+    /**
+     * Get votes for a specific year (optimized loading)
+     */
+    async getVotesByYear(year) {
+        const validYear = parseInt(year, 10);
+        if (isNaN(validYear) || validYear < 2000 || validYear > 2100) {
+            throw new Error('Invalid year');
+        }
+        return this.fetchJSON(`votes-${validYear}.json`);
+    },
+
+    /**
+     * Get all votes (loads full dataset - use getVotesByYear for better performance)
      */
     async getVotes() {
         return this.fetchJSON('votes.json');
