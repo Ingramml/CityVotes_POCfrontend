@@ -16,6 +16,9 @@
     <link href="css/santa-ana.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="visually-hidden-focusable skip-link">Skip to main content</a>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-sa-blue">
         <div class="container">
@@ -74,7 +77,7 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="container my-4">
+    <main id="main-content" class="container my-4">
         <!-- Loading State -->
         <div id="loadingState" class="text-center py-5">
             <div class="spinner-border text-primary" role="status">
@@ -144,7 +147,8 @@
                             <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Vote Breakdown</h5>
                         </div>
                         <div class="card-body">
-                            <canvas id="voteChart"></canvas>
+                            <canvas id="voteChart" role="img" aria-label="Doughnut chart showing vote breakdown"></canvas>
+                            <div id="voteChartDescription" class="visually-hidden" aria-live="polite"></div>
                         </div>
                     </div>
                 </div>
@@ -170,11 +174,11 @@
                     <table class="table table-hover mb-0">
                         <thead class="table-light">
                             <tr>
-                                <th>Date</th>
-                                <th>Item</th>
-                                <th>Title</th>
-                                <th>Vote</th>
-                                <th>Outcome</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Item</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Vote</th>
+                                <th scope="col">Outcome</th>
                             </tr>
                         </thead>
                         <tbody id="recentVotesTable">
@@ -326,7 +330,7 @@
             ` : ''}
         `;
 
-        // Chart
+        // Chart with accessibility description
         new Chart(document.getElementById('voteChart'), {
             type: 'doughnut',
             data: {
@@ -346,15 +350,20 @@
             }
         });
 
+        // Update accessible chart description
+        document.getElementById('voteChartDescription').textContent =
+            `Vote breakdown: ${stats.aye_count} Aye votes (${stats.aye_percentage}%), ` +
+            `${stats.nay_count} Nay votes, ${stats.abstain_count} Abstain, ${stats.absent_count} Absent.`;
+
         // Recent votes table
         const votesTable = document.getElementById('recentVotesTable');
         votesTable.innerHTML = member.recent_votes.map(vote => `
             <tr>
                 <td><small>${formatDate(vote.meeting_date)}</small></td>
-                <td><span class="badge bg-light text-dark">${vote.item_number}</span></td>
+                <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number)}</span></td>
                 <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${truncate(vote.title, 50)}</a></td>
                 <td>${getVoteBadge(vote.vote_choice)}</td>
-                <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}">${vote.outcome}</span></td>
+                <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}" role="status">${vote.outcome === 'PASS' ? 'Passed' : 'Failed'}</span></td>
             </tr>
         `).join('');
 
@@ -393,10 +402,10 @@
         votesTable.innerHTML = votes.map(vote => `
             <tr>
                 <td><small>${formatDate(vote.meeting_date)}</small></td>
-                <td><span class="badge bg-light text-dark">${vote.item_number}</span></td>
+                <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number)}</span></td>
                 <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${truncate(vote.title, 50)}</a></td>
                 <td>${getVoteBadge(vote.vote_choice)}</td>
-                <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}">${vote.outcome}</span></td>
+                <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}" role="status">${vote.outcome === 'PASS' ? 'Passed' : 'Failed'}</span></td>
             </tr>
         `).join('');
 
@@ -486,9 +495,18 @@
         return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     }
 
+    // HTML escape function for safe display
+    function escapeHtml(str) {
+        if (!str) return '';
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
     function truncate(str, len) {
         if (!str) return '';
-        return str.length > len ? str.substring(0, len) + '...' : str;
+        const escaped = escapeHtml(str);
+        return escaped.length > len ? escaped.substring(0, len) + '...' : escaped;
     }
     </script>
 </body>

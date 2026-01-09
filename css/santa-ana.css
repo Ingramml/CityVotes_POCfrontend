@@ -230,9 +230,73 @@ footer {
     }
 }
 
+/* Skip link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--sa-blue);
+    color: white;
+    padding: 8px 16px;
+    z-index: 9999;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
+    color: var(--sa-gold);
+    outline: 2px solid var(--sa-gold);
+    outline-offset: 2px;
+}
+
+/* Focus indicators for accessibility */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+    outline: 2px solid var(--sa-blue);
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(31, 78, 121, 0.25);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .badge {
+        border: 1px solid currentColor;
+    }
+
+    .card {
+        border: 2px solid #000;
+    }
+
+    .progress-bar {
+        border: 1px solid #000;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .council-card,
+    .stat-card,
+    .skip-link {
+        transition: none;
+    }
+
+    .council-card:hover,
+    .stat-card:hover {
+        transform: none;
+    }
+}
+
 /* Print styles */
 @media print {
-    .navbar, footer, .btn {
+    .navbar, footer, .btn, .skip-link {
         display: none !important;
     }
 

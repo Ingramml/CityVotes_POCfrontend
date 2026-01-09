@@ -14,6 +14,9 @@
     <link href="css/santa-ana.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="visually-hidden-focusable skip-link">Skip to main content</a>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-sa-blue">
         <div class="container">
@@ -69,21 +72,23 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container my-4">
+    <main id="main-content" class="container my-4">
         <!-- Search Box -->
         <div class="card mb-4">
             <div class="card-body">
-                <form id="searchForm" class="row g-3">
+                <form id="searchForm" class="row g-3" role="search">
                     <div class="col-md-8">
+                        <label for="searchInput" class="visually-hidden">Search agenda items</label>
                         <div class="input-group">
-                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <span class="input-group-text" aria-hidden="true"><i class="fas fa-search"></i></span>
                             <input type="text" class="form-control form-control-lg" id="searchInput"
                                    placeholder="Enter keywords (e.g., housing, budget, police, zoning...)"
-                                   autocomplete="off">
+                                   autocomplete="off" aria-label="Search agenda items by keyword">
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <select class="form-select form-select-lg" id="yearFilter">
+                        <label for="yearFilter" class="visually-hidden">Filter by year</label>
+                        <select class="form-select form-select-lg" id="yearFilter" aria-label="Filter by year">
                             <option value="">All Years</option>
                         </select>
                     </div>
@@ -95,7 +100,7 @@
         </div>
 
         <!-- Results Stats -->
-        <div class="d-flex justify-content-between align-items-center mb-3" id="resultsStats" style="display: none !important;">
+        <div class="d-flex justify-content-between align-items-center mb-3" id="resultsStats" style="display: none !important;" aria-live="polite" aria-atomic="true">
             <span class="text-muted" id="resultsCount"></span>
             <span class="text-muted" id="resultsTime"></span>
         </div>
