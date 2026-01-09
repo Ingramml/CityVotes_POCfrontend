@@ -6,18 +6,46 @@
 
 const DATA_BASE_PATH = 'data';
 
+// API request timeout in milliseconds
+const API_TIMEOUT = 15000;
+
 const CityVotesAPI = {
     /**
-     * Generic fetch handler for static JSON files
+     * Validate that an ID is a positive integer
+     */
+    validateId(id, fieldName = 'ID') {
+        const parsed = parseInt(id, 10);
+        if (isNaN(parsed) || parsed < 1 || parsed > 100000) {
+            throw new Error(`Invalid ${fieldName}: must be a positive integer`);
+        }
+        return parsed;
+    },
+
+    /**
+     * Generic fetch handler for static JSON files with timeout
      */
     async fetchJSON(path) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
+
         try {
-            const response = await fetch(`${DATA_BASE_PATH}/${path}`);
+            const response = await fetch(`${DATA_BASE_PATH}/${path}`, {
+                signal: controller.signal
+            });
+            clearTimeout(timeoutId);
+
             if (!response.ok) {
+                if (response.status === 404) {
+                    throw new Error('Not found');
+                }
                 throw new Error(`HTTP ${response.status}`);
             }
             return await response.json();
         } catch (error) {
+            clearTimeout(timeoutId);
+            if (error.name === 'AbortError') {
+                throw new Error('Request timed out. Please try again.');
+            }
             console.error(`Error loading ${path}:`, error);
             throw error;
         }
@@ -45,7 +73,8 @@ const CityVotesAPI = {
      * Get individual council member details
      */
     async getCouncilMember(memberId) {
-        return this.fetchJSON(`council/${memberId}.json`);
+        const validId = this.validateId(memberId, 'council member ID');
+        return this.fetchJSON(`council/${validId}.json`);
     },
 
     // ==================== Meetings ====================
@@ -61,12 +90,14 @@ const CityVotesAPI = {
      * Get individual meeting with agenda items and votes
      */
     async getMeeting(meetingId) {
+        const validId = this.validateId(meetingId, 'meeting ID');
+
         const [meetingsData, votesData] = await Promise.all([
             this.getMeetings(),
             this.getVotes()
         ]);
 
-        const meeting = meetingsData.meetings.find(m => m.id === parseInt(meetingId));
+        const meeting = meetingsData.meetings.find(m => m.id === validId);
         if (!meeting) {
             return { success: false, error: 'Meeting not found' };
         }
@@ -112,7 +143,8 @@ const CityVotesAPI = {
      * Get individual vote details
      */
     async getVote(voteId) {
-        return this.fetchJSON(`votes/${voteId}.json`);
+        const validId = this.validateId(voteId, 'vote ID');
+        return this.fetchJSON(`votes/${validId}.json`);
     },
 
     // ==================== Alignment ====================

@@ -333,41 +333,83 @@
 
         document.getElementById('paginationNav').style.display = 'block';
         const pagination = document.getElementById('pagination');
-
-        let html = '';
+        pagination.innerHTML = '';
 
         // Previous button
-        html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="renderVotes(${(currentPage - 1) * pageSize}); return false;">Previous</a>
-        </li>`;
+        const prevLi = document.createElement('li');
+        prevLi.className = `page-item ${currentPage === 0 ? 'disabled' : ''}`;
+        const prevLink = document.createElement('a');
+        prevLink.className = 'page-link';
+        prevLink.href = '#';
+        prevLink.textContent = 'Previous';
+        prevLink.setAttribute('data-offset', (currentPage - 1) * pageSize);
+        prevLi.appendChild(prevLink);
+        pagination.appendChild(prevLi);
 
         // Page numbers
         for (let i = 0; i < totalPages; i++) {
             if (i === 0 || i === totalPages - 1 || Math.abs(i - currentPage) <= 2) {
-                html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
-                    <a class="page-link" href="#" onclick="renderVotes(${i * pageSize}); return false;">${i + 1}</a>
-                </li>`;
+                const li = document.createElement('li');
+                li.className = `page-item ${i === currentPage ? 'active' : ''}`;
+                const link = document.createElement('a');
+                link.className = 'page-link';
+                link.href = '#';
+                link.textContent = i + 1;
+                link.setAttribute('data-offset', i * pageSize);
+                li.appendChild(link);
+                pagination.appendChild(li);
             } else if (Math.abs(i - currentPage) === 3) {
-                html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+                const li = document.createElement('li');
+                li.className = 'page-item disabled';
+                const span = document.createElement('span');
+                span.className = 'page-link';
+                span.textContent = '...';
+                li.appendChild(span);
+                pagination.appendChild(li);
             }
         }
 
         // Next button
-        html += `<li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="renderVotes(${(currentPage + 1) * pageSize}); return false;">Next</a>
-        </li>`;
-
-        pagination.innerHTML = html;
+        const nextLi = document.createElement('li');
+        nextLi.className = `page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}`;
+        const nextLink = document.createElement('a');
+        nextLink.className = 'page-link';
+        nextLink.href = '#';
+        nextLink.textContent = 'Next';
+        nextLink.setAttribute('data-offset', (currentPage + 1) * pageSize);
+        nextLi.appendChild(nextLink);
+        pagination.appendChild(nextLi);
     }
+
+    // Event delegation for pagination clicks (XSS-safe)
+    document.getElementById('pagination').addEventListener('click', function(e) {
+        e.preventDefault();
+        const link = e.target.closest('a.page-link');
+        if (link && !link.closest('.disabled')) {
+            const offset = parseInt(link.getAttribute('data-offset'), 10);
+            if (!isNaN(offset) && offset >= 0) {
+                renderVotes(offset);
+            }
+        }
+    });
 
     function formatDate(dateStr) {
         const date = new Date(dateStr);
         return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     }
 
+    // HTML escape function for safe display
+    function escapeHtml(str) {
+        if (!str) return '';
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
     function truncate(str, len) {
         if (!str) return '';
-        return str.length > len ? str.substring(0, len) + '...' : str;
+        const escaped = escapeHtml(str);
+        return escaped.length > len ? escaped.substring(0, len) + '...' : escaped;
     }
     </script>
 </body>

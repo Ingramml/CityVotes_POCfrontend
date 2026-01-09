@@ -238,11 +238,20 @@
             if (data.success) {
                 displayMember(data.member);
             } else {
-                showError('Member not found');
+                showError('Council member not found. The member ID may be invalid.');
             }
         } catch (error) {
             console.error('Error loading member:', error);
-            showError('Failed to load member data.');
+            // Provide specific error messages based on error type
+            if (error.message.includes('Invalid')) {
+                showError(error.message);
+            } else if (error.message.includes('Not found')) {
+                showError('Council member not found. Please check the ID and try again.');
+            } else if (error.message.includes('timed out')) {
+                showError('Request timed out. Please check your connection and try again.', true);
+            } else {
+                showError('Failed to load member data. Please try again later.', true);
+            }
         }
     }
 
@@ -442,10 +451,23 @@
         pagination.innerHTML = html;
     }
 
-    function showError(message) {
+    function showError(message, showRetry = false) {
         document.getElementById('loadingState').style.display = 'none';
         document.getElementById('errorState').style.display = 'block';
         document.getElementById('errorMessage').textContent = message;
+
+        // Add retry button if appropriate
+        const errorState = document.getElementById('errorState');
+        const existingRetry = errorState.querySelector('.btn-retry');
+        if (existingRetry) existingRetry.remove();
+
+        if (showRetry) {
+            const retryBtn = document.createElement('button');
+            retryBtn.className = 'btn btn-primary me-2 btn-retry';
+            retryBtn.innerHTML = '<i class="fas fa-redo me-1"></i>Try Again';
+            retryBtn.onclick = () => location.reload();
+            errorState.querySelector('.alert').after(retryBtn);
+        }
     }
 
     function getVoteBadge(choice) {
