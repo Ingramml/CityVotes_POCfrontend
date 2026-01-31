@@ -39,10 +39,11 @@ function loadJSON(filePath) {
 }
 
 // Valid non-standard outcomes that should not be auto-corrected
+// These indicate the vote data is unreliable - users should check original documents/video
 const SPECIAL_OUTCOMES = ['CONTINUED', 'REMOVED', 'FLAG', 'TABLED', 'WITHDRAWN'];
 
 function determineExpectedOutcome(ayes, noes, currentOutcome) {
-    // Don't override special procedural outcomes
+    // Don't override special procedural outcomes - these are flags to check source documents
     if (SPECIAL_OUTCOMES.includes(currentOutcome)) {
         return currentOutcome;
     }
@@ -57,12 +58,12 @@ function determineExpectedOutcome(ayes, noes, currentOutcome) {
 }
 
 function isOutcomeMismatch(vote) {
-    // Skip special procedural outcomes
+    // Skip special procedural outcomes - these are flags to check source documents
     if (SPECIAL_OUTCOMES.includes(vote.outcome)) {
         return false;
     }
 
-    // Procedural passes with 0-0 are OK
+    // Procedural passes with 0-0 are OK (unanimous consent items)
     if (vote.ayes === 0 && vote.noes === 0 && vote.outcome === 'PASS') {
         return false;
     }

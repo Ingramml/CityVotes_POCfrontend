@@ -398,7 +398,9 @@
                         <span class="badge ${getOutcomeBadgeClass(vote.outcome)}" role="status">${getOutcomeLabel(vote.outcome)}</span>
                     </td>
                     <td>
-                        <span class="text-success">${vote.ayes}</span>-<span class="text-danger">${vote.noes}</span>-<span class="text-secondary">${vote.abstain}</span>
+                        ${SPECIAL_OUTCOMES.includes(vote.outcome)
+                            ? '<span class="badge bg-warning text-dark" title="Check original documents or video"><i class="fas fa-flag me-1"></i>Flag</span>'
+                            : `<span class="text-success">${vote.ayes}</span>-<span class="text-danger">${vote.noes}</span>-<span class="text-secondary">${vote.abstain}</span>`}
                     </td>
                     <td>
                         <a href="vote-detail.html?id=${vote.id}" class="btn btn-sm btn-outline-primary" aria-label="View details for vote ${vote.item_number}" title="View details">
