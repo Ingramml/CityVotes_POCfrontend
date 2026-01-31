@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda Item Search - CityVotes Santa Ana</title>
-    <meta name="description" content="Search Santa Ana City Council agenda items by keyword.">
+    <meta name="description" content="Search Santa Ana City Council agenda items by keyword with advanced filters.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Agenda Item Search - CityVotes Santa Ana">
-    <meta property="og:description" content="Search Santa Ana City Council agenda items by keyword.">
+    <meta property="og:description" content="Search Santa Ana City Council agenda items by keyword with advanced filters.">
     <meta property="og:site_name" content="CityVotes">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Agenda Item Search - CityVotes Santa Ana">
-    <meta name="twitter:description" content="Search Santa Ana City Council agenda items by keyword.">
+    <meta name="twitter:description" content="Search Santa Ana City Council agenda items by keyword with advanced filters.">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -23,6 +23,17 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link href="css/santa-ana.css" rel="stylesheet">
+    <style>
+        .sortable { cursor: pointer; user-select: none; }
+        .sortable:hover { background-color: rgba(0,0,0,0.05); }
+        .sort-icon { opacity: 0.3; margin-left: 5px; }
+        .sortable.active .sort-icon { opacity: 1; }
+        .kpi-card { border-left: 4px solid; }
+        .kpi-card.meetings { border-left-color: var(--bs-primary); }
+        .kpi-card.votes { border-left-color: var(--bs-success); }
+        .table th { white-space: nowrap; }
+        .filter-row { background-color: #f8f9fa; }
+    </style>
 </head>
 <body>
     <!-- Skip Navigation -->
@@ -81,49 +92,136 @@
     <header class="bg-light py-4">
         <div class="container">
             <h1><i class="fas fa-search me-2"></i>Agenda Item Search</h1>
-            <p class="text-muted mb-0">Search agenda items by keyword across all meetings</p>
+            <p class="text-muted mb-0">Search and filter agenda items across all meetings</p>
         </div>
     </header>
 
     <!-- Main Content -->
     <main id="main-content" class="container my-4">
-        <!-- Search Box -->
+        <!-- KPI Dashboard -->
+        <div class="row mb-4" id="kpiSection">
+            <div class="col-md-3 col-6 mb-3">
+                <div class="card kpi-card meetings h-100">
+                    <div class="card-body text-center">
+                        <h3 class="text-primary mb-1" id="kpiMeetings">--</h3>
+                        <small class="text-muted">Meetings</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <div class="card kpi-card votes h-100">
+                    <div class="card-body text-center">
+                        <h3 class="text-success mb-1" id="kpiVotes">--</h3>
+                        <small class="text-muted">Total Votes</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="text-info mb-1" id="kpiPassRate">--%</h3>
+                        <small class="text-muted">Pass Rate</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="text-secondary mb-1" id="kpiFiltered">--</h3>
+                        <small class="text-muted">Showing</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filters -->
         <div class="card mb-4">
-            <div class="card-body">
-                <form id="searchForm" class="row g-3" role="search">
-                    <div class="col-md-6">
-                        <label for="searchInput" class="visually-hidden">Search agenda items</label>
+            <div class="card-body filter-row">
+                <form id="searchForm" class="row g-2 align-items-end" role="search">
+                    <div class="col-lg-3 col-md-6">
+                        <label for="searchInput" class="form-label small text-muted mb-1">Search</label>
                         <div class="input-group">
                             <span class="input-group-text" aria-hidden="true"><i class="fas fa-search"></i></span>
-                            <input type="text" class="form-control form-control-lg" id="searchInput"
-                                   placeholder="Enter keywords (e.g., housing, budget, police, zoning...)"
+                            <input type="text" class="form-control" id="searchInput"
+                                   placeholder="Keywords..."
                                    autocomplete="off" aria-label="Search agenda items by keyword">
                         </div>
                     </div>
-                    <div class="col-md-2">
-                        <label for="yearFilter" class="visually-hidden">Filter by year</label>
-                        <select class="form-select form-select-lg" id="yearFilter" aria-label="Filter by year">
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <label for="topicFilter" class="form-label small text-muted mb-1">Topic/Section</label>
+                        <select class="form-select" id="topicFilter" aria-label="Filter by topic">
+                            <option value="">All Topics</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <label for="yearFilter" class="form-label small text-muted mb-1">Year</label>
+                        <select class="form-select" id="yearFilter" aria-label="Filter by year">
                             <option value="">All Years</option>
                         </select>
                     </div>
-                    <div class="col-md-2">
-                        <button type="submit" class="btn btn-primary btn-lg w-100">Search</button>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <label for="meetingTypeFilter" class="form-label small text-muted mb-1">Meeting Type</label>
+                        <select class="form-select" id="meetingTypeFilter" aria-label="Filter by meeting type">
+                            <option value="">All Types</option>
+                            <option value="regular">Regular</option>
+                            <option value="special">Special</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <label for="outcomeFilter" class="form-label small text-muted mb-1">Outcome</label>
+                        <select class="form-select" id="outcomeFilter" aria-label="Filter by outcome">
+                            <option value="">All Outcomes</option>
+                            <option value="PASS">Passed</option>
+                            <option value="FAIL">Failed</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-6">
+                        <button type="button" class="btn btn-outline-secondary w-100" id="clearFilters" aria-label="Clear all filters">
+                            <i class="fas fa-times"></i> Clear
+                        </button>
                     </div>
                 </form>
             </div>
         </div>
 
-        <!-- Results Stats -->
-        <div class="d-flex justify-content-between align-items-center mb-3" id="resultsStats" style="display: none !important;" aria-live="polite" aria-atomic="true">
-            <span class="text-muted" id="resultsCount"></span>
-            <span class="text-muted" id="resultsTime"></span>
-        </div>
-
-        <!-- Results List -->
-        <div id="resultsContainer">
-            <div class="text-center py-5 text-muted">
-                <i class="fas fa-search fa-3x mb-3"></i>
-                <p>Enter a keyword or select a year to search agenda items</p>
+        <!-- Results Table -->
+        <div class="card">
+            <div class="table-responsive">
+                <table class="table table-hover mb-0" id="resultsTable">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col" class="sortable" data-sort="meeting_date">
+                                Date <i class="fas fa-sort sort-icon"></i>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="item_number">
+                                Item <i class="fas fa-sort sort-icon"></i>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="title">
+                                Title <i class="fas fa-sort sort-icon"></i>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="section">
+                                Topic <i class="fas fa-sort sort-icon"></i>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="meeting_type">
+                                Type <i class="fas fa-sort sort-icon"></i>
+                            </th>
+                            <th scope="col" class="sortable" data-sort="outcome">
+                                Result <i class="fas fa-sort sort-icon"></i>
+                            </th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsBody">
+                        <tr>
+                            <td colspan="7" class="text-center py-5 text-muted">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <p class="mt-2">Loading agenda items...</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
@@ -158,232 +256,331 @@
     <script src="js/api.js"></script>
 
     <script>
-    let currentSearch = '';
-    let currentYear = '';
+    // State
+    let allVotes = [];
+    let filteredVotes = [];
+    let availableYears = [];
+    let availableTopics = [];
     let currentOffset = 0;
-    const pageSize = 20;
-    let allVotes = []; // Cache for search
-    let availableYears = []; // Available years from data
+    const pageSize = 25;
+    let sortColumn = 'meeting_date';
+    let sortDirection = 'desc';
 
     document.addEventListener('DOMContentLoaded', async function() {
-        // Load votes and populate year dropdown
-        await loadVotesAndYears();
-
-        // Check URL params for initial search
-        const urlParams = new URLSearchParams(window.location.search);
-        const query = urlParams.get('q');
-        const year = urlParams.get('year');
-
-        if (year) {
-            document.getElementById('yearFilter').value = year;
-            currentYear = year;
-        }
-
-        if (query) {
-            document.getElementById('searchInput').value = query;
-            performSearch(query, 0);
-        }
-
-        // Handle form submit
-        document.getElementById('searchForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const query = document.getElementById('searchInput').value.trim();
-            const year = document.getElementById('yearFilter').value;
-            currentSearch = query;
-            currentYear = year;
-            currentOffset = 0;
-            // Update URL
-            let url = '?';
-            if (query) url += `q=${encodeURIComponent(query)}`;
-            if (year) url += `${query ? '&' : ''}year=${year}`;
-            if (url !== '?') window.history.pushState({}, '', url);
-            performSearch(query, 0);
-        });
-
-        // Handle year change
-        document.getElementById('yearFilter').addEventListener('change', function() {
-            const query = document.getElementById('searchInput').value.trim();
-            const year = this.value;
-            currentYear = year;
-            currentOffset = 0;
-            // Update URL
-            let url = '?';
-            if (query) url += `q=${encodeURIComponent(query)}`;
-            if (year) url += `${query ? '&' : ''}year=${year}`;
-            if (url !== '?') window.history.pushState({}, '', url);
-            performSearch(query, 0);
-        });
+        await loadAllData();
+        setupEventListeners();
+        applyFiltersFromURL();
     });
 
-    async function loadVotesAndYears() {
+    async function loadAllData() {
         try {
             const votesData = await CityVotesAPI.getVotes();
             allVotes = votesData.votes || [];
 
-            // Extract unique years from votes
+            // Extract unique years
             const years = new Set();
+            const topics = new Set();
             allVotes.forEach(vote => {
                 if (vote.meeting_date) {
                     years.add(new Date(vote.meeting_date).getFullYear());
                 }
+                if (vote.section) {
+                    topics.add(vote.section);
+                }
             });
 
-            availableYears = Array.from(years).sort((a, b) => b - a); // Sort descending
+            availableYears = Array.from(years).sort((a, b) => b - a);
+            availableTopics = Array.from(topics).sort();
 
-            // Populate year dropdown
-            const yearSelect = document.getElementById('yearFilter');
-            availableYears.forEach(year => {
-                const option = document.createElement('option');
-                option.value = year;
-                option.textContent = year;
-                yearSelect.appendChild(option);
-            });
+            // Populate dropdowns
+            populateYearDropdown();
+            populateTopicDropdown();
 
-            // Update footer with year range
+            // Update footer
             if (availableYears.length > 0) {
                 const minYear = availableYears[availableYears.length - 1];
                 const maxYear = availableYears[0];
-                document.getElementById('footerYears').textContent = minYear === maxYear ? `${minYear} Data` : `${minYear}-${maxYear} Data`;
+                document.getElementById('footerYears').textContent =
+                    minYear === maxYear ? `${minYear} Data` : `${minYear}-${maxYear} Data`;
             }
+
+            // Initial display
+            applyFilters();
         } catch (error) {
-            console.error('Error loading votes:', error);
-        }
-    }
-
-    async function performSearch(query, offset = 0) {
-        const container = document.getElementById('resultsContainer');
-        container.innerHTML = `
-            <div class="text-center py-5">
-                <div class="spinner-border text-primary" role="status">
-                    <span class="visually-hidden">Searching...</span>
-                </div>
-                <p class="mt-2 text-muted">Searching...</p>
-            </div>
-        `;
-
-        const startTime = performance.now();
-
-        try {
-            // Load votes if not cached
-            if (allVotes.length === 0) {
-                await loadVotesAndYears();
-            }
-
-            const selectedYear = document.getElementById('yearFilter').value;
-
-            // Client-side search with year filter
-            const lowerQuery = query.toLowerCase();
-            const filteredVotes = allVotes.filter(vote => {
-                // Year filter
-                if (selectedYear) {
-                    const voteYear = new Date(vote.meeting_date).getFullYear();
-                    if (voteYear !== parseInt(selectedYear)) return false;
-                }
-
-                // If no query, just filter by year
-                if (!query) return true;
-
-                // Text search
-                const title = (vote.title || '').toLowerCase();
-                const section = (vote.section || '').toLowerCase();
-                const itemNumber = (vote.item_number || '').toLowerCase();
-                return title.includes(lowerQuery) || section.includes(lowerQuery) || itemNumber.includes(lowerQuery);
-            });
-
-            const elapsed = Math.round(performance.now() - startTime);
-            const total = filteredVotes.length;
-            const items = filteredVotes.slice(offset, offset + pageSize);
-
-            // Show stats
-            document.getElementById('resultsStats').style.display = 'flex';
-            document.getElementById('resultsCount').textContent = `Found ${total} agenda items`;
-            document.getElementById('resultsTime').textContent = `${elapsed}ms`;
-
-            if (items.length === 0) {
-                const yearText = selectedYear ? ` in ${selectedYear}` : '';
-                const queryText = query ? ` matching "${query}"` : '';
-                container.innerHTML = `
-                    <div class="text-center py-5 text-muted">
-                        <i class="fas fa-search fa-3x mb-3"></i>
-                        <p>No agenda items found${queryText}${yearText}</p>
-                        <p class="small">Try different keywords or select a different year</p>
-                    </div>
-                `;
-                document.getElementById('paginationNav').style.display = 'none';
-                return;
-            }
-
-            container.innerHTML = items.map(item => `
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start">
-                            <div class="flex-grow-1">
-                                <h5 class="card-title">
-                                    ${item.item_number ? `<span class="badge bg-secondary me-2">Item ${item.item_number}</span>` : ''}
-                                    ${highlightSearch(item.title || 'No title', query)}
-                                </h5>
-                                ${item.section ? `<p class="text-muted small mb-2"><i class="fas fa-folder me-1"></i>${highlightSearch(item.section, query)}</p>` : ''}
-                            </div>
-                            <div class="text-end ms-3" style="white-space: nowrap;">
-                                ${item.outcome ? `<span class="badge ${item.outcome === 'PASS' ? 'bg-success' : item.outcome === 'FAIL' ? 'bg-danger' : 'bg-secondary'}">${item.outcome}</span>` : '<span class="badge bg-light text-dark">No Vote</span>'}
-                            </div>
+            console.error('Error loading data:', error);
+            document.getElementById('resultsBody').innerHTML = `
+                <tr>
+                    <td colspan="7" class="text-center py-5">
+                        <div class="alert alert-danger mb-0">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            Failed to load data. Please refresh the page.
                         </div>
-                        <hr>
-                        <div class="d-flex justify-content-between align-items-center small">
-                            <span class="text-muted">
-                                <i class="fas fa-calendar me-1"></i>${formatDate(item.meeting_date)} - ${item.meeting_type || 'Regular'} Meeting
-                            </span>
-                            <div>
-                                <a href="meeting-detail.html?id=${item.meeting_id}" class="btn btn-sm btn-outline-primary me-1">
-                                    <i class="fas fa-calendar-day me-1"></i>View Meeting
-                                </a>
-                                <a href="vote-detail.html?id=${item.id}" class="btn btn-sm btn-outline-secondary"><i class="fas fa-vote-yea me-1"></i>View Vote</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `).join('');
-
-            // Update pagination
-            updatePagination(total, offset, query);
-        } catch (error) {
-            console.error('Error searching:', error);
-            container.innerHTML = `
-                <div class="alert alert-danger">
-                    <i class="fas fa-exclamation-triangle me-2"></i>
-                    Failed to search.
-                </div>
+                    </td>
+                </tr>
             `;
         }
     }
 
-    function highlightSearch(text, query) {
-        if (!text || !query) return escapeHtml(text) || '';
-        // First escape HTML to prevent XSS, then highlight
-        const escaped = escapeHtml(text);
-        const escapedQuery = escapeHtml(query);
-        const regex = new RegExp(`(${escapeRegex(escapedQuery)})`, 'gi');
-        return escaped.replace(regex, '<mark>$1</mark>');
+    function populateYearDropdown() {
+        const select = document.getElementById('yearFilter');
+        availableYears.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            select.appendChild(option);
+        });
     }
 
-    function escapeRegex(string) {
-        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    function populateTopicDropdown() {
+        const select = document.getElementById('topicFilter');
+        availableTopics.forEach(topic => {
+            const option = document.createElement('option');
+            option.value = topic;
+            option.textContent = topic;
+            select.appendChild(option);
+        });
     }
 
-    // HTML escape function for safe display
-    function escapeHtml(str) {
-        if (!str) return '';
-        const div = document.createElement('div');
-        div.textContent = str;
-        return div.innerHTML;
+    function setupEventListeners() {
+        // Search input with debounce
+        let searchTimeout;
+        document.getElementById('searchInput').addEventListener('input', function() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                currentOffset = 0;
+                applyFilters();
+            }, 300);
+        });
+
+        // Filter changes
+        ['yearFilter', 'topicFilter', 'meetingTypeFilter', 'outcomeFilter'].forEach(id => {
+            document.getElementById(id).addEventListener('change', function() {
+                currentOffset = 0;
+                applyFilters();
+                updateURL();
+            });
+        });
+
+        // Clear filters
+        document.getElementById('clearFilters').addEventListener('click', function() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('yearFilter').value = '';
+            document.getElementById('topicFilter').value = '';
+            document.getElementById('meetingTypeFilter').value = '';
+            document.getElementById('outcomeFilter').value = '';
+            currentOffset = 0;
+            window.history.pushState({}, '', window.location.pathname);
+            applyFilters();
+        });
+
+        // Sortable columns
+        document.querySelectorAll('.sortable').forEach(th => {
+            th.addEventListener('click', function() {
+                const column = this.dataset.sort;
+                if (sortColumn === column) {
+                    sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+                } else {
+                    sortColumn = column;
+                    sortDirection = column === 'meeting_date' ? 'desc' : 'asc';
+                }
+                currentOffset = 0;
+                updateSortIcons();
+                applyFilters();
+            });
+        });
+
+        // Pagination event delegation
+        document.getElementById('pagination').addEventListener('click', function(e) {
+            e.preventDefault();
+            const link = e.target.closest('a.page-link');
+            if (link && !link.closest('.disabled')) {
+                const offset = parseInt(link.getAttribute('data-offset'), 10);
+                if (!isNaN(offset) && offset >= 0) {
+                    currentOffset = offset;
+                    applyFilters();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }
+        });
     }
 
-    function truncateText(text, maxLength) {
-        if (!text || text.length <= maxLength) return text;
-        return text.substring(0, maxLength) + '...';
+    function applyFiltersFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const q = urlParams.get('q');
+        const year = urlParams.get('year');
+        const topic = urlParams.get('topic');
+        const type = urlParams.get('type');
+        const outcome = urlParams.get('outcome');
+
+        if (q) document.getElementById('searchInput').value = q;
+        if (year) document.getElementById('yearFilter').value = year;
+        if (topic) document.getElementById('topicFilter').value = topic;
+        if (type) document.getElementById('meetingTypeFilter').value = type;
+        if (outcome) document.getElementById('outcomeFilter').value = outcome;
     }
 
-    function updatePagination(total, currentOffset, query) {
+    function updateURL() {
+        const params = new URLSearchParams();
+        const search = document.getElementById('searchInput').value.trim();
+        const year = document.getElementById('yearFilter').value;
+        const topic = document.getElementById('topicFilter').value;
+        const type = document.getElementById('meetingTypeFilter').value;
+        const outcome = document.getElementById('outcomeFilter').value;
+
+        if (search) params.set('q', search);
+        if (year) params.set('year', year);
+        if (topic) params.set('topic', topic);
+        if (type) params.set('type', type);
+        if (outcome) params.set('outcome', outcome);
+
+        const url = params.toString() ? `?${params.toString()}` : window.location.pathname;
+        window.history.pushState({}, '', url);
+    }
+
+    function applyFilters() {
+        const search = document.getElementById('searchInput').value.trim().toLowerCase();
+        const year = document.getElementById('yearFilter').value;
+        const topic = document.getElementById('topicFilter').value;
+        const meetingType = document.getElementById('meetingTypeFilter').value;
+        const outcome = document.getElementById('outcomeFilter').value;
+
+        // Filter votes
+        filteredVotes = allVotes.filter(vote => {
+            // Year filter
+            if (year) {
+                const voteYear = new Date(vote.meeting_date).getFullYear();
+                if (voteYear !== parseInt(year)) return false;
+            }
+
+            // Topic filter
+            if (topic && vote.section !== topic) return false;
+
+            // Meeting type filter
+            if (meetingType && vote.meeting_type !== meetingType) return false;
+
+            // Outcome filter
+            if (outcome && vote.outcome !== outcome) return false;
+
+            // Search filter
+            if (search) {
+                const title = (vote.title || '').toLowerCase();
+                const section = (vote.section || '').toLowerCase();
+                const itemNumber = (vote.item_number || '').toLowerCase();
+                if (!title.includes(search) && !section.includes(search) && !itemNumber.includes(search)) {
+                    return false;
+                }
+            }
+
+            return true;
+        });
+
+        // Sort
+        filteredVotes.sort((a, b) => {
+            let aVal = a[sortColumn] || '';
+            let bVal = b[sortColumn] || '';
+
+            if (sortColumn === 'meeting_date') {
+                aVal = new Date(aVal).getTime();
+                bVal = new Date(bVal).getTime();
+            } else if (sortColumn === 'item_number') {
+                // Extract numeric part for proper sorting
+                aVal = parseFloat(aVal) || 0;
+                bVal = parseFloat(bVal) || 0;
+            } else {
+                aVal = String(aVal).toLowerCase();
+                bVal = String(bVal).toLowerCase();
+            }
+
+            if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
+            if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
+            return 0;
+        });
+
+        // Update KPIs
+        updateKPIs();
+
+        // Display results
+        displayResults();
+
+        // Update pagination
+        updatePagination();
+
+        // Update URL
+        updateURL();
+    }
+
+    function updateKPIs() {
+        // Count unique meetings in filtered results
+        const meetings = new Set(filteredVotes.map(v => v.meeting_date));
+        document.getElementById('kpiMeetings').textContent = meetings.size.toLocaleString();
+        document.getElementById('kpiVotes').textContent = allVotes.length.toLocaleString();
+
+        // Pass rate
+        const passed = filteredVotes.filter(v => v.outcome === 'PASS').length;
+        const passRate = filteredVotes.length > 0 ? ((passed / filteredVotes.length) * 100).toFixed(1) : 0;
+        document.getElementById('kpiPassRate').textContent = passRate + '%';
+
+        // Filtered count
+        document.getElementById('kpiFiltered').textContent = filteredVotes.length.toLocaleString();
+    }
+
+    function updateSortIcons() {
+        document.querySelectorAll('.sortable').forEach(th => {
+            const icon = th.querySelector('.sort-icon');
+            if (th.dataset.sort === sortColumn) {
+                th.classList.add('active');
+                icon.className = `fas fa-sort-${sortDirection === 'asc' ? 'up' : 'down'} sort-icon`;
+            } else {
+                th.classList.remove('active');
+                icon.className = 'fas fa-sort sort-icon';
+            }
+        });
+    }
+
+    function displayResults() {
+        const tbody = document.getElementById('resultsBody');
+        const pageVotes = filteredVotes.slice(currentOffset, currentOffset + pageSize);
+
+        if (pageVotes.length === 0) {
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="7" class="text-center py-5 text-muted">
+                        <i class="fas fa-search fa-3x mb-3"></i>
+                        <p>No agenda items match your filters</p>
+                        <button class="btn btn-outline-primary btn-sm" onclick="document.getElementById('clearFilters').click()">
+                            Clear Filters
+                        </button>
+                    </td>
+                </tr>
+            `;
+            return;
+        }
+
+        const search = document.getElementById('searchInput').value.trim();
+
+        tbody.innerHTML = pageVotes.map(vote => `
+            <tr>
+                <td><small>${formatDate(vote.meeting_date)}</small></td>
+                <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number || '-')}</span></td>
+                <td>
+                    <a href="vote-detail.html?id=${vote.id}" class="text-decoration-none">
+                        ${highlightSearch(truncate(vote.title, 60), search)}
+                    </a>
+                </td>
+                <td><span class="badge bg-secondary">${escapeHtml(vote.section || '-')}</span></td>
+                <td><span class="text-muted small">${capitalizeFirst(vote.meeting_type || 'regular')}</span></td>
+                <td>${getOutcomeBadge(vote.outcome)}</td>
+                <td>
+                    <a href="vote-detail.html?id=${vote.id}" class="btn btn-sm btn-outline-primary" aria-label="View vote details">
+                        <i class="fas fa-eye"></i>
+                    </a>
+                </td>
+            </tr>
+        `).join('');
+    }
+
+    function updatePagination() {
+        const total = filteredVotes.length;
         const totalPages = Math.ceil(total / pageSize);
         const currentPage = Math.floor(currentOffset / pageSize);
 
@@ -442,21 +639,49 @@
         pagination.appendChild(nextLi);
     }
 
-    // Event delegation for pagination clicks (XSS-safe)
-    document.getElementById('pagination').addEventListener('click', function(e) {
-        e.preventDefault();
-        const link = e.target.closest('a.page-link');
-        if (link && !link.closest('.disabled')) {
-            const offset = parseInt(link.getAttribute('data-offset'), 10);
-            if (!isNaN(offset) && offset >= 0) {
-                performSearch(currentSearch, offset);
-            }
-        }
-    });
-
+    // Helper functions
     function formatDate(dateStr) {
         const date = new Date(dateStr);
         return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+
+    function escapeHtml(str) {
+        if (!str) return '';
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    function truncate(str, len) {
+        if (!str) return '';
+        return str.length > len ? str.substring(0, len) + '...' : str;
+    }
+
+    function highlightSearch(text, query) {
+        if (!text || !query) return escapeHtml(text) || '';
+        const escaped = escapeHtml(text);
+        const escapedQuery = escapeHtml(query);
+        const regex = new RegExp(`(${escapeRegex(escapedQuery)})`, 'gi');
+        return escaped.replace(regex, '<mark>$1</mark>');
+    }
+
+    function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function capitalizeFirst(str) {
+        if (!str) return '';
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    function getOutcomeBadge(outcome) {
+        const badges = {
+            'PASS': '<span class="badge bg-success" role="status">Passed</span>',
+            'FAIL': '<span class="badge bg-danger" role="status">Failed</span>',
+            'CONTINUED': '<span class="badge bg-warning text-dark" role="status">Continued</span>',
+            'REMOVED': '<span class="badge bg-secondary" role="status">Removed</span>'
+        };
+        return badges[outcome] || `<span class="badge bg-light text-dark" role="status">${escapeHtml(outcome || 'Unknown')}</span>`;
     }
     </script>
 </body>

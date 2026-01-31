@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Council Member - CityVotes Santa Ana</title>
-    <meta name="description" content="Council member voting profile and history.">
+    <meta name="description" content="Council member voting profile, alignment data, and vote history.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Council Member - CityVotes Santa Ana">
-    <meta property="og:description" content="Council member voting profile and history.">
+    <meta property="og:description" content="Council member voting profile, alignment data, and vote history.">
     <meta property="og:site_name" content="CityVotes">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Council Member - CityVotes Santa Ana">
-    <meta name="twitter:description" content="Council member voting profile and history.">
+    <meta name="twitter:description" content="Council member voting profile, alignment data, and vote history.">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -25,6 +25,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link href="css/santa-ana.css" rel="stylesheet">
+    <style>
+        .alignment-card { transition: transform 0.2s; }
+        .alignment-card:hover { transform: translateY(-2px); }
+        .alignment-bar { height: 8px; border-radius: 4px; }
+        .filter-section { background-color: #f8f9fa; border-radius: 8px; }
+    </style>
 </head>
 <body>
     <!-- Skip Navigation -->
@@ -178,11 +184,81 @@
                 </div>
             </div>
 
-            <!-- Recent Votes -->
+            <!-- Voting Alignment Section -->
+            <div class="card mb-4" id="alignmentSection">
+                <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+                    <h5 class="mb-0"><i class="fas fa-users me-2"></i>Voting Alignment</h5>
+                    <div class="d-flex gap-2 align-items-center">
+                        <select class="form-select form-select-sm" id="alignmentYearFilter" style="width: auto;" aria-label="Filter alignment by year">
+                            <option value="">All Years</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <h6 class="text-success"><i class="fas fa-thumbs-up me-2"></i>Most Aligned With</h6>
+                            <div id="mostAligned">
+                                <div class="text-muted small">Loading...</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h6 class="text-danger"><i class="fas fa-thumbs-down me-2"></i>Least Aligned With</h6>
+                            <div id="leastAligned">
+                                <div class="text-muted small">Loading...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vote History with Filters -->
             <div class="card">
-                <div class="card-header d-flex justify-content-between align-items-center">
-                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Recent Votes</h5>
-                    <small class="text-muted" id="votesShowing">Showing 10 most recent</small>
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Vote History</h5>
+                </div>
+                <!-- Filter Section -->
+                <div class="card-body filter-section border-bottom">
+                    <div class="row g-2 align-items-end">
+                        <div class="col-md-4">
+                            <label for="voteSearchInput" class="form-label small text-muted mb-1">Search Votes</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                                <input type="text" class="form-control" id="voteSearchInput"
+                                       placeholder="Search by title..." aria-label="Search votes by title">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="voteTopicFilter" class="form-label small text-muted mb-1">Topic</label>
+                            <select class="form-select" id="voteTopicFilter" aria-label="Filter votes by topic">
+                                <option value="">All Topics</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="voteYearFilter" class="form-label small text-muted mb-1">Year</label>
+                            <select class="form-select" id="voteYearFilter" aria-label="Filter votes by year">
+                                <option value="">All Years</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="voteChoiceFilter" class="form-label small text-muted mb-1">Vote</label>
+                            <select class="form-select" id="voteChoiceFilter" aria-label="Filter by vote choice">
+                                <option value="">All Votes</option>
+                                <option value="AYE">Aye</option>
+                                <option value="NAY">Nay</option>
+                                <option value="ABSTAIN">Abstain</option>
+                                <option value="ABSENT">Absent</option>
+                            </select>
+                        </div>
+                        <div class="col-md-1">
+                            <button type="button" class="btn btn-outline-secondary w-100" id="clearVoteFilters" aria-label="Clear vote filters">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body py-2">
+                    <small class="text-muted" id="votesShowing">Loading...</small>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-hover mb-0">
@@ -191,6 +267,7 @@
                                 <th scope="col">Date</th>
                                 <th scope="col">Item</th>
                                 <th scope="col">Title</th>
+                                <th scope="col">Topic</th>
                                 <th scope="col">Vote</th>
                                 <th scope="col">Outcome</th>
                             </tr>
@@ -227,6 +304,9 @@
                     <h6>CityVotes - Santa Ana Voting Transparency</h6>
                     <p class="text-muted mb-0">Data sourced from official Santa Ana city council meeting records.</p>
                 </div>
+                <div class="col-md-4 text-end">
+                    <p class="mb-0">Want a different city? <a href="contact.html" class="text-sa-gold">Contact us</a></p>
+                </div>
             </div>
         </div>
     </footer>
@@ -237,6 +317,17 @@
     <script src="js/api.js"></script>
 
     <script>
+    // State
+    let currentMember = null;
+    let allMemberVotes = [];
+    let filteredMemberVotes = [];
+    let alignmentData = null;
+    let councilMembers = [];
+    let availableYears = [];
+    let availableTopics = [];
+    let voteCurrentOffset = 0;
+    const votePageSize = 20;
+
     document.addEventListener('DOMContentLoaded', async function() {
         const urlParams = new URLSearchParams(window.location.search);
         const memberId = urlParams.get('id');
@@ -247,20 +338,81 @@
         }
 
         await loadMember(memberId);
+        setupEventListeners();
     });
+
+    function setupEventListeners() {
+        // Vote search with debounce
+        let searchTimeout;
+        document.getElementById('voteSearchInput').addEventListener('input', function() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                voteCurrentOffset = 0;
+                filterAndDisplayVotes();
+            }, 300);
+        });
+
+        // Vote filter changes
+        ['voteTopicFilter', 'voteYearFilter', 'voteChoiceFilter'].forEach(id => {
+            document.getElementById(id).addEventListener('change', function() {
+                voteCurrentOffset = 0;
+                filterAndDisplayVotes();
+            });
+        });
+
+        // Clear vote filters
+        document.getElementById('clearVoteFilters').addEventListener('click', function() {
+            document.getElementById('voteSearchInput').value = '';
+            document.getElementById('voteTopicFilter').value = '';
+            document.getElementById('voteYearFilter').value = '';
+            document.getElementById('voteChoiceFilter').value = '';
+            voteCurrentOffset = 0;
+            filterAndDisplayVotes();
+        });
+
+        // Alignment year filter
+        document.getElementById('alignmentYearFilter').addEventListener('change', function() {
+            displayAlignment();
+        });
+
+        // Vote pagination
+        document.getElementById('votePagination').addEventListener('click', function(e) {
+            e.preventDefault();
+            const link = e.target.closest('a.page-link');
+            if (link && !link.closest('.disabled')) {
+                const offset = parseInt(link.getAttribute('data-offset'), 10);
+                if (!isNaN(offset) && offset >= 0) {
+                    voteCurrentOffset = offset;
+                    filterAndDisplayVotes();
+                }
+            }
+        });
+    }
 
     async function loadMember(memberId) {
         try {
-            const data = await CityVotesAPI.getCouncilMember(memberId);
+            // Load member data, alignment data, and council list in parallel
+            const [memberData, alignmentResponse, councilResponse] = await Promise.all([
+                CityVotesAPI.getCouncilMember(memberId),
+                CityVotesAPI.getAlignment(),
+                CityVotesAPI.getCouncil()
+            ]);
 
-            if (data.success) {
-                displayMember(data.member);
+            if (memberData.success) {
+                currentMember = memberData.member;
+                allMemberVotes = memberData.member.all_votes || memberData.member.recent_votes || [];
+                alignmentData = alignmentResponse;
+                councilMembers = councilResponse.council_members || [];
+
+                displayMember(currentMember);
+                populateFilterDropdowns();
+                filterAndDisplayVotes();
+                displayAlignment();
             } else {
                 showError('Council member not found. The member ID may be invalid.');
             }
         } catch (error) {
             console.error('Error loading member:', error);
-            // Provide specific error messages based on error type
             if (error.message.includes('Invalid')) {
                 showError(error.message);
             } else if (error.message.includes('Not found')) {
@@ -368,110 +520,263 @@
         document.getElementById('voteChartDescription').textContent =
             `Vote breakdown: ${stats.aye_count} Aye votes (${stats.aye_percentage}%), ` +
             `${stats.nay_count} Nay votes, ${stats.abstain_count} Abstain, ${stats.absent_count} Absent.`;
-
-        // Recent votes table
-        const votesTable = document.getElementById('recentVotesTable');
-        votesTable.innerHTML = member.recent_votes.map(vote => `
-            <tr>
-                <td><small>${formatDate(vote.meeting_date)}</small></td>
-                <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number)}</span></td>
-                <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${truncate(vote.title, 50)}</a></td>
-                <td>${getVoteBadge(vote.vote_choice)}</td>
-                <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}" role="status">${vote.outcome === 'PASS' ? 'Passed' : 'Failed'}</span></td>
-            </tr>
-        `).join('');
-
-        // Show pagination if there are more than 10 votes
-        if (member.stats.total_votes > 10) {
-            document.getElementById('votePaginationContainer').style.display = 'block';
-            document.getElementById('votesShowing').innerHTML = `Showing 10 of ${member.stats.total_votes} votes <button class="btn btn-sm btn-outline-primary ms-2" onclick="loadAllVotes(${member.id}, 0)">View All</button>`;
-        }
-
-        // Store member ID for pagination
-        window.currentMemberId = member.id;
     }
 
-    // Store all votes for client-side pagination
-    let allMemberVotes = [];
-    const votePageSize = 20;
+    function populateFilterDropdowns() {
+        // Extract unique years and topics from votes
+        const years = new Set();
+        const topics = new Set();
 
-    async function loadAllVotes(memberId, offset = 0) {
-        // Use cached votes if available
-        if (allMemberVotes.length === 0) {
-            try {
-                const data = await CityVotesAPI.getCouncilMember(memberId);
-                if (data.success && data.member.all_votes) {
-                    allMemberVotes = data.member.all_votes;
-                }
-            } catch (error) {
-                console.error('Error loading votes:', error);
-                return;
+        allMemberVotes.forEach(vote => {
+            if (vote.meeting_date) {
+                years.add(new Date(vote.meeting_date).getFullYear());
             }
+            if (vote.section) {
+                topics.add(vote.section);
+            }
+        });
+
+        availableYears = Array.from(years).sort((a, b) => b - a);
+        availableTopics = Array.from(topics).sort();
+
+        // Populate year dropdowns
+        const voteYearSelect = document.getElementById('voteYearFilter');
+        const alignmentYearSelect = document.getElementById('alignmentYearFilter');
+        availableYears.forEach(year => {
+            const option1 = document.createElement('option');
+            option1.value = year;
+            option1.textContent = year;
+            voteYearSelect.appendChild(option1);
+
+            const option2 = document.createElement('option');
+            option2.value = year;
+            option2.textContent = year;
+            alignmentYearSelect.appendChild(option2);
+        });
+
+        // Populate topic dropdown
+        const topicSelect = document.getElementById('voteTopicFilter');
+        availableTopics.forEach(topic => {
+            const option = document.createElement('option');
+            option.value = topic;
+            option.textContent = topic;
+            topicSelect.appendChild(option);
+        });
+    }
+
+    function filterAndDisplayVotes() {
+        const search = document.getElementById('voteSearchInput').value.trim().toLowerCase();
+        const topic = document.getElementById('voteTopicFilter').value;
+        const year = document.getElementById('voteYearFilter').value;
+        const choice = document.getElementById('voteChoiceFilter').value;
+
+        // Filter votes
+        filteredMemberVotes = allMemberVotes.filter(vote => {
+            // Year filter
+            if (year) {
+                const voteYear = new Date(vote.meeting_date).getFullYear();
+                if (voteYear !== parseInt(year)) return false;
+            }
+
+            // Topic filter
+            if (topic && vote.section !== topic) return false;
+
+            // Choice filter
+            if (choice && vote.vote_choice !== choice) return false;
+
+            // Search filter
+            if (search) {
+                const title = (vote.title || '').toLowerCase();
+                if (!title.includes(search)) return false;
+            }
+
+            return true;
+        });
+
+        // Display votes
+        displayVotes();
+        updateVotePagination();
+    }
+
+    function displayVotes() {
+        const votesTable = document.getElementById('recentVotesTable');
+        const pageVotes = filteredMemberVotes.slice(voteCurrentOffset, voteCurrentOffset + votePageSize);
+
+        if (pageVotes.length === 0) {
+            votesTable.innerHTML = `
+                <tr>
+                    <td colspan="6" class="text-center py-4 text-muted">
+                        <i class="fas fa-search fa-2x mb-2"></i>
+                        <p class="mb-0">No votes match your filters</p>
+                    </td>
+                </tr>
+            `;
+            document.getElementById('votesShowing').textContent = 'No votes found';
+            document.getElementById('votePaginationContainer').style.display = 'none';
+            return;
         }
 
-        const total = allMemberVotes.length;
-        const votes = allMemberVotes.slice(offset, offset + votePageSize);
+        const search = document.getElementById('voteSearchInput').value.trim();
 
-        const votesTable = document.getElementById('recentVotesTable');
-        votesTable.innerHTML = votes.map(vote => `
+        votesTable.innerHTML = pageVotes.map(vote => `
             <tr>
                 <td><small>${formatDate(vote.meeting_date)}</small></td>
                 <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number)}</span></td>
-                <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${truncate(vote.title, 50)}</a></td>
+                <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${highlightSearch(truncate(vote.title, 50), search)}</a></td>
+                <td><span class="badge bg-secondary">${escapeHtml(vote.section || '-')}</span></td>
                 <td>${getVoteBadge(vote.vote_choice)}</td>
                 <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}" role="status">${vote.outcome === 'PASS' ? 'Passed' : 'Failed'}</span></td>
             </tr>
         `).join('');
 
         // Update showing text
-        const start = offset + 1;
-        const end = Math.min(offset + votes.length, total);
-        document.getElementById('votesShowing').textContent = `Showing ${start}-${end} of ${total} votes`;
-
-        // Update pagination
-        updateVotePagination(total, offset, memberId);
+        const start = voteCurrentOffset + 1;
+        const end = Math.min(voteCurrentOffset + pageVotes.length, filteredMemberVotes.length);
+        document.getElementById('votesShowing').textContent = `Showing ${start}-${end} of ${filteredMemberVotes.length} votes`;
     }
 
-    function updateVotePagination(total, currentOffset, memberId) {
+    function updateVotePagination() {
+        const total = filteredMemberVotes.length;
         const totalPages = Math.ceil(total / votePageSize);
-        const currentPage = Math.floor(currentOffset / votePageSize);
+        const currentPage = Math.floor(voteCurrentOffset / votePageSize);
+
+        if (totalPages <= 1) {
+            document.getElementById('votePaginationContainer').style.display = 'none';
+            return;
+        }
 
         document.getElementById('votePaginationContainer').style.display = 'block';
         const pagination = document.getElementById('votePagination');
-
-        let html = '';
+        pagination.innerHTML = '';
 
         // Previous button
-        html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${(currentPage - 1) * votePageSize}); return false;">Prev</a>
-        </li>`;
+        const prevLi = document.createElement('li');
+        prevLi.className = `page-item ${currentPage === 0 ? 'disabled' : ''}`;
+        const prevLink = document.createElement('a');
+        prevLink.className = 'page-link';
+        prevLink.href = '#';
+        prevLink.textContent = 'Prev';
+        prevLink.setAttribute('data-offset', (currentPage - 1) * votePageSize);
+        prevLi.appendChild(prevLink);
+        pagination.appendChild(prevLi);
 
         // Page numbers (show max 5 pages)
         const startPage = Math.max(0, currentPage - 2);
         const endPage = Math.min(totalPages - 1, currentPage + 2);
 
         if (startPage > 0) {
-            html += `<li class="page-item"><a class="page-link" href="#" onclick="loadAllVotes(${memberId}, 0); return false;">1</a></li>`;
-            if (startPage > 1) html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
+            const firstLi = document.createElement('li');
+            firstLi.className = 'page-item';
+            const firstLink = document.createElement('a');
+            firstLink.className = 'page-link';
+            firstLink.href = '#';
+            firstLink.textContent = '1';
+            firstLink.setAttribute('data-offset', 0);
+            firstLi.appendChild(firstLink);
+            pagination.appendChild(firstLi);
+
+            if (startPage > 1) {
+                const ellipsisLi = document.createElement('li');
+                ellipsisLi.className = 'page-item disabled';
+                ellipsisLi.innerHTML = '<span class="page-link">...</span>';
+                pagination.appendChild(ellipsisLi);
+            }
         }
 
         for (let i = startPage; i <= endPage; i++) {
-            html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
-                <a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${i * votePageSize}); return false;">${i + 1}</a>
-            </li>`;
+            const li = document.createElement('li');
+            li.className = `page-item ${i === currentPage ? 'active' : ''}`;
+            const link = document.createElement('a');
+            link.className = 'page-link';
+            link.href = '#';
+            link.textContent = i + 1;
+            link.setAttribute('data-offset', i * votePageSize);
+            li.appendChild(link);
+            pagination.appendChild(li);
         }
 
         if (endPage < totalPages - 1) {
-            if (endPage < totalPages - 2) html += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
-            html += `<li class="page-item"><a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${(totalPages - 1) * votePageSize}); return false;">${totalPages}</a></li>`;
+            if (endPage < totalPages - 2) {
+                const ellipsisLi = document.createElement('li');
+                ellipsisLi.className = 'page-item disabled';
+                ellipsisLi.innerHTML = '<span class="page-link">...</span>';
+                pagination.appendChild(ellipsisLi);
+            }
+            const lastLi = document.createElement('li');
+            lastLi.className = 'page-item';
+            const lastLink = document.createElement('a');
+            lastLink.className = 'page-link';
+            lastLink.href = '#';
+            lastLink.textContent = totalPages;
+            lastLink.setAttribute('data-offset', (totalPages - 1) * votePageSize);
+            lastLi.appendChild(lastLink);
+            pagination.appendChild(lastLi);
         }
 
         // Next button
-        html += `<li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="loadAllVotes(${memberId}, ${(currentPage + 1) * votePageSize}); return false;">Next</a>
-        </li>`;
+        const nextLi = document.createElement('li');
+        nextLi.className = `page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}`;
+        const nextLink = document.createElement('a');
+        nextLink.className = 'page-link';
+        nextLink.href = '#';
+        nextLink.textContent = 'Next';
+        nextLink.setAttribute('data-offset', (currentPage + 1) * votePageSize);
+        nextLi.appendChild(nextLink);
+        pagination.appendChild(nextLi);
+    }
 
-        pagination.innerHTML = html;
+    function displayAlignment() {
+        if (!alignmentData || !currentMember) return;
+
+        const memberLastName = currentMember.full_name.split(' ').pop();
+        const pairs = alignmentData.alignment_pairs || [];
+
+        // Get all alignment pairs involving this member
+        let memberPairs = pairs.filter(p =>
+            p.member1 === memberLastName || p.member2 === memberLastName
+        ).map(p => ({
+            otherMember: p.member1 === memberLastName ? p.member2 : p.member1,
+            agreementRate: p.agreement_rate,
+            sharedVotes: p.shared_votes,
+            agreements: p.agreements
+        }));
+
+        // Sort by agreement rate
+        memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
+
+        // Display most aligned (top 3)
+        const mostAligned = memberPairs.slice(0, 3);
+        document.getElementById('mostAligned').innerHTML = mostAligned.length > 0
+            ? mostAligned.map(p => createAlignmentCard(p, 'success')).join('')
+            : '<p class="text-muted small">No alignment data available</p>';
+
+        // Display least aligned (bottom 3, reversed)
+        const leastAligned = memberPairs.slice(-3).reverse();
+        document.getElementById('leastAligned').innerHTML = leastAligned.length > 0
+            ? leastAligned.map(p => createAlignmentCard(p, 'danger')).join('')
+            : '<p class="text-muted small">No alignment data available</p>';
+    }
+
+    function createAlignmentCard(pair, colorClass) {
+        // Find the council member to link to
+        const member = councilMembers.find(m => m.full_name.includes(pair.otherMember));
+        const memberId = member ? member.id : null;
+
+        return `
+            <div class="alignment-card d-flex align-items-center justify-content-between p-2 mb-2 border rounded">
+                <div>
+                    ${memberId
+                        ? `<a href="council-member.html?id=${memberId}" class="text-decoration-none fw-medium">${escapeHtml(pair.otherMember)}</a>`
+                        : `<span class="fw-medium">${escapeHtml(pair.otherMember)}</span>`
+                    }
+                    <br>
+                    <small class="text-muted">${pair.sharedVotes} shared votes</small>
+                </div>
+                <div class="text-end">
+                    <span class="badge bg-${colorClass}">${pair.agreementRate}%</span>
+                </div>
+            </div>
+        `;
     }
 
     function showError(message, showRetry = false) {
@@ -501,7 +806,7 @@
             'ABSENT': '<span class="badge bg-secondary">Absent</span>',
             'RECUSAL': '<span class="badge bg-info">Recusal</span>'
         };
-        return badges[choice] || `<span class="badge bg-light text-dark">${choice}</span>`;
+        return badges[choice] || `<span class="badge bg-light text-dark">${escapeHtml(choice)}</span>`;
     }
 
     function formatDate(dateStr) {
@@ -509,7 +814,6 @@
         return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     }
 
-    // HTML escape function for safe display
     function escapeHtml(str) {
         if (!str) return '';
         const div = document.createElement('div');
@@ -521,6 +825,18 @@
         if (!str) return '';
         const escaped = escapeHtml(str);
         return escaped.length > len ? escaped.substring(0, len) + '...' : escaped;
+    }
+
+    function highlightSearch(text, query) {
+        if (!text || !query) return escapeHtml(text) || '';
+        const escaped = escapeHtml(text);
+        const escapedQuery = escapeHtml(query);
+        const regex = new RegExp(`(${escapeRegex(escapedQuery)})`, 'gi');
+        return escaped.replace(regex, '<mark>$1</mark>');
+    }
+
+    function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
     </script>
 </body>
