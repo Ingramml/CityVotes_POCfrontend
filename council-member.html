@@ -29,9 +29,6 @@
         .alignment-card { transition: transform 0.2s; }
         .alignment-card:hover { transform: translateY(-2px); }
         .filter-section { background-color: #f8f9fa; border-radius: 8px; }
-        .collapse-toggle { cursor: pointer; }
-        .collapse-toggle .fa-chevron-down { transition: transform 0.2s; }
-        .collapse-toggle.collapsed .fa-chevron-down { transform: rotate(-90deg); }
     </style>
 </head>
 <body>
@@ -238,28 +235,31 @@
                     </div>
                 </div>
 
-                <!-- Voting Alignment (Collapsible) -->
+                <!-- Voting Alignment -->
                 <div class="col-lg-4 mb-4">
                     <div class="card h-100">
-                        <div class="card-header collapse-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#alignmentContent" aria-expanded="false" aria-controls="alignmentContent">
-                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                                <span><i class="fas fa-users me-2"></i>Voting Alignment</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="alignmentContent">
-                            <div class="card-body">
-                                <div class="mb-4">
-                                    <h6 class="text-success"><i class="fas fa-thumbs-up me-2"></i>Most Aligned</h6>
-                                    <div id="mostAligned">
-                                        <div class="text-muted small">Loading...</div>
-                                    </div>
+                        <div class="card-header">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0"><i class="fas fa-users me-2"></i>Voting Alignment</h5>
+                                <small class="text-muted" id="alignmentRange">--</small>
+                            </div>
+                            <div id="alignmentSummary" class="mt-2">
+                                <div class="progress" style="height: 8px;">
+                                    <div id="alignmentBar" class="progress-bar bg-success" style="width: 0%"></div>
                                 </div>
-                                <div>
-                                    <h6 class="text-danger"><i class="fas fa-thumbs-down me-2"></i>Least Aligned</h6>
-                                    <div id="leastAligned">
-                                        <div class="text-muted small">Loading...</div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-4">
+                                <h6 class="text-success"><i class="fas fa-thumbs-up me-2"></i>Most Aligned</h6>
+                                <div id="mostAligned">
+                                    <div class="text-muted small">Loading...</div>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="text-danger"><i class="fas fa-thumbs-down me-2"></i>Least Aligned</h6>
+                                <div id="leastAligned">
+                                    <div class="text-muted small">Loading...</div>
                                 </div>
                             </div>
                         </div>
@@ -330,6 +330,7 @@
     let filteredMemberVotes = [];
     let alignmentData = null;
     let councilMembers = [];
+    let allCouncilVotes = {}; // Map of memberId -> votes array for alignment calculation
     let availableYears = [];
     let availableTopics = [];
     let voteCurrentOffset = 0;
@@ -392,10 +393,6 @@
             }
         });
 
-        // Collapse toggle icon rotation
-        document.querySelector('.collapse-toggle').addEventListener('click', function() {
-            this.classList.toggle('collapsed');
-        });
     }
 
     async function loadMember(memberId) {
@@ -411,12 +408,15 @@
                 currentMember = memberData.member;
                 allMemberVotes = memberData.member.all_votes || memberData.member.recent_votes || [];
                 alignmentData = alignmentResponse;
-                councilMembers = councilResponse.council_members || [];
+                councilMembers = councilResponse.members || councilResponse.council_members || [];
 
                 displayMemberHeader(currentMember);
                 populateFilterDropdowns();
                 filterAndUpdateAll();
                 displayAlignment();
+
+                // Load all other council members' votes in background for filtered alignment
+                loadAllCouncilVotes(memberId);
             } else {
                 showError('Council member not found. The member ID may be invalid.');
             }
@@ -431,6 +431,35 @@
             } else {
                 showError('Failed to load member data. Please try again later.', true);
             }
+        }
+    }
+
+    async function loadAllCouncilVotes(currentMemberId) {
+        // Load votes for all other council members (for filtered alignment calculation)
+        const otherMembers = councilMembers.filter(m => m.id !== parseInt(currentMemberId));
+
+        try {
+            const promises = otherMembers.map(m => CityVotesAPI.getCouncilMember(m.id));
+            const results = await Promise.all(promises);
+
+            results.forEach((data, idx) => {
+                if (data.success && data.member) {
+                    const memberId = otherMembers[idx].id;
+                    allCouncilVotes[memberId] = data.member.all_votes || data.member.recent_votes || [];
+                }
+            });
+
+            // If filters are active, recalculate alignment with loaded data
+            const hasFilters = document.getElementById('voteSearchInput').value.trim() ||
+                              document.getElementById('voteTopicFilter').value ||
+                              document.getElementById('voteYearFilter').value ||
+                              document.getElementById('voteChoiceFilter').value;
+
+            if (hasFilters) {
+                updateAlignment();
+            }
+        } catch (error) {
+            console.error('Error loading council votes for alignment:', error);
         }
     }
 
@@ -755,7 +784,7 @@
     }
 
     function updateAlignment() {
-        if (!currentMember || councilMembers.length === 0) return;
+        if (!currentMember) return;
 
         // If no filters active, use pre-computed alignment data
         const hasFilters = document.getElementById('voteSearchInput').value.trim() ||
@@ -789,34 +818,83 @@
         if (filteredMemberVotes.length === 0) {
             document.getElementById('mostAligned').innerHTML = '<p class="text-muted small">No votes match filters</p>';
             document.getElementById('leastAligned').innerHTML = '<p class="text-muted small">No votes match filters</p>';
+            updateAlignmentSummary([]);
             return;
         }
 
-        // We need to load other council members' votes to compare
-        // For now, show a message that alignment is based on all data
-        // In a full implementation, we would need to cross-reference all member votes
-
-        const memberLastName = currentMember.full_name.split(' ').pop();
-
-        // Show filtered context message
-        if (alignmentData) {
-            const pairs = alignmentData.alignment_pairs || [];
-            let memberPairs = pairs.filter(p =>
-                p.member1 === memberLastName || p.member2 === memberLastName
-            ).map(p => ({
-                otherMember: p.member1 === memberLastName ? p.member2 : p.member1,
-                agreementRate: p.agreement_rate,
-                sharedVotes: p.shared_votes,
-                agreements: p.agreements
-            }));
-
-            memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
-            displayAlignmentResults(memberPairs, true);
+        // Check if we have loaded other council members' votes
+        const otherMemberIds = Object.keys(allCouncilVotes);
+        if (otherMemberIds.length === 0) {
+            // Fall back to pre-computed alignment with note
+            const memberLastName = currentMember.full_name.split(' ').pop();
+            if (alignmentData) {
+                const pairs = alignmentData.alignment_pairs || [];
+                let memberPairs = pairs.filter(p =>
+                    p.member1 === memberLastName || p.member2 === memberLastName
+                ).map(p => ({
+                    otherMember: p.member1 === memberLastName ? p.member2 : p.member1,
+                    agreementRate: p.agreement_rate,
+                    sharedVotes: p.shared_votes,
+                    agreements: p.agreements
+                }));
+                memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
+                displayAlignmentResults(memberPairs, true, 'Loading alignment data...');
+            }
+            return;
         }
+
+        // Calculate alignment from filtered votes
+        // Get the vote_ids from the current member's filtered votes
+        const filteredVoteIds = new Set(filteredMemberVotes.map(v => v.vote_id));
+
+        // Build a map of current member's votes: vote_id -> vote_choice
+        const currentMemberChoices = {};
+        filteredMemberVotes.forEach(v => {
+            currentMemberChoices[v.vote_id] = v.vote_choice;
+        });
+
+        // Calculate alignment with each other council member
+        const memberPairs = [];
+
+        councilMembers.forEach(otherMember => {
+            if (otherMember.id === currentMember.id) return;
+
+            const otherVotes = allCouncilVotes[otherMember.id] || [];
+            let sharedVotes = 0;
+            let agreements = 0;
+
+            otherVotes.forEach(otherVote => {
+                // Only consider votes that are in the filtered set
+                if (filteredVoteIds.has(otherVote.vote_id)) {
+                    const currentChoice = currentMemberChoices[otherVote.vote_id];
+                    if (currentChoice && otherVote.vote_choice) {
+                        sharedVotes++;
+                        if (currentChoice === otherVote.vote_choice) {
+                            agreements++;
+                        }
+                    }
+                }
+            });
+
+            if (sharedVotes > 0) {
+                const agreementRate = ((agreements / sharedVotes) * 100).toFixed(1);
+                memberPairs.push({
+                    otherMember: otherMember.short_name || otherMember.full_name.split(' ').pop(),
+                    agreementRate: parseFloat(agreementRate),
+                    sharedVotes: sharedVotes,
+                    agreements: agreements
+                });
+            }
+        });
+
+        memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
+        displayAlignmentResults(memberPairs, true, `Based on ${filteredMemberVotes.length} filtered votes`);
     }
 
-    function displayAlignmentResults(memberPairs, isFiltered = false) {
-        const filterNote = isFiltered ? '<p class="text-muted small mb-2"><em>Based on all votes</em></p>' : '';
+    function displayAlignmentResults(memberPairs, isFiltered = false, filterMessage = null) {
+        const filterNote = isFiltered && filterMessage
+            ? `<p class="text-muted small mb-2"><em>${filterMessage}</em></p>`
+            : '';
 
         // Display most aligned (top 3)
         const mostAligned = memberPairs.slice(0, 3);
@@ -829,6 +907,44 @@
         document.getElementById('leastAligned').innerHTML = leastAligned.length > 0
             ? filterNote + leastAligned.map(p => createAlignmentCard(p, 'danger')).join('')
             : '<p class="text-muted small">No alignment data available</p>';
+
+        // Update alignment summary progress bar
+        updateAlignmentSummary(memberPairs);
+    }
+
+    function updateAlignmentSummary(memberPairs) {
+        const alignmentBar = document.getElementById('alignmentBar');
+        const alignmentRange = document.getElementById('alignmentRange');
+
+        if (!memberPairs || memberPairs.length === 0) {
+            alignmentBar.style.width = '0%';
+            alignmentRange.textContent = '--';
+            return;
+        }
+
+        // Get min and max alignment percentages
+        const rates = memberPairs.map(p => p.agreementRate);
+        const minRate = Math.min(...rates);
+        const maxRate = Math.max(...rates);
+        const avgRate = rates.reduce((a, b) => a + b, 0) / rates.length;
+
+        // Set progress bar to average alignment
+        alignmentBar.style.width = avgRate + '%';
+
+        // Color the bar based on average alignment
+        alignmentBar.classList.remove('bg-success', 'bg-warning', 'bg-danger');
+        if (avgRate >= 80) {
+            alignmentBar.classList.add('bg-success');
+        } else if (avgRate >= 60) {
+            alignmentBar.classList.add('bg-warning');
+        } else {
+            alignmentBar.classList.add('bg-danger');
+        }
+
+        // Show range
+        alignmentRange.textContent = minRate === maxRate
+            ? `${minRate}%`
+            : `${minRate}-${maxRate}%`;
     }
 
     function createAlignmentCard(pair, colorClass) {

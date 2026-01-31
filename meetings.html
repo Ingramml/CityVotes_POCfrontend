@@ -275,8 +275,22 @@
             });
         }
 
-        // Update meeting count
+        // Update all KPIs based on filtered meetings
         document.getElementById('totalMeetings').textContent = filteredMeetings.length;
+
+        // Calculate total votes for filtered meetings
+        const filteredTotalVotes = filteredMeetings.reduce((sum, m) => sum + (m.vote_count || 0), 0);
+        document.getElementById('totalVotes').textContent = filteredTotalVotes.toLocaleString();
+
+        // Calculate date range for filtered meetings
+        if (filteredMeetings.length > 0) {
+            const dates = filteredMeetings.map(m => new Date(m.meeting_date)).sort((a, b) => a - b);
+            const startYear = dates[0].getFullYear();
+            const endYear = dates[dates.length - 1].getFullYear();
+            document.getElementById('dateRange').textContent = startYear === endYear ? startYear : `${startYear}-${endYear}`;
+        } else {
+            document.getElementById('dateRange').textContent = '--';
+        }
 
         // Paginate
         const paginatedMeetings = filteredMeetings.slice(offset, offset + pageSize);

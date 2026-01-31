@@ -111,6 +111,7 @@
                             <option value="">All Outcomes</option>
                             <option value="PASS">Passed</option>
                             <option value="FAIL">Failed</option>
+                            <option value="SPECIAL">Special</option>
                         </select>
                     </div>
                     <div class="col-md-2">
@@ -326,6 +327,9 @@
         renderVotes(0);
     }
 
+    // Special procedural outcomes
+    const SPECIAL_OUTCOMES = ['CONTINUED', 'REMOVED', 'FLAG', 'TABLED', 'WITHDRAWN'];
+
     function renderVotes(offset = 0) {
         currentOffset = offset;
         const search = document.getElementById('searchInput').value.toLowerCase();
@@ -345,7 +349,12 @@
 
             // Outcome filter
             if (outcome) {
-                matches = matches && vote.outcome === outcome;
+                if (outcome === 'SPECIAL') {
+                    // Match any special procedural outcome
+                    matches = matches && SPECIAL_OUTCOMES.includes(vote.outcome);
+                } else {
+                    matches = matches && vote.outcome === outcome;
+                }
             }
 
             // Year filter
@@ -386,7 +395,7 @@
                         </a>
                     </td>
                     <td>
-                        <span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}" role="status">${vote.outcome === 'PASS' ? 'Passed' : 'Failed'}</span>
+                        <span class="badge ${getOutcomeBadgeClass(vote.outcome)}" role="status">${getOutcomeLabel(vote.outcome)}</span>
                     </td>
                     <td>
                         <span class="text-success">${vote.ayes}</span>-<span class="text-danger">${vote.noes}</span>-<span class="text-secondary">${vote.abstain}</span>
@@ -495,6 +504,23 @@
         if (!str) return '';
         const escaped = escapeHtml(str);
         return escaped.length > len ? escaped.substring(0, len) + '...' : escaped;
+    }
+
+    function getOutcomeBadgeClass(outcome) {
+        if (outcome === 'PASS') return 'bg-success';
+        if (outcome === 'FAIL') return 'bg-danger';
+        if (SPECIAL_OUTCOMES.includes(outcome)) return 'bg-warning text-dark';
+        return 'bg-secondary';
+    }
+
+    function getOutcomeLabel(outcome) {
+        if (outcome === 'PASS') return 'Passed';
+        if (outcome === 'FAIL') return 'Failed';
+        // For special outcomes, capitalize first letter, rest lowercase
+        if (SPECIAL_OUTCOMES.includes(outcome)) {
+            return outcome.charAt(0) + outcome.slice(1).toLowerCase();
+        }
+        return outcome || 'Unknown';
     }
     </script>
 </body>
