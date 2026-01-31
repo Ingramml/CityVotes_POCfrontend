@@ -112,7 +112,7 @@
                 <div class="card kpi-card votes h-100">
                     <div class="card-body text-center">
                         <h3 class="text-success mb-1" id="kpiVotes">--</h3>
-                        <small class="text-muted">Total Votes</small>
+                        <small class="text-muted">Matching Votes</small>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                 <div class="card h-100">
                     <div class="card-body text-center">
                         <h3 class="text-secondary mb-1" id="kpiFiltered">--</h3>
-                        <small class="text-muted">Showing</small>
+                        <small class="text-muted">Total in Database</small>
                     </div>
                 </div>
             </div>
@@ -513,15 +513,15 @@
         // Count unique meetings in filtered results
         const meetings = new Set(filteredVotes.map(v => v.meeting_date));
         document.getElementById('kpiMeetings').textContent = meetings.size.toLocaleString();
-        document.getElementById('kpiVotes').textContent = allVotes.length.toLocaleString();
+        document.getElementById('kpiVotes').textContent = filteredVotes.length.toLocaleString();
 
         // Pass rate
         const passed = filteredVotes.filter(v => v.outcome === 'PASS').length;
         const passRate = filteredVotes.length > 0 ? ((passed / filteredVotes.length) * 100).toFixed(1) : 0;
         document.getElementById('kpiPassRate').textContent = passRate + '%';
 
-        // Filtered count
-        document.getElementById('kpiFiltered').textContent = filteredVotes.length.toLocaleString();
+        // Total in database for context
+        document.getElementById('kpiFiltered').textContent = allVotes.length.toLocaleString();
     }
 
     function updateSortIcons() {

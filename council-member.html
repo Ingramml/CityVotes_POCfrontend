@@ -28,8 +28,10 @@
     <style>
         .alignment-card { transition: transform 0.2s; }
         .alignment-card:hover { transform: translateY(-2px); }
-        .alignment-bar { height: 8px; border-radius: 4px; }
         .filter-section { background-color: #f8f9fa; border-radius: 8px; }
+        .collapse-toggle { cursor: pointer; }
+        .collapse-toggle .fa-chevron-down { transition: transform 0.2s; }
+        .collapse-toggle.collapsed .fa-chevron-down { transform: rotate(-90deg); }
     </style>
 </head>
 <body>
@@ -123,13 +125,13 @@
                 </div>
             </div>
 
-            <!-- Stats Cards -->
+            <!-- Stats Cards (filtered stats) -->
             <div class="row mb-4">
                 <div class="col-md-3 col-6 mb-3">
                     <div class="card text-center h-100">
                         <div class="card-body">
                             <h3 class="text-primary" id="statTotalVotes">--</h3>
-                            <small class="text-muted">Total Votes</small>
+                            <small class="text-muted">Matching Votes</small>
                         </div>
                     </div>
                 </div>
@@ -159,66 +161,9 @@
                 </div>
             </div>
 
-            <!-- Vote Breakdown Chart -->
-            <div class="row mb-4">
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Vote Breakdown</h5>
-                        </div>
-                        <div class="card-body">
-                            <canvas id="voteChart" role="img" aria-label="Doughnut chart showing vote breakdown"></canvas>
-                            <div id="voteChartDescription" class="visually-hidden" aria-live="polite"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Voting Statistics</h5>
-                        </div>
-                        <div class="card-body" id="voteStats">
-                            <!-- Stats will be populated -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Voting Alignment Section -->
-            <div class="card mb-4" id="alignmentSection">
-                <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2">
-                    <h5 class="mb-0"><i class="fas fa-users me-2"></i>Voting Alignment</h5>
-                    <div class="d-flex gap-2 align-items-center">
-                        <select class="form-select form-select-sm" id="alignmentYearFilter" style="width: auto;" aria-label="Filter alignment by year">
-                            <option value="">All Years</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <h6 class="text-success"><i class="fas fa-thumbs-up me-2"></i>Most Aligned With</h6>
-                            <div id="mostAligned">
-                                <div class="text-muted small">Loading...</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <h6 class="text-danger"><i class="fas fa-thumbs-down me-2"></i>Least Aligned With</h6>
-                            <div id="leastAligned">
-                                <div class="text-muted small">Loading...</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Vote History with Filters -->
-            <div class="card">
-                <div class="card-header">
-                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Vote History</h5>
-                </div>
-                <!-- Filter Section -->
-                <div class="card-body filter-section border-bottom">
+            <!-- Filters Section -->
+            <div class="card mb-4">
+                <div class="card-body filter-section">
                     <div class="row g-2 align-items-end">
                         <div class="col-md-4">
                             <label for="voteSearchInput" class="form-label small text-muted mb-1">Search Votes</label>
@@ -257,31 +202,95 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-body py-2">
-                    <small class="text-muted" id="votesShowing">Loading...</small>
+            </div>
+
+            <!-- Vote History and Alignment Side by Side -->
+            <div class="row mb-4">
+                <!-- Vote History Table -->
+                <div class="col-lg-8 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-history me-2"></i>Vote History</h5>
+                        </div>
+                        <div class="card-body py-2">
+                            <small class="text-muted" id="votesShowing">Loading...</small>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Item</th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Vote</th>
+                                        <th scope="col">Outcome</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="recentVotesTable">
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- Pagination -->
+                        <div class="card-footer" id="votePaginationContainer" style="display: none;">
+                            <nav>
+                                <ul class="pagination pagination-sm justify-content-center mb-0" id="votePagination">
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
-                <div class="table-responsive">
-                    <table class="table table-hover mb-0">
-                        <thead class="table-light">
-                            <tr>
-                                <th scope="col">Date</th>
-                                <th scope="col">Item</th>
-                                <th scope="col">Title</th>
-                                <th scope="col">Topic</th>
-                                <th scope="col">Vote</th>
-                                <th scope="col">Outcome</th>
-                            </tr>
-                        </thead>
-                        <tbody id="recentVotesTable">
-                        </tbody>
-                    </table>
+
+                <!-- Voting Alignment (Collapsible) -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header collapse-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#alignmentContent" aria-expanded="false" aria-controls="alignmentContent">
+                            <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-users me-2"></i>Voting Alignment</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="alignmentContent">
+                            <div class="card-body">
+                                <div class="mb-4">
+                                    <h6 class="text-success"><i class="fas fa-thumbs-up me-2"></i>Most Aligned</h6>
+                                    <div id="mostAligned">
+                                        <div class="text-muted small">Loading...</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="text-danger"><i class="fas fa-thumbs-down me-2"></i>Least Aligned</h6>
+                                    <div id="leastAligned">
+                                        <div class="text-muted small">Loading...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Pagination for all votes -->
-                <div class="card-footer" id="votePaginationContainer" style="display: none;">
-                    <nav>
-                        <ul class="pagination pagination-sm justify-content-center mb-0" id="votePagination">
-                        </ul>
-                    </nav>
+            </div>
+
+            <!-- Vote Breakdown Charts (Bottom) -->
+            <div class="row mb-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Vote Breakdown</h5>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="voteChart" role="img" aria-label="Doughnut chart showing vote breakdown"></canvas>
+                            <div id="voteChartDescription" class="visually-hidden" aria-live="polite"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Voting Statistics</h5>
+                        </div>
+                        <div class="card-body" id="voteStats">
+                            <!-- Stats will be populated -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -326,7 +335,8 @@
     let availableYears = [];
     let availableTopics = [];
     let voteCurrentOffset = 0;
-    const votePageSize = 20;
+    const votePageSize = 15;
+    let voteChart = null;
 
     document.addEventListener('DOMContentLoaded', async function() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -348,7 +358,7 @@
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(() => {
                 voteCurrentOffset = 0;
-                filterAndDisplayVotes();
+                filterAndUpdateAll();
             }, 300);
         });
 
@@ -356,7 +366,7 @@
         ['voteTopicFilter', 'voteYearFilter', 'voteChoiceFilter'].forEach(id => {
             document.getElementById(id).addEventListener('change', function() {
                 voteCurrentOffset = 0;
-                filterAndDisplayVotes();
+                filterAndUpdateAll();
             });
         });
 
@@ -367,12 +377,7 @@
             document.getElementById('voteYearFilter').value = '';
             document.getElementById('voteChoiceFilter').value = '';
             voteCurrentOffset = 0;
-            filterAndDisplayVotes();
-        });
-
-        // Alignment year filter
-        document.getElementById('alignmentYearFilter').addEventListener('change', function() {
-            displayAlignment();
+            filterAndUpdateAll();
         });
 
         // Vote pagination
@@ -383,9 +388,15 @@
                 const offset = parseInt(link.getAttribute('data-offset'), 10);
                 if (!isNaN(offset) && offset >= 0) {
                     voteCurrentOffset = offset;
-                    filterAndDisplayVotes();
+                    displayVotes();
+                    updateVotePagination();
                 }
             }
+        });
+
+        // Collapse toggle icon rotation
+        document.querySelector('.collapse-toggle').addEventListener('click', function() {
+            this.classList.toggle('collapsed');
         });
     }
 
@@ -404,9 +415,9 @@
                 alignmentData = alignmentResponse;
                 councilMembers = councilResponse.council_members || [];
 
-                displayMember(currentMember);
+                displayMemberHeader(currentMember);
                 populateFilterDropdowns();
-                filterAndDisplayVotes();
+                filterAndUpdateAll();
                 displayAlignment();
             } else {
                 showError('Council member not found. The member ID may be invalid.');
@@ -425,7 +436,7 @@
         }
     }
 
-    function displayMember(member) {
+    function displayMemberHeader(member) {
         document.getElementById('loadingState').style.display = 'none';
         document.getElementById('memberProfile').style.display = 'block';
 
@@ -440,86 +451,6 @@
             const end = member.end_date ? new Date(member.end_date).getFullYear() : 'Present';
             document.getElementById('memberTerm').textContent = `Term: ${start} - ${end}`;
         }
-
-        // Stats
-        const stats = member.stats;
-        document.getElementById('statTotalVotes').textContent = stats.total_votes.toLocaleString();
-        document.getElementById('statAyeRate').textContent = stats.aye_percentage + '%';
-        document.getElementById('statParticipation').textContent = stats.participation_rate + '%';
-        document.getElementById('statAbsent').textContent = stats.absent_count;
-
-        // Vote breakdown stats
-        document.getElementById('voteStats').innerHTML = `
-            <div class="mb-3">
-                <div class="d-flex justify-content-between mb-1">
-                    <span><i class="fas fa-check text-success me-2"></i>Aye</span>
-                    <strong>${stats.aye_count}</strong>
-                </div>
-                <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-success" style="width: ${stats.aye_percentage}%"></div>
-                </div>
-            </div>
-            <div class="mb-3">
-                <div class="d-flex justify-content-between mb-1">
-                    <span><i class="fas fa-times text-danger me-2"></i>Nay</span>
-                    <strong>${stats.nay_count}</strong>
-                </div>
-                <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-danger" style="width: ${(stats.nay_count / stats.total_votes * 100).toFixed(1)}%"></div>
-                </div>
-            </div>
-            <div class="mb-3">
-                <div class="d-flex justify-content-between mb-1">
-                    <span><i class="fas fa-minus text-warning me-2"></i>Abstain</span>
-                    <strong>${stats.abstain_count}</strong>
-                </div>
-                <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-warning" style="width: ${(stats.abstain_count / stats.total_votes * 100).toFixed(1)}%"></div>
-                </div>
-            </div>
-            <div class="mb-3">
-                <div class="d-flex justify-content-between mb-1">
-                    <span><i class="fas fa-user-slash text-secondary me-2"></i>Absent</span>
-                    <strong>${stats.absent_count}</strong>
-                </div>
-                <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-secondary" style="width: ${(stats.absent_count / stats.total_votes * 100).toFixed(1)}%"></div>
-                </div>
-            </div>
-            ${stats.recusal_count > 0 ? `
-            <div class="mb-3">
-                <div class="d-flex justify-content-between mb-1">
-                    <span><i class="fas fa-ban text-info me-2"></i>Recusal</span>
-                    <strong>${stats.recusal_count}</strong>
-                </div>
-            </div>
-            ` : ''}
-        `;
-
-        // Chart with accessibility description
-        new Chart(document.getElementById('voteChart'), {
-            type: 'doughnut',
-            data: {
-                labels: ['Aye', 'Nay', 'Abstain', 'Absent'],
-                datasets: [{
-                    data: [stats.aye_count, stats.nay_count, stats.abstain_count, stats.absent_count],
-                    backgroundColor: ['#28a745', '#dc3545', '#ffc107', '#6c757d']
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-
-        // Update accessible chart description
-        document.getElementById('voteChartDescription').textContent =
-            `Vote breakdown: ${stats.aye_count} Aye votes (${stats.aye_percentage}%), ` +
-            `${stats.nay_count} Nay votes, ${stats.abstain_count} Abstain, ${stats.absent_count} Absent.`;
     }
 
     function populateFilterDropdowns() {
@@ -539,19 +470,13 @@
         availableYears = Array.from(years).sort((a, b) => b - a);
         availableTopics = Array.from(topics).sort();
 
-        // Populate year dropdowns
+        // Populate year dropdown
         const voteYearSelect = document.getElementById('voteYearFilter');
-        const alignmentYearSelect = document.getElementById('alignmentYearFilter');
         availableYears.forEach(year => {
-            const option1 = document.createElement('option');
-            option1.value = year;
-            option1.textContent = year;
-            voteYearSelect.appendChild(option1);
-
-            const option2 = document.createElement('option');
-            option2.value = year;
-            option2.textContent = year;
-            alignmentYearSelect.appendChild(option2);
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            voteYearSelect.appendChild(option);
         });
 
         // Populate topic dropdown
@@ -564,7 +489,7 @@
         });
     }
 
-    function filterAndDisplayVotes() {
+    function filterAndUpdateAll() {
         const search = document.getElementById('voteSearchInput').value.trim().toLowerCase();
         const topic = document.getElementById('voteTopicFilter').value;
         const year = document.getElementById('voteYearFilter').value;
@@ -593,9 +518,110 @@
             return true;
         });
 
-        // Display votes
+        // Update all sections based on filtered data
+        updateStats();
         displayVotes();
         updateVotePagination();
+        updateCharts();
+    }
+
+    function updateStats() {
+        // Calculate stats from filtered votes
+        const total = filteredMemberVotes.length;
+        const ayeCount = filteredMemberVotes.filter(v => v.vote_choice === 'AYE').length;
+        const nayCount = filteredMemberVotes.filter(v => v.vote_choice === 'NAY').length;
+        const abstainCount = filteredMemberVotes.filter(v => v.vote_choice === 'ABSTAIN').length;
+        const absentCount = filteredMemberVotes.filter(v => v.vote_choice === 'ABSENT').length;
+        const participated = total - absentCount;
+
+        const ayeRate = total > 0 ? ((ayeCount / total) * 100).toFixed(1) : 0;
+        const participationRate = total > 0 ? ((participated / total) * 100).toFixed(1) : 0;
+
+        document.getElementById('statTotalVotes').textContent = total.toLocaleString();
+        document.getElementById('statAyeRate').textContent = ayeRate + '%';
+        document.getElementById('statParticipation').textContent = participationRate + '%';
+        document.getElementById('statAbsent').textContent = absentCount;
+    }
+
+    function updateCharts() {
+        // Calculate stats from filtered votes
+        const total = filteredMemberVotes.length;
+        const ayeCount = filteredMemberVotes.filter(v => v.vote_choice === 'AYE').length;
+        const nayCount = filteredMemberVotes.filter(v => v.vote_choice === 'NAY').length;
+        const abstainCount = filteredMemberVotes.filter(v => v.vote_choice === 'ABSTAIN').length;
+        const absentCount = filteredMemberVotes.filter(v => v.vote_choice === 'ABSENT').length;
+
+        const ayePercentage = total > 0 ? ((ayeCount / total) * 100).toFixed(1) : 0;
+
+        // Update vote stats display
+        document.getElementById('voteStats').innerHTML = `
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-check text-success me-2"></i>Aye</span>
+                    <strong>${ayeCount}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-success" style="width: ${ayePercentage}%"></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-times text-danger me-2"></i>Nay</span>
+                    <strong>${nayCount}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-danger" style="width: ${total > 0 ? (nayCount / total * 100).toFixed(1) : 0}%"></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-minus text-warning me-2"></i>Abstain</span>
+                    <strong>${abstainCount}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-warning" style="width: ${total > 0 ? (abstainCount / total * 100).toFixed(1) : 0}%"></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                    <span><i class="fas fa-user-slash text-secondary me-2"></i>Absent</span>
+                    <strong>${absentCount}</strong>
+                </div>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-secondary" style="width: ${total > 0 ? (absentCount / total * 100).toFixed(1) : 0}%"></div>
+                </div>
+            </div>
+        `;
+
+        // Destroy existing chart if exists
+        if (voteChart) {
+            voteChart.destroy();
+        }
+
+        // Create new chart
+        voteChart = new Chart(document.getElementById('voteChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Aye', 'Nay', 'Abstain', 'Absent'],
+                datasets: [{
+                    data: [ayeCount, nayCount, abstainCount, absentCount],
+                    backgroundColor: ['#28a745', '#dc3545', '#ffc107', '#6c757d']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        // Update accessible chart description
+        document.getElementById('voteChartDescription').textContent =
+            `Vote breakdown: ${ayeCount} Aye votes (${ayePercentage}%), ` +
+            `${nayCount} Nay votes, ${abstainCount} Abstain, ${absentCount} Absent.`;
     }
 
     function displayVotes() {
@@ -605,7 +631,7 @@
         if (pageVotes.length === 0) {
             votesTable.innerHTML = `
                 <tr>
-                    <td colspan="6" class="text-center py-4 text-muted">
+                    <td colspan="5" class="text-center py-4 text-muted">
                         <i class="fas fa-search fa-2x mb-2"></i>
                         <p class="mb-0">No votes match your filters</p>
                     </td>
@@ -622,8 +648,7 @@
             <tr>
                 <td><small>${formatDate(vote.meeting_date)}</small></td>
                 <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number)}</span></td>
-                <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${highlightSearch(truncate(vote.title, 50), search)}</a></td>
-                <td><span class="badge bg-secondary">${escapeHtml(vote.section || '-')}</span></td>
+                <td><a href="vote-detail.html?id=${vote.vote_id}" class="text-decoration-none">${highlightSearch(truncate(vote.title, 40), search)}</a></td>
                 <td>${getVoteBadge(vote.vote_choice)}</td>
                 <td><span class="badge ${vote.outcome === 'PASS' ? 'bg-success' : 'bg-danger'}" role="status">${vote.outcome === 'PASS' ? 'Passed' : 'Failed'}</span></td>
             </tr>
