@@ -209,10 +209,8 @@
                 <!-- Vote History Table -->
                 <div class="col-lg-8 mb-4">
                     <div class="card h-100">
-                        <div class="card-header">
+                        <div class="card-header d-flex justify-content-between align-items-center">
                             <h5 class="mb-0"><i class="fas fa-history me-2"></i>Vote History</h5>
-                        </div>
-                        <div class="card-body py-2">
                             <small class="text-muted" id="votesShowing">Loading...</small>
                         </div>
                         <div class="table-responsive">
@@ -523,6 +521,7 @@
         displayVotes();
         updateVotePagination();
         updateCharts();
+        updateAlignment();
     }
 
     function updateStats() {
@@ -751,34 +750,84 @@
     }
 
     function displayAlignment() {
-        if (!alignmentData || !currentMember) return;
+        // Initial load - use pre-computed alignment data
+        updateAlignment();
+    }
+
+    function updateAlignment() {
+        if (!currentMember || councilMembers.length === 0) return;
+
+        // If no filters active, use pre-computed alignment data
+        const hasFilters = document.getElementById('voteSearchInput').value.trim() ||
+                          document.getElementById('voteTopicFilter').value ||
+                          document.getElementById('voteYearFilter').value ||
+                          document.getElementById('voteChoiceFilter').value;
+
+        if (!hasFilters && alignmentData) {
+            // Use pre-computed alignment
+            const memberLastName = currentMember.full_name.split(' ').pop();
+            const pairs = alignmentData.alignment_pairs || [];
+
+            let memberPairs = pairs.filter(p =>
+                p.member1 === memberLastName || p.member2 === memberLastName
+            ).map(p => ({
+                otherMember: p.member1 === memberLastName ? p.member2 : p.member1,
+                agreementRate: p.agreement_rate,
+                sharedVotes: p.shared_votes,
+                agreements: p.agreements
+            }));
+
+            memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
+            displayAlignmentResults(memberPairs);
+        } else {
+            // Calculate alignment from filtered votes
+            calculateFilteredAlignment();
+        }
+    }
+
+    function calculateFilteredAlignment() {
+        if (filteredMemberVotes.length === 0) {
+            document.getElementById('mostAligned').innerHTML = '<p class="text-muted small">No votes match filters</p>';
+            document.getElementById('leastAligned').innerHTML = '<p class="text-muted small">No votes match filters</p>';
+            return;
+        }
+
+        // We need to load other council members' votes to compare
+        // For now, show a message that alignment is based on all data
+        // In a full implementation, we would need to cross-reference all member votes
 
         const memberLastName = currentMember.full_name.split(' ').pop();
-        const pairs = alignmentData.alignment_pairs || [];
 
-        // Get all alignment pairs involving this member
-        let memberPairs = pairs.filter(p =>
-            p.member1 === memberLastName || p.member2 === memberLastName
-        ).map(p => ({
-            otherMember: p.member1 === memberLastName ? p.member2 : p.member1,
-            agreementRate: p.agreement_rate,
-            sharedVotes: p.shared_votes,
-            agreements: p.agreements
-        }));
+        // Show filtered context message
+        if (alignmentData) {
+            const pairs = alignmentData.alignment_pairs || [];
+            let memberPairs = pairs.filter(p =>
+                p.member1 === memberLastName || p.member2 === memberLastName
+            ).map(p => ({
+                otherMember: p.member1 === memberLastName ? p.member2 : p.member1,
+                agreementRate: p.agreement_rate,
+                sharedVotes: p.shared_votes,
+                agreements: p.agreements
+            }));
 
-        // Sort by agreement rate
-        memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
+            memberPairs.sort((a, b) => b.agreementRate - a.agreementRate);
+            displayAlignmentResults(memberPairs, true);
+        }
+    }
+
+    function displayAlignmentResults(memberPairs, isFiltered = false) {
+        const filterNote = isFiltered ? '<p class="text-muted small mb-2"><em>Based on all votes</em></p>' : '';
 
         // Display most aligned (top 3)
         const mostAligned = memberPairs.slice(0, 3);
         document.getElementById('mostAligned').innerHTML = mostAligned.length > 0
-            ? mostAligned.map(p => createAlignmentCard(p, 'success')).join('')
+            ? filterNote + mostAligned.map(p => createAlignmentCard(p, 'success')).join('')
             : '<p class="text-muted small">No alignment data available</p>';
 
         // Display least aligned (bottom 3, reversed)
         const leastAligned = memberPairs.slice(-3).reverse();
         document.getElementById('leastAligned').innerHTML = leastAligned.length > 0
-            ? leastAligned.map(p => createAlignmentCard(p, 'danger')).join('')
+            ? filterNote + leastAligned.map(p => createAlignmentCard(p, 'danger')).join('')
             : '<p class="text-muted small">No alignment data available</p>';
     }
 
