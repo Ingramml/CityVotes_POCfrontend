@@ -148,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-6">
-                        <label for="topicFilter" class="form-label small text-muted mb-1">Topic/Section</label>
+                        <label for="topicFilter" class="form-label small text-muted mb-1">Topic</label>
                         <select class="form-select" id="topicFilter" aria-label="Filter by topic">
                             <option value="">All Topics</option>
                         </select>
@@ -199,8 +199,8 @@
                             <th scope="col" class="sortable" data-sort="title">
                                 Title <i class="fas fa-sort sort-icon"></i>
                             </th>
-                            <th scope="col" class="sortable" data-sort="section">
-                                Topic <i class="fas fa-sort sort-icon"></i>
+                            <th scope="col">
+                                Topic
                             </th>
                             <th scope="col" class="sortable" data-sort="meeting_type">
                                 Type <i class="fas fa-sort sort-icon"></i>
@@ -279,18 +279,33 @@
 
             // Extract unique years
             const years = new Set();
-            const topics = new Set();
             allVotes.forEach(vote => {
                 if (vote.meeting_date) {
                     years.add(new Date(vote.meeting_date).getFullYear());
                 }
-                if (vote.section) {
-                    topics.add(vote.section);
-                }
             });
 
             availableYears = Array.from(years).sort((a, b) => b - a);
-            availableTopics = Array.from(topics).sort();
+
+            // Use standard topic list (same as votes page and council member page)
+            availableTopics = [
+                'Appointments',
+                'Budget & Finance',
+                'Community Services',
+                'Contracts & Agreements',
+                'Economic Development',
+                'Grants',
+                'Housing',
+                'Infrastructure',
+                'Ordinances & Resolutions',
+                'Parks & Recreation',
+                'Planning & Development',
+                'Property & Real Estate',
+                'Public Safety',
+                'Public Works',
+                'Transportation',
+                'General'
+            ];
 
             // Populate dropdowns
             populateYearDropdown();
@@ -452,8 +467,11 @@
                 if (voteYear !== parseInt(year)) return false;
             }
 
-            // Topic filter
-            if (topic && vote.section !== topic) return false;
+            // Topic filter - check if selected topic is in vote's topics array
+            if (topic) {
+                const voteTopics = vote.topics || [];
+                if (!voteTopics.includes(topic)) return false;
+            }
 
             // Meeting type filter
             if (meetingType && vote.meeting_type !== meetingType) return false;
@@ -464,9 +482,9 @@
             // Search filter
             if (search) {
                 const title = (vote.title || '').toLowerCase();
-                const section = (vote.section || '').toLowerCase();
+                const topicsStr = (vote.topics || []).join(' ').toLowerCase();
                 const itemNumber = (vote.item_number || '').toLowerCase();
-                if (!title.includes(search) && !section.includes(search) && !itemNumber.includes(search)) {
+                if (!title.includes(search) && !topicsStr.includes(search) && !itemNumber.includes(search)) {
                     return false;
                 }
             }
@@ -567,7 +585,7 @@
                         ${highlightSearch(truncate(vote.title, 60), search)}
                     </a>
                 </td>
-                <td><span class="badge bg-secondary">${escapeHtml(vote.section || '-')}</span></td>
+                <td><span class="badge bg-secondary">${escapeHtml((vote.topics || []).slice(0, 2).join(', ') || '-')}</span></td>
                 <td><span class="text-muted small">${capitalizeFirst(vote.meeting_type || 'regular')}</span></td>
                 <td>${getOutcomeBadge(vote.outcome)}</td>
                 <td>
