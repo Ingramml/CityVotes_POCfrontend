@@ -145,12 +145,13 @@
                             <th scope="col">Title</th>
                             <th scope="col">Outcome</th>
                             <th scope="col">Tally</th>
+                            <th scope="col">Documents</th>
                             <th scope="col"><span class="visually-hidden">Actions</span></th>
                         </tr>
                     </thead>
                     <tbody id="votesTable">
                         <tr>
-                            <td colspan="6" class="text-center py-4">
+                            <td colspan="7" class="text-center py-4">
                                 <div class="spinner-border text-primary" role="status">
                                     <span class="visually-hidden">Loading...</span>
                                 </div>
@@ -195,6 +196,7 @@
     let allVotes = [];
     let votesCache = {}; // Cache votes by year for performance
     let availableYears = [];
+    let meetingsData = {}; // Map of meeting_date -> meeting info (agenda, minutes, video URLs)
     const pageSize = 20;
     let currentOffset = 0;
     let currentYear = null;
@@ -220,6 +222,18 @@
 
     async function initializeVotes() {
         try {
+            // Load meetings data for agenda/minutes/video links
+            const meetings = await CityVotesAPI.getMeetings();
+            if (meetings.success) {
+                meetings.meetings.forEach(m => {
+                    meetingsData[m.meeting_date] = {
+                        agenda_url: m.agenda_url,
+                        minutes_url: m.minutes_url,
+                        video_url: m.video_url
+                    };
+                });
+            }
+
             // First load the index to get available years
             const indexData = await CityVotesAPI.getVotesIndex();
             availableYears = indexData.available_years;
@@ -420,14 +434,16 @@
         if (paginatedVotes.length === 0) {
             table.innerHTML = `
                 <tr>
-                    <td colspan="6" class="text-center py-4 text-muted">
+                    <td colspan="7" class="text-center py-4 text-muted">
                         <i class="fas fa-search fa-2x mb-2"></i>
                         <p class="mb-0">No votes found matching your criteria</p>
                     </td>
                 </tr>
             `;
         } else {
-            table.innerHTML = paginatedVotes.map(vote => `
+            table.innerHTML = paginatedVotes.map(vote => {
+                const meeting = meetingsData[vote.meeting_date] || {};
+                return `
                 <tr>
                     <td>
                         <small>${formatDate(vote.meeting_date)}</small>
@@ -450,13 +466,19 @@
                             : `<span class="text-success">${vote.ayes}</span>-<span class="text-danger">${vote.noes}</span>-<span class="text-secondary">${vote.abstain}</span>`}
                     </td>
                     <td>
+                        ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="btn btn-sm btn-outline-secondary me-1" title="View Agenda"><i class="fas fa-file-alt"></i></a>` : ''}
+                        ${meeting.minutes_url ? `<a href="${meeting.minutes_url}" target="_blank" class="btn btn-sm btn-outline-secondary me-1" title="View Minutes"><i class="fas fa-clipboard-list"></i></a>` : ''}
+                        ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="btn btn-sm btn-outline-danger" title="Watch Video"><i class="fas fa-video"></i></a>` : ''}
+                        ${!meeting.agenda_url && !meeting.minutes_url && !meeting.video_url ? '<span class="text-muted">-</span>' : ''}
+                    </td>
+                    <td>
                         <a href="vote-detail.html?id=${vote.id}" class="btn btn-sm btn-outline-primary" aria-label="View details for vote ${vote.item_number}" title="View details">
                             <i class="fas fa-eye" aria-hidden="true"></i>
                             <span class="visually-hidden">View vote details</span>
                         </a>
                     </td>
                 </tr>
-            `).join('');
+            `}).join('');
         }
 
         document.getElementById('resultsCount').textContent =
