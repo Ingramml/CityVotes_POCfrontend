@@ -91,13 +91,19 @@
         <div class="card mb-4">
             <div class="card-body">
                 <div class="row g-3">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <label for="searchInput" class="visually-hidden">Search votes</label>
                         <div class="input-group">
                             <span class="input-group-text" aria-hidden="true"><i class="fas fa-search"></i></span>
-                            <input type="text" class="form-control" id="searchInput" placeholder="Search titles and descriptions..." aria-label="Search titles and descriptions">
+                            <input type="text" class="form-control" id="searchInput" placeholder="Search titles..." aria-label="Search titles and descriptions">
                             <button class="btn btn-primary" onclick="searchVotes()" type="button">Search</button>
                         </div>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="topicFilter" class="visually-hidden">Filter by topic</label>
+                        <select class="form-select" id="topicFilter" onchange="searchVotes()" aria-label="Filter by topic">
+                            <option value="">All Topics</option>
+                        </select>
                     </div>
                     <div class="col-md-2">
                         <label for="yearFilter" class="visually-hidden">Filter by year</label>
@@ -105,7 +111,7 @@
                             <option value="">All Years</option>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <label for="outcomeFilter" class="visually-hidden">Filter by outcome</label>
                         <select class="form-select" id="outcomeFilter" onchange="searchVotes()" aria-label="Filter by outcome">
                             <option value="">All Outcomes</option>
@@ -116,7 +122,7 @@
                     </div>
                     <div class="col-md-2">
                         <button class="btn btn-outline-secondary w-100" onclick="clearFilters()" type="button">
-                            <i class="fas fa-times me-1" aria-hidden="true"></i>Clear Filters
+                            <i class="fas fa-times me-1" aria-hidden="true"></i>Clear
                         </button>
                     </div>
                 </div>
@@ -228,6 +234,9 @@
                 yearSelect.appendChild(option);
             });
 
+            // Populate topic dropdown
+            populateTopicDropdown();
+
             // Load only the selected year (or most recent if none selected)
             const yearToLoad = currentYear || availableYears[0];
             await loadVotesForYear(yearToLoad);
@@ -317,6 +326,7 @@
 
     async function clearFilters() {
         document.getElementById('searchInput').value = '';
+        document.getElementById('topicFilter').value = '';
         document.getElementById('outcomeFilter').value = '';
         document.getElementById('yearFilter').value = '';
         currentYear = null;
@@ -327,12 +337,43 @@
         renderVotes(0);
     }
 
+    // Available topics (sorted alphabetically, General last)
+    const AVAILABLE_TOPICS = [
+        'Appointments',
+        'Budget & Finance',
+        'Community Services',
+        'Contracts & Agreements',
+        'Economic Development',
+        'Grants',
+        'Housing',
+        'Infrastructure',
+        'Ordinances & Resolutions',
+        'Parks & Recreation',
+        'Planning & Development',
+        'Property & Real Estate',
+        'Public Safety',
+        'Public Works',
+        'Transportation',
+        'General'
+    ];
+
+    function populateTopicDropdown() {
+        const topicSelect = document.getElementById('topicFilter');
+        AVAILABLE_TOPICS.forEach(topic => {
+            const option = document.createElement('option');
+            option.value = topic;
+            option.textContent = topic;
+            topicSelect.appendChild(option);
+        });
+    }
+
     // Special procedural outcomes
     const SPECIAL_OUTCOMES = ['CONTINUED', 'REMOVED', 'FLAG', 'TABLED', 'WITHDRAWN'];
 
     function renderVotes(offset = 0) {
         currentOffset = offset;
         const search = document.getElementById('searchInput').value.toLowerCase();
+        const topic = document.getElementById('topicFilter').value;
         const outcome = document.getElementById('outcomeFilter').value;
         const year = document.getElementById('yearFilter').value;
 
@@ -345,6 +386,12 @@
                 const titleMatch = vote.title && vote.title.toLowerCase().includes(search);
                 const descMatch = vote.description && vote.description.toLowerCase().includes(search);
                 matches = matches && (titleMatch || descMatch);
+            }
+
+            // Topic filter
+            if (topic) {
+                const voteTopics = vote.topics || [];
+                matches = matches && voteTopics.includes(topic);
             }
 
             // Outcome filter
