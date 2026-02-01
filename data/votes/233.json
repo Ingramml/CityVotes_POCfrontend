@@ -4,7 +4,7 @@
     "id": 233,
     "item_number": "22",
     "title": "22.Agreement with Blue Technologies Smart Solutions for Access and Support \nServices for iManage Data Management Systems ",
-    "description": "Department(s): City Attorney's Office \nRecommended Action: Authorize the City Manager to execute a three-year \nagreement with Blue Technologies Smart Solutions (\u00a1BlueTech\") for continued \naccess and support services for the iManage Data Management Systems \n(\"iManage\") for the period of August 1, 2024 through July 31, 2027 in the amount of \n$128,529, which includes the annual billing amount of $36,843 for the iManage \nSystem and a contingency amount of $18,000 to pay for additional \nsupport/maintenance and training services as directed by the City (Agreement No. \nA-2024-103).",
+    "description": "Department(s): City Attorney's Office \nRecommended Action: Authorize the City Manager to execute a three-year \nagreement with Blue Technologies Smart Solutions (¡BlueTech\") for continued \naccess and support services for the iManage Data Management Systems \n(\"iManage\") for the period of August 1, 2024 through July 31, 2027 in the amount of \n$128,529, which includes the annual billing amount of $36,843 for the iManage \nSystem and a contingency amount of $18,000 to pay for additional \nsupport/maintenance and training services as directed by the City (Agreement No. \nA-2024-103).",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,10 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Infrastructure",
+      "Contracts & Agreements"
     ]
   }
 }

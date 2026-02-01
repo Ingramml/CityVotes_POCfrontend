@@ -3,7 +3,7 @@
   "vote": {
     "id": 125,
     "item_number": "26",
-    "title": "26.Adopt an Ordinance of the City Council of The City of Santa Ana Amending \nChapter 2 of The City of Santa Ana Municipal Code (Administration), Article \nIV (Officers, Departments, Boards and Commissions), Division 15 Relating to \nEmergency Services Section 2-643 \u00d1 Definitions (Second Reading) \nLegal notice was published in the OC Reporter on April 10, 2024. ",
+    "title": "26.Adopt an Ordinance of the City Council of The City of Santa Ana Amending \nChapter 2 of The City of Santa Ana Municipal Code (Administration), Article \nIV (Officers, Departments, Boards and Commissions), Division 15 Relating to \nEmergency Services Section 2-643 Ñ Definitions (Second Reading) \nLegal notice was published in the OC Reporter on April 10, 2024. ",
     "description": "Department(s): Finance and Management Services \nRecommended Action: Conduct a second reading and adopt an Ordinance to \nexpand the definition of an emergency in the Santa Ana Municipal Code. \nORDINANCE NO. NS-3062 AN ORDINANCE OF THE CITY COUNCIL OF THE \nCITY OF SANTA ANA AMENDING CHAPTER 2 OF THE SANTA ANA MUNICIPAL \nCODE (ADMINISTRATION), ARTICLE IV (OFFICERS, DEPARTMENTS, \nBOARDS AND COMMISSIONS), DIVISION 15 RELATING TO EMERGENCY \nSERVICES, SECTION 2-643 - DEFINITIONS ",
     "outcome": "PASS",
     "ayes": 7,
@@ -49,6 +49,11 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Public Safety",
+      "Appointments",
+      "Ordinances & Resolutions"
     ]
   }
 }

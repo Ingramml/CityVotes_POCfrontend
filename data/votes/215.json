@@ -3,7 +3,7 @@
   "vote": {
     "id": 215,
     "item_number": "5",
-    "title": "AGENDA ITEM NO. 5 \u00d1 CONTINUED TO THE AUGUST 6, 2024 CITY COUNCIL \nMEETING \n5. Appoint Joshua Jogwe Nominated by Mayor Pro Tom Phan as the Ward 1 \nRepresentative to the Parks and Recreation Commission for a Partial Term \nExpiring December 10, 2024",
+    "title": "AGENDA ITEM NO. 5 Ñ CONTINUED TO THE AUGUST 6, 2024 CITY COUNCIL \nMEETING \n5. Appoint Joshua Jogwe Nominated by Mayor Pro Tom Phan as the Ward 1 \nRepresentative to the Parks and Recreation Commission for a Partial Term \nExpiring December 10, 2024",
     "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Joshua Jogwe to the Parks and Recreation \nCommission as the Ward 1 representative and administer the Oath of \nOffice. (Pursuant to SAMC Sec. 2-326(a), requires five affirmative votes) ",
     "outcome": "CONTINUED",
     "ayes": 7,
@@ -49,6 +49,10 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Parks & Recreation",
+      "Appointments"
     ]
   }
 }

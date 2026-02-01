@@ -4,7 +4,7 @@
     "id": 343,
     "item_number": "19",
     "title": "19.Amendments to the Memorandums of Understanding between the City of \nSanta Ana and the Confidential Association of Santa Ana (CASA), the Santa \nAna Management Association (SAMA), and the Service Employees \nInternational Union Local 721 (SEIU) ",
-    "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute the amendments \nto the Memorandums of Understanding (MOU) of three labor groups in order to \nmodify and delineate specific articles of the MOUs (Agreement Nos. A-2024-171, \nA-2024-172, and A-2024-173). \n\u00a5 Second Amendment to the Memorandum of Understanding (MOU) between \nthe City of Santa Ana and the Confidential Association of Santa Ana (CASA) \nfor the period of July 1, 2022 through June 30, 2025 \n\u00a5 First Amendment to the Memorandum of Understanding (MOU) between the \nCity of Santa Ana and the Santa Ana Management Association (SAMA) for \nthe period of July 1, 2022 through June 30, 2025 \n\u00a5 First Amendment to the Memorandum of Understanding (MOU) between the \nCity of Santa Ana and the Service Employees International Union Local 721 \n(SEIU) for the period of July 1, 2022 through June 30, 2025 ",
+    "description": "Department(s): Human Resources \nRecommended Action: Authorize the City Manager to execute the amendments \nto the Memorandums of Understanding (MOU) of three labor groups in order to \nmodify and delineate specific articles of the MOUs (Agreement Nos. A-2024-171, \nA-2024-172, and A-2024-173). \n¥ Second Amendment to the Memorandum of Understanding (MOU) between \nthe City of Santa Ana and the Confidential Association of Santa Ana (CASA) \nfor the period of July 1, 2022 through June 30, 2025 \n¥ First Amendment to the Memorandum of Understanding (MOU) between the \nCity of Santa Ana and the Santa Ana Management Association (SAMA) for \nthe period of July 1, 2022 through June 30, 2025 \n¥ First Amendment to the Memorandum of Understanding (MOU) between the \nCity of Santa Ana and the Service Employees International Union Local 721 \n(SEIU) for the period of July 1, 2022 through June 30, 2025 ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,10 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Contracts & Agreements",
+      "Ordinances & Resolutions"
     ]
   }
 }

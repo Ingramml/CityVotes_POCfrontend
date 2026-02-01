@@ -4,7 +4,7 @@
     "id": 58,
     "item_number": "42",
     "title": "42. Nominate and Appoint an Alternate Representative to the Southern California \nAssociation of Governments General Assembly Business Meeting ",
-    "description": "Department(s): City Clerk's Office \nRecommended Action: Nominate and appoint an alternate for purposes of the \nSouthern California Association of Governments General Assembly Business \nMeeting. \nMINUTES: City Clerk Jennifer L. Hall gave a brief report. \nMOTION: Councilmember Penaloza moved to appoint Councilmember \nBacerra as the alternate representative to the Southern California \nAssociation of Governments General Assembly Business Meeting, seconded \nby Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 \u00d1 0 \u00d1 Pass ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Nominate and appoint an alternate for purposes of the \nSouthern California Association of Governments General Assembly Business \nMeeting. \nMINUTES: City Clerk Jennifer L. Hall gave a brief report. \nMOTION: Councilmember Penaloza moved to appoint Councilmember \nBacerra as the alternate representative to the Southern California \nAssociation of Governments General Assembly Business Meeting, seconded \nby Councilmember Hernandez. \nThe motion carried, 7-0, by the following roll call vote: \nAYES: COUNCILMEMBER BACERRA, COUNCILMEMBER \nHERNANDEZ, COUNCILMEMBER LOPEZ, \nCOUNCILMEMBER PENALOZA, COUNCILMEMBER \nVAZQUEZ, MAYOR PRO TEM PHAN, MAYOR AMEZCUA \nNOES: NONE \nABSTAIN: NONE \nABSENT: NONE \nStatus: 7 Ñ 0 Ñ Pass ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,11 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Transportation",
+      "Economic Development",
+      "Appointments"
     ]
   }
 }

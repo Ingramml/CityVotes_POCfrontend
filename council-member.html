@@ -489,13 +489,19 @@
             if (vote.meeting_date) {
                 years.add(new Date(vote.meeting_date).getFullYear());
             }
-            if (vote.section) {
-                topics.add(vote.section);
+            // Collect topics from the topics array
+            if (vote.topics && Array.isArray(vote.topics)) {
+                vote.topics.forEach(t => topics.add(t));
             }
         });
 
         availableYears = Array.from(years).sort((a, b) => b - a);
-        availableTopics = Array.from(topics).sort();
+        // Sort topics by name, but put 'General' last
+        availableTopics = Array.from(topics).sort((a, b) => {
+            if (a === 'General') return 1;
+            if (b === 'General') return -1;
+            return a.localeCompare(b);
+        });
 
         // Populate year dropdown
         const voteYearSelect = document.getElementById('voteYearFilter');
@@ -530,8 +536,11 @@
                 if (voteYear !== parseInt(year)) return false;
             }
 
-            // Topic filter
-            if (topic && vote.section !== topic) return false;
+            // Topic filter - check if selected topic is in vote's topics array
+            if (topic) {
+                const voteTopics = vote.topics || [];
+                if (!voteTopics.includes(topic)) return false;
+            }
 
             // Choice filter
             if (choice && vote.vote_choice !== choice) return false;

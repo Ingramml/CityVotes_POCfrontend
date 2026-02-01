@@ -4,7 +4,7 @@
     "id": 416,
     "item_number": "10",
     "title": "AGENDA ITEM NO. 10 WAS MOVED OUT OF ORDER \n10.Re-Appoint Various Boards and Commissions Members Nominated by \nCouncilmember Lopez as the Ward 3 Representative to a Full Term Expiring \nDecember 12, 2028 ",
-    "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint the following members and administer the Oaths \nof Office. \n1. Debra Russell \u00d1Arts and Culture Commission (Pursuant to SAMC Sec. 2- \n326(a), requires five affirmative votes.) \n2. Alfonso Ceja Villa \u00d1 Community Development Commission \n3. David Crockett \u00d1 Personnel Board \n4. Isuri Ramos \u00d1 Planning Commission (Pursuant to SAMC Sec. 2-326(a), \nrequires five affirmative votes.) \n5. Alonzo Lugo \u00d1 Santa Ana 2018 Measure X Citizens' Oversight Committee \n6. Mercy Benitez \u00d1 Youth Commission (Pursuant to SAMC Sec. 2-326(a), requires \nfive affirmative votes.) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Offices to the \ncommissioners who were present. ",
+    "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint the following members and administer the Oaths \nof Office. \n1. Debra Russell ÑArts and Culture Commission (Pursuant to SAMC Sec. 2- \n326(a), requires five affirmative votes.) \n2. Alfonso Ceja Villa Ñ Community Development Commission \n3. David Crockett Ñ Personnel Board \n4. Isuri Ramos Ñ Planning Commission (Pursuant to SAMC Sec. 2-326(a), \nrequires five affirmative votes.) \n5. Alonzo Lugo Ñ Santa Ana 2018 Measure X Citizens' Oversight Committee \n6. Mercy Benitez Ñ Youth Commission (Pursuant to SAMC Sec. 2-326(a), requires \nfive affirmative votes.) \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Offices to the \ncommissioners who were present. ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,12 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Parks & Recreation",
+      "Planning & Development",
+      "Community Services",
+      "Appointments"
     ]
   }
 }

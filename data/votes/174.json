@@ -4,7 +4,7 @@
     "id": 174,
     "item_number": "14",
     "title": "14.Aggregate Blanket Order Contracts to Curley Wholesale Electric, Inc., Turtle \nAla, LLC, and Wesco Supply Corporation for Citywide Electrical Equipment \nand Supplies (Specification No. 24-039) (General Fund and Non -General \nFund) ",
-    "description": "\u00a8epartment(s): Finance and Management Services \nRecommended Action: Award aggregate blanket order contracts to vendors listed \nbelow for citywide electrical equipment and supplies on an as -needed basis, in an \nestimated annual aggregate amount of $285,000, for a total amount not to exceed \n$1,425,000 during the entire term of the contracts, for an initial two-year term \nexpiring June 30, 2026, with provisions for three, one-year renewal options. \nVendor \nLocation \nCurley Wholesale Electric, Inc. \nSanta Ana, CA \nTurtle ALA, LLC \nLos Angeles, CA \nWesco Supply Corporation \nBuena Park, CA ",
+    "description": "¨epartment(s): Finance and Management Services \nRecommended Action: Award aggregate blanket order contracts to vendors listed \nbelow for citywide electrical equipment and supplies on an as -needed basis, in an \nestimated annual aggregate amount of $285,000, for a total amount not to exceed \n$1,425,000 during the entire term of the contracts, for an initial two-year term \nexpiring June 30, 2026, with provisions for three, one-year renewal options. \nVendor \nLocation \nCurley Wholesale Electric, Inc. \nSanta Ana, CA \nTurtle ALA, LLC \nLos Angeles, CA \nWesco Supply Corporation \nBuena Park, CA ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,11 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Budget & Finance",
+      "Parks & Recreation",
+      "Contracts & Agreements"
     ]
   }
 }

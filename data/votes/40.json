@@ -3,7 +3,7 @@
   "vote": {
     "id": 40,
     "item_number": "26",
-    "title": "26.Appoint Nathaniel Greensides Nominated by Councilmember Hernandez as \nthe Ward 5 Representative to the Personnel Board for a Partial \u00d1Term \nExpiring December 10, 2024 ",
+    "title": "26.Appoint Nathaniel Greensides Nominated by Councilmember Hernandez as \nthe Ward 5 Representative to the Personnel Board for a Partial ÑTerm \nExpiring December 10, 2024 ",
     "description": "Department(s): City Clerk's Office \nRecommended Action: Appoint Nathaniel Greensides to the Personnel Board as \nthe Ward 5 representative and administer the Oath of Office. \nMINUTES: City Clerk Jennifer L. Hall administered the Oath of Office to Nathaniel \nGreensides.",
     "outcome": "PASS",
     "ayes": 7,
@@ -49,6 +49,9 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Appointments"
     ]
   }
 }

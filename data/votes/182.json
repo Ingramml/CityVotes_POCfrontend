@@ -4,7 +4,7 @@
     "id": 182,
     "item_number": "22",
     "title": "22.Agreement with Richards, Watson & Gershon, APC and Amendment to \nAgreement with Nathan & Kamionski, LLP for Legal Services (General Fund \nand Non -General Fund) ",
-    "description": "\u00a8epartment(s): City Attorney's Office \nRecommended Action: Authorize the City Manager to execute an agreement with \nRichards, Watson & Gershon, APC to provide legal services for a three-year term \nbeginning June 1, 2024 and expiring June 30, 2027, with a provision for a one-year \nextension, in a total amount not to exceed $300,000 (Agreement No. A-2024-071) \nand a first amendment to the agreement with Nathan & Kamionski LLP to provide \nlegal services, increasing the amount of the compensation by $450,000 for a total \namount of $500,000 (Agreement No. A-2024-072). ",
+    "description": "¨epartment(s): City Attorney's Office \nRecommended Action: Authorize the City Manager to execute an agreement with \nRichards, Watson & Gershon, APC to provide legal services for a three-year term \nbeginning June 1, 2024 and expiring June 30, 2027, with a provision for a one-year \nextension, in a total amount not to exceed $300,000 (Agreement No. A-2024-071) \nand a first amendment to the agreement with Nathan & Kamionski LLP to provide \nlegal services, increasing the amount of the compensation by $450,000 for a total \namount of $500,000 (Agreement No. A-2024-072). ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,11 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Budget & Finance",
+      "Contracts & Agreements",
+      "Ordinances & Resolutions"
     ]
   }
 }

@@ -3,8 +3,8 @@
   "vote": {
     "id": 357,
     "item_number": "10",
-    "title": "10.Approve Appropriation Adjustment to Recognize the Bureau of Justice \nAssistance FY24 \u00d1 Byrne Discretionary Community Project Grant Funds \n(Non -General Fund)",
-    "description": "Department(s): Community Development Agency \nRecommended Action: Approve appropriation adjustment to recognize a \ndisbursement of $963,000 in funds from the Department of Justice \u00d1 Office of \nJustice Programs, Bureau of Justice Assistance in revenue account (no. 12718002- \n52000, Federal Grant -Direct) and appropriate the same amount to expenditure \naccount (no. 12718700-69135, Payment to Subagent) to implement the Santa Ana \nAlternative Response Program. (Requires five affirmative votes) ",
+    "title": "10.Approve Appropriation Adjustment to Recognize the Bureau of Justice \nAssistance FY24 Ñ Byrne Discretionary Community Project Grant Funds \n(Non -General Fund)",
+    "description": "Department(s): Community Development Agency \nRecommended Action: Approve appropriation adjustment to recognize a \ndisbursement of $963,000 in funds from the Department of Justice Ñ Office of \nJustice Programs, Bureau of Justice Assistance in revenue account (no. 12718002- \n52000, Federal Grant -Direct) and appropriate the same amount to expenditure \naccount (no. 12718700-69135, Payment to Subagent) to implement the Santa Ana \nAlternative Response Program. (Requires five affirmative votes) ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,12 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Budget & Finance",
+      "Planning & Development",
+      "Community Services",
+      "Grants"
     ]
   }
 }

@@ -4,7 +4,7 @@
     "id": 271,
     "item_number": "23",
     "title": "23.Agreement with PowerDMS for Field Training Management Software and \nCommunity Engagement Software (General Fund) ",
-    "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute an agreement with \nPowerDMS (Agreement No. A-2024-129) for software subscriptions as follows: \n\u00a5 One-year subscription to PowerReady for field training software in an amount \nnot to exceed $8,074 for the period of March 28, 2025 through March 27, \n2026 \n\u00a5 Two-year subscription to PowerEngage for citizen engagement software in \nan amount not to exceed $59,375 for the period of September 1, 2024 \nthrough August 31, 2026 ",
+    "description": "Department(s): Police Department \nRecommended Action: Authorize the City Manager to execute an agreement with \nPowerDMS (Agreement No. A-2024-129) for software subscriptions as follows: \n¥ One-year subscription to PowerReady for field training software in an amount \nnot to exceed $8,074 for the period of March 28, 2025 through March 27, \n2026 \n¥ Two-year subscription to PowerEngage for citizen engagement software in \nan amount not to exceed $59,375 for the period of September 1, 2024 \nthrough August 31, 2026 ",
     "outcome": "PASS",
     "ayes": 7,
     "noes": 0,
@@ -49,6 +49,12 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Budget & Finance",
+      "Public Safety",
+      "Community Services",
+      "Contracts & Agreements"
     ]
   }
 }

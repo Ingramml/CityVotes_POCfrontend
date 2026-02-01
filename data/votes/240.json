@@ -3,7 +3,7 @@
   "vote": {
     "id": 240,
     "item_number": "28",
-    "title": "PUBLIC HEARING AGENDA ITEM NO. 28 -- CONTINUED TO THE AUGUST 6, 2024 \nCITY COUNCIL MEETING \n28. Public Hearing \u00d1 Recovery of Uncollected Costs Incurred by the City Related \nto the Abatement of Dangerous and Abandoned Buildings \nLegal notice published in the OC Reporter on July 3, 2024 and property owner \nnotification letters mailed on same date. ",
+    "title": "PUBLIC HEARING AGENDA ITEM NO. 28 -- CONTINUED TO THE AUGUST 6, 2024 \nCITY COUNCIL MEETING \n28. Public Hearing Ñ Recovery of Uncollected Costs Incurred by the City Related \nto the Abatement of Dangerous and Abandoned Buildings \nLegal notice published in the OC Reporter on July 3, 2024 and property owner \nnotification letters mailed on same date. ",
     "description": "Department(s): Planning and Building Agency \nRecommended Action: \n1. Adopt a resolution affirming the Fiscal Year 2023-2024 Dangerous and \nAbandoned Building Program Report and authorize the transmittal of \nuncollected charges incurred by the City related to the abatement of \ndangerous and abandoned buildings to the office of Auditor -Controller, County \nof Orange. \nRESOLUTION NO. 2024-XXX entitled A RESOLUTION OF THE CITY \nCOUNCIL OF THE CITY OF SANTA ANA CONFIRMING THE COSTS OF \nSECURING AND/OR DEMOLITION OF VARIOUS STRUCTURES \nDECLARED TO BE PUBLIC NUISANCES; MAKING, CONFIRMING AND \nLEVYING ASSESSMENTS FOR SUCH COSTS; AND ORDERING SUCH \nCOSTS TO BE RECORDED WITH THE ORANGE COUNTY RECORDER'S \nOFFICE \n2. Determine that the proposed action does not constitute a \"project\" under the \nCalifornia Environmental Quality Act (CEQA) in accordance with section \n15378(a) and (b)(5) as the adoption of this resolution authorizes an \nadministrative action and will not result in a direct or reasonable foreseeable \nindirect physical change in the environment and there is no possibility it will \nhave a significant effect on the environment. Accordingly, it is exempt from \nfurther CEQA review pursuant to section 15061(b)(3) and (b)(5) of the CEQA \nguidelines as amended. ",
     "outcome": "FLAG",
     "ayes": 7,
@@ -49,6 +49,12 @@
         "full_name": "Valerie Amezcua",
         "vote_choice": "AYE"
       }
+    ],
+    "topics": [
+      "Budget & Finance",
+      "Planning & Development",
+      "Ordinances & Resolutions",
+      "Property & Real Estate"
     ]
   }
 }
