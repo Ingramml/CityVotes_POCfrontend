@@ -151,8 +151,9 @@
                 <div class="col-md-3 col-6 mb-3">
                     <div class="card text-center h-100">
                         <div class="card-body">
-                            <h3 class="text-warning" id="statAbsent">--</h3>
-                            <small class="text-muted">Absences</small>
+                            <h3 class="text-warning" id="statDissent">--%</h3>
+                            <small class="text-muted">Dissent Rate</small>
+                            <div class="small text-muted mt-1" id="statDissentDetail"></div>
                         </div>
                     </div>
                 </div>
@@ -569,15 +570,33 @@
         const nayCount = filteredMemberVotes.filter(v => v.vote_choice === 'NAY').length;
         const abstainCount = filteredMemberVotes.filter(v => v.vote_choice === 'ABSTAIN').length;
         const absentCount = filteredMemberVotes.filter(v => v.vote_choice === 'ABSENT').length;
-        const participated = total - absentCount;
+        const participated = total - absentCount - abstainCount;
 
         const ayeRate = total > 0 ? ((ayeCount / total) * 100).toFixed(1) : 0;
         const participationRate = total > 0 ? ((participated / total) * 100).toFixed(1) : 0;
 
+        // Calculate dissent rate (votes on losing side)
+        // A member "dissents" when they vote AYE on a FAIL or NAY on a PASS
+        let dissents = 0;
+        let validVotes = 0;
+        filteredMemberVotes.forEach(vote => {
+            if (vote.vote_choice === 'ABSENT' || vote.vote_choice === 'ABSTAIN') return;
+            if (!vote.outcome || ['CONTINUED', 'REMOVED', 'FLAG', 'TABLED', 'WITHDRAWN'].includes(vote.outcome)) return;
+
+            validVotes++;
+            const isOnLosingSide =
+                (vote.outcome === 'PASS' && vote.vote_choice === 'NAY') ||
+                (vote.outcome === 'FAIL' && vote.vote_choice === 'AYE');
+            if (isOnLosingSide) dissents++;
+        });
+
+        const dissentRate = validVotes > 0 ? ((dissents / validVotes) * 100).toFixed(1) : 0;
+
         document.getElementById('statTotalVotes').textContent = total.toLocaleString();
         document.getElementById('statAyeRate').textContent = ayeRate + '%';
         document.getElementById('statParticipation').textContent = participationRate + '%';
-        document.getElementById('statAbsent').textContent = absentCount;
+        document.getElementById('statDissent').textContent = dissentRate + '%';
+        document.getElementById('statDissentDetail').textContent = `${dissents} of ${validVotes} votes`;
     }
 
     function updateCharts() {

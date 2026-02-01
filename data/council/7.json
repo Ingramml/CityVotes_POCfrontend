@@ -16,7 +16,11 @@
       "absent_count": 21,
       "recusal_count": 6,
       "aye_percentage": 96.2,
-      "participation_rate": 97.8
+      "participation_rate": 97.8,
+      "votes_on_losing_side": 34,
+      "votes_on_winning_side": 1151,
+      "dissent_rate": 2.9,
+      "close_vote_dissents": 6
     },
     "recent_votes": [
       {
