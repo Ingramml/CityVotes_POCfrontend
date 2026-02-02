@@ -17,7 +17,10 @@
         "absent_count": 27,
         "recusal_count": 5,
         "aye_percentage": 95.8,
-        "participation_rate": 97.4
+        "participation_rate": 97.4,
+        "dissent_rate": 3.6,
+        "votes_on_losing_side": 43,
+        "close_vote_dissents": 9
       }
     },
     {
@@ -36,7 +39,10 @@
         "absent_count": 27,
         "recusal_count": 9,
         "aye_percentage": 95.5,
-        "participation_rate": 97.1
+        "participation_rate": 97.1,
+        "dissent_rate": 3.8,
+        "votes_on_losing_side": 45,
+        "close_vote_dissents": 7
       }
     },
     {
@@ -55,7 +61,10 @@
         "absent_count": 23,
         "recusal_count": 8,
         "aye_percentage": 94.7,
-        "participation_rate": 97.5
+        "participation_rate": 97.5,
+        "dissent_rate": 4.8,
+        "votes_on_losing_side": 57,
+        "close_vote_dissents": 9
       }
     },
     {
@@ -74,7 +83,10 @@
         "absent_count": 22,
         "recusal_count": 8,
         "aye_percentage": 95.3,
-        "participation_rate": 97.6
+        "participation_rate": 97.6,
+        "dissent_rate": 4.6,
+        "votes_on_losing_side": 55,
+        "close_vote_dissents": 8
       }
     },
     {
@@ -93,7 +105,10 @@
         "absent_count": 21,
         "recusal_count": 6,
         "aye_percentage": 96.2,
-        "participation_rate": 97.8
+        "participation_rate": 97.8,
+        "dissent_rate": 2.9,
+        "votes_on_losing_side": 34,
+        "close_vote_dissents": 6
       }
     },
     {
@@ -112,7 +127,10 @@
         "absent_count": 22,
         "recusal_count": 18,
         "aye_percentage": 95.4,
-        "participation_rate": 96.8
+        "participation_rate": 96.8,
+        "dissent_rate": 4.3,
+        "votes_on_losing_side": 51,
+        "close_vote_dissents": 8
       }
     },
     {
@@ -131,7 +149,10 @@
         "absent_count": 26,
         "recusal_count": 8,
         "aye_percentage": 94.9,
-        "participation_rate": 97.3
+        "participation_rate": 97.3,
+        "dissent_rate": 4.4,
+        "votes_on_losing_side": 52,
+        "close_vote_dissents": 7
       }
     }
   ]
