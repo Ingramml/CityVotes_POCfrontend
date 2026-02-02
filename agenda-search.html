@@ -208,12 +208,13 @@
                             <th scope="col" class="sortable" data-sort="outcome">
                                 Result <i class="fas fa-sort sort-icon"></i>
                             </th>
+                            <th scope="col">Documents</th>
                             <th scope="col">Actions</th>
                         </tr>
                     </thead>
                     <tbody id="resultsBody">
                         <tr>
-                            <td colspan="7" class="text-center py-5 text-muted">
+                            <td colspan="8" class="text-center py-5 text-muted">
                                 <div class="spinner-border text-primary" role="status">
                                     <span class="visually-hidden">Loading...</span>
                                 </div>
@@ -261,6 +262,7 @@
     let filteredVotes = [];
     let availableYears = [];
     let availableTopics = [];
+    let meetingsData = {}; // Map of meeting_date -> meeting info (agenda, minutes, video URLs)
     let currentOffset = 0;
     const pageSize = 25;
     let sortColumn = 'meeting_date';
@@ -274,8 +276,24 @@
 
     async function loadAllData() {
         try {
-            const votesData = await CityVotesAPI.getVotes();
+            // Load votes and meetings in parallel
+            const [votesData, meetingsResponse] = await Promise.all([
+                CityVotesAPI.getVotes(),
+                CityVotesAPI.getMeetings()
+            ]);
+
             allVotes = votesData.votes || [];
+
+            // Build meetings lookup by date for document links
+            if (meetingsResponse.success) {
+                meetingsResponse.meetings.forEach(m => {
+                    meetingsData[m.meeting_date] = {
+                        agenda_url: m.agenda_url,
+                        minutes_url: m.minutes_url,
+                        video_url: m.video_url
+                    };
+                });
+            }
 
             // Extract unique years
             const years = new Set();
@@ -562,7 +580,7 @@
         if (pageVotes.length === 0) {
             tbody.innerHTML = `
                 <tr>
-                    <td colspan="7" class="text-center py-5 text-muted">
+                    <td colspan="8" class="text-center py-5 text-muted">
                         <i class="fas fa-search fa-3x mb-3"></i>
                         <p>No agenda items match your filters</p>
                         <button class="btn btn-outline-primary btn-sm" onclick="document.getElementById('clearFilters').click()">
@@ -576,7 +594,9 @@
 
         const search = document.getElementById('searchInput').value.trim();
 
-        tbody.innerHTML = pageVotes.map(vote => `
+        tbody.innerHTML = pageVotes.map(vote => {
+            const meeting = meetingsData[vote.meeting_date] || {};
+            return `
             <tr>
                 <td><small>${formatDate(vote.meeting_date)}</small></td>
                 <td><span class="badge bg-light text-dark">${escapeHtml(vote.item_number || '-')}</span></td>
@@ -589,12 +609,18 @@
                 <td><span class="text-muted small">${capitalizeFirst(vote.meeting_type || 'regular')}</span></td>
                 <td>${getOutcomeBadge(vote.outcome)}</td>
                 <td>
+                    ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="btn btn-sm btn-outline-secondary me-1" title="View Agenda"><i class="fas fa-file-alt"></i></a>` : ''}
+                    ${meeting.minutes_url ? `<a href="${meeting.minutes_url}" target="_blank" class="btn btn-sm btn-outline-secondary me-1" title="View Minutes"><i class="fas fa-clipboard-list"></i></a>` : ''}
+                    ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="btn btn-sm btn-outline-danger" title="Watch Video"><i class="fas fa-video"></i></a>` : ''}
+                    ${!meeting.agenda_url && !meeting.minutes_url && !meeting.video_url ? '<span class="text-muted">-</span>' : ''}
+                </td>
+                <td>
                     <a href="vote-detail.html?id=${vote.id}" class="btn btn-sm btn-outline-primary" aria-label="View vote details">
                         <i class="fas fa-eye"></i>
                     </a>
                 </td>
             </tr>
-        `).join('');
+        `}).join('');
     }
 
     function updatePagination() {
