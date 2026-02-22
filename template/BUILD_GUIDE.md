@@ -326,6 +326,9 @@ After deployment, check every page:
 | `WIREFRAMES.md` | ASCII wireframes for every page | How each page looks |
 | `data/Template_ReadMe.md` | Complete JSON schemas + field glossary | Every data field explained |
 | `BUILD_GUIDE.md` | This file | How to build and deploy |
+| `TESTING_GUIDE.md` | Testing procedure + automated test suite | How to verify the site |
+| `tests/test_site.spec.js` | Playwright automated test script | 58 tests across all pages |
+| `playwright.config.js` | Playwright test runner configuration | Test settings |
 | `vercel.json` | Vercel deployment configuration | Cache headers, clean URLs |
 | `css/theme.css` | City-branded CSS with custom properties | Colors and styling |
 | `js/api.js` | Static JSON data API client | Data loading layer |
