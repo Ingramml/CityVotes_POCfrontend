@@ -1,19 +1,24 @@
 /**
  * ==========================================================================
- * CITYVOTES TEMPLATE - STATIC DATA API
+ * CITYVOTES TEMPLATE - API CLIENT
  * ==========================================================================
  *
- * Loads data from static JSON files in the data/ folder.
- * No backend needed - works with any static hosting.
+ * Loads data from the CityVotes FastAPI backend.
  *
- * TO USE:
- * 1. Place your JSON data files in the data/ folder
- * 2. Follow the schemas in data/README.md
- * 3. This file works as-is - no changes needed
+ * MODES:
+ * 1. Backend mode (default): Fetches from FastAPI at API_BASE_URL
+ * 2. Static mode: Set USE_STATIC_DATA = true to load from data/ folder
+ *
+ * CONFIGURATION:
+ * - Set API_BASE_URL to your FastAPI backend address
+ * - Set CITY_CODE to your municipality code (e.g. "Columbus-OH")
  *
  * ==========================================================================
  */
 
+const USE_STATIC_DATA = false;
+const API_BASE_URL = 'http://localhost:8000/api';
+const CITY_CODE = '';  // e.g. 'Columbus-OH' — leave empty for server default
 const DATA_BASE_PATH = 'data';
 const API_TIMEOUT = 15000;
 
@@ -30,14 +35,28 @@ const CityVotesAPI = {
     },
 
     /**
-     * Generic fetch handler for static JSON files with timeout
+     * Build URL with optional city query parameter
+     */
+    buildURL(path) {
+        if (USE_STATIC_DATA) {
+            return `${DATA_BASE_PATH}/${path}`;
+        }
+        const url = new URL(`${API_BASE_URL}/${path}`, window.location.origin);
+        if (CITY_CODE) {
+            url.searchParams.set('city', CITY_CODE);
+        }
+        return url.toString();
+    },
+
+    /**
+     * Generic fetch handler with timeout
      */
     async fetchJSON(path) {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
 
         try {
-            const response = await fetch(`${DATA_BASE_PATH}/${path}`, {
+            const response = await fetch(this.buildURL(path), {
                 signal: controller.signal
             });
             clearTimeout(timeoutId);
@@ -63,74 +82,80 @@ const CityVotesAPI = {
 
     /** Get overall statistics */
     async getStats() {
-        return this.fetchJSON('stats.json');
+        return this.fetchJSON(USE_STATIC_DATA ? 'stats.json' : 'stats');
     },
 
     // ==================== Council ====================
 
     /** Get all council members with stats */
     async getCouncil() {
-        return this.fetchJSON('council.json');
+        return this.fetchJSON(USE_STATIC_DATA ? 'council.json' : 'council');
     },
 
     /** Get individual council member details */
     async getCouncilMember(memberId) {
         const validId = this.validateId(memberId, 'council member ID');
-        return this.fetchJSON(`council/${validId}.json`);
+        return this.fetchJSON(USE_STATIC_DATA ? `council/${validId}.json` : `council/${validId}`);
     },
 
     // ==================== Meetings ====================
 
     /** Get all meetings */
     async getMeetings() {
-        return this.fetchJSON('meetings.json');
+        return this.fetchJSON(USE_STATIC_DATA ? 'meetings.json' : 'meetings');
     },
 
     /** Get individual meeting with agenda items and votes */
     async getMeeting(meetingId) {
         const validId = this.validateId(meetingId, 'meeting ID');
 
-        const [meetingsData, votesData] = await Promise.all([
-            this.getMeetings(),
-            this.getVotes()
-        ]);
+        if (USE_STATIC_DATA) {
+            // Static mode: join meetings + votes client-side (original behavior)
+            const [meetingsData, votesData] = await Promise.all([
+                this.getMeetings(),
+                this.getVotes()
+            ]);
 
-        const meeting = meetingsData.meetings.find(m => m.id === validId);
-        if (!meeting) {
-            return { success: false, error: 'Meeting not found' };
+            const meeting = meetingsData.meetings.find(m => m.id === validId);
+            if (!meeting) {
+                return { success: false, error: 'Meeting not found' };
+            }
+
+            const meetingVotes = votesData.votes.filter(v => v.meeting_date === meeting.meeting_date);
+
+            const agenda_items = meetingVotes.map(vote => ({
+                item_number: vote.item_number,
+                title: vote.title,
+                section: vote.section,
+                description: null,
+                vote: {
+                    id: vote.id,
+                    outcome: vote.outcome,
+                    ayes: vote.ayes,
+                    noes: vote.noes,
+                    abstain: vote.abstain,
+                    absent: vote.absent
+                }
+            }));
+
+            return {
+                success: true,
+                meeting: {
+                    ...meeting,
+                    agenda_items: agenda_items
+                }
+            };
         }
 
-        const meetingVotes = votesData.votes.filter(v => v.meeting_date === meeting.meeting_date);
-
-        const agenda_items = meetingVotes.map(vote => ({
-            item_number: vote.item_number,
-            title: vote.title,
-            section: vote.section,
-            description: null,
-            vote: {
-                id: vote.id,
-                outcome: vote.outcome,
-                ayes: vote.ayes,
-                noes: vote.noes,
-                abstain: vote.abstain,
-                absent: vote.absent
-            }
-        }));
-
-        return {
-            success: true,
-            meeting: {
-                ...meeting,
-                agenda_items: agenda_items
-            }
-        };
+        // Backend mode: server handles the join
+        return this.fetchJSON(`meetings/${validId}`);
     },
 
     // ==================== Votes ====================
 
     /** Get votes index with available years */
     async getVotesIndex() {
-        return this.fetchJSON('votes-index.json');
+        return this.fetchJSON(USE_STATIC_DATA ? 'votes-index.json' : 'votes/index');
     },
 
     /** Get votes for a specific year */
@@ -139,25 +164,59 @@ const CityVotesAPI = {
         if (isNaN(validYear) || validYear < 2000 || validYear > 2100) {
             throw new Error('Invalid year');
         }
-        return this.fetchJSON(`votes-${validYear}.json`);
+        return this.fetchJSON(USE_STATIC_DATA ? `votes-${validYear}.json` : `votes/year/${validYear}`);
     },
 
     /** Get all votes */
     async getVotes() {
-        return this.fetchJSON('votes.json');
+        return this.fetchJSON(USE_STATIC_DATA ? 'votes.json' : 'votes');
     },
 
     /** Get individual vote details */
     async getVote(voteId) {
         const validId = this.validateId(voteId, 'vote ID');
-        return this.fetchJSON(`votes/${validId}.json`);
+        return this.fetchJSON(USE_STATIC_DATA ? `votes/${validId}.json` : `votes/${validId}`);
     },
 
     // ==================== Alignment ====================
 
     /** Get voting alignment data between council members */
     async getAlignment() {
-        return this.fetchJSON('alignment.json');
+        return this.fetchJSON(USE_STATIC_DATA ? 'alignment.json' : 'alignment');
+    },
+
+    // ==================== Search ====================
+
+    /** Search agenda items by text query */
+    async searchVotes(query) {
+        if (USE_STATIC_DATA) {
+            // Static fallback: client-side filter on votes
+            const data = await this.getVotes();
+            const q = query.toLowerCase();
+            const filtered = data.votes.filter(v =>
+                v.title.toLowerCase().includes(q)
+            );
+            return { success: true, votes: filtered };
+        }
+
+        const url = new URL(`${API_BASE_URL}/search`, window.location.origin);
+        url.searchParams.set('q', query);
+        if (CITY_CODE) {
+            url.searchParams.set('city', CITY_CODE);
+        }
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
+        try {
+            const response = await fetch(url.toString(), { signal: controller.signal });
+            clearTimeout(timeoutId);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return await response.json();
+        } catch (error) {
+            clearTimeout(timeoutId);
+            if (error.name === 'AbortError') throw new Error('Request timed out.');
+            throw error;
+        }
     },
 
     // ==================== Dashboard Helpers ====================
