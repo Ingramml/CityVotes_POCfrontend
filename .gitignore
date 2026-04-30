@@ -3,3 +3,4 @@
 master-files/
 *.csv
 .vercel
+.DS_Store
